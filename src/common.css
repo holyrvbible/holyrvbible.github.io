@@ -1,0 +1,748 @@
+/* ************************************************************************
+ *
+ *  Links
+ *
+ * ************************************************************************ */
+
+a[href],
+a[href]:hover,
+a[href]:visited {
+  color: #5555ff;
+}
+
+a[href],
+a[href]:visited {
+  text-decoration: none;
+}
+
+a[href]:hover {
+  text-decoration: underline;
+}
+
+a[name] {
+  padding: 0;
+}
+
+.chevron {
+  padding: 0px 7px;
+  font-size: 110%;
+  display: inline-block;
+}
+
+.chevron.left {
+  transform: scale(-1, 1);
+}
+
+.chevron.right {
+  transform: scale(1, 1);
+}
+
+.chevron.up {
+  transform: scale(1, -1);
+}
+
+.chevron.down {
+  transform: scale(1, 1);
+}
+
+.highlight {
+  background-color: #ffff66;
+  outline: 1px solid #ffff66;
+}
+
+/* ************************************************************************
+ *
+ *  Top nav bar
+ *
+ * ************************************************************************ */
+
+#topNavBar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+#topNavBar .bar {
+  height: 2.625rem; /* 42px */
+  background-color: #343a40;
+  display: grid;
+  grid-template-columns: 2.75rem 2fr 2.75rem; /* 44 px */
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#topNavBar .toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  padding: 0.19rem 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border-radius: 0.25rem;
+  margin-left: 6px;
+}
+
+#topNavBar .toggler .icon {
+  display: inline-block;
+  width: 1.1rem;
+  height: 1.1rem;
+  vertical-align: middle;
+  background: no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+#topNavBar .toggler .langIcon {
+  font-size: 0.8rem;
+  display: inline-block;
+  margin-bottom: 7px;
+  margin-left: 2px;
+}
+
+#topNavBar .title {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+#topNavBar .title a {
+  color: #eee;
+}
+
+#topNavDropdown {
+  background-color: #343a40;
+  color: white;
+  text-indent: 0px;
+  position: relative;
+  width: 100%;
+  overflow-y: auto;
+}
+
+@media screen and (min-width: 600px) {
+  #topNavDropdown {
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #topNavDropdown {
+    padding: 0.3rem 1rem;
+  }
+}
+
+#topNavDropdown .fontSizeSection {
+  display: flex;
+}
+
+#topNavDropdown .sectionTitle {
+  line-height: 2;
+}
+
+@media screen and (max-width: 600px) {
+  .zoomTitle {
+    display: none;
+  }
+}
+
+.testamentTitle {
+  margin-top: 8px;
+}
+
+#topNavDropdown .fontSizeSection .sectionTitle {
+  margin-right: 16px;
+}
+
+#topNavDropdown .fontSizeControl a {
+  color: #8888ff;
+  padding: 4px 14px;
+  margin-left: 6px;
+  display: inline-block;
+  border: 1px solid #2b3238;
+  border-radius: 4px;
+  background-color: #2b3238;
+  white-space: nowrap;
+}
+
+#topNavDropdown .fontSizeControl a:hover {
+  text-decoration: none;
+  background-color: #545a60;
+  border-color: #57f;
+}
+
+#topNavDropdown .fontSizeControl .fontSizePercent {
+  margin-left: 12px;
+  color: #66dd66;
+}
+
+#topNavDropdown .grp a {
+  padding: 0px 3px;
+  margin: 3px 6px 3px 0px;
+  display: inline-block;
+  border: 1px solid #282d34;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 600px) {
+  #topNavDropdown .grp a {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #topNavDropdown .grp div {
+    display: inline;
+  }
+}
+
+#topNavDropdown .grp a:hover {
+  text-decoration: none;
+  background-color: #545a60;
+  border-color: #57f;
+}
+
+#topNavDropdown .grp0 a {
+  color: #8888ff;
+}
+
+#topNavDropdown .grp1 a {
+  color: #ff8888;
+}
+
+#topNavDropdown .grp2 a {
+  color: #88ff88;
+}
+
+#topNavDropdown .grp3 a {
+  color: #ffbb66;
+}
+
+#topNavDropdown .grp4 a {
+  color: #66bbff;
+}
+
+#topNavDropdown .grp5 a {
+  color: #66ffbb;
+}
+
+#topNavDropdown .grp6 a {
+  color: #ff66bb;
+}
+
+#topNavDropdown .grp7 a {
+  color: #bb66ff;
+}
+
+#topNavDropdown .version {
+  font-size: 0.7rem;
+  color: silver;
+  margin: 1.5rem 0;
+}
+
+/* ************************************************************************
+ *
+ *  Boostrap tooltips overrides
+ *
+ * ************************************************************************ */
+
+.tooltip-inner {
+  max-width: 350px;
+}
+
+/* ************************************************************************
+ *
+ *  Toast
+ *
+ * ************************************************************************ */
+
+#toast-notification {
+  position: fixed;
+  top: 2px;
+  right: 2px;
+  text-align: left;
+  max-width: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  font-size: 0.875rem;
+  z-index: 2000;
+}
+
+#toast-notification .contents {
+  padding: 4px 12px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffdd;
+}
+
+#toast-notification .message {
+  color: #a66;
+  margin-right: 8px;
+}
+
+#toast-notification .closeButton {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.5;
+  padding: 0px 0px 3px;
+  background-color: transparent;
+  border: 0;
+}
+
+/* ************************************************************************
+ *
+ *  Index page
+ *
+ * ************************************************************************ */
+
+html {
+  height: 100%;
+}
+
+body {
+  /* The default margin is 8px, so we have to set it to zero. */
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+#indexContentWrapper {
+  display: grid;
+  /* 42px is to offset the fixed top nav bar. */
+  grid-template-rows: 42px auto;
+  width: 100%;
+  height: 100%;
+  /* Make the reading font bigger by default. */
+  font-size: 120%;
+}
+
+#indexContent {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+@media screen and (min-width: 600px) {
+  #indexContent {
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #indexContent {
+    padding: 10px;
+  }
+}
+
+.indexOuterGrid {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.indexOuterGridInnerFiller {
+  margin: auto;
+}
+
+.indexInnerGridCell {
+  text-align: center;
+}
+
+.indexTitle {
+  font-size: 220%;
+  font-family: serif;
+}
+
+.changeLanguageLinks {
+  margin: 4px 0 20px;
+  font-family: sans-serif;
+  font-size: 105%;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .indexTitle {
+    display: none;
+  }
+}
+
+#indexToc .row {
+  flex-wrap: wrap;
+  margin: 0; /* bootstrap css makes this -15px */
+}
+
+#indexToc .cell {
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  color: #555555;
+  margin: 2px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 600px) {
+  #indexToc .row {
+    display: flex;
+  }
+
+  #indexToc .cell {
+    font-size: 120%;
+    padding: 16px;
+    min-width: 85px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #indexToc .row {
+    display: inline;
+    justify-content: center;
+  }
+
+  #indexToc .row a {
+    display: inline-block;
+  }
+
+  #indexToc .cell {
+    font-size: 110%;
+    padding: 8px;
+    min-width: 62px;
+  }
+}
+
+#indexToc .cell:hover {
+  background-color: #e4e4e4;
+  color: blue;
+}
+
+#indexToc .grp0 {
+  background-color: #fff6f6;
+}
+
+#indexToc .grp1 {
+  background-color: #ffffff;
+}
+
+#indexToc .grp2 {
+  background-color: #f6fff6;
+}
+
+#indexToc .grp3 {
+  background-color: #ffffff;
+}
+
+#indexToc .grp4 {
+  background-color: #f6f6ff;
+}
+
+#indexToc .grp5 {
+  background-color: #ffffff;
+}
+
+#indexToc .grp6 {
+  background-color: #ffffe6;
+}
+
+#indexToc .grp7 {
+  background-color: #ffffff;
+}
+
+/* ************************************************************************
+ *
+ *  Book page
+ *
+ * ************************************************************************ */
+
+.bookTitleRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 110%;
+}
+
+.bookTitle {
+  font-size: 160%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: serif;
+  line-height: 1.3;
+  padding: 0px 12px;
+}
+
+.bookTitle sub {
+  line-height: 1.4;
+  display: block;
+  font-size: 65%;
+}
+
+.bookTitleSubLinks {
+  margin-bottom: 8px;
+  font-size: 90%;
+}
+
+.chapterLinks {
+  background-color: #f9f9f9;
+  padding: 3px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  font-size: 85%;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.chapterLinks a {
+  display: inline-block;
+  padding: 0 4px;
+}
+
+.chapterLinks .dot {
+  font-size: 60%;
+  position: relative;
+  top: -2px;
+  padding: 5px;
+}
+
+.bookIntro {
+  text-align: left;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 8px;
+}
+
+.bookIntroTitle {
+  text-align: center;
+  font-size: 110%;
+  color: blue;
+}
+
+.bookIntroText {
+  margin-left: 12px;
+  text-indent: -12px;
+}
+
+.bookIntroText b {
+  color: #555;
+}
+
+.bookSubject {
+  margin-top: 8px;
+  background-color: #f9f9f9;
+  padding: 3px 6px 6px;
+  border: 1px solid #c5b9b9;
+  border-radius: 4px;
+}
+
+.bookSubjectTitle {
+  font-size: 110%;
+  color: blue;
+}
+
+#allOutlines {
+  margin: 16px 0;
+}
+#allOutlines .scroll {
+  position: relative;
+}
+
+#allOutlines .header {
+  font-size: 110%;
+  color: blue;
+}
+
+#allOutlines .controls {
+  margin-bottom: 8px;
+  font-size: 90%;
+}
+
+#allOutlines .body {
+  margin: 6px 0;
+  padding: 6px 16px 16px;
+  background-color: #fcfcfc;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: auto;
+  text-align: left;
+  font-family: serif;
+  font-size: 105%;
+}
+
+.chapterHeader {
+  margin: 16px 0px 8px;
+}
+
+.chapterHeader .titleRow {
+  font-size: 110%;
+}
+
+.chapterHeader .title {
+  display: inline-block;
+  padding: 0px 4px;
+}
+
+.chevron {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.chevron:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.chapterHeader .links {
+  margin-bottom: 10px;
+  font-size: 90%;
+}
+
+.chapterTitle,
+.verseHeader {
+  text-align: center;
+  font-size: 90%;
+  font-family: serif;
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background-color: #fcfcfc;
+}
+
+.chapterVerses {
+  text-align: left;
+  font-family: serif;
+  font-size: 105%;
+}
+
+.verseRef {
+  font-weight: bold;
+  display: inline-flex;
+  margin-right: 8px;
+  color: #5555ff;
+}
+
+.verseRef .partSuffix {
+  color: #f88;
+}
+
+sup {
+  color: red;
+}
+
+.verseXrefs {
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background-color: #fafffa;
+  margin: 3px 0 20px;
+  padding: 3px 14px;
+  color: #555;
+  font-size: 97%;
+}
+
+.verseXrefs .xLine {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.verseXrefs .word {
+  font-weight: bold;
+  color: blue;
+  display: inline-flex;
+  margin-right: 8px;
+}
+
+.verseXrefs .word span {
+  margin-right: 6px;
+}
+
+.verseXrefs .paragraph {
+  text-indent: 16px;
+}
+
+.verseXrefs .paragraph .para {
+  color: #8888ff;
+  font-weight: bold;
+}
+
+.verseXrefs .paragraph + .paragraph {
+  margin-top: 6px;
+}
+
+.chapterVerses .outlineLine {
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background-color: #fcfcfc;
+  padding: 2px 6px 2px 12px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 85%;
+}
+
+.outlineLine .level1 {
+  margin-left: 12px;
+  text-indent: -12px;
+  font-weight: bold;
+}
+
+.outlineLine .level2 {
+  margin-left: 24px;
+  text-indent: -12px;
+}
+
+.outlineLine .level3 {
+  margin-left: 36px;
+  text-indent: -12px;
+}
+
+.outlineLine .level4 {
+  margin-left: 48px;
+  text-indent: -12px;
+}
+
+.outlineLine .level5 {
+  margin-left: 60px;
+  text-indent: -12px;
+}
+
+.outlineLine .level6 {
+  margin-left: 72px;
+  text-indent: -12px;
+}
+
+.outlineLine .numbering {
+  margin-right: 3px;
+}
+
+.footer {
+  margin-top: 8px;
+  border-top: 1px solid #cccccc;
+  padding-top: 8px;
+  margin-bottom: 25%;
+}
+
+.footer .bookName {
+  margin-bottom: 4px;
+}
+
+.footer .header {
+  display: inline-block;
+  padding: 0px 4px;
+}
+
+.footer .links {
+  font-size: 90%;
+}
