@@ -9,7 +9,7 @@
 // DynamicLoader.load('lib2', 'url2');
 // DynamicLoader.load('lib3', ['url3.1', 'url3.2'], 'lib1');
 // DynamicLoader.load('lib4', 'url4', ['lib1', 'lib2']);
-const DynamicLoader = (function() {
+const DynamicLoader = (function () {
   const DEBUG = 0;
 
   // Check to make sure library names in the dependencies are valid.
@@ -25,10 +25,6 @@ const DynamicLoader = (function() {
     if (DEBUG) {
       console.debug(`[DynamicLoader] DEBUG ${message}`);
     }
-  }
-
-  function info(message) {
-    console.log(`[DynamicLoader] INFO ${message}`);
   }
 
   function warn(message) {
@@ -62,7 +58,7 @@ const DynamicLoader = (function() {
   // }
   function load(options) {
     if (Array.isArray(options)) {
-      return options.forEach(option => load(option));
+      return options.forEach((option) => load(option));
     }
 
     if (!options.name) {
@@ -73,7 +69,7 @@ const DynamicLoader = (function() {
     }
 
     for (const key in options) {
-      if (key !== 'name' && key !== 'hrefs' && key !== 'dependsOn') {
+      if (key !== "name" && key !== "hrefs" && key !== "dependsOn") {
         return error(`Unknown option "${key}" in ` + JSON.stringify(options));
       }
     }
@@ -84,12 +80,16 @@ const DynamicLoader = (function() {
     loadInternal(options.name, options.hrefs, options.dependsOn);
   }
 
-    // If we are in local file mode (dev mode), then load local files first (faster).
-    function checkLoadFilesFirst(options) {
-    if (Array.isArray(options.hrefs) && options.hrefs.length > 1 && location.protocol === 'file:') {
+  // If we are in local file mode (dev mode), then load local files first (faster).
+  function checkLoadFilesFirst(options) {
+    if (
+      Array.isArray(options.hrefs) &&
+      options.hrefs.length > 1 &&
+      location.protocol === "file:"
+    ) {
       const hrefs = [];
       for (const href of options.hrefs) {
-        if (href.toLocaleLowerCase().startsWith('http')) {
+        if (href.toLocaleLowerCase().startsWith("http")) {
           hrefs.push(href);
         } else {
           hrefs.unshift(href);
@@ -97,7 +97,9 @@ const DynamicLoader = (function() {
       }
       options.hrefs = hrefs;
 
-      debug(`Reordered hrefs to load local files first: ${JSON.stringify(hrefs)}`);
+      debug(
+        `Reordered hrefs to load local files first: ${JSON.stringify(hrefs)}`
+      );
     }
   }
 
@@ -109,8 +111,10 @@ const DynamicLoader = (function() {
       dependsOn = wrapAsArray(dependsOn);
       for (const depName of dependsOn) {
         if (!libraryNames.has(depName)) {
-          return error(`Unknown dependency "${depName}".` +
-            ` Please call load('${depName}', ...) before calling load('${libraryName}', ...).`);
+          return error(
+            `Unknown dependency "${depName}".` +
+              ` Please call load('${depName}', ...) before calling load('${libraryName}', ...).`
+          );
         }
         if (!isLoaded(depName)) {
           return pendingLibraries.set(libraryName, { tryHrefs, dependsOn });
@@ -127,7 +131,8 @@ const DynamicLoader = (function() {
       element = document.createElement("link");
       element.rel = "stylesheet";
       element.href = url;
-    } else { // assume JS file
+    } else {
+      // assume JS file
       element = document.createElement("script");
       element.src = url;
     }
@@ -158,10 +163,7 @@ const DynamicLoader = (function() {
   function continueLoading() {
     const readyLibs = [];
 
-    for (const [
-      libraryName,
-      loadingInfo,
-    ] of pendingLibraries.entries()) {
+    for (const [libraryName, loadingInfo] of pendingLibraries.entries()) {
       // If all dependencies have now been satisfied, then load it now.
       let allDependenciesLoaded = true;
       for (const depName of loadingInfo.dependsOn) {
@@ -190,5 +192,5 @@ const DynamicLoader = (function() {
   }
 
   // Exports.
-  return {load};
+  return { load };
 })();
