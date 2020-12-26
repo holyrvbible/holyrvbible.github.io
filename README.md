@@ -1,2 +1,3 @@
-# holyrvbible.github.io
-Holy Bible Recovery Version 2020
+# Holy Bible Recovery Version 2020
+
+Website: https://holyrvbible.github.io/index.html
