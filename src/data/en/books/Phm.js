@@ -1,0 +1,177 @@
+BkData['Phm'] = {
+bigTitle: '<sub>The Epistle of Paul<br>to</sub>Philemon',
+intro: [
+['Author', 'Paul the apostle with Timothy the brother ({Phm1:1|v. 1}).'],
+['Time of Writing', 'Approximately A.D. 64, shortly before Paul was released from his first Roman imprisonment ({Phm1:9|vv. 9}, {Phm1:22|22}).'],
+['Place of Writing', 'A Roman prison; see verses in the previous item.'],
+['Recipients', 'Philemon, Apphia, Archippus, and the church, which was in their house ({Phm1:1|vv. 1}-{Phm1:2|2}).'],
+],
+subject: 'An Illustration of the Believers&rsquo; Equal Status in the New Man',
+verses: {
+'1:1': 'Paul, a [a]prisoner of Christ Jesus, and [b]Timothy the brother, to Philemon our beloved and [c]fellow worker',
+'1:2': 'And to [1]Apphia the [a]sister and to [1b]Archippus our [c]fellow soldier and to the [2d]church, which is in your house:',
+'1:3': 'Grace to you and peace from God our Father and the Lord Jesus Christ.',
+'1:4': 'I [a]thank my God always, making [b]mention of you in my prayers,',
+'1:5': 'Hearing of your [1]love and the faith which you have toward the Lord Jesus and to all the saints,',
+'1:6': 'That the fellowship of your faith may become effective in the [1]full [a]knowledge of [2]every good thing which is in [3]you [4]for Christ.',
+'1:7': '[1]For I had much [a]joy and [b]encouragement over your love, because the [2c]inward parts of the saints have been [3d]refreshed through you, [e]brother.',
+'1:8': 'Therefore though I have much [a]boldness in Christ to [b]charge you what is [c]fitting,',
+'1:9': 'Because of love I rather [a]entreat, being such a one as Paul [1]the aged and now also a [2b]prisoner of Christ Jesus.',
+'1:10': 'I entreat you concerning my [a]child, whom I have [1b]begotten in my [c]bonds, [2d]Onesimus,',
+'1:11': 'Who formerly was [1]useless to you but now is [2]useful both to you and to me.',
+'1:12': 'Him I have sent back to you&mdash;him, that is, my [1]very heart&mdash;',
+'1:13': 'Whom I intended to keep with myself that on your behalf he might minister to me in the [a]bonds of the gospel.',
+'1:14': 'But [1]without your mind I did not want to do anything, that your goodness would [a]not be as of necessity, but [b]voluntary.',
+'1:15': '[1]For [2]perhaps for this reason he was separated <I>from</I> <I>you</I> for but an hour, that you might [3]fully have him forever,',
+'1:16': '[1]No longer as a [a]slave, but [2]above a slave, a [3]beloved [b]brother, especially to me, but how much more to you, [4]both [c]in the flesh and in the Lord.',
+'1:17': 'If then [1]you hold me as a [2a]partner, receive him as myself.',
+'1:18': 'And if he has [1]wronged you in anything or owes <I>anything</I>, charge that to [2]my account.',
+'1:19': 'I, Paul, have written with my [a]own hand: I will [1]repay; not to say to you that you owe me even [2]your own self besides.',
+'1:20': 'Yes, [a]brother, may I have [1]profit from you in the Lord; [2b]refresh my [3]inward parts in Christ.',
+'1:21': 'Having [a]confidence in your obedience, I have written to you, knowing that you will do even beyond the things that I say.',
+'1:22': 'And at the same time also prepare me a [a]lodging, for I [1]hope that through your [b]prayers I will be [2]graciously [c]given to you.',
+'1:23': '[1a]Epaphras, my [b]fellow prisoner in Christ Jesus, greets you;',
+'1:24': '<I>As</I> <I>do</I> [a]Mark, [b]Aristarchus, [c]Demas, [d]Luke, my [e]fellow workers.',
+'1:25': 'The [1a]grace of the Lord Jesus Christ be with your [2b]spirit. [3]',
+},
+outlines: {
+'1:1': [
+{lv:1, text:"Introduction", vrefs:"vv. 1-3", pt:"I."},
+],
+'1:4': [
+{lv:1, text:"A slave reborn to be a brother", vrefs:"vv. 4-16", pt:"II."},
+],
+'1:17': [
+{lv:1, text:"A brother recommended for the new man&rsquo;s acceptance", vrefs:"vv. 17-22", pt:"III."},
+],
+'1:23': [
+{lv:1, text:"Conclusion", vrefs:"vv. 23-25", pt:"IV."},
+],
+},
+notesRefs: {
+'1:1': [
+{sup:"a", word:"prisoner", vrefs:"Philem. 9; Eph. 3:1"},
+{sup:"b", word:"Timothy", vrefs:"1&nbsp;Tim. 1:2; 1&nbsp;Thes. 1:1; 3:2"},
+{sup:"c", word:"fellow", vrefs:"Philem. 24; Rom. 16:3, 21"},
+],
+'1:2': [
+{sup:1, word:"Apphia", lines:["According to the familial nature of this Epistle, Apphia must have been Philemon&rsquo;s wife, and Archippus, his son."]},
+{sup:"a", word:"sister", vrefs:"Rom. 16:1"},
+{sup:"1b", word:"Archippus", vrefs:"Col. 4:17", lines:["See {Phm1:2^1|note 2<sup>1</sup>}."]},
+{sup:"c", word:"fellow", vrefs:"Phil. 2:25"},
+{sup:"2d", word:"church", vrefs:"Rom. 16:5; 1&nbsp;Cor. 16:19; Col. 4:15", lines:["Philemon lived in Colossae ({Phm1:2|v. 2} cf. {Col4:17|Col. 4:17}; {Phm1:10|v. 10} cf. {Col1:2|Col. 1:2}; {Col4:9|4:9}) and according to history was an elder of the church there. It must have been that the church in Colossae met in his house. Hence, it was the church in his house."]},
+],
+'1:4': [
+{sup:"a", word:"thank", vrefs:"Rom. 1:8"},
+{sup:"b", word:"mention", vrefs:"Eph. 1:16"},
+],
+'1:5': [
+{sup:1, word:"love", lines:["In the initial stage of the life of a believer, faith comes first, and then, out of faith, love is produced ({Gal5:6|Gal. 5:6}; {Eph1:15|Eph. 1:15}; {Col1:4|Col. 1:4}; see notes {1Ti1:14^2|14<sup>2</sup>} in {1Ti1|1&nbsp;Tim. 1} and {Eph6:23^2|23<sup>2</sup>} in {Eph6|Eph. 6}). But here love is mentioned first and then faith, because the matter of the equal status of the believers, dealt with in this Epistle, is a matter of love, which comes out of faith. In the new man the members love one another in faith ({Tit3:15|Titus 3:15}). Their relationship is of love through faith. The apostle appreciated the fellowship of Philemon&rsquo;s faith ({Phm6|v. 6}) and was encouraged by his love ({Phm7|v. 7}); thus, he entreated Philemon to receive Onesimus because of this love ({Phm9|v. 9}). These two virtues are referred to in combination here; Philemon had both of them, not only toward the Lord but also to all the saints."]},
+],
+'1:6': [
+{sup:1, word:"full", lines:["I.e., full acknowledgment, full appreciation, and full recognition through experience."]},
+{sup:"a", word:"knowledge", vrefs:"Phil. 1:9; Col. 1:9; 3:10"},
+{sup:2, word:"every", lines:["Not natural things (cf. {Rom7:18|Rom. 7:18}) but spiritual and divinely good things, such as the love and the faith that Philemon had toward the Lord Jesus. These good things are in us, the regenerated believers, but are not in natural men."]},
+{sup:3, word:"you", lines:["Some ancient MSS read, us."]},
+{sup:4, word:"for", lines:["Lit., unto, toward. All the spiritual and divinely good things in us are unto Christ, toward Christ, for Christ. The apostle prayed that the fellowship, the communication, the sharing of Philemon&rsquo;s faith toward all the saints might become effective in them in the element and sphere of the full knowledge, the full realization, of all the good things in us for Christ, causing them to acknowledge, appreciate, and recognize all the spiritual and divinely good things that are in the believers for Christ."]},
+],
+'1:7': [
+{sup:1, word:"For", lines:["For introduces the reason that the apostle prayed for Philemon&rsquo;s faith to become effective in the saints ({Phm1:6|v. 6}), the reason being that Philemon&rsquo;s love had refreshed the inward parts of the saints and, hence, had rendered the apostle much joy and encouragement."]},
+{sup:"a", word:"joy", vrefs:"Phil. 2:2"},
+{sup:"b", word:"encouragement", vrefs:"2&nbsp;Cor. 7:4, 13; Col. 4:11"},
+{sup:"2c", word:"inward", vrefs:"Philem. 12, 20", lines:["Lit., bowels."]},
+{sup:"3d", word:"refreshed", vrefs:"Philem. 20; 2&nbsp;Tim. 1:16", lines:["Soothed, cheered."]},
+{sup:"e", word:"brother", vrefs:"Philem. 20, 16; Matt. 23:8; Luke 22:32; John 21:23; Gal. 6:18; Rev. 1:9"},
+],
+'1:8': [
+{sup:"a", word:"boldness", vrefs:"2&nbsp;Cor. 3:12"},
+{sup:"b", word:"charge", vrefs:"1&nbsp;Tim. 1:18"},
+{sup:"c", word:"fitting", vrefs:"Eph. 5:4"},
+],
+'1:9': [
+{sup:"a", word:"entreat", vrefs:"Rom. 12:1"},
+{sup:1, word:"the", lines:["Or, an ambassador ({Eph6:20|Eph. 6:20})."]},
+{sup:"2b", word:"prisoner", vrefs:"Philem. 1", lines:["Prisoner here, fellow prisoner in {Phm1:23|v. 23}, and bonds in {Phm1:13|v. 13} indicate that this Epistle was written during the apostle&rsquo;s first imprisonment in Rome. See {2Ti4:6^2|note 6<sup>2</sup>} in {2Ti4|2&nbsp;Tim. 4}."]},
+],
+'1:10': [
+{sup:"a", word:"child", vrefs:"1&nbsp;Tim. 1:2"},
+{sup:"1b", word:"begotten", vrefs:"1&nbsp;Cor. 4:14-15; Gal. 4:19", lines:["Through the Spirit with the eternal life of God ({Joh3:3|John 3:3}; {Joh1:13|1:13})."]},
+{sup:"c", word:"bonds", vrefs:"Philem. 13; Phil. 1:7"},
+{sup:"2d", word:"Onesimus", vrefs:"Col. 4:9", lines:["The name in Greek means profitable, useful, helpful; it was a common name for slaves. He was Philemon&rsquo;s purchased bondslave, who, according to Roman law, had no human rights. He ran away from his master, thus committing a crime punishable by death. While he was in prison at Rome with the apostle, he was saved through him. Now the apostle sent him back with this Epistle to his master."]},
+],
+'1:11': [
+{sup:1, word:"useless", lines:["Or, unserviceable. Referring to Onesimus&rsquo;s running away from Philemon."]},
+{sup:2, word:"useful", lines:["Or, serviceable. Because Onesimus had been converted and was willing to return to Philemon."]},
+],
+'1:12': [
+{sup:1, word:"very", lines:["Lit., bowels; as in vv. {Phm1:7|7}, {Phm1:20|20} (inward parts), {Phi1:8|Phil. 1:8} (inward parts), {Phi2:1|Phil. 2:1} (tenderheartedness), and {Col3:12|Col. 3:12} (inward parts), signifying inward affection, tenderheartedness, compassions. Paul&rsquo;s inward affection and compassions went with Onesimus to Philemon."]},
+],
+'1:13': [
+{sup:"a", word:"bonds", vrefs:"Philem. 10"},
+],
+'1:14': [
+{sup:1, word:"without", lines:["Just as the Lord would not do anything without our consent."]},
+{sup:"a", word:"not", vrefs:"2&nbsp;Cor. 9:7; 1&nbsp;Pet. 5:2"},
+{sup:"b", word:"voluntary", vrefs:"cf. Rom. 12:8"},
+],
+'1:15': [
+{sup:1, word:"For", lines:["For introduces the reason for the sending in {Phm1:12|v. 12}."]},
+{sup:2, word:"perhaps", lines:["Perhaps is not only an expression of humility but also an expression that shows no prejudice."]},
+{sup:3, word:"fully", lines:["Possess him entirely."]},
+],
+'1:16': [
+{sup:1, word:"No", lines:["This short Epistle serves the special purpose of showing us the equality, in God&rsquo;s eternal life and divine love, of all the members in the Body of Christ. In the semisavage age of Paul, the life of Christ had annulled, among the believers, the strong institution of slavery. Since the sentiment of the love of the Christian fellowship was so powerful and prevailing that the evil social order among fallen mankind was spontaneously ignored, any need for institutional emancipation was obviated. Because of the divine birth and because they were living by the divine life, all the believers in Christ had equal status in the church, which was the new man in Christ and in which there was no discrimination between free and bond ({Col3:10|Col. 3:10}-{Col3:11|11}). This was based on three facts: (1) Christ&rsquo;s death on the cross abolished the ordinances of the different ways of life, for the creating of the one new man ({Eph2:15|Eph. 2:15}); (2) we all were baptized into Christ and were made one in Him without any differences ({Gal3:27|Gal. 3:27}-{Gal3:28|28}); and (3) in the new man Christ is all and in all ({Col3:11|Col. 3:11}). Such a life with such a love in equal fellowship is well able to maintain good order in the church (in Titus), carry out God&rsquo;s economy concerning the church (in 1&nbsp;Timothy), and stand against the tide of the church&rsquo;s decline (in 2&nbsp;Timothy). It is of the Lord&rsquo;s sovereignty that in the arrangement of the New Testament this Epistle was positioned after the three preceding books."]},
+{sup:"a", word:"slave", vrefs:"1&nbsp;Cor. 7:22"},
+{sup:2, word:"above", lines:["Or, more than a slave. Onesimus was even more than a free man&mdash;he was a beloved brother."]},
+{sup:3, word:"beloved", lines:["A beloved brother here, the sister ({Phm1:2|v. 2}), our beloved and fellow worker ({Phm1:1|v. 1}), our fellow soldier ({Phm1:2|v. 2}), my fellow workers ({Phm1:24|v. 24}), my fellow prisoner ({Phm1:23|v. 23}), and a partner ({Phm1:17|v. 17}) are all intimate terms, indicating the apostle&rsquo;s intimate sentiment concerning his relationship with the members in the new man."]},
+{sup:"b", word:"brother", vrefs:"Philem. 7; Col. 4:9; 1&nbsp;Tim. 6:2"},
+{sup:4, word:"both", lines:["I.e., in the flesh as a slave and in the Lord as a brother. In the flesh Onesimus was a brother as a slave, and in the Lord he was a slave as a brother."]},
+{sup:"c", word:"in", vrefs:"Eph. 6:5; Col. 3:22"},
+],
+'1:17': [
+{sup:1, word:"you", lines:["Just as a local church with its elders is in partnership with the Lord, and the Lord entrusts to them the newly saved ones, as the good Samaritan did with the healed one ({Luk10:33|Luke 10:33}-{Luk10:35|35})."]},
+{sup:"2a", word:"partner", vrefs:"2&nbsp;Cor. 8:23", lines:["This indicates the deep relationship of fellowship in the Lord."]},
+],
+'1:18': [
+{sup:1, word:"wronged", lines:["This indicates that Onesimus had defrauded his master."]},
+{sup:2, word:"my", lines:["In caring for Onesimus, Paul did exactly what the Lord does for us."]},
+],
+'1:19': [
+{sup:"a", word:"own", vrefs:"1&nbsp;Cor. 16:21; Gal. 6:11"},
+{sup:1, word:"repay", lines:["Just as the Lord pays everything for His redeemed."]},
+{sup:2, word:"your", lines:["This indicates that Philemon had been saved through Paul himself."]},
+],
+'1:20': [
+{sup:"a", word:"brother", vrefs:"Philem. 7"},
+{sup:1, word:"profit", lines:["Gk. onaimen, similar in sound to Onesimus (both words meaning profitable). Here, this word is an allusion to the name Onesimus. This is a play on words, implying that since &ldquo;you owe me even your own self, you are an Onesimus to me&mdash;hence, you should be profitable to me, i.e., should let me have profit from you in the Lord.&rdquo;"]},
+{sup:"2b", word:"refresh", vrefs:"Philem. 7", lines:["Soothe, cheer."]},
+{sup:3, word:"inward", lines:["Lit., bowels, as in {Phm1:7|v. 7}. Since Philemon had refreshed the inward parts of the saints, his partner now asked him to do the same for him in the Lord."]},
+],
+'1:21': [
+{sup:"a", word:"confidence", vrefs:"2&nbsp;Cor. 2:3"},
+],
+'1:22': [
+{sup:"a", word:"lodging", vrefs:"Acts 28:23"},
+{sup:1, word:"hope", lines:["This expectation, that he would be liberated from his imprisonment and visit the churches again, is expressed also in {Phi1:25|Phil. 1:25} and {Phi2:24|2:24}."]},
+{sup:"b", word:"prayers", vrefs:"2&nbsp;Cor. 1:11; Phil. 1:19"},
+{sup:2, word:"graciously", lines:["Paul considered that his visit would be a gracious gift to the church."]},
+{sup:"c", word:"given", vrefs:"Heb. 13:19"},
+],
+'1:23': [
+{sup:"1a", word:"Epaphras", vrefs:"Col. 1:7; 4:12", lines:["A contraction of Epaphroditus ({Phi2:25|Phil. 2:25}; {Phi4:18|4:18})."]},
+{sup:"b", word:"fellow", vrefs:"Rom. 16:7; Col. 4:10"},
+],
+'1:24': [
+{sup:"a", word:"Mark", vrefs:"Acts 12:12, 25; Col. 4:10"},
+{sup:"b", word:"Aristarchus", vrefs:"Acts 19:29; Col. 4:10"},
+{sup:"c", word:"Demas", vrefs:"Col. 4:14; 2&nbsp;Tim. 4:10"},
+{sup:"d", word:"Luke", vrefs:"Col. 4:14; 2&nbsp;Tim. 4:11"},
+{sup:"e", word:"fellow", vrefs:"Philem. 1"},
+],
+'1:25': [
+{sup:"1a", word:"grace", vrefs:"Gal. 6:18; Phil. 4:23", lines:["The apostle always greeted the recipients of his Epistles, in both the opening and the conclusion, with the grace of the Lord. This shows that he trusted in the Lord&rsquo;s grace, being confident that this grace would enable them, as well as himself ({1Co15:10|1&nbsp;Cor. 15:10}), to accomplish what he wrote to them. No human effort avails for the accomplishing of a revelation as high as the completing revelation of the apostle Paul&mdash;for this the Lord&rsquo;s grace is needed."]},
+{sup:"2b", word:"spirit", vrefs:"2&nbsp;Tim. 4:22", lines:["See {Gal6:18^2|note 18<sup>2</sup>} in {Gal6|Gal. 6}."]},
+{sup:3, word:"NA", lines:["Some ancient MSS add, Amen."]},
+],
+},
+};

@@ -1,0 +1,3715 @@
+BkData['Joh'] = {
+bigTitle: '<sub>The Gospel According to</sub>John',
+intro: [
+['Author', 'The apostle John ({Joh21:20|21:20}, {Joh21:24|24}), son of Zebedee ({Mat10:2|Matt. 10:2}), whose brother was James and whose mother was Salome ({Mat27:56|Matt. 27:56}; {Mrk15:40|Mark 15:40}).'],
+['Time of Writing', 'Approximately A.D. 90.'],
+['Place of Writing', 'Perhaps Ephesus.'],
+['Recipients', 'All believers, both in Judea and throughout the Gentile lands, as indicated by the translations offered by John in {Joh1:38|1:38}; {Joh5:2|5:2}; and {Joh19:13|19:13}.'],
+],
+subject: 'The Gospel of Life&mdash;<br>Proving That Jesus Christ Is God the Savior<br>Coming as Life to Propagate Himself',
+verses: {
+'1:1': '[1a]In the beginning was the [2b]Word, and the Word was [3]with God, and the [4]Word was [5c]God.',
+'1:2': '[1]He was [2]in the beginning with God.',
+'1:3': '[a]All things came into being through Him, and apart from Him not one thing came into being which has come into being.',
+'1:4': 'In Him was [1a]life, and the life was the [2b]light of men.',
+'1:5': 'And the [a]light shines in the darkness, and the darkness did not overcome it.',
+'1:6': 'There came a man [1]sent from God, whose name was John.',
+'1:7': '[1]He came for a testimony that he might testify concerning the light, that all might believe through him.',
+'1:8': 'He was not the light, but <I>came</I> that he might testify concerning the light.',
+'1:9': '<I>This</I> was the [a]true light which, coming into the world, [b]enlightens every man.',
+'1:10': 'He was in the world, and the world came into being through Him, yet the world did not know Him.',
+'1:11': 'He came to His own, yet those who were His own did not receive Him.',
+'1:12': 'But as many as [1a]received Him, to them He gave the authority to become [2]children of God, to those who [1]believe into His name,',
+'1:13': 'Who were begotten not [1]of [2]blood, nor [1]of the [2]will of the flesh, nor [1]of the [2]will of man, but [1]of God.',
+'1:14': 'And the [1]Word became [2a]flesh and [3b]tabernacled among us (and [4c]we beheld His glory, glory as of the only Begotten [5]from the Father), full of [6d]grace and [6e]reality.',
+'1:15': 'John testified concerning Him and cried out, saying, This was He of whom I said, [a]He who is coming after me has become ahead of me, because He was before me.',
+'1:16': 'For [1]of His [a]fullness we have all received, and grace upon grace.',
+'1:17': 'For the [1]law was given through Moses; [1a]grace and [1]reality [2]came through Jesus Christ.',
+'1:18': 'No one has ever seen God; the [1]only begotten Son, who is [2]in the bosom of the Father, He has [3a]declared <I>Him</I>.',
+'1:19': 'And this is the testimony of John, when the Jews sent to him priests and Levites from Jerusalem to ask him, Who are you?',
+'1:20': 'And he confessed and did not deny, and he confessed, I am not the [a]Christ.',
+'1:21': 'And they asked him, What then? Are you [a]Elijah? And he said, I am not. Are you the [b]Prophet? And he answered, No.',
+'1:22': 'They said then to him, Who are you, that we may give an answer to those who sent us? What do you say about yourself?',
+'1:23': 'He said, I am a [a]voice of one crying in the wilderness, &ldquo;Make straight the way of the Lord!&rdquo; as Isaiah the prophet said.',
+'1:24': 'And those who had been sent were of the Pharisees.',
+'1:25': 'And they asked him and said to him, Why then are you baptizing if you are not the Christ nor Elijah nor the Prophet?',
+'1:26': 'John answered them, saying, I [a]baptize in water; <I>but</I> among you stands One whom you do not know,',
+'1:27': 'He who is coming after me, the thong of whose sandal I am not worthy to untie.',
+'1:28': 'These things took place in [1]Bethany across the Jordan, where John was baptizing.',
+'1:29': 'The next day he saw Jesus coming to him and said, Behold, the [1a]Lamb of God, who takes away the [b]sin of the [2]world!',
+'1:30': 'This is He of whom I said, [a]A man is coming after me who has become ahead of me, because He was before me.',
+'1:31': 'And I did not know Him, but in order that He might be manifested to Israel, for this <I>reason</I> I came baptizing in water.',
+'1:32': 'And John testified, saying, I beheld the Spirit descending as a [1a]dove out of heaven, and He abode upon Him.',
+'1:33': 'And I did not know Him, but He who sent me to baptize in water, He said to me, He upon whom you see the Spirit descending and abiding upon Him, this is He who baptizes in the Holy Spirit.',
+'1:34': 'And I have seen and have testified that this is the [a]Son of God.',
+'1:35': 'Again the next day John was standing with two of his disciples,',
+'1:36': 'And looking at Jesus walking, he said, Behold, the [a]Lamb of God!',
+'1:37': 'And the two disciples heard him speak <I>this</I>, and they followed Jesus.',
+'1:38': 'And Jesus, turning and beholding them following, said to them, What are you seeking? And they said to Him, Rabbi (which translated means Teacher), where are You staying?',
+'1:39': 'He said to them, Come, and you will see. They went therefore and saw where He was staying, and they stayed with Him that day; it was about the [1]tenth hour.',
+'1:40': 'One of the two who heard <I>this</I> from John and followed Him was Andrew, Simon Peter&rsquo;s brother.',
+'1:41': 'He first found his own brother Simon and said to him, We have found the [1]Messiah (which translated means [1]Christ).',
+'1:42': 'He led him to Jesus. Looking at him, Jesus said, You are Simon, the son of John; you shall be called Cephas (which is interpreted, [1a]Peter).',
+'1:43': 'The next day He wanted to go forth into Galilee, and He found Philip. And Jesus said to him, Follow Me.',
+'1:44': 'Now Philip was from Bethsaida, of the city of Andrew and Peter.',
+'1:45': 'Philip found Nathanael and said to him, We have found Him of whom Moses in the law, and the prophets, wrote, Jesus, the [1]son of Joseph, from Nazareth.',
+'1:46': 'And Nathanael said to him, Can anything good be from Nazareth? Philip said to him, [a]Come and see.',
+'1:47': 'Jesus saw Nathanael coming to Him and said concerning him, Behold, truly an Israelite, in whom there is no guile!',
+'1:48': 'Nathanael said to Him, How do You know me? Jesus answered and said to him, Before Philip called you, while you were under the fig tree, I saw you.',
+'1:49': 'Nathanael answered Him, Rabbi, You are the Son of God; You are the [1a]King of Israel.',
+'1:50': 'Jesus answered and said to him, Is it because I told you that I saw you under the fig tree <I>that</I> you believe? You shall see [a]greater things than these.',
+'1:51': 'And He said to him, [1]Truly, truly, I say to you, You shall see [2a]heaven opened and the angels of God ascending and descending on the [3]Son of Man.',
+'2:1': 'And the [1a]third day a [2]wedding took place in [3b]Cana of [4c]Galilee, and the mother of Jesus was there.',
+'2:2': 'And Jesus also was invited, as well as His disciples, to the wedding.',
+'2:3': 'And when the [1]wine [2]ran out, the [3]mother of Jesus said to Him, They have no wine.',
+'2:4': 'And Jesus said to her, [1]Woman, [2]what do I have in this that concerns you? [a]My hour has not yet come.',
+'2:5': 'His mother said to the servants, Whatever He says to you, do.',
+'2:6': 'Now there were [1]six stone waterpots lying there, according to the [2]Jews&rsquo; rite of purification, holding [3]two or three measures each.',
+'2:7': 'Jesus said to them, Fill the waterpots with [1]water. And they filled them up to the brim.',
+'2:8': 'And He said to them, Draw some out now and take it to the master of the feast. And they took <I>it</I> <I>to</I> <I>him</I>.',
+'2:9': 'And when the master of the feast tasted the [1a]water which had become wine and did not know where it came from, though the servants who had drawn the water knew, the master of the feast called the bridegroom',
+'2:10': 'And said to him, Every man sets out the good wine first, and when they have drunk freely, <I>then</I> that which is worse; you have kept the good wine until now.',
+'2:11': 'This [1]beginning of [2a]signs Jesus performed in Cana of Galilee and [3]manifested His glory, and His disciples believed into Him.',
+'2:12': 'After this He went down to Capernaum, He and His mother and His brothers and His disciples; and they remained there not many days.',
+'2:13': 'And the [a]Passover of the Jews was near, and Jesus went up to Jerusalem.',
+'2:14': 'And [a]He found in the [1b]temple those selling oxen and sheep and doves, and the moneychangers sitting <I>there</I>.',
+'2:15': 'And [1]having made a whip out of [2]cords, He drove them all out of the temple, as well as the sheep and the oxen, and He poured out the money of the moneychangers and overturned their tables.',
+'2:16': 'And to those who were selling the doves He said, Take these things away from here; do not make [a]My Father&rsquo;s house a house of merchandise.',
+'2:17': 'His disciples remembered that it was written, [a]&ldquo;The zeal of Your house shall devour Me.&rdquo;',
+'2:18': 'The Jews then answered and said to Him, What sign do You show us, seeing that You do these things?',
+'2:19': 'Jesus answered and said to them, Destroy this [1]temple, and in [2]three days I will [a]raise it up.',
+'2:20': 'Then the Jews said, This temple was built in forty-six years, and You will raise it up in three days?',
+'2:21': 'But He spoke of the [a]temple of His body.',
+'2:22': 'When therefore He was raised from the dead, His disciples remembered that He had said this, and they believed the [a]Scripture and the word which Jesus had spoken.',
+'2:23': 'Now when He was in Jerusalem at the Passover, during the feast, many believed into His name when they saw the signs which He did.',
+'2:24': 'But Jesus Himself did not entrust Himself to them, for He knew all men,',
+'2:25': 'And because He did not need anyone to testify concerning man, for [a]He Himself knew what was in man.',
+'3:1': '[1]But there was a man of the Pharisees named [a]Nicodemus, a ruler of the Jews.',
+'3:2': 'This one came to Him by night and said to Him, Rabbi, we know that You have come from God as a [1]teacher, for no one can do these [a]signs that You do unless [b]God is with him.',
+'3:3': 'Jesus answered and said to him, Truly, truly, I say to you, Unless one is [1a]born anew, he cannot [2]see the [3b]kingdom of God.',
+'3:4': 'Nicodemus said to Him, How can a man be born when he is old? He cannot enter a second time into his mother&rsquo;s womb and be born, can he?',
+'3:5': 'Jesus answered, Truly, truly, I say to you, Unless one is [a]born [1]of [2]water and the Spirit, he cannot enter into the kingdom of God.',
+'3:6': 'That which is [a]born [1]of the flesh is flesh, and that which is born [1]of the [2]Spirit is [2]spirit.',
+'3:7': 'Do not marvel that I said to you, [1]You must be born anew.',
+'3:8': 'The [1a]wind blows where it wills, and you hear the sound of it, but you do not know where it comes from and where it goes; so is everyone who is born [2]of the Spirit.',
+'3:9': 'Nicodemus answered and said to Him, How can these things be?',
+'3:10': 'Jesus answered and said to him, You are a teacher of Israel, and you do not know these things?',
+'3:11': 'Truly, truly, I say to you, We speak that which we know and [a]testify of that which we have seen, and yet you do not receive our testimony.',
+'3:12': 'If I told you of the [1]things on earth and you do not believe, how will you believe if I tell you of the [1]things in heaven?',
+'3:13': 'And [a]no one has ascended into heaven, but He who descended out of heaven, the [b]Son of Man, [1]who is in heaven.',
+'3:14': 'And as [a]Moses [b]lifted up the [1]serpent in the wilderness, so must the Son of Man be lifted up,',
+'3:15': 'That everyone who believes into Him may have [1]eternal life.',
+'3:16': 'For God so [a]loved the [1]world that He [b]gave His [c]only begotten Son, that everyone who [2d]believes into Him would not perish, but would have eternal life.',
+'3:17': 'For God did not send the Son into the world to [1]condemn the world, but that the world might be saved through Him.',
+'3:18': 'He who believes into Him is not [1]condemned; but he who does not believe has been [1]condemned already, because he has not believed into the name of [a]the only begotten Son of God.',
+'3:19': 'And this is the [1]condemnation, that the [a]light has come into the world, and men loved the darkness rather than the light, for their works were evil.',
+'3:20': 'For everyone who [1]practices evil hates the light, and does not come to the light, lest his works be [2]reproved.',
+'3:21': 'But he who does the [1]truth comes to the light, that his works may be manifested that they are wrought in God.',
+'3:22': 'After these things, Jesus and His disciples came into the land of Judea, and there He spent some time with them and [a]baptized.',
+'3:23': 'And John also was baptizing in Aenon near Salim, because there was much water there; and people came and were baptized;',
+'3:24': 'For [a]John had not yet been thrown into prison.',
+'3:25': 'There arose therefore a questioning on the part of John&rsquo;s disciples with a Jew about [a]purification.',
+'3:26': 'And they came to John and said to him, Rabbi, He who was with you [a]across the Jordan, of whom you have [b]testified, behold, He is [c]baptizing and all are coming to Him.',
+'3:27': 'John answered and said, A man cannot receive anything unless it has been given to him from heaven.',
+'3:28': 'You yourselves testify of me that I said, [a]I am not the Christ, but I have been sent before Him.',
+'3:29': '[a]He who has the bride is the bridegroom; but the friend of the bridegroom, who stands and hears him, rejoices with joy because of the bridegroom&rsquo;s voice. This joy of mine therefore is made full.',
+'3:30': 'He must [1]increase, but I <I>must</I> decrease.',
+'3:31': '[1a]He who comes from above is above all; he who is [2]from the earth is [2]of the earth and speaks [2]out of the earth. [b]He who comes [2]from heaven is above all.',
+'3:32': 'What He has seen and heard, of this He testifies, and [a]no one receives His testimony.',
+'3:33': 'He who receives His testimony has sealed that God is true.',
+'3:34': 'For He whom God has sent speaks the [1]words of God, for He gives the Spirit not by measure.',
+'3:35': '[a]The Father loves the Son and has given all into His hand.',
+'3:36': 'He who [a]believes into the Son has eternal life; but he who disobeys the Son shall not see life, but the wrath of God abides upon him.',
+'4:1': 'When therefore the Lord knew that the Pharisees had heard that Jesus was making and [a]baptizing more disciples than John',
+'4:2': '(Although Jesus Himself did not baptize, but <I>rather</I> His disciples),',
+'4:3': 'He left [a]Judea and went away [b]again into Galilee.',
+'4:4': 'And He had to pass through Samaria.',
+'4:5': 'So He came to a city of Samaria called Sychar, [a]near the piece of land that Jacob gave to Joseph his son;',
+'4:6': 'And Jacob&rsquo;s [1]well was there. Jesus therefore, being wearied from the journey, sat thus by the [1]well; it was about the [2]sixth hour.',
+'4:7': 'There came a woman of Samaria to draw water. Jesus said to her, Give Me <I>something</I> to drink.',
+'4:8': 'For His disciples had gone away into the city to buy food.',
+'4:9': 'The Samaritan woman then said to Him, How <I>is</I> <I>it</I> <I>that</I> You, being a Jew, ask for a drink from me, who am a Samaritan woman? ([a]For Jews have no dealings with [1]Samaritans.)',
+'4:10': 'Jesus answered and said to her, If you knew the [a]gift of God and who it is who says to you, Give Me a drink, you would have asked Him, and He would have given you [b]living water.',
+'4:11': 'The woman said to Him, Sir, You have no bucket, and the well is deep; where then do You get this living water?',
+'4:12': 'Are You greater than our father Jacob, who gave us the well and drank of it himself, as well as his sons and his cattle?',
+'4:13': 'Jesus answered and said to her, Everyone who [1]drinks of this water shall thirst again,',
+'4:14': 'But whoever [a]drinks of the water that I will give him shall [b]by no means thirst forever; but the water that I will give him will become in him a fountain of water springing up into [1c]eternal life.',
+'4:15': 'The woman said to Him, Sir, [a]give me this water so that I will not thirst nor come here to draw.',
+'4:16': 'He said to her, Go, [1]call your husband and come here.',
+'4:17': 'The woman answered and said, I do not have a husband. Jesus said to her, You have well said, I do not have a husband,',
+'4:18': 'For you have had [1]five husbands, and the one you now have is not your husband; this you have said truly.',
+'4:19': 'The woman said to Him, Sir, I perceive that You are a prophet.',
+'4:20': '[1a]Our fathers worshipped [b]in this mountain, yet you say that [c]in Jerusalem is the place where <I>men</I> must worship.',
+'4:21': 'Jesus said to her, Woman, believe Me, [a]an hour is coming when neither in this mountain nor in Jerusalem will you worship the Father.',
+'4:22': '[a]You worship that which you do not know; we worship that which we know, for salvation is of the Jews.',
+'4:23': 'But [a]an hour is coming, and it is now, when the true worshippers will worship the Father [b]in spirit and truthfulness, for the Father also seeks such to worship Him.',
+'4:24': '[1]God is [2]Spirit, and those who [3]worship Him must worship [a]in [4]spirit and [5]truthfulness.',
+'4:25': 'The woman said to Him, I know that [a]Messiah is coming (He who is called Christ); when He comes, He will declare all things to us.',
+'4:26': 'Jesus said to her, [1]I, who speak to you, am <I>He</I>.',
+'4:27': 'And at this <I>point</I> His disciples came, and they marveled that He was speaking with a woman; yet no one said, What are You seeking? or, Why are You speaking with her?',
+'4:28': 'Then the woman [1]left her waterpot and went away into the city, and said to the people,',
+'4:29': 'Come, see a man who told me all that I have done. [1a]Is this not the Christ?',
+'4:30': 'They went out of the city and came to Him.',
+'4:31': 'In the meantime, the disciples urged Him, saying, Rabbi, eat.',
+'4:32': 'But He said to them, [1]I have food to eat that you do not know about.',
+'4:33': 'The disciples therefore said to one another, Has anyone brought Him <I>anything</I> to eat?',
+'4:34': 'Jesus said to them, My food is [a]to do the will of Him who sent Me and [b]to finish His work.',
+'4:35': 'Do you not say that there are yet four months and then the [a]harvest comes? Behold, I tell you, Lift up your eyes and look on the fields, for they are already white for harvest.',
+'4:36': 'He who reaps receives wages and gathers fruit [1]unto [2]eternal life, in order that he who sows and he who reaps may rejoice together.',
+'4:37': 'For in this the saying is true, One sows and another reaps.',
+'4:38': 'I sent you to reap that for which you have not labored; [1]others have labored, and you have entered into their labor.',
+'4:39': 'And many of the Samaritans from that city believed into Him because of the word of the woman who testified, He told me all that I have done.',
+'4:40': 'So when the Samaritans came to Him, they asked Him to remain with them, and He remained there two days.',
+'4:41': 'And many more believed because of His word.',
+'4:42': 'And they said to the woman, It is no longer because of your speaking <I>that</I> we believe, for we ourselves have heard and know that this One is truly the [a]Savior of the world.',
+'4:43': 'And after the two days He went forth from there into Galilee,',
+'4:44': 'For Jesus Himself testified that [a]a prophet has [1]no honor in his own country.',
+'4:45': 'Then when He came into Galilee, the Galileans received Him, having seen all that He did in Jerusalem at the feast, for they also went to the feast.',
+'4:46': 'He then came again to [1a]Cana of [2]Galilee, where He had [b]made the water wine.<br class="split">And there was a certain royal official, whose son was sick in Capernaum.',
+'4:47': 'When he heard that Jesus had come out of Judea into Galilee, he went to Him and asked <I>Him</I> to come down and heal his son, for he was about to die.',
+'4:48': 'Jesus therefore said to him, Unless you see [a]signs and wonders, you will by no means believe.',
+'4:49': 'The royal official said to Him, Sir, come down before my little child dies.',
+'4:50': 'Jesus said to him, Go, your son lives. The man believed the [1]word which Jesus said to him and went his way.',
+'4:51': 'And as he was now going down, his slaves met him and said that his child was living.',
+'4:52': 'So he asked them the hour in which he got better. They said then to him, Yesterday at the [1]seventh hour the fever left him.',
+'4:53': 'Then the father knew that <I>it</I> <I>was</I> in that hour in which Jesus said to him, Your son lives; and he believed, he and his whole house.',
+'4:54': 'Again, this [1a]second sign Jesus performed when He came out of Judea into Galilee.',
+'5:1': 'After these things there was a feast of the Jews, and Jesus went up to Jerusalem.',
+'5:2': 'Now there is in Jerusalem near the [1a]Sheep Gate a pool, which is called in Hebrew [2]Bethesda, having [3]five porticoes.',
+'5:3': '[1]In these lay a multitude of those who were sick, blind, lame, <I>and</I> withered, [2]waiting for the moving of the water.',
+'5:4': 'For an [1]angel went down from time to time in the pool and [2]stirred up the water; the first then to step in after the stirring up of the water was made [3]well of whatever disease he was being held by.',
+'5:5': 'And a certain [1]man was there, who had been thirty-eight years in his sickness.',
+'5:6': 'When Jesus saw this one lying <I>there</I> and knew that he had already been a long time <I>in</I> <I>that</I> <I>condition</I>, [1]He said to him, Do you want to get well?',
+'5:7': 'The sick man answered Him, [1]Sir, [2]I have no one to put me into the pool when the water is stirred up; but while I am coming, another steps down before me.',
+'5:8': 'Jesus said to him, [a]Rise, take up your [1]mat and walk.',
+'5:9': 'And immediately the man [1]became well, and he [2]took up his mat and walked. Now it was the [a]Sabbath on that day;',
+'5:10': 'Therefore the Jews said to the one who had been healed, It is the [a]Sabbath, and [1b]it is not lawful for you to take up your mat.',
+'5:11': 'But he answered them, He who made me well, that One said to me, Take up your mat and walk.',
+'5:12': 'They asked him, Who is the man who said to you, Take up <I>your</I> <I>mat</I> and walk?',
+'5:13': 'But he who had been healed did not know who it was, for Jesus had withdrawn, there being a crowd in that place.',
+'5:14': 'After these things Jesus found him in the temple and said to him, Behold, you have become well; [1a]sin no more so that nothing worse happens to you.',
+'5:15': 'The man went away and told the Jews that Jesus was the One who made him well.',
+'5:16': 'And because of this the Jews persecuted Jesus [1]and [a]sought to kill Him, because He did these things on the Sabbath.',
+'5:17': 'But Jesus answered them, My Father is [1]working until now, and I also am working.',
+'5:18': 'Because of this therefore the Jews [1]sought all the more to [a]kill Him, because He not only broke the Sabbath but also called God His own Father, making Himself [2]equal with [b]God.',
+'5:19': 'Then Jesus answered and said to them, Truly, truly, I say to you, [a]The Son can do nothing from Himself except what He sees the Father doing, for whatever that One does, these things the Son also does in like manner.',
+'5:20': 'For [a]the Father loves the Son and shows Him all things that He Himself is doing; and [b]greater works than these He will show Him that you may marvel.',
+'5:21': 'For just as the Father [a]raises the dead and gives <I>them</I> life, so also the Son gives life to whom He wills.',
+'5:22': 'For neither does the Father judge anyone, but He has given all [a]judgment to the Son,',
+'5:23': 'In order that all may honor the Son even as they honor the Father. He who does not honor the Son does not honor the Father who sent Him.',
+'5:24': 'Truly, truly, I say to you, He who hears My word and [a]believes Him who sent Me has [1]eternal life, and does not come into [2]judgment but has [b]passed out of [3]death into life.',
+'5:25': 'Truly, truly, I say to you, An hour is coming, and it is now, when the [1a]dead will hear the voice of the Son of God, and those who hear will [1]live.',
+'5:26': 'For just as the Father has life in Himself, so He gave to the Son to also have [a]life in Himself;',
+'5:27': 'And He gave Him authority to execute [a]judgment because He is the [1]Son of Man.',
+'5:28': 'Do not marvel at this, for an hour is coming in which [1]all in the tombs will hear His [a]voice',
+'5:29': 'And will come forth: [a]those who have done good, to the [1b]resurrection of life; and those who have [2]practiced evil, to the [3c]resurrection of [4]judgment.',
+'5:30': '[a]I can do nothing from Myself; as I hear, I judge, and [b]My judgment is just, because I do not seek My own will but the [c]will of Him who sent Me.',
+'5:31': 'If [a]I testify concerning Myself, My testimony is not true.',
+'5:32': 'There is another who testifies concerning Me, and I know that the testimony which he testifies concerning Me is true.',
+'5:33': 'You have sent <I>people</I> to John, and [a]he has testified to the [1]truth.',
+'5:34': 'But <I>it</I> <I>is</I> not from man <I>that</I> I receive My testimony, but I say these things that you may be saved.',
+'5:35': 'He was the lamp that was burning and shining, and you were willing to exult for a while in his light.',
+'5:36': 'But I have the testimony <I>which</I> <I>is</I> greater than <I>that</I> of John, for the [a]works which the Father has given Me to finish, the works themselves which I do, testify concerning Me that the Father has [1b]sent Me.',
+'5:37': 'And the [a]Father who sent Me, He has [1]testified concerning Me. You have neither heard His voice at any time, nor have you seen His form,',
+'5:38': 'And you do not have His word abiding in you, for Him whom He sent, this One you do not believe.',
+'5:39': 'You [1]search the Scriptures, because you think that in them you have eternal life; and it is these that testify concerning Me.',
+'5:40': 'Yet you are not willing to [1]come to Me that you may have life.',
+'5:41': 'I do not receive glory from men.',
+'5:42': 'But I know you, that you do not have the love of God in yourselves.',
+'5:43': 'I have come [1a]in the name of My Father, and you do not receive Me; if another comes in his own name, you will receive him.',
+'5:44': 'How can you believe when you receive glory from one another and do not seek the glory that is from the only God?',
+'5:45': 'Do not think that I will accuse you before the Father; there is one who accuses you: Moses, in whom you have set your hope.',
+'5:46': 'For if you believed Moses, you would believe Me; for [a]he wrote concerning Me.',
+'5:47': 'But [a]if you do not believe his writings, how will you believe My words?',
+'6:1': 'After these things Jesus went away across the [1]Sea of Galilee, <I>which</I> <I>is</I> <I>the</I> <I>Sea</I> of Tiberias.',
+'6:2': 'And a great crowd followed Him, because they saw the [a]signs which He did on those who were sick.',
+'6:3': 'And Jesus went up to the [1]mountain and sat there with His disciples.',
+'6:4': 'Now the [1a]Passover, the feast of the Jews, was near.',
+'6:5': '[a]Jesus then lifting up His eyes and seeing that a great crowd was coming toward Him, said to Philip, Where shall we buy bread that these may eat?',
+'6:6': 'But this He said to test him, for He Himself knew what He was about to do.',
+'6:7': 'Philip answered Him, Two hundred [1]denarii worth of bread is not sufficient for them, that each one may take a little.',
+'6:8': 'One of His disciples, Andrew, Simon Peter&rsquo;s brother, said to Him,',
+'6:9': 'There is a little boy here who has [1]five [2]barley loaves and [1]two [2]fish; but what are these for so many?',
+'6:10': 'Jesus said, Have the people recline. Now there was much grass in the place. So the men reclined, in number about five thousand.',
+'6:11': 'Jesus then took the loaves, and when He had given thanks, He distributed to those who were reclining; likewise also of the fish, as much as they wanted.',
+'6:12': 'And when they were filled, He said to His disciples, Gather the broken pieces left over that nothing may be lost.',
+'6:13': 'So they gathered <I>them</I> and filled [1]twelve handbaskets with broken pieces from the five barley loaves which were left over among those who had eaten.',
+'6:14': 'The people therefore, seeing the sign which He did, said, This is truly the [a]Prophet who is to come into the world.',
+'6:15': 'Then Jesus, knowing that they were about to come and take <I>Him</I> by force [1]to make Him [a]King, [b]withdrew again to the mountain, Himself alone.',
+'6:16': 'And when evening fell, His disciples went down to the sea,',
+'6:17': 'And they got into a boat and began crossing the sea to Capernaum. And it had already become dark, and Jesus had not yet come to them.',
+'6:18': 'And because a strong wind was blowing, the [1]sea was churning.',
+'6:19': 'Then, when they had rowed about [1]twenty-five or thirty stadia, they saw [2]Jesus walking on the sea and coming near the boat, and they became frightened.',
+'6:20': 'But He said to them, It is I. Do not be afraid.',
+'6:21': 'Then they were willing to [1]take Him into the boat; and immediately the boat was at the land to which they were going.',
+'6:22': 'The next day the crowd which stood on the other side of the sea saw that there had been no other small boat there except one, and that Jesus had not gotten into the boat with His disciples, but <I>that</I> His disciples had gone away alone.',
+'6:23': 'But other small boats from Tiberias came near to the place where they ate the bread after the Lord had given thanks.',
+'6:24': 'So when the crowd saw that Jesus was not there, nor His disciples, they themselves got into the small boats and came to Capernaum, seeking Jesus.',
+'6:25': 'And when they found Him on the other side of the sea, they said to Him, Rabbi, when did You get here?',
+'6:26': 'Jesus answered them and said, Truly, truly, I say to you, You seek Me not because you have seen signs, but because you ate of the bread and were filled.',
+'6:27': '[a]Work not for the food which perishes, but for the [b]food which abides unto [1]eternal life, which the Son of Man will give you; for Him has the Father, <I>even</I> God, sealed.',
+'6:28': 'Then they said to Him, What shall we [1]do that we may [1]work the works of God?',
+'6:29': 'Jesus answered and said to them, This is the work of God, that you [1]believe into Him whom He has [2]sent.',
+'6:30': 'They said then to Him, What [a]sign then will You do that we may see and believe You? What work will You do?',
+'6:31': 'Our fathers [a]ate the manna in the wilderness, as it is written, [b]&ldquo;He gave them bread out of heaven to eat.&rdquo;',
+'6:32': 'Jesus therefore said to them, Truly, truly, I say to you, Moses has not given you the bread out of heaven, but My Father gives you the true bread out of heaven.',
+'6:33': 'For the bread of God is He who [1]comes down out of heaven and gives life to the world.',
+'6:34': 'They said therefore to Him, Lord, give us this bread always.',
+'6:35': 'Jesus said to them, I am the [1]bread of life; he who comes to Me [a]shall [2]by no means hunger, and he who believes into Me shall by no means ever thirst.',
+'6:36': 'But I have said to you that you have also seen Me, and yet you do not believe.',
+'6:37': 'All that the Father [a]gives Me will come to Me, and him who comes to Me I shall by no means cast out.',
+'6:38': 'For [a]I have come down from heaven [b]not to do My own will but the [c]will of Him who sent Me.',
+'6:39': 'And this is the will of Him who sent Me, that of all which He has given Me I should [a]lose nothing but should [b]raise it up in the last day.',
+'6:40': 'For this is the will of My Father, that everyone who beholds the Son and believes into Him should have eternal life, and I will raise him up in the last day.',
+'6:41': 'The Jews therefore murmured concerning Him because He said, I am the bread that [a]came down out of heaven.',
+'6:42': 'And they said, [a]Is not this Jesus, the [1]son of Joseph, whose father and mother we know? How does He now say, [b]I have come down out of heaven?',
+'6:43': 'Jesus answered and said to them, Do not murmur among yourselves.',
+'6:44': '[a]No one can come to Me unless the Father who sent Me [b]draws him; and I will [c]raise him up in the last day.',
+'6:45': 'It is written in the prophets, [a]&ldquo;And they shall all be [b]taught of God.&rdquo; Everyone who has heard and learned from the Father comes to Me.',
+'6:46': '[a]Not that anyone has seen the Father, except Him who is [1b]from God, He has seen the Father.',
+'6:47': 'Truly, truly, I say to you, He who believes [a]has eternal life.',
+'6:48': 'I am the bread of life.',
+'6:49': 'Your fathers ate the manna in the wilderness, and they died.',
+'6:50': 'This is the bread which [a]comes down out of heaven, that anyone may [b]eat of it and not die.',
+'6:51': 'I am the [1]living bread which came down out of heaven; if anyone eats of this bread, [a]he shall live forever;<br class="split">And the bread which I will give is My [2]flesh, <I>given</I> [3]for the life of the [b]world.',
+'6:52': 'The Jews then contended with one another, saying, How can this man give us His flesh to eat?',
+'6:53': 'Jesus therefore said to them, Truly, truly, I say to you, Unless you eat the flesh of the Son of Man and drink His [1]blood, you do not have life within yourselves.',
+'6:54': 'He who [1]eats My [2]flesh and drinks My [2]blood has eternal life, and I will [a]raise him up in the last day.',
+'6:55': 'For My flesh is true food, and My blood is true drink.',
+'6:56': 'He who eats My flesh and drinks My blood [a]abides in Me and [1]I in him.',
+'6:57': 'As the living Father has sent Me and I live because of the Father, so he who [1]eats Me, he also shall [a]live because of Me.',
+'6:58': 'This is the bread which came down out of heaven, not as the fathers ate and died; he who eats this bread [a]shall live forever.',
+'6:59': 'He said these things in a synagogue as He taught in Capernaum.',
+'6:60': 'Many therefore of His disciples, when they heard <I>this</I>, said, This word is hard; who can hear it?',
+'6:61': 'But Jesus, knowing in Himself that His disciples were murmuring about this, said to them, Does this [a]stumble you?',
+'6:62': 'Then what if you saw the Son of Man [1a]ascending to where He was before?',
+'6:63': '[a]It is the [1]Spirit who gives life; the [2]flesh profits nothing; the [3]words which I have spoken to you are spirit and are life.',
+'6:64': 'But there are some of you who do not believe. For Jesus [a]knew from the beginning who were the ones who did not believe and [b]who was the one who would [1]betray Him.',
+'6:65': 'And He said, For this <I>reason</I> I have told you that [a]no one can come to Me unless it has been [b]given to him from the Father.',
+'6:66': 'From that time many of His disciples went back to what <I>they</I> <I>left</I> behind and no longer walked with Him.',
+'6:67': 'Jesus therefore said to the twelve, Do you also want to go away?',
+'6:68': 'Simon Peter answered Him, Lord, to whom shall we go? You have [a]words of eternal life,',
+'6:69': 'And we have believed and have come to know that You are the Holy One of God.',
+'6:70': 'Jesus answered them, <I>Was</I> <I>it</I> not I <I>who</I> [a]chose you, the twelve? Yet one of you is [b]a devil.',
+'6:71': 'Now He spoke of Judas, <I>the</I> <I>son</I> of Simon Iscariot, for he, one of the twelve, would betray Him.',
+'7:1': 'And after these things Jesus walked in Galilee, for He would not walk in Judea, because the Jews were [a]seeking to [1]kill Him.',
+'7:2': 'Now the Jews&rsquo; [1a]Feast of Tabernacles was near.',
+'7:3': 'His brothers therefore said to Him, Depart from here and go into Judea, so that Your disciples also may behold Your works which You are doing;',
+'7:4': 'For no one does anything in secret and himself seeks to be <I>known</I> openly. If You do these things, manifest Yourself to the world.',
+'7:5': 'For not even His brothers believed into Him.',
+'7:6': 'Jesus therefore said to them, My [1a]time has not yet come, but your time is always ready.',
+'7:7': 'The [a]world cannot hate you, but it hates Me, because I testify concerning it, that [b]its works are evil.',
+'7:8': 'You go up to the feast; I am not going up to this feast, because My [a]time has not yet been fulfilled.',
+'7:9': 'And having said these things to them, He remained in Galilee.',
+'7:10': 'But when His brothers had gone up to the feast, then He Himself also went up, [1]not openly, but as <I>it</I> <I>were</I> in secret.',
+'7:11': 'The Jews therefore [a]sought Him at the feast and said, Where is He?',
+'7:12': 'And there was much murmuring about Him among the crowds: [a]some said, He is a good man; but others said, No; rather He leads the crowd astray.',
+'7:13': 'Yet no one spoke openly about Him for [a]fear of the Jews.',
+'7:14': 'But when it was now the middle of the feast, Jesus went up into the temple and began to teach.',
+'7:15': 'The Jews therefore marveled and said, How does this man know letters, [1]without ever having studied?',
+'7:16': 'Jesus therefore answered them and said, [a]My teaching is not Mine, but His who sent Me.',
+'7:17': 'If anyone resolves to do His will, he will know concerning the teaching, whether it is of God or whether I speak from Myself.',
+'7:18': 'He who speaks from himself [a]seeks his own glory; but He who seeks the glory of Him who sent Him, this One is true, and unrighteousness is not in Him.',
+'7:19': '[a]Has not Moses given you the law? Yet none of you keeps the law. Why do you [b]seek to kill Me?',
+'7:20': 'The crowd answered, You [a]have a demon! Who is seeking to kill You?',
+'7:21': 'Jesus answered and said to them, I did [a]one work, and you all marvel.',
+'7:22': 'For the same reason [a]Moses gave you circumcision (not that it is from Moses, but from the fathers), and on the Sabbath you circumcise a man.',
+'7:23': 'If a man receives circumcision on the Sabbath that the law of Moses may not be broken, are you angry with Me because I [a]made an entire man well on the Sabbath?',
+'7:24': 'Do not judge according to [1]appearance, but judge the righteous judgment.',
+'7:25': 'Then some of the people of Jerusalem said, Is not this the One whom they are seeking to kill?',
+'7:26': 'And look, He is speaking openly, and they say nothing to Him. Have the rulers, perhaps, really recognized that this is the Christ?',
+'7:27': 'But we [a]know where this man is from; yet when the Christ comes, no one knows where He is from.',
+'7:28': 'Jesus therefore cried out in the temple, teaching and saying, You both [1a]know Me and [1]know where I am from; and [b]I have not come of Myself, but He who sent Me is true, whom you do not [1]know.',
+'7:29': 'I [a]know Him, because I am [1b]from Him, and He [2]sent Me.',
+'7:30': 'They sought then to [a]seize Him, yet no one laid a hand on Him, because [b]His hour had not yet come.',
+'7:31': 'But many out of the crowd believed into Him and said, Will the Christ, when He comes, do more signs than this man has done?',
+'7:32': 'The Pharisees heard the crowd murmuring these things about Him, and the chief priests and the Pharisees sent attendants to arrest Him.',
+'7:33': 'Jesus therefore said, [a]I am still with you a little while, and <I>then</I> [b]I am going to Him who sent Me.',
+'7:34': '[a]You will seek Me and will not find Me; and where I am, you cannot come.',
+'7:35': 'The Jews then said to one another, Where is this man about to go that we will not find Him? Is He about to go to the <I>Jews</I> <I>in</I> dispersion among the Greeks and teach the Greeks?',
+'7:36': 'What is the word which He said, You will seek Me and will not find Me; and where I am, you cannot come?',
+'7:37': 'Now on the [1]last day, the great <I>day</I> of the feast, Jesus stood and cried out, saying, If anyone [a]thirsts, let him [b]come to Me and [c]drink.',
+'7:38': 'He who believes into Me, as the Scripture said, out of his [a]innermost being shall [1]flow [2b]rivers of living water.',
+'7:39': 'But this He said concerning the Spirit, whom those who believed into Him were about to receive; for <I>the</I> [1a]Spirit was not yet, because Jesus had not yet been [b]glorified.',
+'7:40': '<I>Some</I> of the crowd therefore, when they heard these words, said, This is truly the [a]Prophet.',
+'7:41': 'Others said, This is the [a]Christ. But some said, Does then the Christ come out of [1b]Galilee?',
+'7:42': 'Has not the Scripture said that the Christ comes out of the [a]seed of David and from [b]Bethlehem, the village where David was?',
+'7:43': 'So there arose a division among the crowd because of Him.',
+'7:44': 'And some of them wanted to seize Him, but no one laid hands on Him.',
+'7:45': 'The attendants therefore came to the chief priests and Pharisees, and these said to them, Why did you not bring Him?',
+'7:46': 'The attendants answered, [a]Never has a man spoken as this man <I>has</I>.',
+'7:47': 'The Pharisees then answered them, Have you also been deceived?',
+'7:48': 'Has any one of the [a]rulers or Pharisees believed into Him?',
+'7:49': 'But this crowd which does not know the law is accursed.',
+'7:50': '[a]Nicodemus said to them (he who came to Him before, being one of them),',
+'7:51': 'Does our law [1]condemn a man unless it first hears from him and knows what he is doing?',
+'7:52': 'They answered and said to him, Are you also from Galilee? Search and see that no prophet arises out of [a]Galilee.',
+'7:53': '[1]And everyone went to his <I>own</I> house.',
+'8:1': 'But Jesus went to the Mount of Olives.',
+'8:2': 'And early in the morning He came again into the temple, and all the people came to Him, and He sat down and taught them.',
+'8:3': 'And the scribes and Pharisees brought a [1]woman caught in adultery, and having set her in the midst,',
+'8:4': 'They said to Him, Teacher, this woman has been caught committing adultery, in the very act.',
+'8:5': 'Now [a]in the law, Moses commanded us to stone such women. [1]What then do You say?',
+'8:6': 'But they said this to [a]tempt Him, so that they might have <I>reason</I> to accuse Him. But Jesus [1]stooped down and wrote with His finger on the ground.',
+'8:7': 'But when they persisted in questioning Him, He stood up and said to them, He who is without sin among you, [a]let him <I>be</I> <I>the</I> first to throw a stone at her.',
+'8:8': 'And again He stooped down and wrote on the ground.',
+'8:9': 'And when they heard <I>that</I>, they went out one by one, beginning with the older ones. And Jesus was left alone, and the woman <I>stood</I> where she was, in the midst.',
+'8:10': 'And Jesus stood up and said to her, Woman, where are they? Has no one condemned you?',
+'8:11': 'And she said, No one, [1]Lord. And Jesus said, [2a]Neither do I condemn you; go, and from now on [b]sin no more.',
+'8:12': 'Again therefore Jesus spoke to them, saying, I am the [a]light of the world; he who follows Me shall by no means walk in darkness, but shall have the [1b]light of life.',
+'8:13': 'The Pharisees then said to Him, You are [a]testifying concerning Yourself; Your testimony is not true.',
+'8:14': 'Jesus answered and said to them, Even if I testify concerning Myself, My testimony is true, for I know [a]where I came from and where I am going; but [b]you do not know where I come from or where I am going.',
+'8:15': '[a]You [1]judge according to the flesh; I [1]judge no one.',
+'8:16': 'But even if I do [a]judge, My judgment is true, for I am not alone, but [1]I [b]and the Father who sent Me.',
+'8:17': 'And [a]in your law also it has been written that the testimony of two men is true:',
+'8:18': 'I am One who testifies concerning Myself, and the Father who sent Me testifies concerning Me.',
+'8:19': 'They said then to Him, Where is Your Father? Jesus answered, You know neither Me nor My Father; [a]if you knew Me, you would know My Father also.',
+'8:20': 'These words He spoke in the treasury as He taught in the temple; and no one seized Him, because His [a]hour had not yet come.',
+'8:21': 'He said therefore again to them, I am going away, and [a]you will seek Me and will [b]die in your sin. Where I am going, you cannot come.',
+'8:22': 'The Jews then said, He is not going to kill Himself, is He, for He says, Where I am going, you cannot come?',
+'8:23': 'And He said to them, [a]You are [1]from below, I am [1]from above; you are [1b]of this world, [c]I am not [1]of this world.',
+'8:24': 'Therefore I said to you that you will [a]die in your sins; for unless you believe that [1b]I am, you will [a]die in your sins.',
+'8:25': 'They said then to Him, Who are You? Jesus said to them, Altogether that which I also [1]tell you.',
+'8:26': 'I have many things to say and to judge concerning you, but [a]He who sent Me is true, and what I have heard from Him, these things I speak to the world.',
+'8:27': 'They did not understand that He was speaking to them of the Father.',
+'8:28': 'Jesus therefore said to them, When you [1a]lift up the Son of Man, [b]then you will know that [c]I am, and <I>that</I> [d]I do nothing from Myself, but as My Father has taught Me, I speak these things.',
+'8:29': 'And He who sent Me is [a]with Me; He has not left Me alone, for I always do the things that are pleasing to Him.',
+'8:30': 'As He spoke these things, many believed into Him.',
+'8:31': 'Then Jesus said to those Jews who believed Him, If you [a]abide in My word, you are truly My disciples;',
+'8:32': 'And you shall know the [1a]truth, and the [1]truth shall [b]set you free.',
+'8:33': 'They answered Him, We are [a]Abraham&rsquo;s seed and have never yet been enslaved to anyone. How <I>is</I> <I>it</I> <I>that</I> You say, You shall become free?',
+'8:34': 'Jesus answered them, Truly, truly, I say to you, Everyone who commits sin is a [a]slave of sin.',
+'8:35': 'And the slave does not abide in the house forever; the son does abide forever.',
+'8:36': 'If therefore the Son [a]sets you free, you shall be free indeed.',
+'8:37': 'I know that you are Abraham&rsquo;s seed; but you [a]seek to kill Me because My word has no place in you.',
+'8:38': '[a]I speak the things which I have seen with My Father; so then, you also do the things which you have heard from [b]your father.',
+'8:39': 'They answered and said to Him, Our father is Abraham. Jesus said to them, If you were [a]Abraham&rsquo;s children, you would do the works of Abraham.',
+'8:40': 'But now you are [a]seeking to kill Me, a man who has told you the truth which I heard from God; Abraham did not do this.',
+'8:41': 'You do the works of [a]your father. They then said to Him, We were not born of fornication; we have [b]one Father, God.',
+'8:42': 'Jesus said to them, If God were your Father you would love Me; for [a]I came forth out from God and have come <I>from</I> <I>Him</I>; for [b]I have not come of Myself, but He [1]sent Me.',
+'8:43': 'Why do you not understand My speaking? It is because you cannot hear My word.',
+'8:44': '[a]You are of <I>your</I> [1]father the devil, and you want to do the desires of your father. He was a [b]murderer from the beginning and does not stand in the truth, because there is no [c]truth in him. When he speaks the lie, [d]he speaks <I>it</I> out of his own [2]<I>possessions</I>; for he is a liar and the [3]father of it.',
+'8:45': 'But because I speak the [a]truth, you do not believe Me.',
+'8:46': 'Which of you convicts Me of sin? Since I speak truth, why do you not believe Me?',
+'8:47': 'He who is of God hears the [1]words of God; for this <I>reason</I> you do not hear <I>them</I>, because you are not of God.',
+'8:48': 'The Jews answered and said to Him, Have we not spoken well <I>in</I> <I>saying</I> that You are a [a]Samaritan and [b]have a demon?',
+'8:49': 'Jesus answered, I do not have a demon, but I honor My Father, and you [a]dishonor Me.',
+'8:50': 'But [a]I do not seek My glory; there is One who seeks <I>glory</I> <I>for</I> <I>Me</I> and judges.',
+'8:51': 'Truly, truly, I say to you, If anyone [a]keeps My word, he shall by no means see [1b]death forever.',
+'8:52': 'The Jews therefore said to Him, Now we know that You [a]have a demon. Abraham died, and the prophets <I>too</I>; yet You say, If anyone keeps My word, he shall by no means [b]taste death forever.',
+'8:53': 'Are You greater than our father Abraham, who died? The prophets died too. Who are You making Yourself?',
+'8:54': 'Jesus answered, [a]If I glorify Myself, My glory is nothing; it is [b]My Father who glorifies Me, of whom you say that He is your God.',
+'8:55': 'Yet [a]you have not [1]known Him, but [b]I [1]know Him. And if I say that I do not know Him, I will be like you, [c]a liar; but I do know Him and I keep His word.',
+'8:56': 'Your father Abraham exulted that he would see My day, and he saw <I>it</I> and rejoiced.',
+'8:57': 'The Jews then said to Him, You are not yet fifty years old, and have You seen Abraham?',
+'8:58': 'Jesus said to them, Truly, truly, I say to you, [a]Before Abraham came into being, [1b]I am.',
+'8:59': 'So they [a]picked up stones to throw at Him, but Jesus was hidden and went out of the temple.',
+'9:1': 'And as He passed by, He saw [1]a man [2]blind from birth.',
+'9:2': 'And His disciples asked Him, saying, Rabbi, [1]who sinned, this man or his parents, that he would be born blind?',
+'9:3': 'Jesus answered, Neither has this man sinned nor his parents, but <I>he</I> <I>was</I> <I>born</I> <I>so</I>, that the works of God might be manifested in him.',
+'9:4': 'We must work the works of Him who sent Me while it is [a]day; night is coming when no one can work.',
+'9:5': 'While I am in the world, I am the [a]light of the world.',
+'9:6': 'When He had said this, He [a]spat on the ground and made clay of the [1]spittle and anointed his eyes with the clay,',
+'9:7': 'And He said to him, Go, [1]wash in the pool of [a]Siloam (which is interpreted, [2]Sent). [3]He went therefore and washed and came <I>away</I> seeing.',
+'9:8': 'The neighbors then and those who previously saw him as a beggar said, Is not this the one who used to sit and beg?',
+'9:9': 'Some said, This is he. Others said, No, but he is like him. He said, I am <I>the</I> <I>one</I>.',
+'9:10': 'They said then to him, How then were your eyes opened?',
+'9:11': 'He answered, The man called Jesus made clay and anointed my eyes, and said to me, Go to the <I>pool</I> of Siloam and wash. I went therefore and washed, and I received my sight.',
+'9:12': 'And they said to him, Where is He? He said, I do not know.',
+'9:13': 'They brought him who was once blind to the Pharisees.',
+'9:14': 'Now it was the [1a]Sabbath, on which day Jesus made the clay and opened his eyes.',
+'9:15': '[a]Again therefore the Pharisees also asked him how he received his sight. And he said to them, He put clay on my eyes, and I washed, and I see.',
+'9:16': 'Then some of the Pharisees said, This man is not from God, because He does [a]not keep the Sabbath. But others said, How can a man <I>who</I> <I>is</I> a sinner do such [b]signs? And there was [c]a division among them.',
+'9:17': 'Then they said to the blind man again, What do you say about Him, in that He opened your eyes? And he said, He is a prophet.',
+'9:18': 'The Jews then did not believe concerning him that he had been blind and had received his sight, until they called the parents of him who had received his sight',
+'9:19': 'And asked them, saying, Is this your son, of whom you say that he was born blind? How then does he now see?',
+'9:20': 'Then his parents answered <I>them</I> and said, We know that this is our son and that he was born blind.',
+'9:21': 'But how he now sees, we do not know; or who opened his eyes, we do not know. Ask him; he is of age; he will speak for himself.',
+'9:22': 'His parents said these things because they [a]feared the Jews, for the Jews had already agreed that if anyone confessed Him <I>to</I> <I>be</I> <I>the</I> Christ, he should be [b]put out of the synagogue.',
+'9:23': 'Because of this his parents said, He is of age; question him.',
+'9:24': 'Therefore a second time they called the man who had been blind, and said to him, [a]Give glory to God; we know that this man is a sinner.',
+'9:25': 'Then he answered, Whether <I>or</I> <I>not</I> He is a sinner, I do not know; one thing I do know, that though I was blind, now I see.',
+'9:26': 'They said then to him, What did He do to you? How did He open your eyes?',
+'9:27': 'He answered them, [a]I told you already and you did not hear. Why do you want to hear <I>it</I> again? Do you also want to become His disciples?',
+'9:28': 'And they reviled him and said, You are His disciple; but [a]we are disciples of Moses.',
+'9:29': 'We know that God has spoken to Moses, but as for this man, [a]we do not know where He is from.',
+'9:30': 'The man answered and said to them, Why here is an amazing thing, that you do not know where He is from, and <I>yet</I> He opened my eyes!',
+'9:31': '[a]We know that God does not hear sinners, but if anyone is God-fearing and does His will, He hears him.',
+'9:32': '[1]Since time began it has never been heard that anyone opened the eyes of one born blind.',
+'9:33': '[a]If this man were not [1]from God, He could do nothing.',
+'9:34': 'They answered and said to him, You were wholly born in [a]sins, and you are teaching us? And they [1b]cast him out.',
+'9:35': 'Jesus heard that they had [a]cast him out, and He found him and said, Do you believe into the [1]Son of God?',
+'9:36': 'He answered and said, And who is He, [a]Lord, that I may believe into Him?',
+'9:37': 'Jesus said to him, You have both seen Him, and [a]He is the One speaking with you.',
+'9:38': 'And he said, Lord, I believe; and he [a]worshipped Him.',
+'9:39': 'And Jesus said, For [a]judgment I have come into this world, that [b]those who do not see may see, and that [c]those who see may become blind.',
+'9:40': '<I>Some</I> of the Pharisees who were with Him heard these things and said to Him, We are not [a]blind also, are we?',
+'9:41': 'Jesus said to them, If you were blind, you would [a]not have sin; but now <I>that</I> you say, We see; your sin remains.',
+'10:1': 'Truly, truly, I say to you, He who does not enter through the [1a]door into the [2]sheepfold, but climbs up from somewhere else, he is a [3b]thief and a robber;',
+'10:2': 'But he who enters through the [a]door is the [b]shepherd of the sheep.',
+'10:3': 'To him the doorkeeper opens, and the [1]sheep [a]hear his voice; and he calls his own sheep by name and leads them [b]out.',
+'10:4': 'When he puts forth all his own, he goes before them, and the sheep [a]follow him because they know his [b]voice.',
+'10:5': 'But they will by no means follow a stranger, but will flee from him, because they do not know the voice of strangers.',
+'10:6': 'This [a]parable Jesus spoke to them, but they did not know what those things meant that He spoke to them.',
+'10:7': 'Jesus therefore said to them again, Truly, truly, I say to you that I am the [a]door of the sheep.',
+'10:8': 'All who came before Me are [a]thieves and robbers, but the sheep did not hear them.',
+'10:9': 'I am the [1a]door; if anyone enters through Me, he shall be saved and shall go in and go out and shall find [2]pasture.',
+'10:10': 'The thief does not come except to steal and kill and destroy; I have come that they may [a]have [1]life and may have <I>it</I> abundantly.',
+'10:11': 'I am the good [a]Shepherd; the good Shepherd [b]lays down His [1]life for the sheep.',
+'10:12': 'He who is a hireling and not the shepherd, whose own the sheep are not, sees the wolf coming and leaves the sheep and flees; and the wolf snatches them and scatters <I>them</I>.',
+'10:13': '<I>He</I> <I>flees</I> because he is a hireling and it does not matter to him concerning the sheep.',
+'10:14': 'I am the good [a]Shepherd, and [b]I know My own, and [c]My own know Me,',
+'10:15': 'Even as the [a]Father knows Me and I know the Father; and I [b]lay down My life for the sheep.',
+'10:16': 'And I have [1a]other sheep, which are not of this fold; I must lead them also, and they shall hear My voice, and there shall be [2b]one flock, one [c]Shepherd.',
+'10:17': 'For this <I>reason</I> the [a]Father loves Me, because [b]I lay down My life that I may take it again.',
+'10:18': 'No one takes it away from Me, but I [a]lay it down of Myself. I have authority to lay it down, and I have authority to [b]take it again. This commandment I received from My Father.',
+'10:19': '[a]A division again took place among the Jews because of these words.',
+'10:20': 'And many of them said, He [a]has a demon and is [b]insane. Why do you listen to Him?',
+'10:21': 'Others said, These are not the words of one <I>who</I> <I>is</I> demon-possessed. Can a demon [a]open the eyes of the blind?',
+'10:22': 'At that time the [1]Feast of the Dedication occurred in Jerusalem, <I>and</I> it was winter.',
+'10:23': 'And Jesus was walking in the temple in the [a]portico of Solomon.',
+'10:24': 'The Jews therefore surrounded Him and said to Him, How long will You hold our soul in suspense? If You are the Christ, tell us [a]plainly.',
+'10:25': 'Jesus answered them, I told you, and you do not believe. The [a]works which I do [1]in My Father&rsquo;s name, these testify concerning Me;',
+'10:26': 'But you do not believe, because you are not of My sheep.',
+'10:27': 'My sheep [a]hear My voice, and [b]I know them, and they [c]follow Me;',
+'10:28': 'And I give to them [1a]eternal life, and they shall by no means perish forever, and [b]no one shall [c]snatch them out of [1]My hand.',
+'10:29': 'My Father, who has given <I>them</I> to Me, is greater than all, and no one can [a]snatch <I>them</I> out of My [1]Father&rsquo;s hand.',
+'10:30': '[1]I and the Father are [a]one.',
+'10:31': 'The Jews again [a]took up stones that they might stone Him.',
+'10:32': 'Jesus answered them, I have shown you many good works from the Father; for which of these works are you stoning Me?',
+'10:33': 'The Jews answered Him, We are not stoning You for a good work, but for blasphemy, and because You, being a man, are making Yourself [a]God.',
+'10:34': 'Jesus answered them, Is it not written in your law, &ldquo;I said, [a]You are gods&rdquo;?',
+'10:35': 'If He said they <I>were</I> gods, to whom the word of God came, and the Scripture cannot be broken,',
+'10:36': 'Do you say of Him whom the Father [a]has sanctified and [1b]sent into the world, You are blaspheming, because I said, [c]I am the Son of God?',
+'10:37': 'If I do not do the [a]works of My Father, do not believe Me;',
+'10:38': 'But if I do <I>them</I>, even if you do not believe Me, [a]believe the works so that you may come to know and continue to know that the [b]Father <I>is</I> in Me and I <I>am</I> in the Father.',
+'10:39': 'Then they sought again to [a]seize Him, yet He went forth out of their hand.',
+'10:40': 'And [1]He went away again [a]across the Jordan, to the place where John was baptizing at first, and He remained there.',
+'10:41': 'And many came to Him and said, John did no sign, but [a]all the things John said concerning this man were true.',
+'10:42': 'And [a]many believed into Him there.',
+'11:1': 'Now there was a certain man who was sick, Lazarus from [1]Bethany, of the village of Mary and her sister Martha.',
+'11:2': 'It was <I>that</I> Mary who [a]anointed the Lord with ointment and wiped His feet with her hair, whose brother Lazarus was sick.',
+'11:3': 'The sisters therefore sent to Him saying, Lord, behold, <I>he</I> whom You love is sick.',
+'11:4': 'But when Jesus heard <I>it</I>, He said, This sickness is not unto death, but for the [a]glory of God, in order that the Son of God may be glorified through it.',
+'11:5': 'Now Jesus loved Martha and her sister and Lazarus.',
+'11:6': 'When therefore He heard that he was sick, He remained at that time in the place where He was for two days.',
+'11:7': 'Then after this He said to the disciples, Let us go into Judea again.',
+'11:8': 'The disciples [1]said to Him, Rabbi, the Jews were just now seeking to [a]stone You, and You are going there again?',
+'11:9': 'Jesus answered, Are there not twelve hours in the day? If anyone walks in the [a]day, he does not stumble, because he sees the [b]light of this world.',
+'11:10': 'But if anyone walks in the night, he stumbles, because the light is not in him.',
+'11:11': 'He said these things, and after this He said to them, Our friend Lazarus has fallen [a]asleep; but I am going that I may wake him out of sleep.',
+'11:12': 'The disciples then said to Him, Lord, if he has fallen asleep, he will [1]recover.',
+'11:13': 'But Jesus had spoken about his death, but they thought that He was speaking about taking rest in sleep.',
+'11:14': 'So Jesus then told them plainly, Lazarus has [1]died.',
+'11:15': 'And I rejoice for your sakes that I was not there, so that you may believe; but let us go to him.',
+'11:16': 'Then Thomas, who is called [1]Didymus, said to his fellow disciples, Let us also go, that we may die with Him.',
+'11:17': 'Then when Jesus came, He found that he had already been in the tomb [a]four days.',
+'11:18': 'Now Bethany was near Jerusalem, about [1]fifteen stadia away.',
+'11:19': 'And many of the Jews had come to Martha and Mary to console them concerning their brother.',
+'11:20': 'Martha therefore, when she heard that Jesus was coming, went to meet Him; but Mary sat in the house.',
+'11:21': 'Then Martha said to Jesus, Lord, [a]if You had been here, my brother would not have died.',
+'11:22': 'But even now I know that whatever You ask of God, God will give You.',
+'11:23': 'Jesus said to her, Your brother will rise again.',
+'11:24': 'Martha said to Him, I know that he will rise again in the [a]resurrection [1]in the last day.',
+'11:25': 'Jesus said to her, I am the resurrection and the [a]life; he who believes into Me, even if he should die, shall [b]live;',
+'11:26': 'And everyone who lives and believes into Me shall by [a]no means die forever. Do you believe this?',
+'11:27': 'She said to Him, Yes, Lord; I have [1]believed that [a]You are the Christ, the Son of God, He who [b]comes into the world.',
+'11:28': 'And when she had said this, she went away and called Mary her sister secretly, saying, The Teacher is here and [1]is calling you.',
+'11:29': 'And she, when she heard <I>this</I>, rose quickly and came to Him.',
+'11:30': 'Now Jesus had not yet come into the village, but was still in the place where Martha met Him.',
+'11:31': 'The Jews then who were with her in the house and were consoling her, when they saw that Mary rose up quickly and went out, followed her, supposing that she was going to the tomb to [1]weep there.',
+'11:32': 'Then Mary, when she came to where Jesus was, saw Him and fell at His feet, saying to Him, Lord, [a]if You had been here, my brother would not have died.',
+'11:33': 'Then Jesus, when He saw her [1]weeping and the [a]Jews who came with her [1]weeping, was [b]moved with indignation in His spirit and was [c]troubled,',
+'11:34': 'And He said, Where have you put him? They said to Him, Lord, come and see.',
+'11:35': 'Jesus [1]wept.',
+'11:36': 'The Jews then said, Behold how He [a]loved him!',
+'11:37': 'But some of them said, Could not He who [a]opened the eyes of the blind man also have caused that this man would not die?',
+'11:38': 'Jesus therefore, moved with indignation again in Himself, came to the tomb. Now it was a cave, and a stone was lying against it.',
+'11:39': 'Jesus said, Take away the stone. Martha, the sister of him who was deceased, said to Him, Lord, by now he smells, for <I>it</I> <I>is</I> the [a]fourth day <I>that</I> he is <I>there</I>.',
+'11:40': 'Jesus said to her, Did I not tell you that if you believe you will see the [a]glory of God?',
+'11:41': 'Then they [1]took the stone away. And Jesus [a]lifted up His eyes and said, [b]Father, I thank You that You have heard Me.',
+'11:42': 'And I knew that You always hear Me; but because of the crowd standing around, I said <I>it</I>, that they may [a]believe that You have [1]sent Me.',
+'11:43': 'And when He had said these things, He cried out with a loud voice, Lazarus, come out!',
+'11:44': 'And he who had died came out, [a]bound hand and foot with cloths, and [b]his face was bound about with a handkerchief. Jesus said to them, Loose him and let him go.',
+'11:45': 'Many of the [a]Jews therefore who had come to Mary and beheld the things that He did believed into Him.',
+'11:46': 'But some of them went away to the Pharisees and told them the things that Jesus did.',
+'11:47': 'Then the chief priests and the Pharisees assembled a council and said, What do we do? For this man is doing many [a]signs.',
+'11:48': 'If we let Him do so, all will believe into Him, and the Romans will come and take away both our place and <I>our</I> nation.',
+'11:49': 'But a certain one of them, Caiaphas, who was [a]high priest that year, said to them, You know nothing at all,',
+'11:50': 'Nor do you take account <I>of</I> <I>the</I> <I>fact</I> that [a]it is expedient for you that one man die for the people and <I>that</I> not the whole nation perish.',
+'11:51': 'But this he did not say from himself, but being [a]high priest that year, he prophesied that Jesus was to die for the nation,',
+'11:52': 'And not for the nation only, but that He might also [1]gather into [a]one the children of God who are scattered abroad.',
+'11:53': 'From that day therefore they [a]took counsel to kill Him.',
+'11:54': 'Jesus therefore no longer [a]walked openly among the Jews, but went away from there to the region near the wilderness, into a city called Ephraim, and there He remained with the disciples.',
+'11:55': 'Now the [a]Passover of the Jews was near, and many went up to Jerusalem out of the country before the Passover in order to [b]purify themselves.',
+'11:56': 'They then sought Jesus, and said to one another as they stood in the temple, What do you think? That He will not, by any means, come to the feast?',
+'11:57': 'Now the chief priests and the Pharisees had given orders that if anyone knew where He was, he should disclose it, so that they might arrest Him.',
+'12:1': 'Then Jesus, six days before the [a]Passover, came to [1b]Bethany, where Lazarus was, [c]whom Jesus had raised from the dead.',
+'12:2': 'Therefore they made Him a supper there; and [a]Martha served, but Lazarus was one of the ones reclining <I>at</I> <I>table</I> with Him.',
+'12:3': 'Then [a]Mary took a [1]pound of ointment, of very valuable pure nard, and anointed the feet of Jesus, and wiped His feet with her hair; and the [2]house was filled with the fragrance of the ointment.',
+'12:4': 'But [a]Judas Iscariot, one of His disciples, who was about to betray Him, said,',
+'12:5': 'Why was this ointment not sold for three hundred [1]denarii and given to the poor?',
+'12:6': 'But he said this not because it mattered to him concerning the poor, but because he was a thief, and [a]holding the purse, carried off what was put into <I>it</I>.',
+'12:7': 'Then [1]Jesus said, Leave her alone; she has reserved it for the day of My burial.',
+'12:8': '[a]For the poor you always have with you, but you do not always have Me.',
+'12:9': 'Then a great crowd of the Jews found out that He was there, and they came, not because of Jesus only, but that they might also see Lazarus, [a]whom He had raised from the dead.',
+'12:10': 'And the chief priests took counsel to kill Lazarus also,',
+'12:11': 'Because on account of him [a]many of the Jews went away and believed into Jesus.',
+'12:12': 'On the next day, [a]the great crowd who had come to the [b]feast, when they heard that Jesus was coming into Jerusalem,',
+'12:13': 'Took the branches of the palm trees and went out to meet Him, and cried out, [1]Hosanna! [a]Blessed is He who comes in the name of the Lord, even the [b]King of Israel!',
+'12:14': 'And Jesus, having found a young donkey, sat on it, as it is written,',
+'12:15': '[a]&ldquo;Fear not, daughter of Zion; behold, your King comes, sitting on a donkey&rsquo;s colt.&rdquo;',
+'12:16': 'These things His disciples did not understand at first, but when Jesus was [a]glorified, then they [b]remembered that these things were written of Him and <I>that</I> they had done these things to Him.',
+'12:17': 'The crowd therefore that was with Him when He called Lazarus out of the tomb and raised him from the dead testified.',
+'12:18': 'For this <I>reason</I> the crowd also went and met Him, because they heard that He had done this sign.',
+'12:19': 'The Pharisees then said to one another, You see that you are not doing anything worthwhile; behold, the world has gone after Him.',
+'12:20': 'And there were some Greeks among those who went up to [a]worship at the feast.',
+'12:21': 'These then came to [a]Philip, who was from Bethsaida of Galilee, and asked him, saying, Sir, we wish to see Jesus.',
+'12:22': 'Philip came and told Andrew; Andrew came, and Philip <I>too</I>, and they told Jesus.',
+'12:23': 'And Jesus answered them, saying, The [a]hour has come for the Son of Man to be [1b]glorified.',
+'12:24': 'Truly, truly, I say to you, [a]Unless the grain of wheat [1]falls into the ground and dies, it abides alone; but if it dies, it bears [2b]much fruit.',
+'12:25': '[a]He who loves his [1b]soul-life loses it; and he who [c]hates his [1b]soul-life in this world shall keep it unto [2]eternal life.',
+'12:26': 'If anyone serves Me, let him follow Me; and where I am, there also My servant will be. If anyone serves Me, the Father will honor him.',
+'12:27': 'Now is [a]My [1]soul troubled; and what shall I say? Father, [b]save Me out of this [c]hour. But for [2]this <I>reason</I> I have come to this hour.',
+'12:28': 'Father, [1a]glorify Your name. Then a [b]voice came out of heaven: I have both [1a]glorified <I>it</I> and will [1a]glorify <I>it</I> again.',
+'12:29': 'The crowd therefore which stood by and heard <I>it</I> said that there had been thunder; others said, [a]An angel has spoken to Him.',
+'12:30': 'Jesus answered and said, This voice has not [1]come for My sake, but for your sake.',
+'12:31': 'Now is the [1a]judgment of this [2]world; now shall the [b]ruler of this world be cast out.',
+'12:32': 'And I, if I be [1a]lifted up from the earth, will [b]draw [c]all men to Myself.',
+'12:33': 'But He said this [a]signifying by what kind of death He was about to die.',
+'12:34': 'The crowd therefore answered Him, We have heard out of the law that the [a]Christ abides forever; and how <I>is</I> <I>it</I> <I>that</I> You say, The Son of Man must be lifted up? Who is this Son of Man?',
+'12:35': 'Jesus then said to them, The light is [a]still among you a little while. Walk while you have the light so that darkness may not [b]overcome you; and he who [c]walks in the darkness does not know where he is going.',
+'12:36': 'While you have the [a]light, believe into the light, so that you may become [b]sons of light.<br class="split">Jesus said these things, and He went away and [c]was hidden from them.',
+'12:37': 'But though He had done so many signs before them, they did not believe into Him,',
+'12:38': 'That the word of the prophet Isaiah which he said might be fulfilled, [a]&ldquo;Lord, who has believed our report? And to whom has the [1]arm of the Lord been revealed?&rdquo;',
+'12:39': 'For this <I>reason</I> they could not believe, because again Isaiah said,',
+'12:40': '[a]&ldquo;He has [1]blinded their eyes and He hardened their heart, that they might not see with their eyes and understand with their heart and turn, and I will heal them.&rdquo;',
+'12:41': 'These things said Isaiah because he [a]saw [1]His glory and spoke concerning Him.',
+'12:42': 'Nevertheless even many of the rulers believed into Him, but because of the Pharisees they did not confess <I>Him</I>, [a]so that they would not be [b]put out of the synagogue;',
+'12:43': 'For they loved the [a]glory of men more than the [a]glory of God.',
+'12:44': 'But Jesus [1]cried out and said, He who believes into Me does not believe into Me, but [a]into Him who sent Me;',
+'12:45': 'And he who [a]beholds Me beholds Him who sent Me.',
+'12:46': 'I have come <I>as</I> a [a]light into the world, that everyone who believes into Me would not remain in darkness.',
+'12:47': 'And if anyone hears My [1]words and does not keep <I>them</I>, I do not judge him; for I have not come to [a]judge the world, but to save the world.',
+'12:48': 'He who rejects Me and does not receive My words has one who judges him; the [a]word which I have spoken, that will judge him in the last day.',
+'12:49': 'For I have not spoken from Myself; but the Father who sent Me, He Himself has [a]given Me commandment, what to say and what to speak.',
+'12:50': 'And I know that His commandment is [1]eternal life. The things therefore that I speak, even [a]as the Father has said to Me, so I speak.',
+'13:1': '[1]Now before the [a]Feast of the Passover, Jesus knowing that His [b]hour had come for Him to depart out of this world unto the [c]Father, having loved His own who were in the world, He loved them to the uttermost.',
+'13:2': 'And while supper was taking place, the [a]devil having already put into the heart of Judas Iscariot, <I>the</I> <I>son</I> of Simon, that he should [b]betray Him,',
+'13:3': '<I>Jesus</I>, knowing that the Father had [a]given all into His hands and that He had [b]come forth from God and was going to God,',
+'13:4': 'Rose from supper and [1]laid aside His outer garments; and taking a [2]towel, He [3]girded Himself;',
+'13:5': 'Then He poured [1]water into the basin and began to [2]wash the disciples&rsquo; [3]feet and to wipe <I>them</I> with the towel with which He was girded.',
+'13:6': 'He came then to Simon Peter. <I>Peter</I> said to Him, Lord, do You wash my feet?',
+'13:7': 'Jesus answered and said to him, What I am doing you do not [1]know now, but you will [1]know after these things.',
+'13:8': 'Peter said to Him, You shall by no means wash my feet forever. Jesus answered him, Unless I wash you, you have no part with Me.',
+'13:9': 'Simon Peter said to Him, Lord, not my feet only, but also my hands and my head.',
+'13:10': 'Jesus said to him, He who is [1a]bathed has no need except to wash his feet, but is wholly [b]clean; and you are clean, but not all <I>of</I> <I>you</I>.',
+'13:11': 'For He [a]knew the one betraying Him; for this <I>reason</I> He said, Not all of you are clean.',
+'13:12': 'Then when He had washed their feet and taken His outer garments and reclined <I>at</I> <I>the</I> <I>table</I> again, He said to them, Do you know what I have done to you?',
+'13:13': 'You call Me the Teacher and the Lord, and you say rightly, for I am.',
+'13:14': 'If I then, the Lord and the Teacher, have washed your feet, you also ought to wash one another&rsquo;s feet.',
+'13:15': 'For I have given you an [a]example so that you also may do even as I have done to you.',
+'13:16': 'Truly, truly, I say to you, A [a]slave is not greater than his master, nor [1]one who is sent greater than the one who sends him.',
+'13:17': 'If you know these things, [a]blessed are you if you do them.',
+'13:18': 'I do not speak concerning [a]all of you. I know whom I have [b]chosen, but that the [c]Scripture may be fulfilled, [d]&ldquo;He who [1]eats bread with Me has lifted up his heel against Me.&rdquo;',
+'13:19': 'From now on I am [a]telling you before it happens, so that when it happens, you may believe that [1b]I am.',
+'13:20': 'Truly, truly, I say to you, [a]He who receives whomever I shall send receives Me, and he who receives Me receives Him who sent Me.',
+'13:21': 'When Jesus had said these things, He became troubled in His [a]spirit, and He testified and said, Truly, truly, I say to you that [b]one of you will betray Me.',
+'13:22': 'The disciples looked at one another, perplexed over whom He was speaking about.',
+'13:23': 'One of His disciples, [a]whom Jesus loved, was reclining on Jesus&rsquo; bosom.',
+'13:24': 'Simon Peter therefore nodded to him to inquire who it might be about whom He was speaking.',
+'13:25': 'Then he, while reclining thus on Jesus&rsquo; breast, said to Him, Lord, who is it?',
+'13:26': 'Jesus answered, It is he for whom I will dip the morsel and to whom I will give <I>it</I>. And dipping the morsel, He gave <I>it</I> to Judas Iscariot, <I>the</I> <I>son</I> of Simon.',
+'13:27': 'And at that moment, after the morsel, [a]Satan entered into him. Jesus therefore said to him, What you do, do quickly.',
+'13:28': 'But none of those reclining <I>at</I> <I>table</I> knew why He said this to him.',
+'13:29': 'For some supposed, since Judas held the purse, that Jesus was saying to him, Buy the things that we have need of for the feast, or that he should give something to the poor.',
+'13:30': 'Therefore having taken the morsel, he went out immediately; and it was night.',
+'13:31': 'Then when he went out, Jesus said, Now has the Son of Man been [1a]glorified, and God has been [2b]glorified in Him.',
+'13:32': '[1]If God has been [2a]glorified in Him, God will also [3b]glorify Him in Himself, and He will [3]glorify Him immediately.',
+'13:33': 'Little children, [a]I am still with you a little while; [b]you will seek Me, and even as I said to the Jews, [c]Where I am going, you cannot come, now I say to you also.',
+'13:34': 'A new [1a]commandment I give to you, that you [b]love one another, even as I have loved you, that you also love one another.',
+'13:35': 'By this shall all men know that you are My disciples, if you have love for one another.',
+'13:36': '[a]Simon Peter said to Him, Lord, where are You going? Jesus answered him, [b]Where I go you cannot follow Me now, but you will [c]follow later.',
+'13:37': 'Peter said to Him, Lord, why can&rsquo;t I follow You now? I will lay down my [1]life for You.',
+'13:38': 'Jesus answered, Will you lay down your life for Me? Truly, truly, I say to you, A [a]rooster shall by no means crow until you deny Me three times.',
+'14:1': '[a]Do not let your heart be troubled; believe into [1]God, believe also into [1]Me.',
+'14:2': 'In [1a]My Father&rsquo;s house are [2]many [b]abodes; if <I>it</I> <I>were</I> not <I>so</I>, I would have told you; for I [3c]go to prepare a place for you.',
+'14:3': 'And [1]if I go and [2]prepare a place for you, I [a]am coming again and will [3]receive you to Myself, so that [4b]where I am you also may be.',
+'14:4': 'And where I am going you know the way.',
+'14:5': 'Thomas said to Him, Lord, we do not know where You are going; how can we know the way?',
+'14:6': 'Jesus said to him, I am the [1]way and the [2a]reality and the [b]life; no one comes to the Father except through Me.',
+'14:7': '[1]If you had [a]known Me, you would have known My Father also; and henceforth you [b]know Him and have seen Him.',
+'14:8': 'Philip said to Him, Lord, show us the Father and it is sufficient for us.',
+'14:9': 'Jesus said to him, Have I been so long a time with you, and you have not known Me, Philip? He who has [a]seen Me has seen the Father; how <I>is</I> <I>it</I> <I>that</I> you say, Show us the Father?',
+'14:10': 'Do you not believe that I am [a]in the Father and the [b]Father is in Me? The [1c]words that I say to you I do not speak [d]from Myself, but the Father who abides in Me does His works.',
+'14:11': 'Believe Me that I am [a]in the Father and the Father is in Me; but if not, believe because of the [b]works themselves.',
+'14:12': 'Truly, truly, I say to you, He who believes into Me, the works which I do he shall do also; and [a]greater than these he shall do because I am [1b]going to the Father.',
+'14:13': 'And whatever you [a]ask [1]in My name, that I will do, that the [2]Father may be [b]glorified in the Son.',
+'14:14': 'If you [a]ask Me anything in My name, I will do <I>it</I>.',
+'14:15': 'If you [a]love Me, you will keep My [b]commandments.',
+'14:16': 'And I will ask the Father, and He will give you another [1a]Comforter, that He may be with you forever,',
+'14:17': '<I>Even</I> the [1a]Spirit of reality, whom the world cannot receive, because it does not behold Him or know <I>Him</I>; <I>but</I> you know Him, because [2]He abides with you and shall be [3b]in you.',
+'14:18': '[1]I will not leave you <I>as</I> orphans; I am [2a]coming to you.',
+'14:19': 'Yet [a]a little while and the world beholds Me no longer, but you behold Me; because I [1b]live, you also shall [c]live.',
+'14:20': 'In that [1a]day you will know that I am [b]in My Father, and you [c]in Me, and I [d]in you.',
+'14:21': 'He who has My commandments and keeps them, he is the one who [a]loves Me; and he who loves Me will be loved by My Father, and I will love him and will [b]manifest Myself to him.',
+'14:22': 'Judas, not Iscariot, said to Him, Lord, and what has happened that You are to manifest Yourself to us and not to the world?',
+'14:23': 'Jesus answered and said to him, If anyone [a]loves Me, he will [b]keep My word, and My Father will love him, and We will come to him and make an [1c]abode with him.',
+'14:24': 'He who does not love Me does not keep My words; and the [a]word which you hear is not Mine, but the Father&rsquo;s who sent Me.',
+'14:25': 'These things I have spoken to you <I>while</I> abiding with you;',
+'14:26': 'But the [1a]Comforter, the Holy Spirit, whom the [2]Father will send in [3]My name, He will [b]teach you [c]all things and remind you of all the things which I have said to you.',
+'14:27': '[a]Peace I leave with you; My peace I give to you; not as the world gives do I give to you. Do not let your heart be [b]troubled, neither let it be afraid.',
+'14:28': 'You have heard that I said to you, I am [a]going away and I am [1]coming to you. If you loved Me, you would rejoice because [b]I am [2]going to the Father, for the Father is [c]greater than I.',
+'14:29': 'And now I have told you [a]before it happens, so that when it happens you may believe.',
+'14:30': 'I will no longer speak much with you, for the [a]ruler of the world is coming, and in Me he has nothing;',
+'14:31': 'But <I>this</I> <I>is</I> <I>so</I> that the world may know that I love the Father, and as the Father [a]commanded Me, so I do. Rise, let us go from here.',
+'15:1': 'I am the [1]true [a]vine, and My Father is the [2]husbandman.',
+'15:2': 'Every branch in Me that does not bear fruit, He takes it away; and every <I>branch</I> that bears fruit, He [1]prunes it that it may bear more fruit.',
+'15:3': 'You are already [a]clean because of the word which I have spoken to you.',
+'15:4': '[a]Abide in Me and I [b]in you. As the branch cannot bear fruit [1]of itself unless it abides in the vine, so neither <I>can</I> you unless you abide in Me.',
+'15:5': 'I am the vine; you are the branches. He who abides in Me and I in him, he bears [a]much fruit; for apart from Me you can do [b]nothing.',
+'15:6': 'If one does not abide in Me, he is [1a]cast out as a branch and is dried up; and they gather them and cast <I>them</I> into the [b]fire, and they are [c]burned.',
+'15:7': 'If you abide in Me and My [1a]words abide in you, [2]ask whatever you will, and it shall be done for you.',
+'15:8': 'In this is My Father [1a]glorified, that you bear much fruit and <I>so</I> you will become My [b]disciples.',
+'15:9': 'As the Father has [a]loved Me, I also have loved you; abide in My love.',
+'15:10': 'If you [1]keep My [a]commandments, you will abide in My love; even as I have kept My Father&rsquo;s commandments and abide in His love.',
+'15:11': 'These things I have spoken to you that My [1]joy may be in you and <I>that</I> your [a]joy may be made full.',
+'15:12': 'This is My [a]commandment, that you [b]love one another even as I have loved you.',
+'15:13': 'No one has greater love than this, that one [a]lay down his [1]life for his friends.',
+'15:14': 'You are My [a]friends if you do what I command you.',
+'15:15': 'No longer do I call you slaves, for the slave does not know what his master is doing; but I have called you friends, for all the things which I have heard from My Father I have made known to you.',
+'15:16': 'You did not choose Me, but I [a]chose you, and I [1]set you that you should [2]go forth and [b]bear fruit and [3]<I>that</I> your fruit should [4]remain, that whatever you [5c]ask the Father in My name, He may give you.',
+'15:17': 'These things I command you that you may [1a]love one another.',
+'15:18': 'If the world [a]hates you, know that it has [b]hated Me before you.',
+'15:19': 'If you were [1]of the world, the world would love its own; but because you are [a]not [1]of the world, but I chose you out of the world, therefore the world hates you.',
+'15:20': 'Remember the word which I said to you, A slave is not [a]greater than his master. If they have [b]persecuted Me, they will [c]persecute you also; if they have kept My word, they will keep yours also.',
+'15:21': 'But all these things they will do to you because of My [a]name, because they do [b]not know Him who sent Me.',
+'15:22': 'If I had not come and spoken to them, they would not have [a]sin; but now they have no excuse for their sin.',
+'15:23': 'He who [a]hates Me hates My Father also.',
+'15:24': 'If I did not do among them the [a]works which no one else has done, they would not have [b]sin; but now they have both seen and hated both Me and My Father.',
+'15:25': 'But <I>it</I> <I>is</I> <I>so</I> that the word written in their law may be fulfilled, [a]&ldquo;They hated Me without cause.&rdquo;',
+'15:26': 'But when the [a]Comforter comes, whom I will [b]send to you [1c]from the Father, the [d]Spirit of reality, who proceeds [1]from the Father, He will [e]testify concerning Me;',
+'15:27': 'And [a]you testify also, because from the beginning you have been with Me.',
+'16:1': 'These things I have spoken to you so that you would not be [a]stumbled.',
+'16:2': 'They will [a]put you out of the synagogues; but an hour is coming for everyone who [1b]kills you to think that he is offering service to God.',
+'16:3': 'And these things they will do [a]because they have not known the Father nor Me.',
+'16:4': 'But these things I have spoken to you that [a]when their hour comes you may remember them, that I told you <I>of</I> <I>them</I>. Now these things I have not said to you from the beginning, because I was with you.',
+'16:5': 'But now I am [a]going to Him who sent Me; and none of you asks Me, [b]Where are You going?',
+'16:6': 'But because I have spoken these things to you, [a]sorrow has filled your [b]heart.',
+'16:7': 'But I tell you the truth, It is expedient for you that I go away; for if I do not go away, the Comforter will [a]not come to you; but if I [1b]go, I will [c]send Him to you.',
+'16:8': 'And when He comes, He will [1]convict the world concerning [2]sin and concerning [2]righteousness and concerning [2]judgment:',
+'16:9': 'Concerning [a]sin, because they do not [b]believe into Me;',
+'16:10': 'And concerning [a]righteousness, because [b]I am going to the Father and you no longer behold Me;',
+'16:11': 'And concerning judgment, because the ruler of this world has been [a]judged.',
+'16:12': 'I have yet many things to say to you, but you cannot bear <I>them</I> now.',
+'16:13': 'But when He, the [a]Spirit of reality, comes, He will [1]guide you into all the [b]reality; for He will not speak [c]from Himself, but what He hears He will speak; and He will [1]declare to you [d]the things that are coming.',
+'16:14': 'He will [a]glorify Me, for He will receive of Mine and will declare <I>it</I> to you.',
+'16:15': '[a]All that the Father has is Mine; for this <I>reason</I> I have said that He receives of Mine and will declare <I>it</I> to you.',
+'16:16': '[a]A little while and you no longer behold Me, and again a little while and you will [b]see Me.',
+'16:17': '<I>Some</I> of His disciples then said to one another, What is this that He says to us, A little while and you do not behold Me, and again a little while and you will see Me; and, Because I am going to the Father?',
+'16:18': 'Therefore they said, What is this that He says, A little while? We do not know what He is talking about.',
+'16:19': 'Jesus knew that they wanted to ask Him and He said to them, Are you inquiring among yourselves concerning this, that I said, A little while and you do not behold Me, and again a little while and you will see Me?',
+'16:20': 'Truly, truly, I say to you that you will [a]weep and lament, but the world will rejoice; you will be sorrowful, but your sorrow will be turned into [b]joy.',
+'16:21': 'A woman, when she gives birth, has sorrow because her hour has come; but when she [1]brings forth the [2]little [a]child, she no longer remembers the affliction because of the joy that a man has been born into the world.',
+'16:22': 'Therefore you also now have sorrow; but I will [1]see you [a]again and your heart will [b]rejoice, and no one takes your joy away from you.',
+'16:23': 'And in that [a]day you will ask Me nothing. Truly, truly, I say to you, [1]Whatever you ask the Father in My name, He will give to you.',
+'16:24': 'Until now you have [1a]asked for nothing in My name; ask and you shall receive, that your [b]joy may be made full.',
+'16:25': 'These things I have spoken to you in parables; an hour is coming when I will no longer speak to you in parables, but I will report to you plainly concerning the Father.',
+'16:26': 'In that [a]day you will [b]ask in My name, and I do not say to you that I will ask the Father concerning you,',
+'16:27': 'For the Father Himself loves you, because you have loved Me and have believed that I [a]came forth [1b]from God.',
+'16:28': 'I [1]came forth [a]out from the Father and have come into the world; again, I am leaving the world and am [b]going to the Father.',
+'16:29': 'His disciples said, Behold, now You are speaking plainly and not saying any parable.',
+'16:30': 'Now we know that You know all things and have no need that anyone ask You; by this we believe that You [a]came forth [1]from God.',
+'16:31': 'Jesus answered them, Do you now believe?',
+'16:32': 'Behold, an hour is coming, and has come, that you will be [a]scattered each to his own place and will leave Me alone; yet I am not [b]alone, because the Father is [1c]with Me.',
+'16:33': 'These things I have spoken to you that in Me you may have [a]peace. In the world you have [b]affliction, but take courage; I have [c]overcome the world.',
+'17:1': 'These things Jesus spoke, and [a]lifting up His eyes to heaven, He said, [b]Father, the hour has come; [1c]glorify Your Son that the Son may [d]glorify You;',
+'17:2': 'Even as [1]You have given Him [a]authority over all flesh to give [2]eternal [b]life to all whom You have [c]given Him.',
+'17:3': 'And this is [1]eternal life, that they may [a]know You, the only [b]true God, and Him whom You have [2c]sent, Jesus [d]Christ.',
+'17:4': 'I have [1]glorified You on earth, finishing the [a]work which You have given Me to do.',
+'17:5': 'And now, [1a]glorify Me along with Yourself, Father, with the [b]glory which I had [c]with You [d]before the world was.',
+'17:6': 'I have manifested [1]Your [a]name to the men whom You [b]gave Me out of the world. They were [c]Yours, and You gave them to Me, and they have kept Your [2]word.',
+'17:7': 'Now they have come to know that all that You have given Me is from You,',
+'17:8': 'For the [a]words which You gave Me I have [b]given to them, and they received <I>them</I> and knew truly that I [c]came forth [1]from You, and they have believed that You [d]sent Me.',
+'17:9': 'I [a]ask concerning them; I do not ask concerning the world, but concerning <I>those</I> whom You have [b]given Me, for they are [c]Yours;',
+'17:10': 'And all that is Mine is Yours, and [a]Yours Mine; and I have been [1]glorified [2]in them.',
+'17:11': 'And I am no longer in the world; yet they are [a]in the world, and I am [b]coming to You. [1]Holy Father, [c]keep them [2]in Your [d]name, which You have given to Me, that they may be [e]one even as We are.',
+'17:12': 'When I was with them, I [a]kept them in Your [b]name, which You have given to Me, and I guarded <I>them</I>; and [c]not one of them [1d]perished, except the [e]son of [1]perdition, that the [f]Scripture might be fulfilled.',
+'17:13': 'But now I am [a]coming to You, and these things I speak in the world that they may have My [b]joy made full in themselves.',
+'17:14': 'I have [a]given them Your [1]word, and the [2]world has [b]hated them, because they are [c]not [3]of the [2]world even as [d]I am not [3]of the [2]world.',
+'17:15': 'I do not ask that You would take them out of the world, but that You would [a]keep them [1]out of <I>the</I> <I>hands</I> <I>of</I> the [2b]evil <I>one</I>.',
+'17:16': 'They are [a]not of the world, even as I am not of the world.',
+'17:17': '[1a]Sanctify them [2]in the truth; Your [3]word is truth.',
+'17:18': 'As You have [1a]sent Me into the world, I also have [1b]sent them into the world.',
+'17:19': 'And for their sake I [1]sanctify Myself, that they themselves also may be [a]sanctified in truth.',
+'17:20': 'And I do not [a]ask concerning these only, but concerning those also who believe into Me through their word,',
+'17:21': 'That they all may be [1a]one; even as You, Father, are [b]in Me and I [c]in You, that they also may be [d]in Us; that the [e]world may believe that You have [f]sent Me.',
+'17:22': 'And the [1a]glory which You have given Me I have given to them, that they may be [2b]one, even as We are [c]one;',
+'17:23': 'I [a]in them, and You [b]in Me, that they may be perfected into [c]one, that the world may know that You have [d]sent Me and have [1]loved them even as You have [e]loved Me.',
+'17:24': 'Father, <I>concerning</I> that which You have [a]given Me, I desire that they also may [1]be with Me [b]where I am, that they may behold My [c]glory, which You have given Me, for You [d]loved Me [e]before the foundation of the world.',
+'17:25': '[1]Righteous Father, though the world has not known You, yet I have [a]known You, and these have known that You have [b]sent Me.',
+'17:26': 'And I have made Your [a]name known to them and will <I>yet</I> make <I>it</I> known, that the [1b]love with which You have [b]loved Me may be in them, and I [c]in them.',
+'18:1': 'When Jesus had said these things, [a]He [1]went forth with His disciples across the brook [b]Kedron, where there was a garden, into which He entered as well as His disciples.',
+'18:2': 'And Judas also, who was [a]betraying Him, knew the place, for Jesus often gathered there with His disciples.',
+'18:3': 'Then Judas, having gotten the cohort and some attendants from the chief priests and Pharisees, came there with torches and lamps and weapons.',
+'18:4': 'Jesus therefore, [a]knowing all the things that were coming upon Him, [1]went forth and said to them, Whom do you seek?',
+'18:5': 'They answered Him, Jesus the [a]Nazarene. He said to them, [1b]I am. And Judas also, who was betraying Him, was standing with them.',
+'18:6': 'When therefore He said to them, I am, they drew back and fell to the ground.',
+'18:7': 'Then again He asked them, Whom do you seek? And they said, Jesus the Nazarene.',
+'18:8': 'Jesus answered, I told you that [a]I am; if therefore you seek Me, let [1]these go away,',
+'18:9': 'That the word might be fulfilled which He spoke, [a]Of those whom You have given Me, I have not lost one.',
+'18:10': 'Then Simon Peter, having a [a]sword, drew it and struck the slave of the high priest and [b]cut off his right ear; and the slave&rsquo;s name was Malchus.',
+'18:11': 'Jesus therefore said to Peter, Put the sword into its sheath. The [1]cup which the Father has given Me, shall I not drink it?',
+'18:12': 'Then the cohort and the commander and the attendants of the Jews [a]seized Jesus and bound Him',
+'18:13': 'And [1]led <I>Him</I> away to Annas first; for he was the father-in-law of Caiaphas, who was high priest that year.',
+'18:14': 'Now it was [a]Caiaphas who had advised the Jews that it was expedient for one man to die for the people.',
+'18:15': 'And Simon Peter followed Jesus, as well as another disciple. And that disciple was known to the high priest, and he entered with Jesus into the court of the high priest;',
+'18:16': 'But Peter stood at the door outside. Then the other disciple, the one known to the high priest, went out and spoke to <I>the</I> <I>maid</I> who kept the door and brought Peter in.',
+'18:17': 'Then the maid who kept the door said to Peter, Are you not also <I>one</I> of this man&rsquo;s disciples? He said, [a]I am not.',
+'18:18': 'Now the slaves and the attendants were standing <I>there</I>, having made a fire of coals, for it was cold, and they were warming themselves; and Peter also was with them, standing and warming himself.',
+'18:19': 'The high priest then questioned Jesus concerning His disciples and concerning His teaching.',
+'18:20': 'Jesus answered him, I have spoken openly to the world; I always taught in the synagogue and in the temple, where all the Jews come together, and I spoke nothing in secret.',
+'18:21': '[1]Why do you question Me? Question those who have heard <I>Me</I>, <I>concerning</I> what I spoke to them; behold, these know what I said.',
+'18:22': 'And when He said these things, one of the attendants standing by [a]slapped Jesus, saying, Is that how You answer the high priest?',
+'18:23': 'Jesus answered him, If I have spoken wrongly, testify concerning the wrong; but if rightly, why do you strike Me?',
+'18:24': 'Annas then sent Him bound to Caiaphas the high priest.',
+'18:25': 'Now Simon Peter was standing and warming himself. Then they said to him, Are you not also <I>one</I> of His disciples? He denied and said, I am not.',
+'18:26': 'One of the slaves of the high priest, who was a relative of him whose ear Peter had cut off, said, Did I not see you in the garden with Him?',
+'18:27': 'Then Peter denied again, and immediately a rooster crowed.',
+'18:28': '[a]Then they led Jesus from Caiaphas into the [1]praetorium, and it was [2]early morning. And they themselves did not enter into the praetorium, so that they would not be defiled, but might eat the passover.',
+'18:29': 'Pilate therefore went outside to them and said, What accusation do you bring against this man?',
+'18:30': 'They answered and said to him, If this man were not doing evil, we would not have delivered Him to you.',
+'18:31': 'Pilate said then to them, You take Him and judge Him according to your [a]law. The Jews said to him, It is not lawful for us to kill anyone,',
+'18:32': 'That the [a]word of Jesus might be fulfilled which He spoke, signifying by what [1]kind of death He was to die.',
+'18:33': 'Pilate therefore entered again into the praetorium and called for Jesus. And he said to Him, You are the [a]King of the Jews?',
+'18:34': 'Jesus answered, [1]Are you saying this of yourself, or did others tell you about Me?',
+'18:35': 'Pilate answered, Am I a Jew? Your nation and its chief priests have delivered You to me. What have You done?',
+'18:36': 'Jesus answered, My [a]kingdom is not [1]of this world. If My kingdom were [1]of this world, My attendants would be struggling so that I would not be delivered to the Jews; but as it is, My kingdom is not from [2]here.',
+'18:37': 'Pilate said therefore to Him, So then You are a king? Jesus answered, You say that I am a king. For this I have been [a]born, and for this I have come into the world, that I would testify to the [1b]truth. Everyone who is of the [1]truth hears My voice.',
+'18:38': 'Pilate said to Him, What is truth?<br class="split">And having said this, he again went out to the Jews and said to them, I find [a]no fault in Him.',
+'18:39': 'But you have a custom that I release one man to you at the Passover. Is it your will therefore that I release to you the King of the Jews?',
+'18:40': 'Then they cried out again, saying, Not this man, but Barabbas. Now Barabbas was a robber.',
+'19:1': '[a]Therefore at that time Pilate took Jesus and scourged <I>Him</I>.',
+'19:2': 'And the soldiers wove a crown of thorns and put it on His head, and they threw a purple garment around Him.',
+'19:3': 'And they came to Him and said, [1]Rejoice, King of the Jews! and [a]slapped Him.',
+'19:4': 'And Pilate went outside again and said to them, Behold, I am bringing Him out to you that you may know that I find [a]no fault in Him.',
+'19:5': 'Then Jesus came out, wearing the thorny crown and the purple garment. And he said to them, Behold, the man!',
+'19:6': 'When therefore the chief priests and the attendants saw Him, they cried out, saying, Crucify! Crucify! Pilate said to them, You take Him and crucify <I>Him</I>, for I do [a]not find fault in Him.',
+'19:7': 'The Jews answered him, We have a [a]law, and according to that law He ought to die because He [b]made Himself the Son of God.',
+'19:8': 'When Pilate therefore heard this word, he became frightened the more,',
+'19:9': 'And he entered into the [1]praetorium again and said to Jesus, Where are You from? But Jesus gave him no answer.',
+'19:10': 'Therefore Pilate said to Him, You do not speak to me? Do You not know that I have authority to release You and I have authority to crucify You?',
+'19:11': 'Jesus answered him, You would have no authority against Me if it were not [a]given to you from above; for this <I>reason</I>, he who has delivered Me to you has the greater sin.',
+'19:12': 'From then on, Pilate sought to release Him, but the Jews cried out, saying, If you release this man, you are not a friend of Caesar; everyone who makes himself a king opposes Caesar.',
+'19:13': 'Pilate therefore, when he heard these words, brought Jesus outside and sat down on the judgment seat in a place called the Pavement, but in Hebrew, [1]Gabbatha.',
+'19:14': 'Now it was the <I>day</I> <I>of</I> [1]preparation for the Passover; it was about the [2]sixth hour. And he said to the Jews, Behold, your King!',
+'19:15': 'They cried out then, Take <I>Him</I> away! Take <I>Him</I> away! Crucify Him! Pilate said to them, Shall I crucify your King? The chief priests answered, We have no king except Caesar.',
+'19:16': 'Therefore at that time he delivered Him to them that [1]He might be crucified. Therefore they [a]took Jesus.',
+'19:17': 'And [a]bearing the cross for Himself, He went out to the <I>place</I> called the Place of a Skull, which is called in Hebrew, Golgotha,',
+'19:18': 'Where they crucified Him, and with Him [a]two others, on this side and that, and Jesus in the middle.',
+'19:19': 'And Pilate wrote a notice also and put <I>it</I> on the cross; and it was written, JESUS THE [a]NAZARENE, THE [b]KING OF THE JEWS.',
+'19:20': 'This notice therefore many of the Jews read, for the place where Jesus was crucified was near the city, and it was written in [1]Hebrew, in [1]Latin, <I>and</I> in [1]Greek.',
+'19:21': 'The chief priests of the Jews therefore said to Pilate, Do not write, The King of the Jews, but that He said, I am the King of the Jews.',
+'19:22': 'Pilate answered, [1]What I have written, I have written.',
+'19:23': 'The soldiers then, when they had crucified Jesus, [1a]took His garments and made four parts, a part for each soldier, <I>and</I> <I>they</I> <I>took</I> the [2]tunic as well. But the [2]tunic was seamless, woven from the top throughout.',
+'19:24': 'They said therefore to one another, Let us not tear it, but let us cast lots for it <I>to</I> <I>see</I> whose it shall be, that the Scripture might be fulfilled which says, [a]&ldquo;They divided My garments among themselves, and for My clothing they cast lots.&rdquo; So then the soldiers [1]did these things.',
+'19:25': 'And there were standing by the cross of Jesus His mother and His mother&rsquo;s [1]sister <I>and</I> Mary the <I>wife</I> of Clopas and [a]Mary the Magdalene.',
+'19:26': 'Then Jesus, seeing His mother and the disciple whom He loved standing by, said to His mother, [a]Woman, [1]behold, your son.',
+'19:27': 'Then He said to the disciple, [1]Behold, your mother. And from that hour the disciple took her into his own <I>home</I>.',
+'19:28': 'After this, Jesus, knowing that all things had now been finished <I>and</I> so that the Scripture might be fulfilled, said, [a]I [1b]thirst.',
+'19:29': 'There was lying <I>there</I> a vessel full of vinegar; therefore, they put a sponge full of vinegar on hyssop and brought it to His mouth.',
+'19:30': 'Then when Jesus had taken the [1]vinegar, He said, It is [2]finished! And He bowed His head and delivered up His spirit.',
+'19:31': 'Then the Jews, since it was the <I>day</I> <I>of</I> preparation <I>and</I> so that the bodies might not [a]remain on the cross on the Sabbath (for that Sabbath day was a great <I>Sabbath)</I>, requested of Pilate that their legs might be broken and that they might be taken away.',
+'19:32': 'The soldiers therefore came and broke the legs of the first man and of the other man who had been crucified with Him.',
+'19:33': 'But coming to Jesus, when they saw that He had already died, they did not break His legs;',
+'19:34': 'But one of the soldiers pierced His side with a spear, and immediately there came out [1a]blood and [1b]water.',
+'19:35': 'And he who has seen <I>this</I> has testified, and his testimony is true; and he knows that he says what is true, that you also may believe.',
+'19:36': 'For [1]these things happened that the Scripture might be fulfilled: [a]&ldquo;No [2]bone of His shall be broken.&rdquo;',
+'19:37': 'And again another Scripture says, [a]&ldquo;They shall look on Him whom they [b]pierced.&rdquo;',
+'19:38': 'And [1a]after these things Joseph from Arimathea, being a disciple of Jesus, but a hidden one for fear of the Jews, requested of Pilate that he might take the body of Jesus away; and Pilate allowed <I>it</I>. He came therefore and took His body away.',
+'19:39': 'And [a]Nicodemus, he who had come to Him the first time by night, came also, bringing a mixture of [b]myrrh and [c]aloes of about a hundred [1]pounds.',
+'19:40': 'Therefore they took the body of Jesus and bound it in linen cloths with the spices, as is the custom of the Jews for burying.',
+'19:41': 'Now in the place where He was crucified there was a garden, and in the garden a new [a]tomb, in which no one had ever yet been laid.',
+'19:42': 'Therefore because of the <I>day</I> <I>of</I> preparation for the Jews <I>and</I> because the tomb was near, they laid Jesus there.',
+'20:1': '[a]Now on the [1b]first [c]day of the week, Mary the Magdalene [2]came early to the tomb while it was yet dark and saw the stone taken away from the tomb.',
+'20:2': 'She ran therefore and came to Simon Peter and to the other disciple whom Jesus loved and said to them, They have taken away the Lord out of the tomb, and we do not know where they have laid Him.',
+'20:3': 'Peter therefore went forth, as well as the other disciple, and came to the tomb.',
+'20:4': 'And the two ran together, yet the other disciple ran ahead faster <I>than</I> Peter and came first to the tomb.',
+'20:5': 'And stooping to look in, he saw the [1]linen cloths lying <I>there</I>; however, he did not enter.',
+'20:6': 'Then Simon Peter also came, following him, and entered into the tomb; and he beheld the linen cloths lying <I>there</I>',
+'20:7': 'And the [1]handkerchief which had been over His head, not lying with the linen cloths, but folded up in one place apart.',
+'20:8': 'At that time therefore the other disciple also, who came first to the tomb, entered, and he saw and believed;',
+'20:9': 'For as yet they did not understand the [a]Scripture, that He had to [1b]rise from among the dead.',
+'20:10': 'The disciples therefore went away again to their own <I>home</I>.',
+'20:11': 'But Mary stood outside at the tomb [1]weeping. Then as she wept, she stooped to look into the tomb',
+'20:12': 'And beheld two angels in white sitting, one at the head and one at the feet, where the body of Jesus had lain.',
+'20:13': 'And they said to her, Woman, why are you weeping? She said to them, Because they have taken away my Lord, and I do not know where they have laid Him.',
+'20:14': 'When she said these things, she turned backward and beheld Jesus standing <I>there</I>, yet she did not know that it was Jesus.',
+'20:15': 'Jesus said to her, Woman, why are you weeping? Whom are you seeking? She, supposing that He was the gardener, said to Him, Sir, if You have carried Him away, tell me where You have laid Him, and I will take Him away.',
+'20:16': 'Jesus said to her, Mary! She turned and said to Him in Hebrew, Rabboni! (which means Teacher).',
+'20:17': 'Jesus said to her, Do not touch Me, for I have not yet [1]ascended to the Father; but go to My [2a]brothers and say to them, I [b]ascend to My [3]Father and your Father, and My God and your God.',
+'20:18': 'Mary the Magdalene came, announcing to the disciples, I have seen the Lord, and <I>that</I> He had said these things to her.',
+'20:19': '[a]When therefore it was evening on that day, the first day of the week, and while the doors were shut where the [1]disciples were for fear of the Jews, Jesus [2]came and stood in the midst and said to them, [b]Peace be to you.',
+'20:20': 'And when He had said this, He showed them His hands and His side. The disciples therefore [1a]rejoiced at [b]seeing the Lord.',
+'20:21': 'Then Jesus said to them again, [a]Peace be to you; as the Father has [1]sent Me, I also [2b]send you.',
+'20:22': 'And when He had said this, He [a]breathed into <I>them</I> and said to them, [b]Receive the Holy [1c]Spirit.',
+'20:23': '[a]Whose sins you forgive, they are forgiven them; and whose <I>sins</I> you retain, they are retained.',
+'20:24': 'But Thomas, one of the twelve, called [1]Didymus, [2]was not with them when Jesus came.',
+'20:25': 'The other disciples therefore said to him, We have seen the [a]Lord! But he said to them, Unless I see in His hands the mark of the nails and put my finger into the mark of the nails and put my hand into His side, I will by no means believe.',
+'20:26': 'And [1]after [a]eight days, His [2]disciples were again within, and Thomas <I>was</I> with them. Jesus [3]came, though the doors were shut, and stood in the midst and said, [b]Peace be to you.',
+'20:27': 'Then He said to Thomas, Bring your finger here and see My hands, and bring your hand and put <I>it</I> into My side; and do not be unbelieving, but believing.',
+'20:28': 'Thomas answered and said to Him, My [a]Lord and my [1b]God!',
+'20:29': 'Jesus said to him, Because you have seen Me, you have believed. Blessed are those who have not seen and have believed.',
+'20:30': 'Moreover indeed [a]many other signs also Jesus did before His disciples, which are not written in this book.',
+'20:31': 'But these have been written that you may believe that Jesus is the [1a]Christ, the [b]Son of God, and that [c]believing, you may have life in His name.',
+'21:1': '[1]After these things Jesus [2a]manifested Himself again to the disciples at the Sea of Tiberias. And He manifested <I>Himself</I> in this way:',
+'21:2': 'Simon Peter and [a]Thomas, called [1]Didymus, and [b]Nathanael from Cana of Galilee and the [c]<I>sons</I> of Zebedee and two others of His disciples were <I>there</I> together.',
+'21:3': 'Simon Peter said to them, I am [1]going [a]fishing. They said to him, We also are coming with you. They went forth and [b]got into the boat, and that night they caught [2]nothing.',
+'21:4': 'Now as soon as the morning broke, Jesus stood on the shore; however the disciples did [a]not know that it was Jesus.',
+'21:5': 'Then Jesus said to them, [a]Little children, you do not have any [1b]<I>fish</I> to eat, do you? They answered Him, [2]No.',
+'21:6': 'And He said to them, Cast the net on the right side of the boat, and you will find <I>some</I>. They cast therefore, and they were no longer able to haul it <I>in</I> because of the [1]abundance of fish.',
+'21:7': 'Then that [a]disciple whom Jesus loved said to Peter, It is the Lord! Therefore when Simon Peter heard that it was the Lord, he put his outer garment around himself, for he [1]was naked; and he threw himself into the sea.',
+'21:8': 'But the other disciples came in the little boat, for they were not far from the land, but about [1]two hundred cubits away, dragging the net of fish.',
+'21:9': 'Then when they got out onto the land, they saw a fire of coals laid <I>there</I>, and [1a]fish lying on <I>it</I> and [b]bread.',
+'21:10': 'Jesus said to them, Bring <I>some</I> of the fish that you have just now caught.',
+'21:11': 'Simon Peter therefore went up and hauled the net to the land full of large fish, a hundred and fifty-three; and though there were so many, the net was not torn.',
+'21:12': 'Jesus said to them, [1]Come <I>and</I> have breakfast. But none of the disciples dared to inquire of Him, Who are you? knowing that it was the Lord.',
+'21:13': 'Jesus came and [a]took the [1]bread and gave <I>it</I> to them, and the [1]fish likewise.',
+'21:14': 'This was now the [a]third time that Jesus was manifested to the disciples after He had been [b]raised from the dead.',
+'21:15': 'Then when they had eaten breakfast, Jesus said to Simon Peter, [1]Simon, <I>son</I> of John, do you [2]love Me [a]more than these? He said to Him, Yes, Lord, You know that I [3]love You. He said to him, [4b]Feed My [5]lambs.',
+'21:16': 'He said to him again a second time, Simon, <I>son</I> of John, do you love Me? He said to Him, Yes, Lord, You know that I love You. He said to him, [1a]Shepherd My [2]sheep.',
+'21:17': 'He said to him the [1]third time, Simon, <I>son</I> of John, do you love Me? Peter was grieved that He said to him the third time, Do you love Me? And he said to Him, Lord, You [2a]know [b]all things; You [2]know that I love You. Jesus said to him, [c]Feed My sheep.',
+'21:18': 'Truly, truly, I say to you, When you were younger, you girded yourself and [1a]walked where you wished; but when you grow old, you will stretch out your hands, and another will gird you and carry <I>you</I> where you do not wish <I>to</I> <I>go</I>.',
+'21:19': 'Now this He said, [a]signifying by what [1b]kind of death he would glorify God. And when He had said this, He said to him, [c]Follow Me.',
+'21:20': 'Peter, turning around, saw the [a]disciple whom Jesus loved following, who also [b]reclined on His breast at the supper, and said, Lord, who is the one betraying You?',
+'21:21': 'Peter therefore, seeing him, said to Jesus, Lord, and what about this man?',
+'21:22': 'Jesus said to him, If I want him to [a]remain until I [1b]come, what <I>is</I> <I>that</I> to you? You [1c]follow Me.',
+'21:23': 'This word therefore went out among the brothers, that that disciple would not die, yet Jesus did not say to him that he would not die, but, If I want him to remain until I [1]come, what <I>is</I> <I>that</I> to you?',
+'21:24': 'This is the disciple who [a]testifies concerning these things, and the one who has written these things; and we know that his testimony is true.',
+'21:25': 'And there are also [1a]many other things which Jesus did, which, if they were written one by one, I suppose that not even the world itself could contain the books written.',
+},
+outlines: {
+'1:1': [
+{lv:1, text:"The eternal Word incarnated coming to bring God into man", vrefs:"1:1&ndash;13:38", pt:"I."},
+{lv:2, text:"Introduction to life and building", vrefs:"1:1-51", pt:"A."},
+{lv:3, text:"The Word in eternity past, who was God, through creation coming as life and light to bring forth the children of God", vrefs:"vv. 1-13", pt:"1."},
+],
+'1:14': [
+{lv:3, text:"The Word becoming flesh, with grace in fullness and with reality, to declare God in the only begotten Son of God", vrefs:"vv. 14-18", pt:"2."},
+],
+'1:19': [
+{lv:3, text:"Jesus as the Lamb of God, with the Holy Spirit as the dove, making the believers stones for the building of the house of God with the Son of Man", vrefs:"vv. 19-51", pt:"3."},
+{lv:4, text:"Religion looking for a great leader", vrefs:"vv. 19-28", pt:"a."},
+],
+'1:29': [
+{lv:4, text:"Jesus introduced as a Lamb with a dove", vrefs:"vv. 29-34", pt:"b."},
+],
+'1:35': [
+{lv:4, text:"Bringing forth stones for God&rsquo;s building", vrefs:"vv. 35-51", pt:"c."},
+],
+'2:1': [
+{lv:2, text:"Life&rsquo;s principle and life&rsquo;s purpose", vrefs:"2:1-22", pt:"B."},
+{lv:3, text:"Life&rsquo;s principle&mdash;to change death into life", vrefs:"vv. 1-11", pt:"1."},
+{lv:4, text:"Christ coming in resurrection to the people in their enjoyment", vrefs:"vv. 1-2", pt:"a."},
+],
+'2:3': [
+{lv:4, text:"Their human life running out and their being filled with death", vrefs:"vv. 3-7", pt:"b."},
+],
+'2:8': [
+{lv:4, text:"Christ changing their death into life eternal", vrefs:"vv. 8-11", pt:"c."},
+],
+'2:12': [
+{lv:3, text:"Life&rsquo;s purpose&mdash;to build the house of God", vrefs:"vv. 12-22", pt:"2."},
+{lv:4, text:"Christ cleansing the temple", vrefs:"vv. 12-17", pt:"a."},
+],
+'2:18': [
+{lv:4, text:"The body of Jesus, the temple, destroyed and raised up in resurrection", vrefs:"vv. 18-22", pt:"b."},
+],
+'2:23': [
+{lv:2, text:"Life meeting the need of man&rsquo;s every case", vrefs:"2:23&ndash;11:57", pt:"C."},
+{lv:3, text:"The need of the moral&mdash;life&rsquo;s regenerating", vrefs:"2:23&ndash;3:36", pt:"1."},
+{lv:4, text:"The Lord&rsquo;s commitment not in miracles but in life", vrefs:"2:23&ndash;3:1", pt:"a."},
+],
+'3:2': [
+{lv:4, text:"Regeneration by the divine Spirit in the human spirit", vrefs:"3:2-13", pt:"b."},
+],
+'3:14': [
+{lv:4, text:"Satan&rsquo;s evil nature in man&rsquo;s flesh being judged on the cross through the death of Christ in the form of the serpent that the believers may have eternal life", vrefs:"3:14-21", pt:"c."},
+],
+'3:22': [
+{lv:4, text:"The regenerated people becoming the bride of Christ as His increase", vrefs:"3:22-30", pt:"d."},
+],
+'3:31': [
+{lv:4, text:"The immeasurable Son of God for man&rsquo;s believing unto eternal life", vrefs:"3:31-36", pt:"e."},
+],
+'4:1': [
+{lv:3, text:"The need of the immoral&mdash;life&rsquo;s satisfying", vrefs:"4:1-42", pt:"2."},
+{lv:4, text:"A thirsty Savior and a thirsty sinner", vrefs:"vv. 1-8", pt:"a."},
+],
+'4:9': [
+{lv:4, text:"The emptiness of religion&rsquo;s tradition and the fullness of life&rsquo;s living water", vrefs:"vv. 9-14", pt:"b."},
+],
+'4:15': [
+{lv:4, text:"The way to take the living water", vrefs:"vv. 15-26", pt:"c."},
+{lv:5, text:"To make confession of sins", vrefs:"vv. 15-18", pt:"(1)"},
+],
+'4:19': [
+{lv:5, text:"To contact God the Spirit in the human spirit and in truthfulness", vrefs:"vv. 19-24", pt:"(2)"},
+],
+'4:25': [
+{lv:5, text:"To believe that Jesus is the Christ", vrefs:"vv. 25-26", pt:"(3)"},
+],
+'4:27': [
+{lv:4, text:"A living testimony with a marvelous harvest", vrefs:"vv. 27-42", pt:"d."},
+],
+'4:43': [
+{lv:3, text:"The need of the dying&mdash;life&rsquo;s healing", vrefs:"4:43-54", pt:"3."},
+{lv:4, text:"Christ coming back to visit the place of weak and fragile people", vrefs:"vv. 43-46a", pt:"a."},
+],
+'4:46': [
+{lv:4, text:"The weak and fragile people dying", b:1, vrefs:"vv. 46b-49", pt:"b."},
+],
+'4:50': [
+{lv:4, text:"Healing by the life-giving word and through believing", vrefs:"vv. 50-54", pt:"c."},
+],
+'5:1': [
+{lv:3, text:"The need of the impotent&mdash;life&rsquo;s enlivening", vrefs:"5:1-47", pt:"4."},
+{lv:4, text:"The inadequacy of religion&rsquo;s law-keeping and the sufficiency of the Son&rsquo;s life-giving", vrefs:"vv. 1-9", pt:"a."},
+],
+'5:10': [
+{lv:4, text:"Religion&rsquo;s opposition to life", vrefs:"vv. 10-16", pt:"b."},
+],
+'5:17': [
+{lv:4, text:"The Son equal with the Father in giving life and executing judgment", vrefs:"vv. 17-30", pt:"c."},
+],
+'5:31': [
+{lv:4, text:"The Son&rsquo;s fourfold testimony", vrefs:"vv. 31-47", pt:"d."},
+],
+'5:32': [
+{lv:5, text:"The testimony of John the Baptist", vrefs:"vv. 32-35", pt:"(1)"},
+],
+'5:36': [
+{lv:5, text:"The testimony of the Son&rsquo;s work", vrefs:"v. 36", pt:"(2)"},
+],
+'5:37': [
+{lv:5, text:"The testimony of the Father", vrefs:"vv. 37-38", pt:"(3)"},
+],
+'5:39': [
+{lv:5, text:"The testimony of the Scriptures", vrefs:"vv. 39-47", pt:"(4)"},
+],
+'6:1': [
+{lv:3, text:"The need of the hungry&mdash;life&rsquo;s feeding", vrefs:"6:1-71", pt:"5."},
+{lv:4, text:"The hungry world and the feeding Christ", vrefs:"vv. 1-15", pt:"a."},
+],
+'6:16': [
+{lv:4, text:"The troubled world and the peace-giving Christ", vrefs:"vv. 16-21", pt:"b."},
+],
+'6:22': [
+{lv:4, text:"The bread of life", vrefs:"vv. 22-71", pt:"c."},
+{lv:5, text:"Seekers after the perishing food", vrefs:"vv. 22-31", pt:"(1)"},
+],
+'6:32': [
+{lv:5, text:"Food abiding to eternal life", vrefs:"vv. 32-71", pt:"(2)"},
+{lv:6, text:"Incarnated", vrefs:"vv. 32-51a", pt:"(a)"},
+],
+'6:51': [
+{lv:6, text:"Slain", b:1, vrefs:"vv. 51b-55", pt:"(b)"},
+],
+'6:56': [
+{lv:6, text:"Resurrected to indwell", vrefs:"vv. 56-59", pt:"(c)"},
+],
+'6:60': [
+{lv:6, text:"Ascended", vrefs:"vv. 60-62", pt:"(d)"},
+],
+'6:63': [
+{lv:6, text:"Becoming the life-giving Spirit", vrefs:"vv. 63-65", pt:"(e)"},
+],
+'6:66': [
+{lv:6, text:"Embodied and realized in the word of life", vrefs:"vv. 66-71", pt:"(f)"},
+],
+'7:1': [
+{lv:3, text:"The need of the thirsty&mdash;life&rsquo;s quenching", vrefs:"7:1-52", pt:"6."},
+{lv:4, text:"Life under the persecution of religion", vrefs:"vv. 1-36", pt:"a."},
+{lv:5, text:"Religion&rsquo;s plot and religion&rsquo;s feast", vrefs:"vv. 1-2", pt:"(1)"},
+],
+'7:3': [
+{lv:5, text:"Life&rsquo;s suffering of man&rsquo;s unbelief", vrefs:"vv. 3-5", pt:"(2)"},
+],
+'7:6': [
+{lv:5, text:"Life&rsquo;s limitation in time", vrefs:"vv. 6-9", pt:"(3)"},
+],
+'7:10': [
+{lv:5, text:"Life&rsquo;s seeking of God&rsquo;s glory", vrefs:"vv. 10-24", pt:"(4)"},
+],
+'7:25': [
+{lv:5, text:"Life&rsquo;s source and origin&mdash;God the Father", vrefs:"vv. 25-36", pt:"(5)"},
+],
+'7:37': [
+{lv:4, text:"Life&rsquo;s cry to the thirsty ones", vrefs:"vv. 37-39", pt:"b."},
+],
+'7:40': [
+{lv:4, text:"Division caused by life&rsquo;s appearance", vrefs:"vv. 40-52", pt:"c."},
+],
+'7:53': [
+{lv:3, text:"The need of those under the bondage of sin&mdash;life&rsquo;s setting free", vrefs:"7:53&ndash;8:59", pt:"7."},
+{lv:4, text:"Who is without sin?", vrefs:"7:53&ndash;8:9", pt:"a."},
+],
+'8:10': [
+{lv:4, text:"Who can condemn and forgive sin?", vrefs:"8:10-11", pt:"b."},
+],
+'8:12': [
+{lv:4, text:"Who can set people free from sin?", vrefs:"8:12-36", pt:"c."},
+{lv:5, text:"Christ, the light of the world and the Giver of the light of life", vrefs:"vv. 12-20", pt:"(1)"},
+],
+'8:21': [
+{lv:5, text:"Christ, the I Am", vrefs:"vv. 21-27", pt:"(2)"},
+],
+'8:28': [
+{lv:5, text:"Christ, the Son of Man lifted up", vrefs:"vv. 28-30", pt:"(3)"},
+],
+'8:31': [
+{lv:5, text:"Christ, the Son as the reality", vrefs:"vv. 31-36", pt:"(4)"},
+],
+'8:37': [
+{lv:4, text:"Who is the source of sin and who is the multiplication of sin?", vrefs:"8:37-44", pt:"d."},
+{lv:5, text:"The source of sin&mdash;the devil, the liar, the father of liars", label:"SourceSin", type:"OUTLINE", vrefs:"v. 44", pt:"(1)", jumpToText:"8:44o1"},
+{lv:5, text:"The multiplication of sin&mdash;the children of the devil, those out of the devil", vrefs:"vv. 37-44", pt:"(2)"},
+],
+'8:44': [
+{lv:5, text:"The source of sin&mdash;the devil, the liar, the father of liars", label:"SourceSin", type:"TEXT", vrefs:"v. 44", pt:"(1)", jumpToAllOutlines:"8:37o2"},
+],
+'8:45': [
+{lv:4, text:"Who is Jesus?", vrefs:"8:45-59", pt:"e."},
+{lv:5, text:"The One who is without sin", vrefs:"vv. 45-51", pt:"(1)"},
+],
+'8:52': [
+{lv:5, text:"The One who is the I Am before Abraham", vrefs:"vv. 52-59", pt:"(2)"},
+],
+'9:1': [
+{lv:3, text:"The need of the blind in religion&mdash;life&rsquo;s sight and life&rsquo;s shepherding", vrefs:"9:1&ndash;10:42", pt:"8."},
+{lv:4, text:"Life&rsquo;s sight&mdash;for the blind in religion", vrefs:"9:1-41", pt:"a."},
+{lv:5, text:"Born blind", vrefs:"vv. 1-3", pt:"(1)"},
+],
+'9:4': [
+{lv:5, text:"Receiving sight by the light and the anointing of life", vrefs:"vv. 4-13", pt:"(2)"},
+],
+'9:14': [
+{lv:5, text:"Persecuted by religion", vrefs:"vv. 14-34", pt:"(3)"},
+],
+'9:35': [
+{lv:5, text:"Believing into the Son of God", vrefs:"vv. 35-38", pt:"(4)"},
+],
+'9:39': [
+{lv:5, text:"Life&rsquo;s judgment on the blind religionists", vrefs:"vv. 39-41", pt:"(5)"},
+],
+'10:1': [
+{lv:4, text:"Life&rsquo;s shepherding&mdash;for the believers outside of religion", vrefs:"10:1-42", pt:"b."},
+{lv:5, text:"The sheepfold, the door, and the pasture&mdash;for the sheep", vrefs:"vv. 1-9", pt:"(1)"},
+],
+'10:10': [
+{lv:5, text:"The Shepherd, the divine life, and the soulish life&mdash;for the flock", vrefs:"vv. 10-21", pt:"(2)"},
+],
+'10:22': [
+{lv:5, text:"The eternal life, the Son&rsquo;s hand, and the Father&rsquo;s hand&mdash;for the security of the sheep", vrefs:"vv. 22-30", pt:"(3)"},
+],
+'10:31': [
+{lv:5, text:"The persecution of religion", vrefs:"vv. 31-39", pt:"(4)"},
+],
+'10:40': [
+{lv:5, text:"Life&rsquo;s desertion of religion and life&rsquo;s new standing", vrefs:"vv. 40-42", pt:"(5)"},
+],
+'11:1': [
+{lv:3, text:"The need of the dead&mdash;life&rsquo;s resurrecting", vrefs:"11:1-57", pt:"9."},
+{lv:4, text:"The dead man and his need", vrefs:"vv. 1-4", pt:"a."},
+],
+'11:5': [
+{lv:4, text:"The frustration of human opinions", vrefs:"vv. 5-40", pt:"b."},
+],
+'11:41': [
+{lv:4, text:"Life&rsquo;s resurrecting", vrefs:"vv. 41-44", pt:"c."},
+],
+'11:45': [
+{lv:4, text:"The conspiracy of religion and life&rsquo;s vicarious death for the gathering of God&rsquo;s children", vrefs:"vv. 45-57", pt:"d."},
+],
+'12:1': [
+{lv:2, text:"Life&rsquo;s issue and multiplication", vrefs:"12:1-50", pt:"D."},
+{lv:3, text:"Life&rsquo;s issue&mdash;a house of feasting (a miniature of the church life)", vrefs:"vv. 1-11", pt:"1."},
+],
+'12:12': [
+{lv:3, text:"Life&rsquo;s multiplication for the church through death and resurrection (the glorification of God and the judgment upon the world and Satan implied)", vrefs:"vv. 12-36a", pt:"2."},
+],
+'12:36': [
+{lv:3, text:"Religion&rsquo;s unbelief and blindness", b:1, vrefs:"vv. 36b-43", pt:"3."},
+],
+'12:44': [
+{lv:3, text:"Life&rsquo;s declaration to the unbelieving religion", vrefs:"vv. 44-50", pt:"4."},
+],
+'13:1': [
+{lv:2, text:"Life&rsquo;s washing in love to maintain fellowship", vrefs:"13:1-38", pt:"E."},
+{lv:3, text:"Washing by the Lord Himself", vrefs:"vv. 1-11", pt:"1."},
+],
+'13:12': [
+{lv:3, text:"Washing by one another among the believers", vrefs:"vv. 12-17", pt:"2."},
+],
+'13:18': [
+{lv:3, text:"Washed, but not in the fellowship", vrefs:"vv. 18-30", pt:"3."},
+],
+'13:31': [
+{lv:3, text:"Washed and willing to remain in the fellowship, but failing", vrefs:"vv. 31-38", pt:"4."},
+],
+'14:1': [
+{lv:1, text:"Jesus crucified and Christ resurrected going to prepare the way to bring man into God, and as the Spirit coming to abide and live in the believers for the building of God&rsquo;s habitation", vrefs:"14:1&ndash;21:25", pt:"II."},
+{lv:2, text:"Life&rsquo;s indwelling&mdash;for the building of God&rsquo;s habitation", vrefs:"14:1&ndash;16:33", pt:"A."},
+{lv:3, text:"The dispensing of the Triune God&mdash;for the producing of His abode", vrefs:"14:1-31", pt:"1."},
+{lv:4, text:"Jesus going through death and Christ coming in resurrection to bring the believers into the Father", vrefs:"vv. 1-6", pt:"a."},
+],
+'14:7': [
+{lv:4, text:"The Triune God dispensing Himself into the believers", vrefs:"vv. 7-20", pt:"b."},
+{lv:5, text:"The Father embodied in the Son seen among the believers", vrefs:"vv. 7-14", pt:"(1)"},
+],
+'14:15': [
+{lv:5, text:"The Son realized as the Spirit to abide in the believers", vrefs:"vv. 15-20", pt:"(2)"},
+],
+'14:21': [
+{lv:4, text:"The Triune God making an abode with the believers", vrefs:"vv. 21-24", pt:"c."},
+],
+'14:25': [
+{lv:4, text:"The Comforter&rsquo;s reminding and life&rsquo;s peace", vrefs:"vv. 25-31", pt:"d."},
+],
+'15:1': [
+{lv:3, text:"The organism of the Triune God in the divine dispensing", vrefs:"15:1&ndash;16:4", pt:"2."},
+{lv:4, text:"The vine and the branches being an organism to glorify the Father by expressing the riches of the divine life", vrefs:"15:1-11", pt:"a."},
+],
+'15:12': [
+{lv:4, text:"The branches loving one another to express the divine life in fruit-bearing", vrefs:"15:12-17", pt:"b."},
+],
+'15:18': [
+{lv:4, text:"The vine and the branches, separated from the world, being hated and persecuted by the religious world", vrefs:"15:18&ndash;16:4", pt:"c."},
+],
+'16:5': [
+{lv:3, text:"The work of the Spirit consummating in the mingling of divinity with humanity", vrefs:"16:5-33", pt:"3."},
+{lv:4, text:"The Son&rsquo;s going for the Spirit&rsquo;s coming", vrefs:"vv. 5-7", pt:"a."},
+],
+'16:8': [
+{lv:4, text:"The work of the Spirit", vrefs:"vv. 8-15", pt:"b."},
+{lv:5, text:"To convict the world", vrefs:"vv. 8-11", pt:"(1)"},
+],
+'16:12': [
+{lv:5, text:"To glorify the Son by revealing Him with the fullness of the Father to the believers", vrefs:"vv. 12-15", pt:"(2)"},
+],
+'16:13': [
+{lv:5, text:"To transmit to the believers all that the Father and the Son have", vrefs:"v. 13", pt:"(3)"},
+],
+'16:16': [
+{lv:4, text:"The Son to be born in resurrection as a newborn child", vrefs:"vv. 16-24", pt:"c."},
+],
+'16:25': [
+{lv:4, text:"The believers having peace in the Son in spite of persecution", vrefs:"vv. 25-33", pt:"d."},
+],
+'17:1': [
+{lv:2, text:"Life&rsquo;s prayer", vrefs:"17:1-26", pt:"B."},
+{lv:3, text:"The Son to be glorified that the Father may be glorified", vrefs:"vv. 1-5", pt:"1."},
+],
+'17:6': [
+{lv:3, text:"The believers to be built up into one", vrefs:"vv. 6-24", pt:"2."},
+{lv:4, text:"In the Father&rsquo;s name by the eternal life", vrefs:"vv. 6-13", pt:"a."},
+],
+'17:14': [
+{lv:4, text:"In the Triune God through sanctification by the holy word", vrefs:"vv. 14-21", pt:"b."},
+],
+'17:22': [
+{lv:4, text:"In the divine glory for the expression of the Triune God", vrefs:"vv. 22-24", pt:"c."},
+],
+'17:25': [
+{lv:3, text:"The Father to be shown righteous in loving the Son and His believers", vrefs:"vv. 25-26", pt:"3."},
+],
+'18:1': [
+{lv:2, text:"Life&rsquo;s process through death and resurrection for multiplication", label:"LifeMul", vrefs:"18:1&ndash;20:13, 17", pt:"C.", jumpToText:"20:17o1", jumpToAllOutlines:"18:1o1"},
+{lv:3, text:"Delivering Himself in voluntary boldness to be processed", vrefs:"18:1-11", pt:"1."},
+],
+'18:12': [
+{lv:3, text:"Examined in His dignity by mankind", vrefs:"18:12-38a", pt:"2."},
+{lv:4, text:"By the Jews according to God&rsquo;s law in their religion", vrefs:"vv. 12-27", pt:"a."},
+],
+'18:28': [
+{lv:4, text:"By the Gentiles according to man&rsquo;s law in their politics", vrefs:"vv. 28-38a", pt:"b."},
+],
+'18:38': [
+{lv:3, text:"Sentenced in man&rsquo;s injustice by blind religion with dark politics", b:1, vrefs:"18:38b-19:16", pt:"3."},
+],
+'19:17': [
+{lv:3, text:"Tested in God&rsquo;s sovereignty by death", vrefs:"19:17-30", pt:"4."},
+],
+'19:31': [
+{lv:3, text:"Issuing in blood and water", vrefs:"19:31-37", pt:"5."},
+],
+'19:38': [
+{lv:3, text:"Resting in human honor", vrefs:"19:38-42", pt:"6."},
+],
+'20:1': [
+{lv:3, text:"Resurrecting in divine glory", label:"ResurGlory", vrefs:"20:1-13, 17", pt:"7.", jumpToText:"20:17o2", jumpToAllOutlines:"20:1o1"},
+{lv:4, text:"Leaving the old creation in the tomb as a testimony provided by His appreciators and discovered by His seekers", vrefs:"vv. 1-10", pt:"a."},
+],
+'20:11': [
+{lv:4, text:"Testified by angels sent by God", vrefs:"vv. 11-13", pt:"b."},
+{lv:4, text:"Bringing forth many brothers and making His Father and God theirs", label:"Brothers", type:"OUTLINE", vrefs:"v. 17", pt:"c.", jumpToText:"20:17o3"},
+],
+'20:14': [
+{lv:2, text:"Life in resurrection", vrefs:"20:14&ndash;21:25", pt:"D."},
+{lv:3, text:"Appearing to the seekers and ascending to the Father", vrefs:"20:14-18", pt:"1."},
+],
+'20:17': [
+{lv:2, text:"Life&rsquo;s process through death and resurrection for multiplication (cont&rsquo;d)", label:"LifeMul", type:"TEXT", vrefs:"20:17", pt:"C.", jumpToAllOutlines:"18:1o1"},
+{lv:3, text:"Resurrecting in divine glory (cont&rsquo;d)", label:"ResurGlory", type:"TEXT", vrefs:"20:17", pt:"7.", jumpToAllOutlines:"20:1o1"},
+{lv:4, text:"Bringing forth many brothers and making His Father and God theirs", label:"Brothers", type:"TEXT", vrefs:"v. 17", pt:"c.", jumpToAllOutlines:"20:11o2"},
+],
+'20:19': [
+{lv:3, text:"Coming as the Spirit to be breathed into the believers", vrefs:"20:19-25", pt:"2."},
+],
+'20:26': [
+{lv:3, text:"Meeting with the believers", vrefs:"20:26-31", pt:"3."},
+],
+'21:1': [
+{lv:3, text:"Moving and living with the believers", vrefs:"21:1-14", pt:"4."},
+],
+'21:15': [
+{lv:3, text:"Working and walking with the believers", vrefs:"21:15-25", pt:"5."},
+],
+},
+notesRefs: {
+'1:1': [
+{sup:"1a", word:"In", vrefs:"1&nbsp;John 1:1; cf. Col. 1:17; Gen. 1:1", lines:["In the beginning means in eternity past. As the introduction to this Gospel, this chapter begins in eternity past with God, who had divinity but not humanity ({Joh1:1|v. 1}); it then passes through His creation of all things ({Joh1:3|v. 3}), His incarnation ({Joh1:14|v. 14}), His becoming the Lamb who takes away the sin of the world ({Joh1:29|v. 29}), and His being the Spirit who causes the believers to be transformed into living stones for His building (vv. {Joh1:32|32}, {Joh1:42|42}), and continues all the way to eternity future, in which the Son of Man, who has both divinity and humanity, is the center for the communication between heaven and earth and for the union of God and man in eternity. After this, {Joh2|ch. 2} shows that the principle of the Triune God as life is to change death into life ({Joh2:1|2:1}-{Joh2:11|11}) and that the purpose of life is to build the house, the temple, of God ({Joh2:13|2:13}-{Joh2:22|22}). In chs. {Joh3|3}&mdash;{Joh11|11}, nine cases are given to illustrate how God as life meets the different needs of different kinds of people. As a result, in the beginning of {Joh12|ch. 12} a miniature of the church is produced ({Joh12:1|12:1}-{Joh12:11|11}). From {Joh12:12|12:12} to the end of {Joh17|ch. 17} an explanation is given concerning how the church is produced through the multiplication and increase of the incarnated God-man by means of His death and resurrection. Chapters {Joh18|18}&mdash;{Joh20|20} show the accomplishing of the multiplication and increase, which causes Him to have many brothers ({Joh20:17|20:17}) and enables Him to enter into them ({Joh20:22|20:22}) to be their life and everything that they may be constituted His Body as His increase and expression. Finally, {Joh21|ch. 21} reveals that He will be with them in an invisible way until His coming back ({Joh21:22|21:22})."]},
+{sup:"2b", word:"Word", vrefs:"John 1:14; Rev. 19:13; 1&nbsp;John 1:1", lines:["The Word is the definition, explanation, and expression of God; hence, it is God defined, explained, and expressed."]},
+{sup:3, word:"with", lines:["The Word is not separate from God. It is not that the Word is the Word and God is God, and that they are thus separate from each other. Rather, the two are one; hence, the next clause says that the Word was God."]},
+{sup:4, word:"Word", lines:["That the Word is God implies that God in His person is not simple; He is triune."]},
+{sup:"5c", word:"God", vrefs:"Rom. 9:5; Heb. 1:8; 1&nbsp;John 5:20", lines:["Not God the Son only, but the complete Triune God."]},
+],
+'1:2': [
+{sup:1, word:"He", lines:["Or, This One."]},
+{sup:2, word:"in", lines:["In the beginning, that is, from eternity past, the Word was with God. Contrary to what is supposed by some, it is not that Christ was not with God and was not God from eternity past, and that at a certain time Christ became God and was with God. Christ&rsquo;s deity is eternal and absolute. From eternity past to eternity future, He is with God and He is God. This is why this Gospel, unlike Matthew ({Joh1|ch. 1}) and Luke ({Joh3|ch. 3}), has no genealogy of Christ ({Heb7:3|Heb. 7:3})."]},
+],
+'1:3': [
+{sup:"a", word:"All", vrefs:"Col. 1:16"},
+],
+'1:4': [
+{sup:"1a", word:"life", vrefs:"John 5:26; 11:25; 14:6; 1&nbsp;John 1:2; 5:11-12", lines:["Since {Joh1:3|v. 3} refers to the creation in {Gen1|Gen. 1}, life here should refer to the life signified by the tree of life in {Gen2|Gen. 2}. This is confirmed by the fact that in {Rev22|Rev. 22} John mentions the tree of life. Since life is in Him, He is life ({Joh11:25|11:25}; {Joh14:6|14:6}), and He came that man might have life ({Joh10:10|10:10b}). The introduction to this Gospel is composed of this entire chapter; it begins with life ({Joh1:4|v. 4}) and ends with building (vv. {Joh1:42|42}, {Joh1:51|51}), that is, with the house of God (see notes {Joh1:42^1|42<sup>1</sup>}, {Joh1:51^2|51<sup>2</sup>}, and {Joh1:51^3|51<sup>3</sup>}). Hence, it is an introduction to life and building."]},
+{sup:"2b", word:"light", vrefs:"John 8:12; 9:5; 12:46", lines:["The light for the old creation was physical light ({Gen1:3|Gen. 1:3}-{Gen1:5|5}, {Gen1:14|14}-{Gen1:18|18}). The light for the new creation is the light of life mentioned here."]},
+],
+'1:5': [
+{sup:"a", word:"light", vrefs:"Matt. 4:16; cf. John 3:19"},
+],
+'1:6': [
+{sup:1, word:"sent", lines:["The verb has the sense of being sent as an envoy with a special commission."]},
+],
+'1:7': [
+{sup:1, word:"He", lines:["Or, This one."]},
+],
+'1:9': [
+{sup:"a", word:"true", vrefs:"1&nbsp;John 2:8"},
+{sup:"b", word:"enlightens", vrefs:"Eph. 1:18; 3:9; Heb. 6:4; 10:32"},
+],
+'1:12': [
+{sup:"1a", word:"received", vrefs:"Col. 2:6", lines:["To believe into is to receive."]},
+{sup:2, word:"children", lines:["For human beings to become children of God is for man to have the divine life and the divine nature."]},
+],
+'1:13': [
+{sup:1, word:"of", lines:["Lit., out of."]},
+{sup:2, word:"blood", lines:["Blood (lit., bloods) here signifies the physical life; will of the flesh denotes the will of fallen man after man became flesh; and will of man refers to the will of the man created by God."]},
+],
+'1:14': [
+{sup:1, word:"Word", lines:["For the Word as God to become flesh is for God to have the human life and the human nature."]},
+{sup:"2a", word:"flesh", vrefs:"1&nbsp;Tim. 3:16", lines:["{Rom8:3|Romans 8:3} indicates that although this flesh was the flesh of sin, it had only the likeness of the flesh of sin and did not have the sin of the flesh. It is the Word who became such flesh, and this Word was God, the complete Triune God ({Joh1:1|v. 1}). That the Word became flesh means that the Triune God became a man of flesh in the likeness of a sinful man. By so doing God entered into sinful man and became one with sinful man. However, He had only the likeness of a sinful man and not the sin of a sinful man. Hence, He was a sinless God-man, the complete God and the perfect man, having two natures, the divine nature and the human nature. Although His two natures were mingled to produce a God-man, the individual characteristics of the two natures remained distinct; the two natures did not intermix to form a third nature. Rather, the divine nature existed in the human nature and was expressed through the human nature, full of grace, which is God enjoyed by man, and reality, which is God obtained by man. In this way the invisible God was expressed so that men can obtain and enjoy Him as their life for the fulfillment of His New Testament economy.","God&rsquo;s becoming flesh was contrary to the teaching of the Gnostics of that time. The Gnostics maintained that since the flesh is an evil substance, God, who is pure, could never be united with the evil flesh. Using the teaching of the Gnostics as a basis, the Docetists denied that Christ had come in the flesh ({1Jo4:2|1&nbsp;John 4:2}). John wrote this Gospel in part to refute the heresy of the Docetists and to prove strongly that Christ, the God-man, is indeed God who became flesh (having only the likeness of the flesh of sin but not the sin of the flesh) that through this flesh, on the one hand, He might destroy the devil ({Heb2:14|Heb. 2:14}) and put away the sins of man ({Heb9:26|Heb. 9:26}), and, on the other hand, God might be united with man and be expressed through humanity for the fulfillment of His glorious purpose, a purpose He planned in eternity past for eternity future.","The deep thought of the Gospel of John is that Christ, the incarnate God, came as the embodiment of God, as illustrated by the tabernacle ({Joh1:14|v. 14}) and the temple ({Joh2:21|2:21}), so that man could contact Him and enter into Him to enjoy the riches contained in God. Both the tabernacle and the temple had an outer court, a Holy Place, and a Holy of Holies. Therefore, John points out first that Christ was the Lamb (who took away sin&mdash;{Joh1:29|v. 29}) offered on the altar, which signifies the cross, in the outer court of the tabernacle, and then that He was like the bronze serpent (which caused man to have life) lifted up on the pole ({Joh3:14|3:14}), which signifies the cross. This shows how Christ in His redemption was received by His believers that they might be delivered from sin and obtain life and might enter into Him as the embodiment of God, typified by the tabernacle, to enjoy all the riches that are in God. The foot-washing in {Joh13|ch. 13} may be considered the washing in the laver in the outer court of the tabernacle, which washed away the earthly defilement of those who drew near to God, so that their fellowship with God and with one another could be maintained. In {Joh14|ch. 14} those who receive Christ are brought by Him into the Holy Place to experience Him as the bread of life ({Joh6:35|6:35}), signified by the showbread, and as the light of life ({Joh8:12|8:12}; {Joh9:5|9:5}), signified by the lampstand. Eventually, in {Joh17|ch. 17}, through the highest and most mysterious prayer, which is typified by the burning incense on the golden incense altar, those who enjoy Christ as life and as light are brought by Him into the Holy of Holies to enter with Him into the deepest enjoyment of God and to enjoy the glory that God has given Him ({Joh17:22|17:22}-{Joh17:24|24})."]},
+{sup:"3b", word:"tabernacled", vrefs:"Exo. 25:8-9; Rev. 21:3", lines:["The Word, by being incarnated, not only brought God into humanity but also became a tabernacle to God as God&rsquo;s habitation on earth among men."]},
+{sup:"4c", word:"we", vrefs:"Matt. 17:1-2, 5; Luke 9:32; 2&nbsp;Pet. 1:16-18", lines:["This refers to Christ&rsquo;s transfiguration on the Mount ({Mat17:1|Matt. 17:1}-{Mat17:2|2}, {Mat17:5|5}; {Luk9:32|Luke 9:32}; {2Pe1:16|2&nbsp;Pet. 1:16}-{2Pe1:18|18})."]},
+{sup:5, word:"from", lines:["Gk. para, which means by the side of, implying with; hence, it is, literally, from with. The Son not only is from God but also is with God. On the one hand, He is from God, and on the other hand, He is still with God ({Joh8:16|8:16b}, {Joh8:29|29}; {Joh16:32|16:32b})."]},
+{sup:"6d", word:"grace", vrefs:"John 1:16-17; Rom. 5:2", lines:["Grace is God in the Son as our enjoyment; reality is God realized by us in the Son. The Greek word for reality is the same as that for truth in {Joh5:33|5:33}; {Joh8:32|8:32}; and {Joh17:17|17:17}, {Joh17:19|19}."]},
+{sup:"6e", word:"reality", vrefs:"John 14:6; 8:32", lines:["See {Joh1:14^6|note 14<sup>6</sup>}."]},
+],
+'1:15': [
+{sup:"a", word:"He", vrefs:"John 1:30"},
+],
+'1:16': [
+{sup:1, word:"of", lines:["Lit., out of."]},
+{sup:"a", word:"fullness", vrefs:"Col. 1:19; 2:9"},
+],
+'1:17': [
+{sup:1, word:"law", lines:["The law makes demands on man according to what God is; grace supplies man with what God is to meet what God demands. The law, at most, was only a testimony of what God is ({Exo25:21|Exo. 25:21}), but reality is the realization of what God is. No man can partake of God through the law, but grace enables man to enjoy God. Reality is God realized by man, and grace is God enjoyed by man."]},
+{sup:"1a", word:"grace", vrefs:"John 1:14", lines:["See {Joh1:17^1|note 17<sup>1</sup>}."]},
+{sup:2, word:"came", lines:["Lit., became."]},
+],
+'1:18': [
+{sup:1, word:"only", lines:["The Father&rsquo;s only begotten Son declared God by the Word, life, light, grace, and reality. The Word is God expressed, life is God imparted, light is God shining, grace is God enjoyed, and reality is God realized, apprehended. God is fully declared in the Son through these five things."]},
+{sup:2, word:"in", lines:["Lit., into."]},
+{sup:"3a", word:"declared", vrefs:"Heb. 1:3", lines:["Or, explained."]},
+],
+'1:20': [
+{sup:"a", word:"Christ", vrefs:"Dan. 9:25-26"},
+],
+'1:21': [
+{sup:"a", word:"Elijah", vrefs:"Mal. 4:5"},
+{sup:"b", word:"Prophet", vrefs:"Deut. 18:15, 18"},
+],
+'1:23': [
+{sup:"a", word:"voice", vrefs:"Isa. 40:3"},
+],
+'1:26': [
+{sup:"a", word:"baptize", vrefs:"Matt. 3:11"},
+],
+'1:28': [
+{sup:1, word:"Bethany", lines:["Bethany here was a place on the east side of the Jordan and is different from the Bethany in {Joh11:1|11:1}, which was a village on the west side of the Jordan."]},
+],
+'1:29': [
+{sup:"1a", word:"Lamb", vrefs:"John 1:36; 1&nbsp;Pet. 1:19; Rev. 5:6; 7:14; 12:11; 14:1; 21:9-10, 22-23; 22:1, 3; cf. Exo. 12:3-4", lines:["Based on the Scriptures, the religious people were looking for a great leader (vv. {Joh1:19|19}-{Joh1:25|25}) such as Messiah, Elijah, or the Prophet ({Dan9:26|Dan. 9:26}; {Mal4:5|Mal. 4:5}; {Deu18:15|Deut. 18:15}, {Deu18:18|18}). But Jesus was introduced to them as a little lamb with a little dove (vv. {Joh1:29|29}-{Joh1:33|33}). The Lamb takes sin away from man, and the dove brings God as life to man. The Lamb is for redemption, to redeem fallen man back to God, and the dove is for life-giving, for anointing, to anoint man with what God is, to bring God into man and man into God, and for uniting the believers in God. Both the Lamb and the dove are needed for man to participate in God."]},
+{sup:"b", word:"sin", vrefs:"1&nbsp;John 2:2; 1&nbsp;Pet. 2:24; 1&nbsp;Cor. 15:3; Isa. 53:10a"},
+{sup:2, word:"world", lines:["The world here refers to mankind, as in {Joh3:16|3:16}."]},
+],
+'1:30': [
+{sup:"a", word:"A", vrefs:"John 1:15"},
+],
+'1:32': [
+{sup:"1a", word:"dove", vrefs:"Matt. 3:16", lines:["See {Joh1:29^1|note 29<sup>1</sup>}."]},
+],
+'1:34': [
+{sup:"a", word:"Son", vrefs:"John 1:49"},
+],
+'1:36': [
+{sup:"a", word:"Lamb", vrefs:"John 1:29"},
+],
+'1:39': [
+{sup:1, word:"tenth", lines:["I.e., 10:00 a.m., Roman time. Roman time is used throughout the book."]},
+],
+'1:41': [
+{sup:1, word:"Messiah", lines:["Messiah is a Hebrew word; Christ is the Greek translation. Both mean the anointed. Christ is God&rsquo;s Anointed, the One appointed by God to accomplish God&rsquo;s purpose, God&rsquo;s eternal plan."]},
+],
+'1:42': [
+{sup:"1a", word:"Peter", vrefs:"Matt. 16:18; 1&nbsp;Pet. 2:5; 1&nbsp;Cor. 3:12; Rev. 21:18-20; cf. Gen. 28:18, 22", lines:["Meaning a stone. In {Mat16:18|Matt. 16:18} the Lord mentioned this word when He spoke to Peter about the building of the church. It must have been from this that Peter obtained the concept of living stones for the building of a spiritual house ({1Pe2:5|1&nbsp;Pet. 2:5}), which is the church. The stone here denotes a work of transformation that brings forth material for God&rsquo;s building ({1Co3:12|1&nbsp;Cor. 3:12})."]},
+],
+'1:45': [
+{sup:1, word:"son", lines:["The information that Philip passed on to Nathanael in the words son of Joseph and from Nazareth was inaccurate. Jesus was born not of Joseph but of Mary ({Mat1:16|Matt. 1:16}), and not in Nazareth but in Bethlehem ({Luk2:4|Luke 2:4}-{Luk2:7|7})."]},
+],
+'1:46': [
+{sup:"a", word:"Come", vrefs:"John 1:39"},
+],
+'1:49': [
+{sup:"1a", word:"King", vrefs:"John 12:13; 19:19", lines:["The Messiah."]},
+],
+'1:50': [
+{sup:"a", word:"greater", vrefs:"John 14:12"},
+],
+'1:51': [
+{sup:1, word:"Truly", lines:["In Greek, Amen, amen. So throughout the book."]},
+{sup:"2a", word:"heaven", vrefs:"Gen. 28:11-22", lines:["This is the fulfillment of Jacob&rsquo;s dream ({Gen28:11|Gen. 28:11}-{Gen28:22|22}). Christ as the Son of Man, with His humanity, is the ladder set up on the earth and leading to heaven, keeping heaven open to earth and joining earth to heaven for the house of God, Bethel. Jacob poured oil (a symbol of the Holy Spirit, the ultimate expression of the Triune God reaching man) upon the stone (a symbol of the transformed man) that it might be the house of God. Here in this chapter are the Spirit ({Joh1:32|v. 32}) and the stone ({Joh1:42|v. 42}) for the house of God with Christ in His humanity. Where this is, there is an open heaven."]},
+{sup:3, word:"Son", lines:["This chapter, as the introduction to this Gospel, introduces Christ as both the Son of God (vv. {Joh1:34|34}, {Joh1:49|49}) and the Son of Man. Nathanael recognized Him as the Son of God and addressed Him as such ({Joh1:49|v. 49}), but Christ said to Nathanael that He was the Son of Man. The Son of God is God; as such, He has the divine nature. The Son of Man is man; as such, He possesses the human nature. For the declaring of God ({Joh1:18|v. 18}) and for the bringing of God to man, He is the only begotten Son of God. But for the building of God&rsquo;s habitation on earth among men, He is the Son of Man. God&rsquo;s building needs His humanity. In eternity past Christ was only God, only the Son of God, and had only divinity; but in eternity future Christ, as God and man and as the Son of God and the Son of Man, will have both divinity and humanity forever."]},
+],
+'2:1': [
+{sup:"1a", word:"third", vrefs:"1&nbsp;Cor. 15:4; cf. John 1:29, 35, 43", lines:["The day of resurrection ({1Co15:4|1&nbsp;Cor. 15:4})."]},
+{sup:2, word:"wedding", lines:["Marriage signifies the continuation of human life, and a wedding (feast) signifies the pleasure and enjoyment of human life."]},
+{sup:"3b", word:"Cana", vrefs:"John 4:46", lines:["Cana means reed, and reeds signify weak and fragile people ({Isa42:3|Isa. 42:3a}; {Mat12:20|Matt. 12:20a}; {Mat11:7|11:7})."]},
+{sup:"4c", word:"Galilee", vrefs:"John 7:52", lines:["Galilee was a despised place ({Joh7:52|John 7:52})."]},
+],
+'2:3': [
+{sup:1, word:"wine", lines:["Wine, the life juice of the grape, signifies life. Hence, the wine&rsquo;s running out symbolizes that the human life runs out."]},
+{sup:2, word:"ran", lines:["Lit., fell short."]},
+{sup:3, word:"mother", lines:["Here the mother of Jesus symbolizes the natural man, which has nothing to do with life ({Joh2:4|v. 4}) and must be subdued by life ({Joh2:5|v. 5})."]},
+],
+'2:4': [
+{sup:1, word:"Woman", lines:["A term of respect and endearment."]},
+{sup:2, word:"what", lines:["Lit., what is there to Me and to you? (a Hebrew idiom)."]},
+{sup:"a", word:"My", vrefs:"John 7:6, 8, 30; 8:20"},
+],
+'2:6': [
+{sup:1, word:"six", lines:["The six waterpots signify the created man, for man was created on the sixth day ({Gen1:27|Gen. 1:27}, {Gen1:31|31})."]},
+{sup:2, word:"Jews&rsquo;", lines:["The Jews&rsquo; rite of purification with water signifies religion&rsquo;s attempt to make people clean by certain dead practices. But the Lord changes death into life."]},
+{sup:3, word:"two", lines:["Two or three measures equal twenty or thirty gallons."]},
+],
+'2:7': [
+{sup:1, word:"water", lines:["Water here signifies death, as in {Gen1:2|Gen. 1:2}, {Gen1:6|6}, {Exo14:21|Exo. 14:21}, and {Mat3:16|Matt. 3:16}."]},
+],
+'2:9': [
+{sup:"1a", word:"water", vrefs:"John 4:46", lines:["The changing of water into wine signifies the changing of death into life."]},
+],
+'2:11': [
+{sup:1, word:"beginning", lines:["The first mentioning of any matter in the Scriptures sets forth the principle of that matter. Therefore, this first sign sets forth the principle of all the following signs, that is, to change death into life.","In the Scriptures, figuratively, the tree of life is the source of life and the tree of knowledge is the source of death, as revealed in {Gen2:9|Gen. 2:9}, {Gen2:17|17}. The meaning of all the cases recorded in this Gospel corresponds with the principle that the tree of life results in life and the tree of knowledge results in death."]},
+{sup:"2a", word:"signs", vrefs:"John 2:23; 3:2; 4:54; 6:2, 14, 26, 30; 7:31; 9:16; 10:41; 11:47; 12:18, 37; 20:30; Rev. 1:1", lines:["In this book all the miracles done by the Lord are called signs ({Joh2:23|v. 23}; {Joh3:2|3:2}; {Joh4:54|4:54}; {Joh6:2|6:2}, {Joh6:14|14}, {Joh6:26|26}, {Joh6:30|30}; {Joh7:31|7:31}; {Joh9:16|9:16}; {Joh10:41|10:41}; {Joh11:47|11:47}; {Joh12:18|12:18}, {Joh12:37|37}; {Joh20:30|20:30}). They are miracles, but they are used as signs to signify the matter of life."]},
+{sup:3, word:"manifested", lines:["The Lord&rsquo;s divinity was manifested here."]},
+],
+'2:13': [
+{sup:"a", word:"Passover", vrefs:"John 6:4; 11:55"},
+],
+'2:14': [
+{sup:"a", word:"He", vrefs:"cf. Matt. 21:12"},
+{sup:"1b", word:"temple", vrefs:"1&nbsp;Kings 6:1; Ezra 5:2", lines:["The Greek word refers to the entire precincts of the temple. So in the next verse."]},
+],
+'2:15': [
+{sup:1, word:"having", lines:["This case of the cleansing of the temple reveals the purpose of life, i.e., that life is for the building of the house of God."]},
+{sup:2, word:"cords", lines:["Lit., cords made of rushes."]},
+],
+'2:16': [
+{sup:"a", word:"My", vrefs:"John 14:2"},
+],
+'2:17': [
+{sup:"a", word:"The", vrefs:"Psa. 69:9"},
+],
+'2:19': [
+{sup:1, word:"temple", lines:["The Greek word refers to the inner temple. So in vv. {Joh2:20|20}, {Joh2:21|21}."]},
+{sup:2, word:"three", lines:["In three days signifies in resurrection."]},
+{sup:"a", word:"raise", vrefs:"Matt. 16:21; 17:23; 20:19; 27:63"},
+],
+'2:21': [
+{sup:"a", word:"temple", vrefs:"cf. 1&nbsp;Cor. 6:19; 3:16-17; Eph. 2:21-22"},
+],
+'2:22': [
+{sup:"a", word:"Scripture", vrefs:"Psa. 16:10; Acts 2:30-32"},
+],
+'2:25': [
+{sup:"a", word:"He", vrefs:"Psa. 139:1-2"},
+],
+'3:1': [
+{sup:1, word:"But", lines:["But indicates that this case, concerning Nicodemus, differs from the case in the foregoing verses, {Joh2:23|2:23}-{Joh2:25|25}. There the people believed into the Lord because they saw the miracles He performed. The Lord could not commit Himself to such people. But the case in this chapter concerns life in regeneration; it reveals that this book is not for miraculous things but is only for life. This is why in this book even the miracles done by the Lord are called signs, signifying that the Lord came for life so that God might be multiplied ({Joh12:24|12:24}), not for miracles so that man might be benefited."]},
+{sup:"a", word:"Nicodemus", vrefs:"John 7:50; 19:39"},
+],
+'3:2': [
+{sup:1, word:"teacher", lines:["Nicodemus considered Christ a teacher who had come from God. This indicates that he might have thought that he needed better teachings so that he could improve himself. But the Lord&rsquo;s answer in the next verse unveiled to him that his need was to be born anew. To be born anew is to be regenerated with the divine life, a life different from the human life received by natural birth. Hence, his real need was not better teachings by which he could improve himself, but the divine life by which he could be remade. He was seeking for teachings, which belong to the tree of knowledge, but the Lord&rsquo;s answer turned him to his need for life, which belongs to the tree of life (cf. {Gen2:9|Gen. 2:9}, {Gen2:17|17})."]},
+{sup:"a", word:"signs", vrefs:"John 2:11"},
+{sup:"b", word:"God", vrefs:"Acts 10:38"},
+],
+'3:3': [
+{sup:"1a", word:"born", vrefs:"1&nbsp;Pet. 1:23", lines:["Or, born from above. So in {Joh3:7|v. 7}. To be born anew is to be born from above, from heaven, that is, to be born from God, who is in heaven."]},
+{sup:2, word:"see", lines:["In spiritual things, to see is to enter into ({Joh3:5|v. 5})."]},
+{sup:"3b", word:"kingdom", vrefs:"John 3:5", lines:["The kingdom of God is the reign of God. It is a divine realm to be entered into, a realm that requires the divine life. Only the divine life can realize the divine things. Hence, for one to see, or to enter into, the kingdom of God requires that he be regenerated with the divine life."]},
+],
+'3:5': [
+{sup:"a", word:"born", vrefs:"Titus 3:5; Matt. 3:11"},
+{sup:1, word:"of", lines:["Lit., out of."]},
+{sup:2, word:"water", lines:["The words of water and the Spirit should have been plain to Nicodemus, without any need of explanation. In {Mat3:11|Matt. 3:11} John the Baptist spoke the same words to the Pharisees; hence, they should have been fully understood among the Pharisees. Now Nicodemus, one of the Pharisees, was conversing with the Lord, and the Lord spoke these familiar words. &ldquo;Water&rdquo; was the central concept of the ministry of John the Baptist, that is, to terminate people of the old creation. &ldquo;Spirit&rdquo; is the central concept of the ministry of Jesus, that is, to germinate people in the new creation. These two main concepts together constitute the concept of regeneration. Regeneration is the termination of people of the old creation with all their deeds, and the germination of people in the new creation with the divine life."]},
+],
+'3:6': [
+{sup:"a", word:"born", vrefs:"John 1:13"},
+{sup:1, word:"of", lines:["Lit., out of."]},
+{sup:2, word:"Spirit", lines:["The first Spirit mentioned here is the divine Spirit, the Holy Spirit of God, and the second spirit is the human spirit, the regenerated spirit of man. Regeneration is accomplished in the human spirit by the Holy Spirit of God with God&rsquo;s life, the uncreated eternal life. Thus, to be regenerated is to have the divine, eternal life (in addition to the human, natural life) as the new source and new element of a new person."]},
+],
+'3:7': [
+{sup:1, word:"You", lines:["Plural in Greek."]},
+],
+'3:8': [
+{sup:"1a", word:"wind", vrefs:"Eccl. 11:5; Ezek. 37:9", lines:["The Greek word for wind is the same as that for spirit. Whether it is rendered wind or spirit depends on the context. This verse refers to something that blows, the sound of which can be heard, indicating that the word should be rendered wind. A regenerated person is like the wind, which can be recognized but which is beyond understanding; even so, it is a fact, a reality."]},
+{sup:2, word:"of", lines:["Lit., out of."]},
+],
+'3:11': [
+{sup:"a", word:"testify", vrefs:"John 3:32"},
+],
+'3:12': [
+{sup:1, word:"things", lines:["Things on earth here does not mean things of an earthly nature but things that take place on earth, including redemption and regeneration. In the same principle things in heaven in this verse does not mean things of a heavenly nature but things that take place in heaven. In the next verse the Lord said that He was the One who descended out of heaven and who was still in heaven. This indicates that He knew the things that took place in heaven, because He was the One who was in heaven all the time."]},
+],
+'3:13': [
+{sup:"a", word:"no", vrefs:"Rom. 10:6-7; Eph. 4:9"},
+{sup:"b", word:"Son", vrefs:"John 1:51"},
+{sup:1, word:"who", lines:["Some ancient MSS omit, who is in heaven."]},
+],
+'3:14': [
+{sup:"a", word:"Moses", vrefs:"Num. 21:4-9"},
+{sup:"b", word:"lifted", vrefs:"John 12:32, 34; 8:28"},
+{sup:1, word:"serpent", lines:["This chapter deals with regeneration. Regeneration, on one hand, brings the divine life with the divine nature into us. On the other hand, regeneration terminates the evil nature of Satan in our flesh. In {Gen3|Gen. 3} Satan, the serpent, injected his nature into man&rsquo;s flesh. When the children of Israel sinned against God, they were bitten by serpents ({Num21:4|Num. 21:4}-{Num21:9|9}). God told Moses to lift up a bronze serpent on their behalf for God&rsquo;s judgment, that by looking upon that bronze serpent all might live. That was a type. Here, in this verse, the Lord Jesus applied that type to Himself, indicating that when He was in the flesh, He was in &ldquo;the likeness of the flesh of sin&rdquo; ({Rom8:3|Rom. 8:3}), which likeness is equal to the form of the bronze serpent. The bronze serpent had the form of the serpent but was without the serpent&rsquo;s poison. Christ was made in &ldquo;the likeness of the flesh of sin,&rdquo; but He did not participate in any way in the sin of the flesh ({2Co5:21|2&nbsp;Cor. 5:21}; {Heb4:15|Heb. 4:15}). When He was lifted up in the flesh on the cross, by His death Satan, the old serpent, was dealt with ({Joh12:31|12:31}-{Joh12:33|33}; {Heb2:14|Heb. 2:14}). This means that the serpentine nature within fallen man has been dealt with. When a man is regenerated with the divine life in Christ, his satanic nature is annulled. Because of this, in this portion of the Word, when the Lord revealed the matter of regeneration to Nicodemus, He specifically mentioned this point.","Nicodemus might have considered himself a moral and good man. But the Lord&rsquo;s word in this verse implied that regardless of how good Nicodemus might have been outwardly, he had the serpentine nature of Satan inwardly. As a descendant of Adam, he had been poisoned by the old serpent, and the serpent&rsquo;s nature was within him. He needed the Lord not only to be the Lamb of God to take away his sin ({Joh1:29|1:29}) but also to be in the form of the serpent that his serpentine nature might be dealt with on the cross and that he might have eternal life. In the principle set forth in {Joh2|ch. 2}, this is the changing of death into life."]},
+],
+'3:15': [
+{sup:1, word:"eternal", lines:["This is the divine life, the uncreated life of God, which not only is everlasting with respect to time but also is eternal and divine in nature. So in vv. {Joh3:16|16}, {Joh3:36|36}."]},
+],
+'3:16': [
+{sup:"a", word:"loved", vrefs:"Rom. 5:8; Eph. 2:4; Titus 3:4; 1&nbsp;John 4:10"},
+{sup:1, word:"world", lines:["The world here refers to sinful, fallen people, who constitute the world. They have not only sin but also the poisonous element of the devil, the ancient serpent; hence, they have become serpents. They need Christ to die for them in the form of a serpent and be judged by God as their Substitute ({Joh3:14|v. 14}); otherwise, they will perish ({Joh3:16|v. 16}). Although men are utterly fallen, God still loves them with His divine love, which is Himself ({1Jo4:8|1&nbsp;John 4:8}, {1Jo4:16|16}), because they are vessels created by God according to His own image to contain Himself ({Gen1:26|Gen. 1:26}; {Rom9:21|Rom. 9:21a}, {Rom9:23|23}). Moreover, He so loves them that He gave them His only begotten Son, His expression, that they might obtain His eternal life to become His many sons and be His corporate expression for the fulfillment of His eternal New Testament economy. Hence, God first regenerates them by His Spirit (vv. {Joh3:3|3}-{Joh3:6|6}) that they may have His eternal life (vv. {Joh3:15|15}-{Joh3:16|16}, {Joh3:36|36a}). Then He fills them with His unlimited Spirit ({Joh3:34|v. 34}) that they may become the bride of Christ, who is above all and is all-inclusive (vv. {Joh3:31|31}-{Joh3:35|35}), to be His increase and fullness (vv. {Joh3:28|28}-{Joh3:30|30})."]},
+{sup:"b", word:"gave", vrefs:"Rom. 8:32; 1&nbsp;John 4:9"},
+{sup:"c", word:"only", vrefs:"John 1:18; 3:18; 1&nbsp;John 4:9"},
+{sup:"2d", word:"believes", vrefs:"John 3:36; 6:40", lines:["Believing into the Lord is not the same as believing Him ({Joh6:30|6:30}). To believe Him is to believe that He is true and real, but to believe into Him is to receive Him and be united with Him as one. The former is to acknowledge a fact objectively; the latter is to receive a life subjectively."]},
+],
+'3:17': [
+{sup:1, word:"condemn", lines:["Or, judge."]},
+],
+'3:18': [
+{sup:1, word:"condemned", lines:["Or, judged."]},
+{sup:"a", word:"the", vrefs:"John 1:18"},
+],
+'3:19': [
+{sup:1, word:"condemnation", lines:["Or, judgment."]},
+{sup:"a", word:"light", vrefs:"John 1:9"},
+],
+'3:20': [
+{sup:1, word:"practices", lines:["I.e., does evil habitually. The same word is used in {Joh5:29|5:29}."]},
+{sup:2, word:"reproved", lines:["Or, exposed, uncovered."]},
+],
+'3:21': [
+{sup:1, word:"truth", lines:["According to the context, truth here denotes uprightness (as opposed to evil&mdash;vv. {Joh3:19|19}-{Joh3:20|20}), which is the reality manifested in a man who lives in God according to what He is, and which corresponds with the divine light, which is God, as the source of the truth, manifested in Christ. See {1Jo1:6^6|note 6<sup>6</sup>} in {1Jo1|1&nbsp;John 1}."]},
+],
+'3:22': [
+{sup:"a", word:"baptized", vrefs:"John 4:1-2"},
+],
+'3:24': [
+{sup:"a", word:"John", vrefs:"Matt. 14:3"},
+],
+'3:25': [
+{sup:"a", word:"purification", vrefs:"John 2:6"},
+],
+'3:26': [
+{sup:"a", word:"across", vrefs:"John 1:28-29"},
+{sup:"b", word:"testified", vrefs:"John 1:7, 34"},
+{sup:"c", word:"baptizing", vrefs:"John 4:2"},
+],
+'3:28': [
+{sup:"a", word:"I", vrefs:"John 1:20, 23"},
+],
+'3:29': [
+{sup:"a", word:"He", vrefs:"Rev. 19:7"},
+],
+'3:30': [
+{sup:1, word:"increase", lines:["The increase in this verse is the bride in {Joh3:29|v. 29}, and the bride there is a living composition of all the regenerated people. This means, in this chapter on regeneration, that regeneration not only brings the divine life into the believers and annuls the satanic nature in their flesh, but it also makes them the corporate bride for Christ&rsquo;s increase. The last two points, the annulling of the serpentine nature in the believers and the believers&rsquo; being made the bride of Christ, are fully developed in John&rsquo;s Revelation. The book of Revelation reveals mainly how Satan as the old serpent will be fully eliminated ({Rev20:2|Rev. 20:2}, {Rev20:10|10}) and how Christ&rsquo;s bride, the New Jerusalem, will be fully produced ({Rev21:2|Rev. 21:2}, {Rev21:10|10}-{Rev21:27|27})."]},
+],
+'3:31': [
+{sup:"1a", word:"He", vrefs:"John 8:23", lines:["Verses {Joh3:31|31}-{Joh3:36|36} unveil to us the immeasurableness, the unlimitedness, of Christ. He is such an immeasurable and unlimited One, who comes from above, who is above all, to whom the Father has given all, and who dispenses the Spirit without measure. Such a One needs a universal increase to be His bride to match Him, as revealed in vv. {Joh3:22|22}-{Joh3:30|30}. He who believes into this immeasurable One has eternal life; he who disobeys this One is under the wrath of God."]},
+{sup:2, word:"from", lines:["From, of, and out of are the same word in Greek. Since persons, matters, and things on the earth are from the earth, they are of the earth. He who comes from heaven refers to one who is out of heaven; therefore, such a one is of heaven."]},
+{sup:"b", word:"He", vrefs:"John 3:13"},
+],
+'3:32': [
+{sup:"a", word:"no", vrefs:"John 3:11"},
+],
+'3:34': [
+{sup:1, word:"words", lines:["See {Joh6:63^3|note 63<sup>3</sup>} in {Joh6|ch. 6}."]},
+],
+'3:35': [
+{sup:"a", word:"The", vrefs:"John 5:20"},
+],
+'3:36': [
+{sup:"a", word:"believes", vrefs:"John 3:15-16"},
+],
+'4:1': [
+{sup:"a", word:"baptizing", vrefs:"John 3:22, 26"},
+],
+'4:3': [
+{sup:"a", word:"Judea", vrefs:"John 3:22"},
+{sup:"b", word:"again", vrefs:"John 2:11"},
+],
+'4:5': [
+{sup:"a", word:"near", vrefs:"Gen. 33:18-19; 48:22; Josh. 24:32"},
+],
+'4:6': [
+{sup:1, word:"well", lines:["Lit., fountain; as in {Joh4:14|v. 14}."]},
+{sup:2, word:"sixth", lines:["I.e., 6:00 p.m."]},
+],
+'4:9': [
+{sup:"a", word:"For", vrefs:"Matt. 10:5; John 8:48; Luke 9:52-53"},
+{sup:1, word:"Samaritans", lines:["Samaria was the leading region of the northern kingdom of Israel and was the site of its capital ({1Ki16:24|1&nbsp;Kings 16:24}, {1Ki16:29|29}). Around 700 B.C., the Assyrians captured Samaria and brought people from Babylon and other heathen countries to the cities of Samaria ({2Ki17:6|2&nbsp;Kings 17:6}, {2Ki17:24|24}). From that time the Samaritans became a people of mixed heathen and Jewish blood. History tells us that they had the Pentateuch (the five books of Moses) and worshipped God according to that part of the Old Testament. But they were never recognized by the Jews as being part of the Jewish people."]},
+],
+'4:10': [
+{sup:"a", word:"gift", vrefs:"Rom. 6:23"},
+{sup:"b", word:"living", vrefs:"John 7:37-39; Rev. 21:6; 22:1, 17"},
+],
+'4:13': [
+{sup:1, word:"drinks", lines:["This signifies the enjoyment of material things and the amusement obtained from worldly entertainment. These cannot quench the thirst deep within man. However much he drinks of this material and worldly &ldquo;water,&rdquo; he will thirst again. The more he drinks of this &ldquo;water,&rdquo; the more his thirst increases."]},
+],
+'4:14': [
+{sup:"a", word:"drinks", vrefs:"Exo. 17:6; Num. 20:8; Psa. 36:8; John 7:37; 1&nbsp;Cor. 10:4; 12:13; Rev. 21:6; 22:17"},
+{sup:"b", word:"by", vrefs:"John 6:35"},
+{sup:"1c", word:"eternal", vrefs:"John 6:27; 3:16; 5:24", lines:["See {Joh3:15^1|note 15<sup>1</sup>} in {Joh3|ch. 3}."]},
+],
+'4:15': [
+{sup:"a", word:"give", vrefs:"John 6:34"},
+],
+'4:16': [
+{sup:1, word:"call", lines:["This word was intended to touch her conscience by referring to her history of immorality, so that she would repent of her sins."]},
+],
+'4:18': [
+{sup:1, word:"five", lines:["The woman tried the first husband, drinking of that &ldquo;water,&rdquo; and she was not satisfied. Then she tried the second, third, fourth, and fifth husbands. Since none of these satisfied her, she was trying another. Her changing of husbands fully proved that however much she drank of that &ldquo;water,&rdquo; she was still thirsty. &ldquo;Everyone who drinks of this water shall thirst again.&rdquo; This word of the Lord&rsquo;s is true!"]},
+],
+'4:20': [
+{sup:"1a", word:"Our", vrefs:"Gen. 33:18-20", lines:["The woman&rsquo;s problem, like the questions in {Joh8:3|8:3}-{Joh8:5|5} and {Joh9:2|9:2}-{Joh9:3|3}, was a matter of yes or no, which belongs to the tree of knowledge; but the Lord turned her to the spirit (vv. {Joh4:21|21}-{Joh4:24|24}), which belongs to the tree of life (cf. {Gen2:9|Gen. 2:9}, {Gen2:17|17})."]},
+{sup:"b", word:"in", vrefs:"Deut. 11:29-30; 27:12; Josh. 8:33"},
+{sup:"c", word:"in", vrefs:"Deut. 12:5, 11, 14, 18, 21, 26; 16:2, 6, 7, 11, 15, 16"},
+],
+'4:21': [
+{sup:"a", word:"an", vrefs:"John 4:23"},
+],
+'4:22': [
+{sup:"a", word:"You", vrefs:"2&nbsp;Kings 17:33, 41"},
+],
+'4:23': [
+{sup:"a", word:"an", vrefs:"John 5:25; 4:21"},
+{sup:"b", word:"in", vrefs:"cf. Phil. 3:3"},
+],
+'4:24': [
+{sup:1, word:"God", lines:["God here is the complete Triune God&mdash;the Father, the Son, and the Spirit."]},
+{sup:2, word:"Spirit", lines:["Spirit here refers to the nature of the complete Triune God; it does not refer merely to the Lord Spirit. To worship God, who is Spirit, we must worship with our spirit, which is of the same nature as He is."]},
+{sup:3, word:"worship", lines:["This word was given to instruct the Samaritan woman regarding her need to exercise her spirit to contact God the Spirit. To contact God the Spirit with the spirit is to drink of the living water, and to drink of the living water is to render real worship to God."]},
+{sup:"a", word:"in", vrefs:"Rom. 1:9"},
+{sup:4, word:"spirit", lines:["This is our human spirit. According to typology, God should be worshipped (1) in the place chosen by God for His habitation ({Deu12:5|Deut. 12:5}, {Deu12:11|11}, {Deu12:13|13}-{Deu12:14|14}, {Deu12:18|18}), and (2) with the offerings ({Lev1|Lev. 1}&mdash;{Lev6|6}). The place chosen by God for His habitation typifies the human spirit, where God&rsquo;s habitation is today ({Eph2:22|Eph. 2:22}). The offerings typify Christ; Christ is the fulfillment and reality of all the offerings with which the people worshipped God. Hence, when the Lord instructed the woman to worship God the Spirit in spirit and truthfulness, He meant that she should contact God the Spirit in her spirit instead of in a specific location, and through Christ instead of with the offerings. Since Christ, as the reality that issues in the human virtue of truthfulness, has come (vv. {Joh4:25|25}-{Joh4:26|26}), all the shadows and types are over."]},
+{sup:5, word:"truthfulness", lines:["According to the context of this chapter and the entire revelation of John&rsquo;s Gospel, truthfulness here denotes the divine reality becoming man&rsquo;s genuineness and sincerity (which are the opposite of the hypocrisy of the immoral Samaritan worshipper&mdash;vv. {Joh4:16|16}-{Joh4:18|18}) for the true worship of God. The divine reality is Christ (who is the reality&mdash;{Joh14:6|14:6}) as the reality of all the offerings of the Old Testament for the worship of God ({Joh1:29|1:29}; {Joh3:14|3:14}) and as the fountain of the living water, the life-giving Spirit (vv. {Joh4:7|7}-{Joh4:15|15}), partaken of and drunk by His believers to be the reality within them, which eventually becomes their genuineness and sincerity in which they worship God with the worship that He seeks. See {1Jo1:6^6|note 6<sup>6</sup>} in {1Jo1|1&nbsp;John 1}; {Rom3:7|Rom. 3:7}; and {Rom15:8^2|note 8<sup>2</sup>} in {Rom15|Rom. 15}."]},
+],
+'4:25': [
+{sup:"a", word:"Messiah", vrefs:"John 1:41; Luke 3:15; cf. Deut. 18:15, 18"},
+],
+'4:26': [
+{sup:1, word:"I", lines:["By this word Jesus led her to believe that He was the Christ, that she might have eternal life ({Joh20:31|20:31}). She believed ({Joh4:29|v. 29})."]},
+],
+'4:28': [
+{sup:1, word:"left", lines:["Whoever drinks the living water and is satisfied with it will drop his preoccupations and testify of it. In the principle set forth in {Joh2|ch. 2}, this also is the changing of death into life."]},
+],
+'4:29': [
+{sup:"1a", word:"Is", vrefs:"John 7:26, 31", lines:["This indicates that the woman believed that Jesus was the Christ. By thus believing, she received the living water and was satisfied."]},
+],
+'4:32': [
+{sup:1, word:"I", lines:["The sinner was satisfied by receiving the Savior&rsquo;s living water, and the Savior was satisfied by doing God&rsquo;s will in satisfying the sinner. Doing the will of God to satisfy the sinner is the Savior&rsquo;s food ({Joh4:34|v. 34})."]},
+],
+'4:34': [
+{sup:"a", word:"to", vrefs:"John 5:30; 6:38"},
+{sup:"b", word:"to", vrefs:"John 5:36; 17:4"},
+],
+'4:35': [
+{sup:"a", word:"harvest", vrefs:"Luke 10:2"},
+],
+'4:36': [
+{sup:1, word:"unto", lines:["Or, for."]},
+{sup:2, word:"eternal", lines:["See {Joh3:15^1|note 15<sup>1</sup>} in {Joh3|ch. 3}."]},
+],
+'4:38': [
+{sup:1, word:"others", lines:["Others have labored should mean that some had sown the seed among the Samaritans using the Pentateuch (the first five books of the Old Testament), which the Samaritans did possess. Here the Lord sent His disciples to reap what the earlier laborers had sown."]},
+],
+'4:42': [
+{sup:"a", word:"Savior", vrefs:"1&nbsp;John 4:14; 1&nbsp;Tim. 4:10; Luke 2:11"},
+],
+'4:44': [
+{sup:"a", word:"a", vrefs:"Matt. 13:57"},
+{sup:1, word:"no", lines:["The Lord went to Galilee to avoid gaining fame, which He had gained in Jerusalem ({Joh2:23|2:23})."]},
+],
+'4:46': [
+{sup:"1a", word:"Cana", vrefs:"John 2:1", lines:["See {Joh2:1^3|note 1<sup>3</sup>} in {Joh2|ch. 2}."]},
+{sup:2, word:"Galilee", lines:["Galilee, a despised place ({Joh7:41|7:41}, {Joh7:52|52}), signifies the world, which is in a low and mean condition."]},
+{sup:"b", word:"made", vrefs:"John 2:9"},
+],
+'4:48': [
+{sup:"a", word:"signs", vrefs:"1&nbsp;Cor. 1:22"},
+],
+'4:50': [
+{sup:1, word:"word", lines:["The word of life out of the mouth of the Lord gives life to the dying."]},
+],
+'4:52': [
+{sup:1, word:"seventh", lines:["I.e., 7:00 p.m."]},
+],
+'4:54': [
+{sup:"1a", word:"second", vrefs:"John 2:11", lines:["The first sign in Cana ({Joh2:1|2:1}-{Joh2:11|11}) signifies the changing of death into life, setting forth the principle of life. The second sign here is a continuation, an application of the principle of the changing of death into life. The source of death is the tree of knowledge, and the source of life is the tree of life (cf. {Gen2:9|Gen. 2:9}, {Gen2:17|17})."]},
+],
+'5:2': [
+{sup:"1a", word:"Sheep", vrefs:"Neh. 3:1", lines:["The Sheep Gate signifies the door to the sheepfold of the religion of law keeping ({Joh10:1|10:1})."]},
+{sup:2, word:"Bethesda", lines:["Bethesda means house of mercy, signifying that the people who practiced law keeping needed the mercy of God because they were impotent, weak, and wretched, as portrayed in {Rom7:7|Rom. 7:7}-{Rom7:24|24}."]},
+{sup:3, word:"five", lines:["Porticoes signify the shelter of the religion of law keeping, a shelter like that provided by a sheepfold. The number five signifies responsibility."]},
+],
+'5:3': [
+{sup:1, word:"In", lines:["This signifies that under the shelter of law keeping, in the sheepfold of religion, there are many who are blind, unable to see; many who are lame, unable to walk; and many who are withered, lacking the life supply."]},
+{sup:2, word:"waiting", lines:["Some MSS omit this last part of {Joh5:3|v. 3} and all of {Joh5:4|v. 4}."]},
+],
+'5:4': [
+{sup:1, word:"angel", lines:["The angel here signifies the agent through which the law, which could not give life, was given ({Gal3:19|Gal. 3:19}, {Gal3:21|21})."]},
+{sup:2, word:"stirred", lines:["The stirring up of the water to make people well signifies the attempt to make people perfect by the practice of law keeping."]},
+{sup:3, word:"well", lines:["Or, whole, sound. So in {Joh5:6|v. 6}."]},
+],
+'5:5': [
+{sup:1, word:"man", lines:["With this sick and impotent man there was no happiness, even on the joyful day of a feast ({Joh5:1|v. 1}), and there was no rest, even on the Sabbath day ({Joh5:10|v. 10})."]},
+],
+'5:6': [
+{sup:1, word:"He", lines:["This sign signifies that when the practice of law keeping in the Jewish religion became an impossibility because of the impotence of man ({Rom8:3|Rom. 8:3}), the Son of God came to enliven the dead ({Joh5:25|v. 25}). The law could not give life ({Gal3:21|Gal. 3:21}), but the Son of God gives life to the dead ({Joh5:21|v. 21}). &ldquo;While we were yet weak&rdquo; ({Rom5:6|Rom. 5:6}), He came to enliven us."]},
+],
+'5:7': [
+{sup:1, word:"Sir", lines:["Or, Lord."]},
+{sup:2, word:"I", lines:["There was a means for healing in the religion of law keeping, but it did not profit the impotent man, because he had no strength to fulfill the law&rsquo;s requirements. The law keeping in religion depends on man&rsquo;s effort, man&rsquo;s doing, man&rsquo;s self-cultivation. Since man is impotent, the law keeping in religion becomes ineffective. The holy city, the holy temple, the feast, the Sabbath, the angels, Moses, and the Scriptures are all good things of this religion, but they could do nothing for this impotent man. In the eyes of the Lord he was a dead person ({Joh5:25|v. 25}), in need not only of healing but also of enlivening. With the Lord&rsquo;s enlivening there is no requirement. The impotent man heard His voice and was enlivened ({Joh5:25|v. 25})."]},
+],
+'5:8': [
+{sup:"a", word:"Rise", vrefs:"Matt. 9:6; Mark 2:11; Luke 5:24"},
+{sup:1, word:"mat", lines:["A small mattress or pad; so in vv. {Joh5:9|9}, {Joh5:10|10}, {Joh5:11|11}, and {Joh5:12|12}."]},
+],
+'5:9': [
+{sup:1, word:"became", lines:["According to vv. {Joh5:24|24}-{Joh5:25|25}, this is to pass out of death into life and to live. In the principle set forth in {Joh2|ch. 2}, this is the changing of death into life."]},
+{sup:2, word:"took", lines:["Formerly, the mat carried the impotent man, but now the enlivened man carried the mat."]},
+{sup:"a", word:"Sabbath", vrefs:"John 9:14"},
+],
+'5:10': [
+{sup:"a", word:"Sabbath", vrefs:"Mark 2:27"},
+{sup:"1b", word:"it", vrefs:"Neh. 13:19; Jer. 17:21; John 9:16", lines:["Life&rsquo;s enlivening broke religion&rsquo;s ritual. Religion was offended by life and began its opposition to life from this point (vv. {Joh5:16|16}, {Joh5:18|18}).","The Sabbath is for man ({Mrk2:27|Mark 2:27}) and should be a rest to man. Religion&rsquo;s law keeping did not bring rest to this man who had been sick for thirty-eight years, but life&rsquo;s enlivening did. Yet the religious cared only for their ritual of Sabbath keeping; they had no concern for the sick man&rsquo;s rest."]},
+],
+'5:14': [
+{sup:"1a", word:"sin", vrefs:"John 8:11", lines:["This indicates that the man&rsquo;s former sickness was due to his sin."]},
+],
+'5:16': [
+{sup:1, word:"and", lines:["Some MSS omit, and sought to kill Him."]},
+{sup:"a", word:"sought", vrefs:"John 5:18; 7:1"},
+],
+'5:17': [
+{sup:1, word:"working", lines:["God&rsquo;s work in creation was finished ({Gen2:1|Gen. 2:1}-{Gen2:3|3}), but the Father and the Son were still working for redemption and building."]},
+],
+'5:18': [
+{sup:1, word:"sought", lines:["On one hand, the religious people kept the Sabbath, but on the other hand, they sought to kill Jesus. How could they have had rest? Because of their religious concept, they thought that to kill those who would not keep their religious ritual was to offer service to God ({Joh16:2|16:2}). This is Satan&rsquo;s poisoning of people with religion, causing them to murder, just as he poisons people with sin."]},
+{sup:"a", word:"kill", vrefs:"John 16:2"},
+{sup:2, word:"equal", lines:["Actually, the Son and the Father are one ({Joh10:30|10:30})."]},
+{sup:"b", word:"God", vrefs:"Phil. 2:6; John 10:30, 33; 19:7; 1:1; 20:28; 1&nbsp;John 5:20; Rom. 9:5"},
+],
+'5:19': [
+{sup:"a", word:"The", vrefs:"John 5:30; 8:28"},
+],
+'5:20': [
+{sup:"a", word:"the", vrefs:"John 3:35"},
+{sup:"b", word:"greater", vrefs:"John 14:12"},
+],
+'5:21': [
+{sup:"a", word:"raises", vrefs:"Rom. 4:17; 8:11"},
+],
+'5:22': [
+{sup:"a", word:"judgment", vrefs:"John 5:27; Acts 10:42; 17:31; Rom. 2:16; 2&nbsp;Tim. 4:1"},
+],
+'5:24': [
+{sup:"a", word:"believes", vrefs:"John 12:44"},
+{sup:1, word:"eternal", lines:["See {Joh3:15^1|note 15<sup>1</sup>} in {Joh3|ch. 3}."]},
+{sup:2, word:"judgment", lines:["Or, condemnation."]},
+{sup:"b", word:"passed", vrefs:"1&nbsp;John 3:14"},
+{sup:3, word:"death", lines:["The source of death is the tree of knowledge, and the source of life is the tree of life (cf. {Gen2:9|Gen. 2:9}, {Gen2:17|17}). Hence, to pass out of death into life is to change the source of one&rsquo;s living."]},
+],
+'5:25': [
+{sup:"1a", word:"dead", vrefs:"Eph. 2:1, 5; Col. 2:13", lines:["Not those who are dead physically but those who are dead in spirit, in accordance with {Eph2:1|Eph. 2:1}, {Eph2:5|5} and {Col2:13|Col. 2:13}. Hence, in this verse to live means to be alive in spirit. It does not signify resurrection of the physical body, which is mentioned in vv. {Joh5:28|28}-{Joh5:29|29}."]},
+],
+'5:26': [
+{sup:"a", word:"life", vrefs:"John 1:4"},
+],
+'5:27': [
+{sup:"a", word:"judgment", vrefs:"John 5:22; Acts 10:42; 17:31; Rom. 2:16; 2&nbsp;Tim. 4:1"},
+{sup:1, word:"Son", lines:["The Lord is the Son of God ({Joh5:25|v. 25}); hence, He can give life ({Joh5:21|v. 21}). He is also the Son of Man; hence, He can execute judgment."]},
+],
+'5:28': [
+{sup:1, word:"all", lines:["Referring to those who are dead physically and are buried in a tomb. Hence, their coming forth from the tomb in {Joh5:29|v. 29} is the resurrection of the physical body."]},
+{sup:"a", word:"voice", vrefs:"cf. 1&nbsp;Cor. 15:52"},
+],
+'5:29': [
+{sup:"a", word:"those", vrefs:"Dan. 12:2; Acts 24:15"},
+{sup:"1b", word:"resurrection", vrefs:"Rev. 20:4, 6; 1&nbsp;Cor. 15:23, 52; 1&nbsp;Thes. 4:16", lines:["This is the resurrection of the saved believers, which will take place before the millennium ({Rev20:4|Rev. 20:4}, {Rev20:6|6}; {1Co15:23|1&nbsp;Cor. 15:23}, {1Co15:52|52}; {1Th4:16|1&nbsp;Thes. 4:16}). At the Lord Jesus&rsquo; coming back, the dead believers will be resurrected to enjoy eternal life. Hence, this resurrection is called the resurrection of life."]},
+{sup:2, word:"practiced", lines:["See {Joh3:20^1|note 20<sup>1</sup>} in {Joh3|ch. 3}."]},
+{sup:"3c", word:"resurrection", vrefs:"Rev. 20:5, 11-15", lines:["This is the resurrection of the unbelievers who have perished; it will take place after the millennium ({Rev20:5|Rev. 20:5}, {Rev20:12|12}). All the dead unbelievers will be resurrected after the thousand years to be judged at the great white throne ({Rev20:11|Rev. 20:11}-{Rev20:15|15}). Hence, this resurrection is called the resurrection of judgment.","In this chapter vv. {Joh5:24|24}-{Joh5:26|26} speak concerning the enlivening of the spirit; vv. {Joh5:28|28}-{Joh5:29|29}, concerning the resurrection of the whole being, including the body."]},
+{sup:4, word:"judgment", lines:["Or, condemnation."]},
+],
+'5:30': [
+{sup:"a", word:"I", vrefs:"John 5:19"},
+{sup:"b", word:"My", vrefs:"John 8:16"},
+{sup:"c", word:"will", vrefs:"John 4:34; 6:38"},
+],
+'5:31': [
+{sup:"a", word:"I", vrefs:"John 8:14"},
+],
+'5:33': [
+{sup:"a", word:"he", vrefs:"John 1:7"},
+{sup:1, word:"truth", lines:["The same Greek word as for reality in {Joh1:14|1:14}, {Joh1:17|17}. The preceding verse says that John testified concerning Christ; this verse says that John testified to the truth. This proves that truth here is Christ ({Joh14:6|14:6}). According to the entire revelation of this Gospel, truth is the divine reality embodied, revealed, and expressed in Christ, the Son of God. See {1Jo1:6^6|note 6<sup>6</sup>} in {1Jo1|1&nbsp;John 1}."]},
+],
+'5:36': [
+{sup:"a", word:"works", vrefs:"John 10:25, 38; 14:11; 15:24"},
+{sup:"1b", word:"sent", vrefs:"John 3:17", lines:["See {Joh1:6^1|note 6<sup>1</sup>} in {Joh1|ch. 1}; so in {Joh5:38|v. 38}."]},
+],
+'5:37': [
+{sup:"a", word:"Father", vrefs:"John 8:18"},
+{sup:1, word:"testified", lines:["This refers to the Father&rsquo;s testimony concerning the Lord, given at the time He was baptized ({Mat3:17|Matt. 3:17}). At that time the Jews heard the Father&rsquo;s voice and saw the form of the Holy Spirit ({Luk3:22|Luke 3:22}), although prior to that time they had neither heard His voice at any time nor seen His form."]},
+],
+'5:39': [
+{sup:1, word:"search", lines:["To &ldquo;search the Scriptures&rdquo; may be separated from &ldquo;come to Me&rdquo; ({Joh5:40|v. 40}). The Jewish religionists searched the Scriptures but were not willing to come to the Lord. These two should go together; because the Scriptures testify concerning the Lord, they should not be separated from the Lord. We may contact the Scriptures, yet not contact the Lord. Only the Lord can give life."]},
+],
+'5:40': [
+{sup:1, word:"come", lines:["See {Joh5:39^1|note 39<sup>1</sup>}."]},
+],
+'5:43': [
+{sup:"1a", word:"in", vrefs:"John 10:25", lines:["The Son being in the name of the Father is equivalent to the Son being the Father; hence, He is called the Father ({Isa9:6|Isa. 9:6}). This proves that the Son and the Father are one ({Joh10:30|10:30}). See {Joh14:26^2|note 26<sup>2</sup>} in {Joh14|ch. 14}."]},
+],
+'5:46': [
+{sup:"a", word:"he", vrefs:"Deut. 18:15, 18-19; Luke 24:27"},
+],
+'5:47': [
+{sup:"a", word:"if", vrefs:"Luke 16:29, 31"},
+],
+'6:1': [
+{sup:1, word:"Sea", lines:["This case is in contrast to the case in {Joh5|ch. 5}. There the person was by a pool; here the people are around a sea. The scene of the foregoing case was the holy city with a sacred pool for man&rsquo;s healing. The scene of this case is the wilderness with a secular sea for man&rsquo;s livelihood. The person in the previous case was impotent and needed life&rsquo;s enlivening. The people in this case are hungry and need life&rsquo;s feeding. In typology the land signifies the earth, which was created by God for man to live on, and the sea signifies the world, which has been corrupted by Satan and in which fallen mankind lives. In this world mankind is hungry and has no satisfaction. In this world mankind is troubled and has no peace, as portrayed in {Joh6:18|v. 18}."]},
+],
+'6:2': [
+{sup:"a", word:"signs", vrefs:"John 2:11; 4:54"},
+],
+'6:3': [
+{sup:1, word:"mountain", lines:["A mountain signifies a transcendent position above the land and the sea. To enjoy Christ&rsquo;s feeding, people must go with Christ to the mountain."]},
+],
+'6:4': [
+{sup:"1a", word:"Passover", vrefs:"John 2:13; Exo. 12:11, 14", lines:["In the Passover, people slay the redeeming lamb, sprinkle its blood, and eat its flesh. This typifies Christ as our Passover ({1Co5:7|1&nbsp;Cor. 5:7}). He is the redeeming Lamb of God ({Joh1:29|1:29}, {Joh1:36|36}) slain for us that we may eat His flesh and drink His blood, taking Him in as our life supply that we may live by Him."]},
+],
+'6:5': [
+{sup:"a", word:"Jesus", vrefs:"vv. 5-13: Matt. 14:14-21; Mark 6:34-44; Luke 9:12-17; cf. Matt. 15:32-37"},
+],
+'6:7': [
+{sup:1, word:"denarii", lines:["The denarius was the chief silver coin of the Romans; it was considered good pay for a day&rsquo;s labor (see {Mat20:2|Matt. 20:2})."]},
+],
+'6:9': [
+{sup:1, word:"five", lines:["The number five signifies responsibility, indicating here that Christ bears the responsibility to be our life supply. The number two signifies testimony, testifying here that Christ is our life supply."]},
+{sup:2, word:"barley", lines:["Loaves are of the vegetable life and signify the generating aspect of Christ&rsquo;s life. Fish are of the animal life and signify the redeeming aspect of Christ&rsquo;s life. As the generating life, Christ grows in the land, the God-created earth; as the redeeming life, He lives in the sea, the Satan-corrupted world. In order to regenerate us, He grew on the God-created earth that He might reproduce; in order to redeem us, He lived in the satanic and sinful world. But He is not sinful, not affected by the world, just as fish live in salt water but are not salty.","In the Jewish land barley ripens earliest and is the first of the harvest; hence, it typifies the resurrected Christ ({Lev23:10|Lev. 23:10}). The barley loaves represent Christ in resurrection as food to us.","Barley loaves and fish are small items, signifying Christ&rsquo;s smallness, through which He can be the life supply to us. Those who sought miracles considered Him the promised Prophet and would have forced Him to be King (vv. {Joh6:14|14}-{Joh6:15|15}), but He would not seek to be a giant in religion; rather, He preferred to be small loaves and little fish that people might eat Him."]},
+],
+'6:13': [
+{sup:1, word:"twelve", lines:["The twelve handbaskets left over signify the overflow of the riches of Christ&rsquo;s life supply. The five loaves, which represent this supply, not only fed one thousand times that number, that is, five thousand people, but also provided enough for something to be left over."]},
+],
+'6:14': [
+{sup:"a", word:"Prophet", vrefs:"Deut. 18:15, 18; John 5:46"},
+],
+'6:15': [
+{sup:1, word:"to", lines:["I.e., to make Him the Messiah."]},
+{sup:"a", word:"King", vrefs:"John 1:49"},
+{sup:"b", word:"withdrew", vrefs:"vv. 15b-21: Matt. 14:22-33; Mark 6:45-51"},
+],
+'6:18': [
+{sup:1, word:"sea", lines:["The churning of the sea signifies the troubles in human life."]},
+],
+'6:19': [
+{sup:1, word:"twenty-five", lines:["I.e., about three or four miles."]},
+{sup:2, word:"Jesus", lines:["This signifies that the Lord can overrule all the troubles of human life. He can walk on the troubling waves of human life, and all the troubles are under His feet."]},
+],
+'6:21': [
+{sup:1, word:"take", lines:["We need to take the Lord into our &ldquo;boat&rdquo; (our married life, our family, our business, etc.) and enjoy peace with Him on the journey of human life."]},
+],
+'6:27': [
+{sup:"a", word:"Work", vrefs:"Isa. 55:2"},
+{sup:"b", word:"food", vrefs:"John 6:53-54"},
+{sup:1, word:"eternal", lines:["See {Joh3:15^1|note 15<sup>1</sup>} in {Joh3|ch. 3}; so in vv. {Joh6:40|40}, {Joh6:47|47}, {Joh6:54|54}, {Joh6:68|68}."]},
+],
+'6:28': [
+{sup:1, word:"do", lines:["Fallen man&rsquo;s concept concerning God is that he must do something for God and work for God. This is the principle of the tree of the knowledge of good and evil in {Gen2|Gen. 2}."]},
+],
+'6:29': [
+{sup:1, word:"believe", lines:["The Lord&rsquo;s concept concerning God is that man should believe into Him, that is, receive Him as life and the life supply. This is the principle of the tree of life, which brings in life, as seen in {Gen2|Gen. 2}. It is in contrast to the principle of the tree of knowledge, which brings in death."]},
+{sup:2, word:"sent", lines:["See {Joh1:6^1|note 6<sup>1</sup>} in {Joh1|ch. 1}; so in {Joh6:57|v. 57}."]},
+],
+'6:30': [
+{sup:"a", word:"sign", vrefs:"1&nbsp;Cor. 1:22"},
+],
+'6:31': [
+{sup:"a", word:"ate", vrefs:"Exo. 16:15-18, 31; 1&nbsp;Cor. 10:3"},
+{sup:"b", word:"He", vrefs:"Exo. 16:4; Neh. 9:15; Psa. 78:24; 105:40"},
+],
+'6:33': [
+{sup:1, word:"comes", lines:["Through incarnation."]},
+],
+'6:35': [
+{sup:1, word:"bread", lines:["The bread of life is the life supply in the form of food. It is like the tree of life ({Gen2:9|Gen. 2:9}), which also is the life supply &ldquo;good for food.&rdquo;"]},
+{sup:"a", word:"shall", vrefs:"John 4:14"},
+{sup:2, word:"by", lines:["In the principle set forth in {Joh2|ch. 2}, this also is the changing of death into life. The source of death is the tree of knowledge, and the source of life is the tree of life."]},
+],
+'6:37': [
+{sup:"a", word:"gives", vrefs:"John 6:39, 65; 17:2, 24"},
+],
+'6:38': [
+{sup:"a", word:"I", vrefs:"John 3:13; 6:41, 50, 58"},
+{sup:"b", word:"not", vrefs:"Matt. 26:39"},
+{sup:"c", word:"will", vrefs:"John 4:34; 5:30"},
+],
+'6:39': [
+{sup:"a", word:"lose", vrefs:"John 17:12; 18:9"},
+{sup:"b", word:"raise", vrefs:"John 6:44, 54"},
+],
+'6:41': [
+{sup:"a", word:"came", vrefs:"John 6:38, 50, 58; 3:13"},
+],
+'6:42': [
+{sup:"a", word:"Is", vrefs:"Luke 4:22"},
+{sup:1, word:"son", lines:["See {Joh1:45^1|note 45<sup>1</sup>} in {Joh1|ch. 1}."]},
+{sup:"b", word:"I", vrefs:"John 6:38"},
+],
+'6:44': [
+{sup:"a", word:"No", vrefs:"John 6:65"},
+{sup:"b", word:"draws", vrefs:"Jer. 31:3; John 6:65"},
+{sup:"c", word:"raise", vrefs:"John 6:39, 54"},
+],
+'6:45': [
+{sup:"a", word:"And", vrefs:"Isa. 54:13"},
+{sup:"b", word:"taught", vrefs:"1&nbsp;Thes. 4:9"},
+],
+'6:46': [
+{sup:"a", word:"Not", vrefs:"John 1:18"},
+{sup:"1b", word:"from", vrefs:"John 7:29; 16:27; 17:8", lines:["See {Joh1:14^5|note 14<sup>5</sup>} in {Joh1|ch. 1}."]},
+],
+'6:47': [
+{sup:"a", word:"has", vrefs:"John 3:16; 5:24"},
+],
+'6:50': [
+{sup:"a", word:"comes", vrefs:"John 6:38, 41"},
+{sup:"b", word:"eat", vrefs:"John 6:57"},
+],
+'6:51': [
+{sup:1, word:"living", lines:["Bread of life ({Joh6:35|v. 35}) refers to the nature of the bread, which is life; living bread refers to the condition of the bread, which is living."]},
+{sup:"a", word:"he", vrefs:"John 6:58"},
+{sup:2, word:"flesh", lines:["At this point the bread becomes the flesh. Bread is of the vegetable life and is only for feeding; flesh is of the animal life and is not only for feeding but also for redeeming. Before the fall of man, the Lord was the tree of life ({Gen2:9|Gen. 2:9}), which is only for feeding man. After man fell into sin, the Lord became the Lamb ({Joh1:29|1:29}), which is not only for feeding man but also for redeeming him ({Exo12:4|Exo. 12:4}, {Exo12:7|7}-{Exo12:8|8})."]},
+{sup:3, word:"for", lines:["The Lord gave His body, that is, His flesh, dying for us that we might have life."]},
+{sup:"b", word:"world", vrefs:"John 1:29"},
+],
+'6:53': [
+{sup:1, word:"blood", lines:["At this point blood is added, which is necessary for redemption ({Joh19:34|19:34}; {Heb9:22|Heb. 9:22}; {Mat26:28|Matt. 26:28}; {1Pe1:18|1&nbsp;Pet. 1:18}-{1Pe1:19|19}; {Rom3:25|Rom. 3:25})."]},
+],
+'6:54': [
+{sup:1, word:"eats", lines:["Lit., masticates; so in vv. {Joh6:56|56}, {Joh6:57|57}, {Joh6:58|58}."]},
+{sup:2, word:"flesh", lines:["Here flesh and blood are mentioned separately. The separation of blood and flesh indicates death. Here the Lord clearly indicated His death, that is, His being slain. He gave His body and shed His blood for us that we may have eternal life. To eat His flesh is to receive by faith all that He did in giving His body for us; and to drink His blood is to receive by faith all that He accomplished in shedding His blood for us. To eat His flesh and drink His blood is to receive Him, in His redemption, as life and the life supply by believing in what He did for us on the cross. By comparing this verse with {Joh6:47|v. 47}, we see that to eat the Lord&rsquo;s flesh and drink His blood is to believe in Him, because to believe or to believe into is to receive ({Joh1:12|1:12})."]},
+{sup:"a", word:"raise", vrefs:"John 6:39, 44"},
+],
+'6:56': [
+{sup:"a", word:"abides", vrefs:"John 15:5"},
+{sup:1, word:"I", lines:["This indicates that the Lord had to be resurrected so that He could abide in us as our life and life supply."]},
+],
+'6:57': [
+{sup:1, word:"eats", lines:["To eat is to take food into us that it may be assimilated organically into our body. Hence, to eat the Lord Jesus is to receive Him into us that He may be assimilated by the regenerated new man in the way of life. Then we live by Him whom we have received. It is by this that He, the resurrected One, lives in us ({Joh14:19|14:19}-{Joh14:20|20})."]},
+{sup:"a", word:"live", vrefs:"John 14:19; Gal. 2:20; Phil. 1:21"},
+],
+'6:58': [
+{sup:"a", word:"shall", vrefs:"John 6:51"},
+],
+'6:61': [
+{sup:"a", word:"stumble", vrefs:"Matt. 11:6"},
+],
+'6:62': [
+{sup:"1a", word:"ascending", vrefs:"John 3:13", lines:["In {Joh6:56|v. 56} the Lord&rsquo;s resurrection is implied. In this verse His ascension, which followed His resurrection, is clearly mentioned. The Lord&rsquo;s ascension was the proof that His redemptive work had been completed ({Heb1:3|Heb. 1:3b})."]},
+],
+'6:63': [
+{sup:"a", word:"It", vrefs:"1&nbsp;Cor. 15:45; 2&nbsp;Cor. 3:6"},
+{sup:1, word:"Spirit", lines:["At this point the Spirit who gives life is brought in. After resurrection and through resurrection, the Lord Jesus, who had become flesh ({Joh1:14|1:14}), became the Spirit who gives life, as is clearly mentioned in {1Co15:45|1&nbsp;Cor. 15:45}. It is as the life-giving Spirit that He can be life and the life supply to us. When we receive Him as the crucified and resurrected Savior, the Spirit who gives life comes into us to impart eternal life into us. We receive the Lord Jesus, but we get the Spirit who gives life."]},
+{sup:2, word:"flesh", lines:["Flesh here, according to the context, refers to the meat of the physical body. When the Lord said, &ldquo;The bread which I will give is My flesh&rdquo; ({Joh6:51|v. 51}), the Jews thought that He would give them the meat of His physical body to eat ({Joh6:52|v. 52}). They did not understand the Lord&rsquo;s word rightly. To them it was a hard word ({Joh6:60|v. 60}). Hence, in this verse the Lord explained that what He would give them to eat was not the meat of His physical body; the meat, which is the flesh, profits nothing. What He would give, eventually, was the Spirit who gives life, who is the Lord Himself in resurrection."]},
+{sup:3, word:"words", lines:["The Greek word for words, here and in {Joh6:68|v. 68}, is rhema, which denotes the instant and present spoken word. It differs from logos (used for Word in {Joh1:1|1:1}), which denotes the constant word. Here the words follows the Spirit. The Spirit is living and real, yet He is very mysterious, intangible, and difficult for people to apprehend; the words, however, are substantial. First, the Lord indicated that for giving life He would become the Spirit. Then He said that the words He speaks are spirit and life. This shows that His spoken words are the embodiment of the Spirit of life. He is now the life-giving Spirit in resurrection, and the Spirit is embodied in His words. When we receive His words by exercising our spirit, we get the Spirit, who is life."]},
+],
+'6:64': [
+{sup:"a", word:"knew", vrefs:"John 2:25"},
+{sup:"b", word:"who", vrefs:"John 6:71; 13:11"},
+{sup:1, word:"betray", lines:["Lit., deliver Him up; so throughout the book."]},
+],
+'6:65': [
+{sup:"a", word:"no", vrefs:"John 6:44"},
+{sup:"b", word:"given", vrefs:"John 6:37, 39; 17:2, 24"},
+],
+'6:68': [
+{sup:"a", word:"words", vrefs:"John 6:63; 17:8"},
+],
+'6:70': [
+{sup:"a", word:"chose", vrefs:"John 15:16"},
+{sup:"b", word:"a", vrefs:"John 13:2, 27; 8:44; 17:12"},
+],
+'7:1': [
+{sup:"a", word:"seeking", vrefs:"John 5:16, 18"},
+{sup:1, word:"kill", lines:["Although the Lord is God the Creator, He lived on earth as a man and suffered persecution at the hands of His creatures."]},
+],
+'7:2': [
+{sup:"1a", word:"Feast", vrefs:"Lev. 23:34; Deut. 16:16", lines:["In the scene of the case in {Joh6|ch. 6} there was the Feast of the Passover. In the scene of this case in {Joh7|ch. 7} there is the Feast of Tabernacles. The Feast of the Passover is the first of the Jewish annual feasts, and the Feast of Tabernacles is the last ({Lev23:5|Lev. 23:5}, {Lev23:34|34}). The Feast of the Passover, being the first feast of the year, implies the beginning of man&rsquo;s life (cf. {Exo12:2|Exo. 12:2}-{Exo12:3|3}, {Exo12:6|6}), which involves man&rsquo;s seeking for satisfaction and results in man&rsquo;s hunger. The Feast of Tabernacles, being the last feast of the year, implies the completion and success of man&rsquo;s life (cf. {Exo23:16|Exo. 23:16}), which will end and will result in man&rsquo;s thirst. In the scene of the Feast of the Passover, the Lord presented Himself as the bread of life, which satisfies man&rsquo;s hunger. In the scene of the Feast of Tabernacles, the Lord promised that He would flow forth the living water, which quenches man&rsquo;s thirst.","After the full harvest of their crops, the Jewish people observed the Feast of Tabernacles to worship God and enjoy what they had reaped ({Deu16:13|Deut. 16:13}-{Deu16:15|15}). Hence, this feast signifies the completion, achievement, and success in man&rsquo;s career, man&rsquo;s study, and other matters of human life, including religion, with the joy and enjoyment thereof.","God ordained the Feast of Tabernacles so that the children of Israel would remember how their fathers, while wandering in the wilderness, had lived in tents ({Lev23:39|Lev. 23:39}-{Lev23:43|43}), expecting to enter into the rest of the good land. Hence, this feast is a reminder that today people are still in the wilderness and need to enter into the rest of the New Jerusalem, which is the eternal tabernacle ({Rev21:2|Rev. 21:2}-{Rev21:3|3}). Abraham, Isaac, and Jacob also lived in tents and looked forward to this eternal tabernacle ({Heb11:9|Heb. 11:9}-{Heb11:10|10}), in which there will be a river of water of life proceeding out of the throne of God and of the Lamb to quench man&rsquo;s thirst ({Rev22:1|Rev. 22:1}, {Rev22:17|17}). At the end of such a feast, which had such a background, Christ cried out the promise of the rivers of living water, which will satisfy man&rsquo;s expectation for eternity (vv. {Joh7:37|37}-{Joh7:39|39})."]},
+],
+'7:6': [
+{sup:"1a", word:"time", vrefs:"John 7:8, 30; 2:4; cf. Matt. 26:18", lines:["Although the Lord is the eternal, infinite, unlimited God, He lived here on earth as a man, being limited even in the matter of time."]},
+],
+'7:7': [
+{sup:"a", word:"world", vrefs:"John 17:14"},
+{sup:"b", word:"its", vrefs:"John 3:19"},
+],
+'7:8': [
+{sup:"a", word:"time", vrefs:"John 7:6, 30"},
+],
+'7:10': [
+{sup:1, word:"not", lines:["Although He is the Almighty God, as a man under persecution the Lord was limited also in relation to His activity."]},
+],
+'7:11': [
+{sup:"a", word:"sought", vrefs:"John 7:1; 11:56"},
+],
+'7:12': [
+{sup:"a", word:"some", vrefs:"John 7:40-43, 47"},
+],
+'7:13': [
+{sup:"a", word:"fear", vrefs:"John 9:22; 19:38; 20:19"},
+],
+'7:15': [
+{sup:1, word:"without", lines:["Although He is the omniscient God, as a lowly man the Lord appeared to be illiterate."]},
+],
+'7:16': [
+{sup:"a", word:"My", vrefs:"John 8:28; 12:49-50"},
+],
+'7:18': [
+{sup:"a", word:"seeks", vrefs:"John 8:50"},
+],
+'7:19': [
+{sup:"a", word:"Has", vrefs:"John 1:17"},
+{sup:"b", word:"seek", vrefs:"John 7:1; 5:16, 18"},
+],
+'7:20': [
+{sup:"a", word:"have", vrefs:"John 8:48, 52; 10:20"},
+],
+'7:21': [
+{sup:"a", word:"one", vrefs:"John 5:2-9"},
+],
+'7:22': [
+{sup:"a", word:"Moses", vrefs:"Lev. 12:3"},
+],
+'7:23': [
+{sup:"a", word:"made", vrefs:"John 5:9"},
+],
+'7:24': [
+{sup:1, word:"appearance", lines:["Or, countenance, face, sight."]},
+],
+'7:27': [
+{sup:"a", word:"know", vrefs:"cf. John 9:29"},
+],
+'7:28': [
+{sup:"1a", word:"know", vrefs:"John 6:42", lines:["Inward, subjective understanding. So in the next verse."]},
+{sup:"b", word:"I", vrefs:"John 8:42"},
+],
+'7:29': [
+{sup:"a", word:"know", vrefs:"John 8:55; 17:25"},
+{sup:"1b", word:"from", vrefs:"John 6:46; 16:27; 17:8; cf. 15:26", lines:["See {Joh1:14^5|note 14<sup>5</sup>} in {Joh1|ch. 1}."]},
+{sup:2, word:"sent", lines:["See {Joh1:6^1|note 6<sup>1</sup>} in {Joh1|ch. 1}."]},
+],
+'7:30': [
+{sup:"a", word:"seize", vrefs:"John 10:39"},
+{sup:"b", word:"His", vrefs:"John 8:20"},
+],
+'7:33': [
+{sup:"a", word:"I", vrefs:"John 12:35; 13:33"},
+{sup:"b", word:"I", vrefs:"John 16:5, 10, 17, 28"},
+],
+'7:34': [
+{sup:"a", word:"You", vrefs:"John 8:21; 13:33"},
+],
+'7:37': [
+{sup:1, word:"last", lines:["The last day here signifies that all the enjoyment of any success in the human life will end. There is a &ldquo;last day&rdquo; to every kind of material thing of the physical life."]},
+{sup:"a", word:"thirsts", vrefs:"Rev. 21:6; 22:17"},
+{sup:"b", word:"come", vrefs:"Rev. 22:17"},
+{sup:"c", word:"drink", vrefs:"John 4:14; 1&nbsp;Cor. 10:4; Psa. 36:8"},
+],
+'7:38': [
+{sup:"a", word:"innermost", vrefs:"Dan. 7:15"},
+{sup:1, word:"flow", lines:["In the principle set forth in {Joh2|ch. 2}, this also is the changing of death into life. The source of death is the tree of knowledge, and the source of life is the tree of life. This book shows us that life is in opposition to death ({Joh5:24|5:24}-{Joh5:25|25}; {Joh8:24|8:24}; {Joh11:25|11:25}-{Joh11:26|26})."]},
+{sup:"2b", word:"rivers", vrefs:"cf. Rev. 22:1, 17; 21:6; 7:17; Gen. 2:10; Psa. 36:8; Ezek. 47:1, 5; Isa. 58:11", lines:["The rivers of living water are the many flows of the different aspects of life (cf. {Rom15:30|Rom. 15:30}; {1Th1:6|1&nbsp;Thes. 1:6}; {2Th2:13|2&nbsp;Thes. 2:13}; {Gal5:22|Gal. 5:22}-{Gal5:23|23}), originating from the one unique river of water of life ({Rev22:1|Rev. 22:1}), which is God&rsquo;s Spirit of life ({Rom8:2|Rom. 8:2})."]},
+],
+'7:39': [
+{sup:"1a", word:"Spirit", vrefs:"John 14:16-17; 20:22; Rom. 8:9; Phil. 1:19", lines:["The Spirit of God was there from the beginning ({Gen1:1|Gen. 1:1}-{Gen1:2|2}), but at the time the Lord spoke this word, the Spirit as the Spirit of Christ ({Rom8:9|Rom. 8:9}), the Spirit of Jesus Christ ({Phi1:19|Phil. 1:19}), was not yet, because the Lord had not yet been glorified. Jesus was glorified when He was resurrected ({Luk24:26|Luke 24:26}). After Jesus&rsquo; resurrection, the Spirit of God became the Spirit of the incarnated, crucified, and resurrected Jesus Christ, who was breathed into the disciples by Christ in the evening of the day on which He was resurrected ({Joh20:22|20:22}). The Spirit is now the &ldquo;another Comforter,&rdquo; the Spirit of reality promised by Christ before His death ({Joh14:16|14:16}-{Joh14:17|17}). When the Spirit was the Spirit of God, He had only the divine element. After He became the Spirit of Jesus Christ through Christ&rsquo;s incarnation, crucifixion, and resurrection, the Spirit had both the divine element and the human element, with all the essence and reality of the incarnation, crucifixion, and resurrection of Christ. Hence, the Spirit is now the all-inclusive Spirit of Jesus Christ as the living water for us to receive (vv. {Joh7:38|38}-{Joh7:39|39})."]},
+{sup:"b", word:"glorified", vrefs:"Luke 24:26; John 12:16, 23; 13:31-32; 17:1, 5"},
+],
+'7:40': [
+{sup:"a", word:"Prophet", vrefs:"John 6:14; Deut. 18:15, 18"},
+],
+'7:41': [
+{sup:"a", word:"Christ", vrefs:"John 1:41"},
+{sup:"1b", word:"Galilee", vrefs:"John 7:52; cf. 1:46", lines:["The Lord was born in Bethlehem ({Luk2:4|Luke 2:4}-{Luk2:7|7}) but was raised in Nazareth of Galilee, a city that was despised by people at that time. He was the seed of David, but He came as a Nazarene ({Mat2:23|Matt. 2:23}). He grew up &ldquo;like a root out of dry ground,&rdquo; having &ldquo;no attracting form nor majesty,&rdquo; &ldquo;nor beautiful appearance that we should desire Him,&rdquo; and &ldquo;was despised and forsaken of men&rdquo; ({Isa53:2|Isa. 53:2}-{Isa53:3|3}). Hence, we should know Him not according to the flesh ({2Co5:16|2&nbsp;Cor. 5:16}) but according to the Spirit."]},
+],
+'7:42': [
+{sup:"a", word:"seed", vrefs:"Matt. 1:1"},
+{sup:"b", word:"Bethlehem", vrefs:"Matt. 2:5; Micah 5:2"},
+],
+'7:46': [
+{sup:"a", word:"Never", vrefs:"Matt. 7:28-29"},
+],
+'7:48': [
+{sup:"a", word:"rulers", vrefs:"John 12:42"},
+],
+'7:50': [
+{sup:"a", word:"Nicodemus", vrefs:"John 3:1; 19:39"},
+],
+'7:51': [
+{sup:1, word:"condemn", lines:["Or, judge."]},
+],
+'7:52': [
+{sup:"a", word:"Galilee", vrefs:"John 7:41"},
+],
+'7:53': [
+{sup:1, word:"And", lines:["Many ancient MSS omit {Joh7:53|7:53}&mdash;{Joh8:11|8:11}."]},
+],
+'8:3': [
+{sup:1, word:"woman", lines:["In this Gospel nine cases have been selected to prove that the Lord Jesus is the life and the life supply to people. The first six cases, in chs. {Joh3|3}&mdash;{Joh7|7}, form a group of signs signifying that, on the positive side, the Lord is the life and the life supply to us for regenerating, satisfying, healing, enlivening, feeding, and thirst quenching. The last three cases, in chs. {Joh8|8}&mdash;{Joh11|11}, form a group of signs signifying that, on the negative side, the Lord is life to us to deliver us from the three main negative things: sin, blindness, and death.","The case in this chapter reveals all the matters related to the problem of sin: (1) the source of sin&mdash;the devil; (2) the three main items of sin&mdash;adultery and fornication, murder, and lies (vv. {Joh8:3|3}, {Joh8:41|41}, {Joh8:44|44}); (3) the bondage, or slavery, of sin; (4) the issue, or result, of sin&mdash;death; (5) the One who is without sin&mdash;the Lord; (6) the One who is qualified to condemn sin&mdash;the Lord; (7) the One who is qualified to forgive sin&mdash;the Lord; (8) the One who is able to set people free from sin&mdash;the Lord. The Lord is the ever-existing God, the great I Am, who became the Son of Man and was lifted up on the cross to bear our sins; hence, He is qualified to forgive our sins. Furthermore, the Lord, being the eternal God, can come into us to be life and light to deliver us from the bondage and darkness of sin.","The case in this chapter shows also that the religion (represented by the temple&mdash;vv. {Joh8:2|2}, {Joh8:20|20}) of law (vv. {Joh8:5|5}, {Joh8:17|17}) cannot set people free from sin and death; but the Lord Jesus, the I Am, who became the Son of Man and was lifted up on the cross for the serpent-poisoned people, can do what religion and law cannot do. This chapter shows us that Christ, the great I Am, not only is versus sin and death but also is versus religion and law."]},
+],
+'8:5': [
+{sup:"a", word:"in", vrefs:"Lev. 20:10"},
+{sup:1, word:"What", lines:["Their question here, like those in {Joh4:20|4:20}-{Joh4:25|25} and {Joh9:2|9:2}-{Joh9:3|3}, was a matter of yes or no, which belongs to the tree of knowledge, the result of which is death ({Gen2:17|Gen. 2:17}). But the Lord&rsquo;s answer in {Joh8:7|v. 7} pointed them to Himself, the One who is the tree of life, which results in life ({Gen2:9|Gen. 2:9})."]},
+],
+'8:6': [
+{sup:"a", word:"tempt", vrefs:"Matt. 16:1; 19:3; 22:18, 35"},
+{sup:1, word:"stooped", lines:["The Lord Jesus&rsquo; stooping down was a sign done to humble and calm the proud and self-righteous scribes and Pharisees. It might be that He was writing, &ldquo;Who among you is without sin?&rdquo;"]},
+],
+'8:7': [
+{sup:"a", word:"let", vrefs:"Deut. 17:7"},
+],
+'8:11': [
+{sup:1, word:"Lord", lines:["Or, Sir."]},
+{sup:"2a", word:"Neither", vrefs:"John 3:17", lines:["The scribes and Pharisees could not condemn the woman, because they were all sinful. Only the Lord Jesus was without sin, and only He was qualified to condemn the woman; but He would not."]},
+{sup:"b", word:"sin", vrefs:"John 5:14"},
+],
+'8:12': [
+{sup:"a", word:"light", vrefs:"John 9:5; 11:9-10; 12:35-36, 46"},
+{sup:"1b", word:"light", vrefs:"John 1:4", lines:["The light of life ({Joh1:4|1:4}) shines within man by the inner sense of life to deliver man from sin."]},
+],
+'8:13': [
+{sup:"a", word:"testifying", vrefs:"John 5:31"},
+],
+'8:14': [
+{sup:"a", word:"where", vrefs:"John 8:42"},
+{sup:"b", word:"you", vrefs:"John 9:29"},
+],
+'8:15': [
+{sup:"a", word:"You", vrefs:"John 7:24"},
+{sup:1, word:"judge", lines:["Or, condemn."]},
+],
+'8:16': [
+{sup:"a", word:"judge", vrefs:"John 5:30"},
+{sup:1, word:"I", lines:["This proves that when the Son was on the earth, the Father was with Him on the earth. The Father can never be separated from the Son, and the Son can never be separated from the Father. When the Son was on the earth, He was still in heaven with the Father ({Joh3:13|3:13}). This proves that when God became flesh ({Joh1:14|1:14}), it was the Son with the Father, the Father with the Son, in the Spirit (that is, the entire God&mdash;the Father, the Son, and the Spirit) who became flesh ({1Ti3:16|1&nbsp;Tim. 3:16}). See also {Joh8:29|v. 29}."]},
+{sup:"b", word:"and", vrefs:"John 8:29; 16:32"},
+],
+'8:17': [
+{sup:"a", word:"in", vrefs:"Deut. 19:15"},
+],
+'8:19': [
+{sup:"a", word:"if", vrefs:"John 14:7"},
+],
+'8:20': [
+{sup:"a", word:"hour", vrefs:"John 7:30"},
+],
+'8:21': [
+{sup:"a", word:"you", vrefs:"John 7:34, 36; 13:33"},
+{sup:"b", word:"die", vrefs:"John 8:24"},
+],
+'8:23': [
+{sup:"a", word:"You", vrefs:"John 3:31"},
+{sup:1, word:"from", lines:["From and of are the same word in Greek."]},
+{sup:"1b", word:"of", vrefs:"1&nbsp;John 4:5", lines:["See {Joh8:23^1|note 23<sup>1</sup>}."]},
+{sup:"c", word:"I", vrefs:"John 17:14, 16"},
+],
+'8:24': [
+{sup:"a", word:"die", vrefs:"John 8:21"},
+{sup:"1b", word:"I", vrefs:"John 8:28, 58; Exo. 3:14", lines:["I am (vv. {Joh8:28|28}, {Joh8:58|58}) is the meaning of the name Jehovah ({Exo3:14|Exo. 3:14}), and Jehovah is the name of God ({Gen2:7|Gen. 2:7}), the One who is and who was and who is coming, the self-existing and ever-existing One ({Rev1:4|Rev. 1:4}; {Exo3:14|Exo. 3:14}-{Exo3:15|15}). This name is used in speaking of God in His relationship with man. Hence, it indicates that the Lord is the ever-existing God who has a relationship with man. Any man who does not believe that the Lord is this very God will die in his sins."]},
+],
+'8:25': [
+{sup:1, word:"tell", lines:["The Lord&rsquo;s speaking reveals what He is, in particular His eternal divinity, as the I Am spoken of in the foregoing verse. This is the basic element revealed in the Lord&rsquo;s word."]},
+],
+'8:26': [
+{sup:"a", word:"He", vrefs:"John 7:28"},
+],
+'8:28': [
+{sup:"1a", word:"lift", vrefs:"John 3:14; 12:32", lines:["The phrase lift (or lifted) up is used also in {Joh3:14|3:14} and {Joh12:31|12:31}-{Joh12:34|34}. In {Joh3:14|3:14} the Lord as the Son of Man was to be lifted up in the form of the serpent to bear the judgment of God for the serpent-poisoned people. In {Joh12:31|12:31}-{Joh12:34|34} the Lord as the Son of Man was to be lifted up for the casting out of the old serpent, Satan, the ruler of the world. Hence, in this chapter the Lord, as the Son of Man lifted up, can deliver the serpent-poisoned people from sin, the serpent&rsquo;s poison."]},
+{sup:"b", word:"then", vrefs:"Matt. 27:54"},
+{sup:"c", word:"I", vrefs:"John 8:24, 58; Exo. 3:14"},
+{sup:"d", word:"I", vrefs:"John 5:19"},
+],
+'8:29': [
+{sup:"a", word:"with", vrefs:"John 8:16"},
+],
+'8:31': [
+{sup:"a", word:"abide", vrefs:"John 15:7; 2&nbsp;John 9"},
+],
+'8:32': [
+{sup:"1a", word:"truth", vrefs:"John 1:14, 17; 14:6", lines:["In Greek the same as reality in {Joh1:14|1:14}, {Joh1:17|17}. The truth is not the so-called truth of doctrine but the reality of the divine things, which is the Lord Himself (see {Joh14:6^2|note 6<sup>2</sup>} in {Joh14|ch. 14}; {Joh1:14|1:14}, {Joh1:17|17}). This verse says that &ldquo;the truth shall set you free,&rdquo; whereas {Joh8:36|v. 36} says that &ldquo;the Son sets you free.&rdquo; This proves that the Son, the Lord Himself, is the truth. Since the Lord is the embodiment of God ({Col2:9|Col. 2:9}), He is the reality of what God is. Hence, reality is the very divine element of God realized by us. When the Lord as the great I Am comes into us as life, He shines within us as light, bringing the divine element as reality into us. This reality, which is the divine element imparted into us and realized by us, sets us free from the bondage of sin by the divine life as the light of man. When the Lord as the Word of God became flesh ({Joh1:14|1:14}), He brought God to us as this reality, that God might be the grace for our enjoyment ({Joh1:17|1:17})."]},
+{sup:"b", word:"set", vrefs:"John 8:36"},
+],
+'8:33': [
+{sup:"a", word:"Abraham&rsquo;s", vrefs:"Matt. 3:9"},
+],
+'8:34': [
+{sup:"a", word:"slave", vrefs:"Rom. 6:16; 2&nbsp;Pet. 2:19"},
+],
+'8:36': [
+{sup:"a", word:"sets", vrefs:"John 8:32"},
+],
+'8:37': [
+{sup:"a", word:"seek", vrefs:"John 7:1"},
+],
+'8:38': [
+{sup:"a", word:"I", vrefs:"John 12:49"},
+{sup:"b", word:"your", vrefs:"John 8:44; 1&nbsp;John 3:10"},
+],
+'8:39': [
+{sup:"a", word:"Abraham&rsquo;s", vrefs:"Rom. 9:7"},
+],
+'8:40': [
+{sup:"a", word:"seeking", vrefs:"John 8:37; 7:1"},
+],
+'8:41': [
+{sup:"a", word:"your", vrefs:"John 8:38, 44"},
+{sup:"b", word:"one", vrefs:"Deut. 32:6; Isa. 63:16"},
+],
+'8:42': [
+{sup:"a", word:"I", vrefs:"John 16:28"},
+{sup:"b", word:"I", vrefs:"John 7:28"},
+{sup:1, word:"sent", lines:["See {Joh1:6^1|note 6<sup>1</sup>} in {Joh1|ch. 1}."]},
+],
+'8:44': [
+{sup:"a", word:"You", vrefs:"John 8:38, 41; 1&nbsp;John 3:8, 10"},
+{sup:1, word:"father", lines:["Because the devil is the father of sinners, sinners are the children of the devil ({1Jo3:10|1&nbsp;John 3:10}). The devil is the old serpent ({Rev12:9|Rev. 12:9}; {Rev20:2|20:2}), and sinners also are serpents, the generation of vipers ({Mat23:33|Matt. 23:33}; {Mat3:7|3:7}). Hence, they need the Lord in the form of the serpent to be lifted up for them on the cross ({Joh3:14|3:14}) to save them not only from sin but also from the source of sin, the devil ({Heb2:14|Heb. 2:14})."]},
+{sup:"b", word:"murderer", vrefs:"Gen. 4:8; 1&nbsp;John 3:15"},
+{sup:"c", word:"truth", vrefs:"1&nbsp;John 2:4"},
+{sup:"d", word:"he", vrefs:"Matt. 12:34"},
+{sup:2, word:"possessions", lines:["The Lord&rsquo;s word here revealed that in the devil, the father of lies, there is a particular wicked thing that caused him to become the source of sin. This thing is something of his own, his private possession, and it is something that other creatures do not have."]},
+{sup:3, word:"father", lines:["Or, father of lies. Since the devil is the father of liars, he is the source of sin. The divine element of God, working as life and light within man, sets man free from the slavery of sin. But the evil element of the devil, working as sin through death and darkness within man, enslaves man to sin. The devil&rsquo;s nature is a lie and brings in death and darkness. With darkness is falsehood, the opposite of the truth."]},
+],
+'8:45': [
+{sup:"a", word:"truth", vrefs:"John 18:37"},
+],
+'8:47': [
+{sup:1, word:"words", lines:["See {Joh6:63^3|note 63<sup>3</sup>} in {Joh6|ch. 6}."]},
+],
+'8:48': [
+{sup:"a", word:"Samaritan", vrefs:"John 4:9; Luke 10:33"},
+{sup:"b", word:"have", vrefs:"John 8:52; 7:20; 10:20"},
+],
+'8:49': [
+{sup:"a", word:"dishonor", vrefs:"John 5:23"},
+],
+'8:50': [
+{sup:"a", word:"I", vrefs:"John 7:18; 8:54"},
+],
+'8:51': [
+{sup:"a", word:"keeps", vrefs:"John 14:23"},
+{sup:"1b", word:"death", vrefs:"John 5:24", lines:["In the principle set forth in {Joh2|ch. 2}, this also is the changing of death into life."]},
+],
+'8:52': [
+{sup:"a", word:"have", vrefs:"John 8:48; 7:20; 10:20"},
+{sup:"b", word:"taste", vrefs:"Heb. 2:9"},
+],
+'8:54': [
+{sup:"a", word:"If", vrefs:"John 8:50; 7:18"},
+{sup:"b", word:"My", vrefs:"John 17:1, 5; 13:32"},
+],
+'8:55': [
+{sup:"a", word:"you", vrefs:"John 8:19"},
+{sup:1, word:"known", lines:["In this verse two Greek words are used for know: the first denotes the outward, objective knowledge; the second refers to the inward, subjective consciousness. The Lord Jesus told the Pharisees that they had not known God the Father, even in the outward, objective knowledge, but that He knew the Father in the inward, subjective consciousness."]},
+{sup:"b", word:"I", vrefs:"John 7:29"},
+{sup:"c", word:"a", vrefs:"John 8:44"},
+],
+'8:58': [
+{sup:"a", word:"Before", vrefs:"John 17:5, 24; Col. 1:17"},
+{sup:"1b", word:"I", vrefs:"John 8:24, 28; Exo. 3:14", lines:["The Lord as the great I Am is the eternal, ever-existing God. Hence, He was before Abraham and is greater than Abraham ({Joh8:53|v. 53})."]},
+],
+'8:59': [
+{sup:"a", word:"picked", vrefs:"John 10:31; 11:8"},
+],
+'9:1': [
+{sup:1, word:"a", lines:["This case is further proof that the religion of law (see {Joh9:14^1|note 14<sup>1</sup>}) could not in any way help a blind man. But the Lord Jesus, as the light of the world, imparted sight to him in the way of life ({Joh10:10|10:10b}, {Joh10:28|28})."]},
+{sup:2, word:"blind", lines:["Blindness, like sin in the previous chapter, is a matter of death. A dead person surely is blind. &ldquo;The god of this age has blinded the thoughts of the unbelievers.&rdquo; Hence, they need &ldquo;the illumination of the gospel of the glory of Christ&rdquo; to shine on them ({2Co4:4|2&nbsp;Cor. 4:4}) &ldquo;to open their eyes, to turn them from darkness to light and from the authority of Satan to God&rdquo; ({Act26:18|Acts 26:18}). In the principle set forth in {Joh2|ch. 2}, this also is the changing of death into life."]},
+],
+'9:2': [
+{sup:1, word:"who", lines:["This question, like those in {Joh4:20|4:20}-{Joh4:25|25} and {Joh8:3|8:3}-{Joh8:5|5}, was a matter of yes or no, which belongs to the tree of knowledge, the result of which is death ({Gen2:17|Gen. 2:17}). But the Lord&rsquo;s answer in {Joh9:3|v. 3} pointed them to Himself, the One who is the tree of life, which results in life ({Gen2:9|Gen. 2:9})."]},
+],
+'9:4': [
+{sup:"a", word:"day", vrefs:"John 11:9; 12:35"},
+],
+'9:5': [
+{sup:"a", word:"light", vrefs:"John 1:4; 8:12; 11:9-10; 12:35-36, 46"},
+],
+'9:6': [
+{sup:"a", word:"spat", vrefs:"Mark 7:33; 8:23"},
+{sup:1, word:"spittle", lines:["Clay here, as in {Rom9:21|Rom. 9:21}, signifies humanity. Spittle here, as something that proceeds out of the mouth of the Lord ({Mat4:4|Matt. 4:4}), signifies the Lord&rsquo;s words, which are Spirit and are life ({Joh6:63|6:63}). The Lord&rsquo;s making clay of the spittle signifies the mingling of humanity with the Lord&rsquo;s living word, which is the Spirit. The word anointed proves this, because the Lord&rsquo;s Spirit is the anointing Spirit ({Luk4:18|Luke 4:18}; {2Co1:21|2&nbsp;Cor. 1:21}-{2Co1:22|22}; {1Jo2:27|1&nbsp;John 2:27}). Here the Lord anointed the blind eyes with the clay made of His spittle, that they might have sight. This signifies that by the anointing of the mingling of the Lord&rsquo;s word (which is His Spirit) with our humanity, our eyes, which were blinded by Satan, can have sight."]},
+],
+'9:7': [
+{sup:1, word:"wash", lines:["Here to wash is to cleanse away the clay. This signifies the washing away of our old humanity, as experienced in baptism ({Rom6:3|Rom. 6:3}-{Rom6:4|4}, {Rom6:6|6})."]},
+{sup:"a", word:"Siloam", vrefs:"Neh. 3:15; Isa. 8:6"},
+{sup:2, word:"Sent", lines:["See {Joh1:6^1|note 6<sup>1</sup>} in {Joh1|ch. 1}."]},
+{sup:3, word:"He", lines:["His going and washing indicates that he obeyed the life-giving word of the Lord. So he received sight. If he had not gone to wash off the clay after having been anointed with it, the clay would have blinded him even more. Our obedience to the Lord&rsquo;s anointing cleanses us and brings us sight."]},
+],
+'9:14': [
+{sup:"1a", word:"Sabbath", vrefs:"John 5:9", lines:["It seems that the Lord again purposely did a sign on the Sabbath to expose the vanity of religious ritual. In any case, this strengthened religion&rsquo;s opposition, for He had already done a sign on the Sabbath ({Joh5:10|5:10}, {Joh5:16|16})."]},
+],
+'9:15': [
+{sup:"a", word:"Again", vrefs:"John 9:10"},
+],
+'9:16': [
+{sup:"a", word:"not", vrefs:"Matt. 12:2; John 5:10, 16"},
+{sup:"b", word:"signs", vrefs:"John 2:11; 4:54"},
+{sup:"c", word:"a", vrefs:"John 6:52; 7:43; 10:19"},
+],
+'9:22': [
+{sup:"a", word:"feared", vrefs:"John 7:13"},
+{sup:"b", word:"put", vrefs:"John 12:42; 16:2"},
+],
+'9:24': [
+{sup:"a", word:"Give", vrefs:"Josh. 7:19"},
+],
+'9:27': [
+{sup:"a", word:"I", vrefs:"John 9:15"},
+],
+'9:28': [
+{sup:"a", word:"we", vrefs:"John 5:45"},
+],
+'9:29': [
+{sup:"a", word:"we", vrefs:"John 8:14"},
+],
+'9:31': [
+{sup:"a", word:"We", vrefs:"Isa. 59:1-2; Psa. 66:18"},
+],
+'9:32': [
+{sup:1, word:"Since", lines:["Lit., from the age; i.e., from eternity."]},
+],
+'9:33': [
+{sup:"a", word:"If", vrefs:"John 3:2; 5:36"},
+{sup:1, word:"from", lines:["See {Joh1:14^5|note 14<sup>5</sup>} in {Joh1|ch. 1}."]},
+],
+'9:34': [
+{sup:"a", word:"sins", vrefs:"John 9:2"},
+{sup:"1b", word:"cast", vrefs:"John 9:22, 35", lines:["To cast him out was to excommunicate, to ostracize, him from the Jewish synagogue. This was to put him out of the sheepfold, as spoken by the Lord in {Joh10:3|10:3}-{Joh10:4|4}. Religion&rsquo;s persecution of the Lord&rsquo;s called one did nothing but fulfill what the Lord intended for him."]},
+],
+'9:35': [
+{sup:"a", word:"cast", vrefs:"John 9:22, 34"},
+{sup:1, word:"Son", lines:["Some ancient authorities read, Son of Man."]},
+],
+'9:36': [
+{sup:"a", word:"Lord", vrefs:"Rom. 10:13-14"},
+],
+'9:37': [
+{sup:"a", word:"He", vrefs:"John 4:26"},
+],
+'9:38': [
+{sup:"a", word:"worshipped", vrefs:"Matt. 8:2; Luke 17:15-16"},
+],
+'9:39': [
+{sup:"a", word:"judgment", vrefs:"John 5:22, 27"},
+{sup:"b", word:"those", vrefs:"Luke 4:18; Matt. 11:5"},
+{sup:"c", word:"those", vrefs:"Matt. 13:13; 15:14"},
+],
+'9:40': [
+{sup:"a", word:"blind", vrefs:"Rom. 2:19; Rev. 3:17"},
+],
+'9:41': [
+{sup:"a", word:"not", vrefs:"John 15:22, 24"},
+],
+'10:1': [
+{sup:"1a", word:"door", vrefs:"John 10:7, 9", lines:["See {Joh10:9^1|note 9<sup>1</sup>}; so in the succeeding verses."]},
+{sup:2, word:"sheepfold", lines:["The sheepfold signifies the law, or Judaism as the religion of the law, in which God&rsquo;s chosen people were kept and guarded in custody until Christ came."]},
+{sup:"3b", word:"thief", vrefs:"John 10:8", lines:["Thieves and robbers ({Joh10:8|v. 8}) signify those who came into Judaism, but not through Christ."]},
+],
+'10:2': [
+{sup:"a", word:"door", vrefs:"John 10:7, 9"},
+{sup:"b", word:"shepherd", vrefs:"John 10:11"},
+],
+'10:3': [
+{sup:1, word:"sheep", lines:["The blind man who received sight in the previous chapter was such a sheep. He was led by the Lord out of the Judaism-fold. Hence, this chapter is a continuation of {Joh9|ch. 9}."]},
+{sup:"a", word:"hear", vrefs:"John 10:4, 16, 27"},
+{sup:"b", word:"out", vrefs:"John 10:9"},
+],
+'10:4': [
+{sup:"a", word:"follow", vrefs:"John 10:27"},
+{sup:"b", word:"voice", vrefs:"John 10:3, 16, 27"},
+],
+'10:6': [
+{sup:"a", word:"parable", vrefs:"John 16:25, 29"},
+],
+'10:7': [
+{sup:"a", word:"door", vrefs:"John 10:9"},
+],
+'10:8': [
+{sup:"a", word:"thieves", vrefs:"John 10:1"},
+],
+'10:9': [
+{sup:"1a", word:"door", vrefs:"John 10:7", lines:["Christ is the door not only for God&rsquo;s elect to enter into the custody of the law, as did Moses, David, Isaiah, and Jeremiah in the Old Testament time, before Christ came, but also for God&rsquo;s chosen people, such as Peter, John, James, and Paul, to come out of the fold of the law now that Christ has come. Thus, the Lord indicated here that He is the door not only through which God&rsquo;s elect may go in but also through which God&rsquo;s chosen people may go out."]},
+{sup:2, word:"pasture", lines:["The pasture here signifies Christ as the feeding place for the sheep. When the pasture is not available (e.g., in the wintertime or at night), the sheep must be kept in the fold. When the pasture is ready, there is no further need for the sheep to remain in the fold. To be kept in the fold is transitional and temporary. To be in the pasture enjoying its riches is final and permanent. Before Christ came, the law was a ward, and being under the law was transitional. Now that Christ has come, all God&rsquo;s chosen people must come out of the law and come into Him to enjoy Him as their pasture ({Gal3:23|Gal. 3:23}-{Gal3:25|25}; {Gal4:3|4:3}-{Gal4:5|5}). This should be final and permanent. Because they did not have such a revelation, the leaders in Judaism considered the law, on which Judaism was based, as permanent. As a result, they missed Christ and could not participate in Him as their pasture."]},
+],
+'10:10': [
+{sup:"a", word:"have", vrefs:"John 5:40"},
+{sup:1, word:"life", lines:["Gk. zoe. This word is used in the New Testament for the eternal, divine life."]},
+],
+'10:11': [
+{sup:"a", word:"Shepherd", vrefs:"John 10:14; Isa. 40:11; Heb. 13:20; 1&nbsp;Pet. 5:4; Rev. 7:17"},
+{sup:"b", word:"lays", vrefs:"John 10:15, 17, 18; 1&nbsp;John 3:16; John 15:13; Isa. 53:12"},
+{sup:1, word:"life", lines:["Gk. psuche, soul; i.e., soul-life, and so in the succeeding verses. As a man, the Lord has the psuche life, the human life, and as God, He has the zoe life, the divine life. He laid down His soul, His psuche life, His human life, to accomplish redemption for His sheep (vv. {Joh10:15|15}, {Joh10:17|17}-{Joh10:18|18}) that they may share His zoe life, His divine life ({Joh10:10|v. 10b}), the eternal life ({Joh10:28|v. 28}), by which they can be formed into one flock under Himself as the one Shepherd. As the good Shepherd, He feeds His sheep with the divine life in this way and for this purpose."]},
+],
+'10:14': [
+{sup:"a", word:"Shepherd", vrefs:"John 10:11"},
+{sup:"b", word:"I", vrefs:"John 10:27"},
+{sup:"c", word:"My", vrefs:"John 10:4"},
+],
+'10:15': [
+{sup:"a", word:"Father", vrefs:"Matt. 11:27"},
+{sup:"b", word:"lay", vrefs:"John 10:11, 17, 18"},
+],
+'10:16': [
+{sup:"1a", word:"other", vrefs:"Acts 11:18; Eph. 2:12; 3:6", lines:["The other sheep are the Gentile believers ({Act11:18|Acts 11:18})."]},
+{sup:"2b", word:"one", vrefs:"John 17:21; Eph. 2:13-16", lines:["The one flock signifies the one church, the one Body of Christ ({Eph2:14|Eph. 2:14}-{Eph2:16|16}; {Eph3:6|3:6}), brought forth by the Lord&rsquo;s eternal, divine life, which He imparted into His members through His death (vv. {Joh10:10|10}-{Joh10:18|18}). The fold is Judaism, which is of letter and regulation, and the flock is the church, which is of life and spirit."]},
+{sup:"c", word:"Shepherd", vrefs:"John 10:11, 14; 1&nbsp;Pet. 2:25"},
+],
+'10:17': [
+{sup:"a", word:"Father", vrefs:"John 3:35; 5:20"},
+{sup:"b", word:"I", vrefs:"John 10:11, 15, 18"},
+],
+'10:18': [
+{sup:"a", word:"lay", vrefs:"John 10:11, 15, 17"},
+{sup:"b", word:"take", vrefs:"John 2:19"},
+],
+'10:19': [
+{sup:"a", word:"A", vrefs:"John 7:43; 9:16"},
+],
+'10:20': [
+{sup:"a", word:"has", vrefs:"John 7:20"},
+{sup:"b", word:"insane", vrefs:"Mark 3:21"},
+],
+'10:21': [
+{sup:"a", word:"open", vrefs:"John 9:32"},
+],
+'10:22': [
+{sup:1, word:"Feast", lines:["From 170 B.C. to 168 B.C., Antiochus Epiphanes, king of Syria, invaded Jerusalem and looted the temple. Moreover, on December 25, 168 B.C., he sacrificed a sow on the altar and set up an image in the temple, thus defiling and damaging the temple. Three years later, in 165 B.C., Judas Maccabeus, a strong man of Judah, purified and restored the altar and the temple. He set December 25&mdash;the day on which the altar and the temple had been defiled&mdash;as the beginning of a sacred feast that was to have eight consecutive days of rejoicing to celebrate the great achievement of the purification and restoration of the altar and the temple. This sacred feast is the Feast of the Dedication mentioned here."]},
+],
+'10:23': [
+{sup:"a", word:"portico", vrefs:"Acts 3:11; 5:12"},
+],
+'10:24': [
+{sup:"a", word:"plainly", vrefs:"John 16:25, 29"},
+],
+'10:25': [
+{sup:"a", word:"works", vrefs:"John 5:36; 10:38"},
+{sup:1, word:"in", lines:["See {Joh5:43^1|note 43<sup>1</sup>} in {Joh5|ch. 5}."]},
+],
+'10:27': [
+{sup:"a", word:"hear", vrefs:"John 10:3, 16"},
+{sup:"b", word:"I", vrefs:"John 10:14"},
+{sup:"c", word:"follow", vrefs:"John 10:4"},
+],
+'10:28': [
+{sup:"1a", word:"eternal", vrefs:"John 17:2; 3:15, 16", lines:["Eternal life (see {Joh3:15^1|note 15<sup>1</sup>} in {Joh3|ch. 3}) is for the believers&rsquo; living. The Father&rsquo;s hand, by which He chooses in His love according to His purpose ({Joh17:23|17:23}; {Joh6:38|6:38}-{Joh6:39|39}), and the Son&rsquo;s hand, by which He saves by His grace for the fulfillment of the Father&rsquo;s purpose ({Joh1:14|1:14}; {Joh6:37|6:37}), both of which have the keeping power, are for the believers&rsquo; protection. Eternal life will never run out, and the hands of the Father and the Son will never fail. Hence, the believers are eternally secure and will never perish."]},
+{sup:"b", word:"no", vrefs:"John 6:39"},
+{sup:"c", word:"snatch", vrefs:"John 10:29"},
+],
+'10:29': [
+{sup:"a", word:"snatch", vrefs:"John 10:28"},
+{sup:1, word:"Father&rsquo;s", lines:["See {Joh10:28^1|note 28<sup>1</sup>}."]},
+],
+'10:30': [
+{sup:1, word:"I", lines:["Here the Lord asserted His deity, that is, that He is God ({Joh10:33|v. 33}; {Joh5:18|5:18}; {Joh1:1|1:1}; {Joh20:28|20:28}; {1Jo5:20|1&nbsp;John 5:20}; {Phi2:6|Phil. 2:6})."]},
+{sup:"a", word:"one", vrefs:"John 17:22"},
+],
+'10:31': [
+{sup:"a", word:"took", vrefs:"John 8:59; 11:8"},
+],
+'10:33': [
+{sup:"a", word:"God", vrefs:"John 5:18; 1:1; 20:28; 19:7; 1&nbsp;John 5:20; Phil. 2:6"},
+],
+'10:34': [
+{sup:"a", word:"You", vrefs:"Psa. 82:6"},
+],
+'10:36': [
+{sup:"a", word:"has", vrefs:"John 6:69"},
+{sup:"1b", word:"sent", vrefs:"John 3:17; 1&nbsp;John 4:9", lines:["See {Joh1:6^1|note 6<sup>1</sup>} in {Joh1|ch. 1}."]},
+{sup:"c", word:"I", vrefs:"John 5:17; 10:30"},
+],
+'10:37': [
+{sup:"a", word:"works", vrefs:"John 5:36; 10:25"},
+],
+'10:38': [
+{sup:"a", word:"believe", vrefs:"John 10:25; 14:11"},
+{sup:"b", word:"Father", vrefs:"John 14:10, 20; 17:21, 23"},
+],
+'10:39': [
+{sup:"a", word:"seize", vrefs:"John 7:30"},
+],
+'10:40': [
+{sup:1, word:"He", lines:["At this point the Lord left the temple and went to the very place where John the Baptist had given the New Testament testimony concerning Him. This signifies that He abandoned Judaism and came to the new ground, where many believed into Him."]},
+{sup:"a", word:"across", vrefs:"John 1:28"},
+],
+'10:41': [
+{sup:"a", word:"all", vrefs:"John 1:27, 29, 30, 34; 3:28-30"},
+],
+'10:42': [
+{sup:"a", word:"many", vrefs:"John 7:31"},
+],
+'11:1': [
+{sup:1, word:"Bethany", lines:["The Lord had left Judaism and had come to a place from which He could proceed to Bethany, which was an early miniature of the church."]},
+],
+'11:2': [
+{sup:"a", word:"anointed", vrefs:"John 12:3; cf. Luke 7:38"},
+],
+'11:4': [
+{sup:"a", word:"glory", vrefs:"John 11:40"},
+],
+'11:8': [
+{sup:1, word:"said", lines:["In the eight foregoing cases, in chs. {Joh3|3}&mdash;{Joh10|10}, religion was the main frustration to and opponent of life. Here, outside religion and on the new ground, life was going to raise a dead person. Here life no longer faced religion with its rituals, but it was frustrated by many human opinions: the disciples&rsquo; opinions (vv. {Joh11:8|8}-{Joh11:16|16}), Martha&rsquo;s opinion (vv. {Joh11:21|21}-{Joh11:28|28}), Mary&rsquo;s opinion (vv. {Joh11:32|32}-{Joh11:33|33}), the Jews&rsquo; opinion (vv. {Joh11:36|36}-{Joh11:38|38}), and, again, Martha&rsquo;s opinion (vv. {Joh11:39|39}-{Joh11:40|40}). Opinions, which come from knowledge, belong to the tree of knowledge, but the Lord here was actually the tree of life for people to enjoy."]},
+{sup:"a", word:"stone", vrefs:"John 8:59; 10:31"},
+],
+'11:9': [
+{sup:"a", word:"day", vrefs:"John 9:4; 12:35"},
+{sup:"b", word:"light", vrefs:"John 8:12; 9:5; 12:46"},
+],
+'11:11': [
+{sup:"a", word:"asleep", vrefs:"Matt. 27:52; 1&nbsp;Thes. 4:13-16"},
+],
+'11:12': [
+{sup:1, word:"recover", lines:["Lit., be saved."]},
+],
+'11:14': [
+{sup:1, word:"died", lines:["In the Lord&rsquo;s salvation He does not merely heal the sick; He also gives life to the dead. Hence, He remained two days until the sick one had died ({Joh11:6|v. 6}). The Lord does not reform or regulate people&mdash;He regenerates people and raises them out of death. Hence, the first of the nine cases in chs. {Joh3|3}&mdash;{Joh11|11} was a case of regeneration, and the last was a case of resurrection, revealing that all the aspects of Christ as life to us, as unveiled in the other seven cases, are in the principle of regeneration and resurrection. This last case was the actual changing of death into life."]},
+],
+'11:16': [
+{sup:1, word:"Didymus", lines:["I.e., Twin."]},
+],
+'11:17': [
+{sup:"a", word:"four", vrefs:"John 11:39"},
+],
+'11:18': [
+{sup:1, word:"fifteen", lines:["I.e., about two miles."]},
+],
+'11:21': [
+{sup:"a", word:"if", vrefs:"John 11:32"},
+],
+'11:24': [
+{sup:"a", word:"resurrection", vrefs:"Dan. 12:2; Acts 24:15"},
+{sup:1, word:"in", lines:["The Lord told Martha, &ldquo;Your brother will rise again&rdquo; ({Joh11:23|v. 23}). This meant that the Lord would raise him immediately; but Martha expounded the Lord&rsquo;s word so as to postpone the present resurrection to the last day. What an exposition of the divine word! Some of the knowledge of fundamental teaching is truly destructive and frustrates people from enjoying the Lord&rsquo;s present resurrection life."]},
+],
+'11:25': [
+{sup:"a", word:"life", vrefs:"John 1:4; 5:26"},
+{sup:"b", word:"live", vrefs:"John 6:39"},
+],
+'11:26': [
+{sup:"a", word:"no", vrefs:"John 6:50, 51; 8:51"},
+],
+'11:27': [
+{sup:1, word:"believed", lines:["The Lord said to Martha, &ldquo;I am the resurrection and the life,&rdquo; and asked her, &ldquo;Do you believe this?&rdquo; She answered, &ldquo;Yes, Lord; I have believed that You are the Christ, the Son of God.&rdquo; Her reply did not answer the Lord&rsquo;s question. Her old, preoccupying knowledge covered her, preventing her from understanding the Lord&rsquo;s new word. Man&rsquo;s old knowledge and old opinions are coverings that keep him from knowing clearly the Lord&rsquo;s new revelation."]},
+{sup:"a", word:"You", vrefs:"Matt. 16:16"},
+{sup:"b", word:"comes", vrefs:"John 6:14"},
+],
+'11:28': [
+{sup:1, word:"is", lines:["This might have been Martha&rsquo;s opinion and not the Lord&rsquo;s command."]},
+],
+'11:31': [
+{sup:1, word:"weep", lines:["Lit., wail."]},
+],
+'11:32': [
+{sup:"a", word:"if", vrefs:"John 11:21"},
+],
+'11:33': [
+{sup:1, word:"weeping", lines:["Lit., wailing."]},
+{sup:"a", word:"Jews", vrefs:"John 11:19"},
+{sup:"b", word:"moved", vrefs:"John 11:38; Rom. 8:26"},
+{sup:"c", word:"troubled", vrefs:"John 12:27; 13:21"},
+],
+'11:35': [
+{sup:1, word:"wept", lines:["This word differs from the word translated weep and weeping in vv. {Joh11:31|31} and {Joh11:33|33}. Here it means to shed tears, to weep silently. This is the only time the word is used in the New Testament."]},
+],
+'11:36': [
+{sup:"a", word:"loved", vrefs:"John 11:3"},
+],
+'11:37': [
+{sup:"a", word:"opened", vrefs:"John 9:7, 32"},
+],
+'11:39': [
+{sup:"a", word:"fourth", vrefs:"John 11:17"},
+],
+'11:40': [
+{sup:"a", word:"glory", vrefs:"John 11:4"},
+],
+'11:41': [
+{sup:1, word:"took", lines:["Their taking the stone away and loosing Lazarus were their submitting to and cooperating with the resurrection life."]},
+{sup:"a", word:"lifted", vrefs:"John 17:1"},
+{sup:"b", word:"Father", vrefs:"Matt. 11:25"},
+],
+'11:42': [
+{sup:"a", word:"believe", vrefs:"John 17:8, 21"},
+{sup:1, word:"sent", lines:["See {Joh1:6^1|note 6<sup>1</sup>} in {Joh1|ch. 1}."]},
+],
+'11:44': [
+{sup:"a", word:"bound", vrefs:"John 19:40"},
+{sup:"b", word:"his", vrefs:"John 20:7"},
+],
+'11:45': [
+{sup:"a", word:"Jews", vrefs:"John 11:19"},
+],
+'11:47': [
+{sup:"a", word:"signs", vrefs:"John 2:11, 23; 3:2; 4:54; 6:2, 14"},
+],
+'11:49': [
+{sup:"a", word:"high", vrefs:"John 11:51; 18:13"},
+],
+'11:50': [
+{sup:"a", word:"it", vrefs:"John 18:14"},
+],
+'11:51': [
+{sup:"a", word:"high", vrefs:"John 11:49; 18:13"},
+],
+'11:52': [
+{sup:1, word:"gather", lines:["The phrase gather into one the children of God mentioned in this chapter implies that not only the Lord&rsquo;s death but also the Lord&rsquo;s resurrection life are for the building up of God&rsquo;s children. By His death the Lord released His life so that it could be imparted into those who believe into Him. This life is experienced by us in His resurrection. It is in the Lord&rsquo;s resurrection that we grow together into one by His life to become His Body."]},
+{sup:"a", word:"one", vrefs:"cf. John 10:16"},
+],
+'11:53': [
+{sup:"a", word:"took", vrefs:"Matt. 26:4"},
+],
+'11:54': [
+{sup:"a", word:"walked", vrefs:"John 7:1"},
+],
+'11:55': [
+{sup:"a", word:"Passover", vrefs:"John 2:13; 6:4"},
+{sup:"b", word:"purify", vrefs:"2&nbsp;Chron. 30:17-19; John 18:28"},
+],
+'12:1': [
+{sup:"a", word:"Passover", vrefs:"Lev. 23:5; Exo. 12:3, 6"},
+{sup:"1b", word:"Bethany", vrefs:"vv. 1-8: Matt. 26:6-13; Mark 14:3-9", lines:["Bethany means house of affliction. At this point the Lord was outside Judaism. Through His resurrection life He had gained a house in Bethany where He could feast and have rest and satisfaction. This house of feasting was a miniature of the church life and depicted the situation of the church: (1) produced by the resurrection life&mdash;Lazarus ({Joh11:43|11:43}-{Joh11:44|44}); (2) composed of cleansed sinners&mdash;Simon the leper ({Mrk14:3|Mark 14:3}); (3) outwardly afflicted&mdash;Bethany; (4) inwardly feasting in and with the presence of the Lord ({Joh12:2|v. 2}); (5) having more sisters than brothers (vv. {Joh12:2|2}-{Joh12:3|3}); (6) having members with different functions: serving&mdash;Martha, testifying&mdash;Lazarus, and loving&mdash;Mary (vv. {Joh12:2|2}-{Joh12:3|3}); (7) spotted by the false one&mdash;Judas ({Joh12:4|v. 4}); (8) persecuted by religion ({Joh12:10|v. 10}); (9) being a test and exposing people (vv. {Joh12:6|6}, {Joh12:10|10}); and (10) bringing in many believers ({Joh12:11|v. 11})."]},
+{sup:"c", word:"whom", vrefs:"John 11:43-44"},
+],
+'12:2': [
+{sup:"a", word:"Martha", vrefs:"Luke 10:38, 40"},
+],
+'12:3': [
+{sup:"a", word:"Mary", vrefs:"John 11:2"},
+{sup:1, word:"pound", lines:["A unit of weight at that time, about twelve ounces."]},
+{sup:2, word:"house", lines:["This was the house of Simon the leper ({Mrk14:3|Mark 14:3})."]},
+],
+'12:4': [
+{sup:"a", word:"Judas", vrefs:"John 6:71; 13:21, 26"},
+],
+'12:5': [
+{sup:1, word:"denarii", lines:["See {Joh6:7^1|note 7<sup>1</sup>} in {Joh6|ch. 6}."]},
+],
+'12:6': [
+{sup:"a", word:"holding", vrefs:"John 13:29"},
+],
+'12:7': [
+{sup:1, word:"Jesus", lines:["The Lord Jesus was a test to all those around Him. The chief priests and Pharisees conspired to kill Him ({Joh11:47|11:47}, {Joh11:53|53}, {Joh11:57|57}), Simon the leper prepared his house for Him ({Mat26:6|Matt. 26:6}), Martha served Him, Lazarus testified concerning Him, Mary loved Him (vv. {Joh12:2|2}-{Joh12:3|3}), Judas was about to betray Him ({Joh12:4|v. 4}), and many believed into Him ({Joh12:11|v. 11}). The Lord is the center of God&rsquo;s economy and is a sign set up by God ({Luk2:34|Luke 2:34}). Anyone who contacts Him will inevitably be tested and exposed."]},
+],
+'12:8': [
+{sup:"a", word:"For", vrefs:"Deut. 15:11"},
+],
+'12:9': [
+{sup:"a", word:"whom", vrefs:"John 11:43; 12:1, 17"},
+],
+'12:11': [
+{sup:"a", word:"many", vrefs:"John 11:45"},
+],
+'12:12': [
+{sup:"a", word:"the", vrefs:"vv. 12-15: Matt. 21:4-9; Mark 11:7-10"},
+{sup:"b", word:"feast", vrefs:"Deut. 16:16"},
+],
+'12:13': [
+{sup:1, word:"Hosanna", lines:["A Hebrew expression meaning do save, we pray ({Psa118:25|Psa. 118:25})."]},
+{sup:"a", word:"Blessed", vrefs:"Psa. 118:26"},
+{sup:"b", word:"King", vrefs:"John 1:49"},
+],
+'12:15': [
+{sup:"a", word:"Fear", vrefs:"Zech. 9:9"},
+],
+'12:16': [
+{sup:"a", word:"glorified", vrefs:"John 7:39"},
+{sup:"b", word:"remembered", vrefs:"John 14:26"},
+],
+'12:20': [
+{sup:"a", word:"worship", vrefs:"Acts 8:27"},
+],
+'12:21': [
+{sup:"a", word:"Philip", vrefs:"John 1:43-46"},
+],
+'12:23': [
+{sup:"a", word:"hour", vrefs:"John 2:4; 7:30; 13:1"},
+{sup:"1b", word:"glorified", vrefs:"John 13:31-32", lines:["For Jesus as the Son of Man to be glorified was for Him to be resurrected, that is, to have His divine element, His divine life, released from within the shell of His humanity to produce many believers in resurrection ({1Pe1:3|1&nbsp;Pet. 1:3}), just as a grain of wheat ({Joh12:24|v. 24}) has its life element released when it falls into the ground and grows up out of the ground to bear much fruit, that is, to bring forth many grains. See {Joh17:1^1|note 1<sup>1</sup>} in {Joh17|ch. 17}."]},
+],
+'12:24': [
+{sup:"a", word:"Unless", vrefs:"1&nbsp;Cor. 15:36"},
+{sup:1, word:"falls", lines:["At this point, according to the worldly view, Jesus was in His golden time. A great crowd of the Jews esteemed Him highly and welcomed Him warmly because of the resurrection of Lazarus (vv. {Joh12:12|12}-{Joh12:19|19}), and even the Greeks were seeking after Him (vv. {Joh12:20|20}-{Joh12:22|22}). But He preferred to fall as a grain of wheat into the ground and die that He might produce many grains for the church."]},
+{sup:"2b", word:"much", vrefs:"cf. John 12:32", lines:["This &ldquo;much fruit&rdquo; became Christ&rsquo;s increase in resurrection. This increase is the glory into which Christ entered through His death and resurrection ({Luk24:26|Luke 24:26}). The portion from {Joh12:23|v. 23} of this chapter to the end of {Joh17|ch. 17} is a discourse on the mystery of this glory. Christ had the glory with God ({Joh17:5|17:5}). His incarnation caused His divine glory to be concealed in His flesh. Through His death and resurrection His glory was released, producing many grains, which become His increase as the expression of His glory. What was spoken in vv. {Joh12:23|23}, {Joh12:28|28}; {Joh13:31|13:31}-{Joh13:32|32}; {Joh14:13|14:13}; {Joh15:8|15:8}; {Joh16:14|16:14}; and {Joh17:1|17:1}, {Joh17:4|4}, {Joh17:5|5}, {Joh17:10|10}, {Joh17:22|22}, {Joh17:24|24} is related to this glory. In the Lord&rsquo;s last words to the believers in chs. {Joh14|14}&mdash;{Joh16|16}, there are three concrete, corporate expressions of this glory: the Father&rsquo;s house (the church) in {Joh14:2|14:2}, the branches of the vine (the constituents of the Body of Christ) in {Joh15:1|15:1}-{Joh15:5|5}, and a newborn corporate man (the new man) in {Joh16:21|16:21}. All three denote the church, showing that the church is the glorious increase produced by the glorious Christ through His death and resurrection. In this glorious increase, Christ, the Son of God, is glorified, causing God the Father also to be glorified in Christ&rsquo;s glorification, that is, to be fully expressed through the church ({Eph3:19|Eph. 3:19}-{Eph3:21|21}). This expression needs to be maintained in the oneness of the Triune God. Therefore, the Lord prayed in particular for this matter in His concluding prayer in {Joh17|ch. 17} ({Joh17:20|17:20}-{Joh17:23|23}). This glorious increase of Christ is the peak of the mystery revealed in the Gospel of John, and its ultimate consummation is the New Jerusalem in Revelation, also written by John. The new holy city will be the aggregate of Christ&rsquo;s increase throughout the generations, and in it Christ&rsquo;s divine glory will be expressed to the uttermost. In the glorifying of God the Son, God the Father also will obtain eternal, matchless glory, which will be His full expression in eternity. Thus His eternal economy will be fulfilled for eternity."]},
+],
+'12:25': [
+{sup:"a", word:"He", vrefs:"Matt. 10:39"},
+{sup:"1b", word:"soul-life", vrefs:"John 10:11, 15, 17, 18", lines:["The same Greek word as for life in {Joh10:11|10:11}, {Joh10:15|15}, {Joh10:17|17}. The Lord, as a grain of wheat that fell into the ground, lost His soul-life through death that He might release His eternal life in resurrection to the many grains. As the many grains, we also must lose our soul-life through death that we may enjoy eternal life in resurrection. This is to follow Him that we may serve Him and walk with Him on this way, the way of losing our soul-life and living in His resurrection, as mentioned in {Joh12:26|v. 26}."]},
+{sup:"c", word:"hates", vrefs:"Luke 14:26"},
+{sup:2, word:"eternal", lines:["See {Joh3:15^1|note 15<sup>1</sup>} in {Joh3|ch. 3}."]},
+],
+'12:27': [
+{sup:"a", word:"My", vrefs:"Matt. 26:38"},
+{sup:1, word:"soul", lines:["As a man, the Lord was troubled in His soul because of the death He was about to suffer. Hence, He prayed, &ldquo;Father, save Me out of this hour.&rdquo; However, it must have been that in His spirit He realized that it was for the glorifying of the Father that He had come to that hour."]},
+{sup:"b", word:"save", vrefs:"cf. Matt. 26:39"},
+{sup:"c", word:"hour", vrefs:"John 7:8; 13:1"},
+{sup:2, word:"this", lines:["This refers to the glorifying of the Father&rsquo;s name in the next verse."]},
+],
+'12:28': [
+{sup:"1a", word:"glorify", vrefs:"John 13:31, 32; 17:1", lines:["To glorify the name of the Father is to cause the Father&rsquo;s divine element to be expressed. The Father&rsquo;s divine element, which is the eternal life, was in the incarnated Son. The shell of the Son&rsquo;s incarnation had to be broken through death that the Father&rsquo;s divine element, the eternal life, might be released and expressed in resurrection, just as the life element of a grain of wheat is released by the breaking of its shell and is expressed by its blossom. This is the glorification of God the Father in the Son. See {Joh17:1^1|note 1<sup>1</sup>} in {Joh17|ch. 17}."]},
+{sup:"b", word:"voice", vrefs:"Matt. 3:17; 17:5"},
+],
+'12:29': [
+{sup:"a", word:"An", vrefs:"Acts 23:9"},
+],
+'12:30': [
+{sup:1, word:"come", lines:["Lit., happened."]},
+],
+'12:31': [
+{sup:"1a", word:"judgment", vrefs:"John 16:11", lines:["On the cross the Lord as the Son of Man ({Joh12:23|v. 23}) was lifted up in the form of the serpent ({Joh3:14|3:14}), that is, in the likeness of the flesh of sin ({Rom8:3|Rom. 8:3}). Satan as the old serpent ({Rev12:9|Rev. 12:9}; {Rev20:2|20:2}), the ruler of this world, had injected himself into man&rsquo;s flesh. Through His death on the cross in the likeness of the flesh of sin, the Lord destroyed Satan, who is in man&rsquo;s flesh ({Heb2:14|Heb. 2:14}). By judging Satan ({Joh16:11|16:11}) in this way, the Lord also judged the world, which is hanging on Satan. Hence, the Lord&rsquo;s being lifted up caused the world to be judged and its ruler, Satan, to be cast out."]},
+{sup:2, word:"world", lines:["The Greek word here means arrangement (see {1Jo2:15^2|note 15<sup>2</sup>} in {1Jo2|1&nbsp;John 2}). The world is an evil system arranged systematically by Satan. All the things on the earth, especially those related to mankind, and all the things in the air have been systematized by Satan into his kingdom of darkness to occupy people and frustrate them from accomplishing the purpose of God, and to distract them from the enjoyment of God. This evil system, the kingdom of darkness, was judged when its ruler, Satan, was cast out by the Lord&rsquo;s being crucified in the flesh. See {Joh12:31^1|note 31<sup>1</sup>}."]},
+{sup:"b", word:"ruler", vrefs:"John 14:30; 16:11; Eph. 2:2"},
+],
+'12:32': [
+{sup:"1a", word:"lifted", vrefs:"John 3:14; 8:28", lines:["In one aspect, the Lord&rsquo;s death was His falling into the ground, as revealed in {Joh12:24|v. 24}; in another aspect, it was His being lifted up on the tree ({1Pe2:24|1&nbsp;Pet. 2:24}). His falling into the ground was to produce the many grains; His being lifted up on the tree was to draw all men to Himself. The many grains produced by His falling into the ground are the &ldquo;all men&rdquo; drawn by His being lifted up on the tree.","In this chapter the Lord&rsquo;s death is revealed not as the redeeming death but as the producing, generating death. By this death His incarnation-shell of humanity was broken that He might accomplish His threefold purpose: (1) the producing of many grains, the drawing of all men to Himself (vv. {Joh12:24|24}, {Joh12:32|32}); (2) the releasing of the divine element, the eternal life (vv. {Joh12:23|23}, {Joh12:28|28}); and (3) the judging of the world and the casting out of its ruler, Satan ({Joh12:31|v. 31}). We must experience the Lord&rsquo;s death that we may participate in the threefold purpose that He accomplished."]},
+{sup:"b", word:"draw", vrefs:"John 6:44"},
+{sup:"c", word:"all", vrefs:"cf. John 12:24"},
+],
+'12:33': [
+{sup:"a", word:"signifying", vrefs:"John 18:32"},
+],
+'12:34': [
+{sup:"a", word:"Christ", vrefs:"Psa. 110:4; Isa. 9:7"},
+],
+'12:35': [
+{sup:"a", word:"still", vrefs:"John 7:33"},
+{sup:"b", word:"overcome", vrefs:"John 1:5"},
+{sup:"c", word:"walks", vrefs:"John 8:12; 1&nbsp;John 2:11"},
+],
+'12:36': [
+{sup:"a", word:"light", vrefs:"John 8:12; 9:5; 12:46"},
+{sup:"b", word:"sons", vrefs:"Eph. 5:8"},
+{sup:"c", word:"was", vrefs:"John 8:59"},
+],
+'12:38': [
+{sup:"a", word:"Lord", vrefs:"Isa. 53:1"},
+{sup:1, word:"arm", lines:["The arm of the Lord is the Lord Jesus Himself."]},
+],
+'12:40': [
+{sup:"a", word:"He", vrefs:"Isa. 6:10"},
+{sup:1, word:"blinded", lines:["These two, blindness and the hardening of the heart, are related; they are a punishment to the unbelieving ones."]},
+],
+'12:41': [
+{sup:"a", word:"saw", vrefs:"Isa. 6:1"},
+{sup:1, word:"His", lines:["His glory here confirms that the Lord Jesus is the very God, Jehovah of hosts, whose glory Isaiah saw ({Isa6:1|Isa. 6:1}, {Isa6:3|3}). This glory was seen and appreciated by Isaiah but was not loved by the Lord&rsquo;s weaker believers (vv. {Joh12:42|42}-{Joh12:43|43})."]},
+],
+'12:42': [
+{sup:"a", word:"so", vrefs:"John 7:13"},
+{sup:"b", word:"put", vrefs:"John 9:22"},
+],
+'12:43': [
+{sup:"a", word:"glory", vrefs:"John 5:44"},
+],
+'12:44': [
+{sup:1, word:"cried", lines:["This was the Lord&rsquo;s declaration to the unbelieving religionists. It implied that (1) He was God manifested to man (vv. {Joh12:44|44}-{Joh12:45|45}); (2) He came as a light into the world so that by believing into Him man would not remain in darkness (vv. {Joh12:46|46}, {Joh12:36|36}); and (3) He came to man with the living words; whoever receives His words has eternal life now and forever, and whoever rejects His words will be judged by His words in the last day (vv. {Joh12:47|47}-{Joh12:50|50})."]},
+{sup:"a", word:"into", vrefs:"John 5:24"},
+],
+'12:45': [
+{sup:"a", word:"beholds", vrefs:"John 14:9"},
+],
+'12:46': [
+{sup:"a", word:"light", vrefs:"John 12:36; 1:4; 8:12; 9:5"},
+],
+'12:47': [
+{sup:1, word:"words", lines:["See {Joh6:63^3|note 63<sup>3</sup>} in {Joh6|ch. 6}; so in the next verse."]},
+{sup:"a", word:"judge", vrefs:"John 3:17"},
+],
+'12:48': [
+{sup:"a", word:"word", vrefs:"Deut. 18:18-19"},
+],
+'12:49': [
+{sup:"a", word:"given", vrefs:"John 17:8"},
+],
+'12:50': [
+{sup:1, word:"eternal", lines:["See {Joh3:15^1|note 15<sup>1</sup>} in {Joh3|ch. 3}."]},
+{sup:"a", word:"as", vrefs:"John 8:28"},
+],
+'13:1': [
+{sup:1, word:"Now", lines:["In this Gospel, the first section, chs. {Joh1|1}&mdash;{Joh13|13}, describes how the Lord as God Himself, as the Son of God, came through His incarnation to bring God into man that He might be man&rsquo;s life for the producing of the church. The second section, chs. {Joh14|14}&mdash;{Joh21|21}, describes how the Lord as the Son of Man went through His death and resurrection to bring man into God that man and God, God and man, might be built together as a mutual abode. This chapter, coming at the end of the first section, is a dividing line and a turning point."]},
+{sup:"a", word:"Feast", vrefs:"Lev. 23:5"},
+{sup:"b", word:"hour", vrefs:"John 12:23"},
+{sup:"c", word:"Father", vrefs:"John 16:28"},
+],
+'13:2': [
+{sup:"a", word:"devil", vrefs:"John 6:70-71; 13:27"},
+{sup:"b", word:"betray", vrefs:"John 13:11"},
+],
+'13:3': [
+{sup:"a", word:"given", vrefs:"John 3:35"},
+{sup:"b", word:"come", vrefs:"John 8:42; 16:27"},
+],
+'13:4': [
+{sup:1, word:"laid", lines:["The outer garments here signify the Lord&rsquo;s virtues and attributes in His expression. Hence, the laying aside of His outer garments signifies the putting off of what He is in His expression."]},
+{sup:2, word:"towel", lines:["From a Latin word denoting a linen towel."]},
+{sup:3, word:"girded", lines:["To gird oneself signifies to be bound and restricted with humility (cf. {1Pe5:5|1&nbsp;Pet. 5:5})."]},
+],
+'13:5': [
+{sup:1, word:"water", lines:["Water here signifies the Holy Spirit ({Tit3:5|Titus 3:5}), the word ({Eph5:26|Eph. 5:26}; {Joh15:3|John 15:3}), and life ({Joh19:34|19:34})."]},
+{sup:2, word:"wash", lines:["In chs. {Joh1|1}&mdash;{Joh12|12} life came and brought forth the church, composed of the regenerated ones. In their spirit the regenerated ones are in God and in the heavenlies, but in their body they are still living in the flesh and walking on the earth. Through their contact with earthly things they often become dirty. This frustrates their fellowship with the Lord and with one another. Hence, there is the need for the washing with the Holy Spirit, the word, and life. This is the washing away of their dirtiness that their fellowship with the Lord and with one another may be maintained; it is not the washing away of their sins by the blood ({1Jo1:9|1&nbsp;John 1:9}). This is why, after {Joh12|ch. 12}, there is a need for such a sign in this chapter. Since this Gospel is a book of signs, what is recorded in this chapter should be considered a sign, having spiritual significance. Foot-washing should not be taken merely in a physical sense, but rather in a spiritual sense."]},
+{sup:3, word:"feet", lines:["In ancient times the Jews wore sandals, and since their roads were dusty, their feet easily became dirty. If, when they came to a feast, they sat at the table and stretched out their feet, the dirt and the smell would certainly frustrate the fellowship. Hence, for the feast to be pleasant they needed foot-washing. The Lord washed His disciples&rsquo; feet to show them that He loved them to the uttermost ({Joh13:1|v. 1}), and He charged them to do the same to one another in love (vv. {Joh13:14|14}, {Joh13:34|34}). Today the world is dirty, and we, the saints, are easily contaminated. For us to maintain pleasant fellowship with the Lord and with one another, we need spiritual foot-washing&mdash;with the washing Holy Spirit, the washing word, and the washing life&mdash;carried out both by the Lord in His love and by one another in love. This is absolutely necessary in order for us to live in the fellowship of the divine life, which is revealed in John&rsquo;s first Epistle, a continuation of the Gospel of John."]},
+],
+'13:7': [
+{sup:1, word:"know", lines:["In Greek, know in the first instance denotes the inward, subjective consciousness; in the second it refers to the outward, objective knowledge. See {Joh8:55^1|note 55<sup>1</sup>} in {Joh8|ch. 8}."]},
+],
+'13:10': [
+{sup:"1a", word:"bathed", vrefs:"Titus 3:5", lines:["Bathing here signifies the washing of regeneration ({Tit3:5|Titus 3:5}; {Joh3:5|John 3:5})."]},
+{sup:"b", word:"clean", vrefs:"John 15:3"},
+],
+'13:11': [
+{sup:"a", word:"knew", vrefs:"John 6:64"},
+],
+'13:15': [
+{sup:"a", word:"example", vrefs:"1&nbsp;Pet. 2:21"},
+],
+'13:16': [
+{sup:"a", word:"slave", vrefs:"Matt. 10:24"},
+{sup:1, word:"one", lines:["One who is sent is, literally, an apostle."]},
+],
+'13:17': [
+{sup:"a", word:"blessed", vrefs:"Luke 11:28; James 1:22, 25"},
+],
+'13:18': [
+{sup:"a", word:"all", vrefs:"John 13:10, 11"},
+{sup:"b", word:"chosen", vrefs:"John 6:70"},
+{sup:"c", word:"Scripture", vrefs:"John 17:12"},
+{sup:"d", word:"He", vrefs:"Psa. 41:9"},
+{sup:1, word:"eats", lines:["Lit., masticates."]},
+],
+'13:19': [
+{sup:"a", word:"telling", vrefs:"John 14:29"},
+{sup:"1b", word:"I", vrefs:"John 8:24, 28, 58", lines:["See {Joh8:24^1|note 24<sup>1</sup>} in {Joh8|ch. 8}."]},
+],
+'13:20': [
+{sup:"a", word:"He", vrefs:"Matt. 10:40"},
+],
+'13:21': [
+{sup:"a", word:"spirit", vrefs:"John 11:33"},
+{sup:"b", word:"one", vrefs:"Matt. 26:21; Mark 14:18; Luke 22:21"},
+],
+'13:23': [
+{sup:"a", word:"whom", vrefs:"John 19:26"},
+],
+'13:27': [
+{sup:"a", word:"Satan", vrefs:"Luke 22:3"},
+],
+'13:31': [
+{sup:"1a", word:"glorified", vrefs:"John 12:23; 17:1", lines:["See {Joh12:23^1|note 23<sup>1</sup>} in {Joh12|ch. 12}."]},
+{sup:"2b", word:"glorified", vrefs:"John 17:1", lines:["See {Joh12:28^1|note 28<sup>1</sup>} in {Joh12|ch. 12}."]},
+],
+'13:32': [
+{sup:1, word:"If", lines:["Some ancient MSS omit the clause, If God has been glorified in Him."]},
+{sup:"2a", word:"glorified", vrefs:"John 12:28", lines:["See {Joh12:28^1|note 28<sup>1</sup>} in {Joh12|ch. 12}."]},
+{sup:"3b", word:"glorify", vrefs:"John 17:1", lines:["See {Joh12:23^1|note 23<sup>1</sup>} in {Joh12|ch. 12}."]},
+],
+'13:33': [
+{sup:"a", word:"I", vrefs:"John 7:33"},
+{sup:"b", word:"you", vrefs:"John 7:34, 36; 8:21"},
+{sup:"c", word:"Where", vrefs:"John 13:36"},
+],
+'13:34': [
+{sup:"1a", word:"commandment", vrefs:"1&nbsp;John 3:11, 23; John 15:12, 17", lines:["The Greek word for commandment here is the same word as in {Mat5:19|Matt. 5:19} and {Rom7:8|Rom. 7:8}, {Rom7:9|9}, {Rom7:10|10}, {Rom7:11|11}, {Rom7:12|12}, {Rom7:13|13}. However, in {Mat5|Matt. 5} and {Rom7|Rom. 7} it refers to the old commandments of the law in the Old Testament; here it refers to the new commandment given to us by the Lord in the New Testament. Also in {Joh14:15|14:15}, {Joh14:21|21}; {Joh15:10|15:10}, {Joh15:12|12}; {1Jo2:3|1&nbsp;John 2:3}, {1Jo2:4|4}, {1Jo2:7|7}, {1Jo2:8|8}; {1Jo3:22|3:22}, {1Jo3:23|23}, {1Jo3:24|24}; {1Jo4:21|4:21}; {1Jo5:2|5:2}, {1Jo5:3|3}; {2Jo4|2&nbsp;John 4}, {2Jo5|5}, {2Jo6|6}, it refers to the new commandment given to us in the New Testament, either by the Lord Jesus or by God. This new commandment is different from the old commandments in the Old Testament."]},
+{sup:"b", word:"love", vrefs:"1&nbsp;Thes. 4:9; 1&nbsp;Pet. 1:22; 1&nbsp;John 4:7"},
+],
+'13:36': [
+{sup:"a", word:"Simon", vrefs:"vv. 36-38: cf. Matt. 26:31-35; Mark 14:27-31; Luke 22:31-34"},
+{sup:"b", word:"Where", vrefs:"John 13:33; 7:34"},
+{sup:"c", word:"follow", vrefs:"John 21:19"},
+],
+'13:37': [
+{sup:1, word:"life", lines:["Lit., soul, soul-life; so in the next verse."]},
+],
+'13:38': [
+{sup:"a", word:"rooster", vrefs:"John 18:27"},
+],
+'14:1': [
+{sup:"a", word:"Do", vrefs:"John 14:27"},
+{sup:1, word:"God", lines:["Here the Lord showed His disciples that He is the same as God. The disciples were troubled upon hearing of His leaving. By this word He made them realize that as God He is omnipresent and is not limited by time and space."]},
+],
+'14:2': [
+{sup:"1a", word:"My", vrefs:"John 2:16, 21; 1&nbsp;Tim. 3:15; Heb. 3:6; 1&nbsp;Pet. 2:5; cf. Eph. 2:21-22", lines:["According to the interpretation in {Joh2:16|2:16}, {Joh2:21|21}, My Father&rsquo;s house refers to the temple, the body of Christ, as God&rsquo;s dwelling place. At first the body of Christ was only His individual body. But through Christ&rsquo;s death and resurrection, the body of Christ has increased to be His corporate Body, which is the church, including all His believers, who have been regenerated through His resurrection ({1Pe1:3|1&nbsp;Pet. 1:3}). In Christ&rsquo;s resurrection the church is the Body of Christ, which is the house of God ({1Ti3:15|1&nbsp;Tim. 3:15}; {1Pe2:5|1&nbsp;Pet. 2:5}; {Heb3:6|Heb. 3:6}), God&rsquo;s habitation ({Eph2:21|Eph. 2:21}-{Eph2:22|22}), God&rsquo;s temple ({1Co3:16|1&nbsp;Cor. 3:16}-{1Co3:17|17})."]},
+{sup:2, word:"many", lines:["The many abodes are the many members of the Body of Christ ({Rom12:5|Rom. 12:5}), which is God&rsquo;s temple ({1Co3:16|1&nbsp;Cor. 3:16}-{1Co3:17|17}). This is adequately proven by {Joh14:23|v. 23}, which says that the Lord and the Father will make an abode with the one who loves Him."]},
+{sup:"b", word:"abodes", vrefs:"John 14:23"},
+{sup:"3c", word:"go", vrefs:"John 14:12, 28; 7:33; 13:3", lines:["This book has two main sections. The first section, chs. {Joh1|1}&mdash;{Joh13|13}, points out how Christ, as the eternal Word, came through incarnation to bring God into man that He might be the life and life supply to man. The second section, chs. {Joh14|14}&mdash;{Joh21|21}, unveils how Christ, as the man Jesus, went through death and resurrection to bring man into God for the building of God&rsquo;s habitation, which is the building of the church ({Mat16:18|Matt. 16:18}) and which is related to the building of the New Jerusalem ({Heb11:10|Heb. 11:10}; {Rev21:2|Rev. 21:2}). In the entire universe God has only one building, that is, the building of His living habitation with His redeemed people."]},
+],
+'14:3': [
+{sup:1, word:"if", lines:["If I go&mdash;I am coming proves that the Lord&rsquo;s going (through His death and resurrection) was His coming (to His disciples&mdash;vv. {Joh14:18|18}, {Joh14:28|28}). He came in the flesh ({Joh1:14|1:14}) and was among His disciples, but He could not enter into them while He was in the flesh. He had to take the further step of passing through death and resurrection in order to be transfigured from the flesh into the Spirit that He might come into the disciples and dwell in them, as revealed in vv. {Joh14:17|17}-{Joh14:20|20}. After His resurrection He did come to breathe Himself as the Holy Spirit into the disciples ({Joh20:19|20:19}-{Joh20:22|22})."]},
+{sup:2, word:"prepare", lines:["The Lord&rsquo;s intention in this chapter was to bring man into God for the building of His dwelling place. But between man and God there were many obstacles, such as sin, sins, death, the world, the flesh, the self, the old man, and Satan. For the Lord to bring man into God, He had to solve all these problems. Therefore, He had to go to the cross to accomplish redemption that He might open the way and make a standing for man, that man might enter into God. This standing in God, being enlarged, becomes the standing in the Body of Christ. Anyone who does not have a standing, a place, in God does not have a place in the Body of Christ, which is God&rsquo;s dwelling place. Hence, the Lord&rsquo;s going in order to accomplish redemption was to prepare a place in His Body for the disciples."]},
+{sup:"a", word:"am", vrefs:"John 14:18, 28"},
+{sup:3, word:"receive", lines:["In receiving the disciples to Himself, the Lord put them into Himself, as indicated in {Joh14:20|v. 20} by the words you in Me."]},
+{sup:"4b", word:"where", vrefs:"John 14:10, 11, 20; 17:21, 24", lines:["The Lord is in the Father (vv. {Joh14:10|10}-{Joh14:11|11}). He wanted His disciples also to be in the Father, as revealed in {Joh17:21|17:21}. Through His death and resurrection He brought His disciples into Himself. Since He is in the Father, they are in the Father by being in Him. Hence, where He is, the disciples are also."]},
+],
+'14:6': [
+{sup:1, word:"way", lines:["The way for man to enter into God is the Lord Himself. Since the way is a living person, the place to which the Lord brings man must also be a person, God the Father Himself. The Lord Himself is the living way by which man is brought into God the Father, the living place. The way needs the reality, and the reality needs the life. The Lord Himself is the life to us. This life brings us the reality, and the reality becomes the way by which we enter into the enjoyment of God the Father."]},
+{sup:"2a", word:"reality", vrefs:"John 1:14, 17; 8:32; 14:17", lines:["Christ is the reality of the divine things. This reality came through Him and becomes the realization of God to us. See {Joh1:14^6|note 14<sup>6</sup>} in {Joh1|ch. 1} and {1Jo1:6^6|note 6<sup>6</sup>} in {1Jo1|1&nbsp;John 1}."]},
+{sup:"b", word:"life", vrefs:"John 1:4; 11:25; 1&nbsp;John 5:12; Col. 3:4"},
+],
+'14:7': [
+{sup:1, word:"If", lines:["This chapter unveils the way God dispenses Himself into man. In the dispensing of Himself into us, God is triune. He is one, yet He is three&mdash;the Father, the Son, and the Spirit. The Son is the embodiment and expression of the Father (vv. {Joh14:7|7}-{Joh14:11|11}), and the Spirit is the reality and realization of the Son (vv. {Joh14:17|17}-{Joh14:20|20}). In the Son (the Son is even called the Father&mdash;{Isa9:6|Isa. 9:6}) the Father is expressed and seen, and as the Spirit ({2Co3:17|2&nbsp;Cor. 3:17}) the Son is revealed and realized. The Father in the Son is expressed among the believers, and the Son as the Spirit is realized in the believers. God the Father is hidden, God the Son is manifested among men, and God the Spirit enters into man to be his life, his life supply, and his everything. Hence, this Triune God&mdash;the Father in the Son and the Son as the Spirit&mdash;dispenses Himself into us to be our portion that we may enjoy Him as our everything in His divine trinity."]},
+{sup:"a", word:"known", vrefs:"John 8:19"},
+{sup:"b", word:"know", vrefs:"1&nbsp;John 2:13"},
+],
+'14:9': [
+{sup:"a", word:"seen", vrefs:"John 12:45"},
+],
+'14:10': [
+{sup:"a", word:"in", vrefs:"John 14:11, 20; 10:38; 17:21"},
+{sup:"b", word:"Father", vrefs:"cf. John 10:30; Isa. 9:6"},
+{sup:"1c", word:"words", vrefs:"John 14:24", lines:["See {Joh6:63^3|note 63<sup>3</sup>} in {Joh6|ch. 6}."]},
+{sup:"d", word:"from", vrefs:"John 16:13"},
+],
+'14:11': [
+{sup:"a", word:"in", vrefs:"John 14:10"},
+{sup:"b", word:"works", vrefs:"John 5:36"},
+],
+'14:12': [
+{sup:"a", word:"greater", vrefs:"John 5:20"},
+{sup:"1b", word:"going", vrefs:"John 14:2, 28; 7:33", lines:["The Lord came from the Father to bring God into man through His incarnation. Here, He is going to the Father to bring man into God through His death and resurrection."]},
+],
+'14:13': [
+{sup:"a", word:"ask", vrefs:"John 14:14; 15:16; 16:23-24"},
+{sup:1, word:"in", lines:["To be in the Lord&rsquo;s name, here and in {Joh14:14|v. 14}, means to be one with the Lord, to live by the Lord, and to let the Lord live in us. The Lord came and did things in the Father&rsquo;s name ({Joh5:43|5:43}; {Joh10:25|10:25}), meaning that He was one with the Father ({Joh10:30|10:30}), that He lived because of the Father ({Joh6:57|6:57}), and that the Father worked in Him ({Joh14:10|v. 10}). In the Gospels the Lord as the expression of the Father did things in the Father&rsquo;s name. In the Acts the disciples as the expression of the Lord did even greater things ({Joh14:12|v. 12}) in the Lord&rsquo;s name."]},
+{sup:2, word:"Father", lines:["For the Father to be glorified in the Son means that His divine element is expressed from within the Son. Whatever the Son does expresses the Father&rsquo;s divine element. This is the glorifying of the Father in the Son."]},
+{sup:"b", word:"glorified", vrefs:"John 13:31; 17:1; 12:28"},
+],
+'14:14': [
+{sup:"a", word:"ask", vrefs:"John 14:13"},
+],
+'14:15': [
+{sup:"a", word:"love", vrefs:"John 14:21, 23; 16:27"},
+{sup:"b", word:"commandments", vrefs:"John 14:21; 15:10"},
+],
+'14:16': [
+{sup:"1a", word:"Comforter", vrefs:"John 14:26; 15:26; cf. 1&nbsp;John 2:1", lines:["The Greek word here means advocate, one alongside who takes care of our cause, our affairs. The Greek word for Comforter is the same as that for Advocate in {1Jo2:1|1&nbsp;John 2:1}. Today we have both the Lord Jesus in the heavens and the Spirit (the Comforter) within us as our Advocate, who takes care of our case."]},
+],
+'14:17': [
+{sup:"1a", word:"Spirit", vrefs:"John 7:39; 15:26; 16:13; 1&nbsp;John 5:6; John 20:22; 1&nbsp;Cor. 15:45; 2&nbsp;Cor. 3:17", lines:["The Spirit promised here was referred to in {Joh7:39|7:39}. This Spirit is the Spirit of life ({Rom8:2|Rom. 8:2}), and this promise of the Lord&rsquo;s was fulfilled on the day of the Lord&rsquo;s resurrection, when the Spirit as the breath of life was breathed into the disciples ({Joh20:22|20:22}). The Lord&rsquo;s promise here is different from the promise of the Father concerning the Spirit of power in {Luk24:49|Luke 24:49}. That promise was fulfilled fifty days after the Lord&rsquo;s resurrection, on the day of Pentecost, when the Spirit as the mighty wind blew upon the disciples ({Act2:1|Acts 2:1}-{Act2:4|4}). In this verse the Spirit of life is called &ldquo;the Spirit of reality.&rdquo; This Spirit of reality is Christ ({Joh14:6|v. 6}); hence, the Spirit of reality is the Spirit of Christ ({Rom8:9|Rom. 8:9}). This Spirit is also the reality of Christ ({1Jo5:6|1&nbsp;John 5:6}, {1Jo5:20|20}) that Christ may be realized in those who believe into Him, as their life and life supply."]},
+{sup:2, word:"He", lines:["The very &ldquo;He&rdquo; who is the Spirit of reality in this verse becomes the very &ldquo;I&rdquo; who is the Lord Himself in {Joh14:18|v. 18}. This means that the Christ who was in the flesh went through death and resurrection to become the life-giving Spirit, the pneumatic Christ. {1Co15:45|First Corinthians 15:45} confirms this. In dealing with the matter of resurrection, that verse says, &ldquo;The last Adam [Christ in the flesh] became a life-giving Spirit.&rdquo;"]},
+{sup:"3b", word:"in", vrefs:"John 14:20; 1&nbsp;John 2:27; Rom. 8:9, 11", lines:["This is the first time that the promise of the Spirit&rsquo;s indwelling is revealed. It is fulfilled and fully developed in the Epistles. See {1Co6:19|1&nbsp;Cor. 6:19} and {Rom8:9|Rom. 8:9}, {Rom8:11|11}."]},
+],
+'14:18': [
+{sup:1, word:"I", lines:["See {Joh14:17^2|note 17<sup>2</sup>}."]},
+{sup:"2a", word:"coming", vrefs:"John 14:3, 28", lines:["This coming was fulfilled on the day of His resurrection ({Joh20:19|20:19}-{Joh20:22|22}). After His resurrection the Lord came back to His disciples to be with them forever, thus not leaving them as orphans."]},
+],
+'14:19': [
+{sup:"a", word:"a", vrefs:"John 7:33; 12:35; 16:16"},
+{sup:"1b", word:"live", vrefs:"Gal. 2:20", lines:["It should be after His resurrection that the Lord lives in His disciples and that they live by Him, as mentioned in {Gal2:20|Gal. 2:20}."]},
+{sup:"c", word:"live", vrefs:"Gal. 2:20; Phil. 1:21; John 6:57"},
+],
+'14:20': [
+{sup:"1a", word:"day", vrefs:"John 16:23, 26; 20:19", lines:["This should refer to the day of the Lord&rsquo;s resurrection ({Joh20:19|20:19})."]},
+{sup:"b", word:"in", vrefs:"John 14:10"},
+{sup:"c", word:"in", vrefs:"John 15:4; 17:21; Rom. 8:1; 1&nbsp;Cor. 1:30"},
+{sup:"d", word:"in", vrefs:"John 14:17; 17:23; Rom. 8:9; 2&nbsp;Cor. 13:5; Col. 1:27"},
+],
+'14:21': [
+{sup:"a", word:"loves", vrefs:"John 14:15"},
+{sup:"b", word:"manifest", vrefs:"John 21:1"},
+],
+'14:23': [
+{sup:"a", word:"loves", vrefs:"John 14:15"},
+{sup:"b", word:"keep", vrefs:"1&nbsp;John 2:5"},
+{sup:"1c", word:"abode", vrefs:"John 14:2; Rom. 8:9, 11; Eph. 3:17", lines:["This is one of the many abodes mentioned in {Joh14:2|v. 2}. It will be a mutual abode, in which the Triune God abides in the believers and the believers abide in Him."]},
+],
+'14:24': [
+{sup:"a", word:"word", vrefs:"John 14:10"},
+],
+'14:26': [
+{sup:"1a", word:"Comforter", vrefs:"John 14:16", lines:["The Comforter, the Holy Spirit, was to be sent by the Father in the Son&rsquo;s name. Therefore, the Holy Spirit was sent by the Father and also by the Son. Thus, the Holy Spirit comes not only from the Father but also from the Son, and He is the reality not only of the Father but also of the Son. Hence, when we call on the name of the Son, we get the Spirit ({1Co12:3|1&nbsp;Cor. 12:3})."]},
+{sup:2, word:"Father", lines:["The Father being in the Son&rsquo;s name is equivalent to the Father being the Son (see {Joh5:43^1|note 43<sup>1</sup>} in {Joh5|ch. 5}). Therefore, the Father&rsquo;s sending of the Holy Spirit in the Son&rsquo;s name is the Son&rsquo;s sending of the Holy Spirit from the Father ({Joh15:26|15:26}). The Son and the Father are one ({Joh10:30|10:30}). Hence, the Spirit who is sent comes not only out of the Father ({Joh15:26|15:26}) but also out of the Son. Moreover, when the Spirit comes, He comes with the Father and the Son (see {Joh15:26^1|note 26<sup>1</sup>} in {Joh15|ch. 15}). This proves that the Father, the Son, and the Spirit are one God, the Triune God, who reaches us and is working, that is, dispensing, Himself into us in His divine trinity to be our life and everything."]},
+{sup:3, word:"My", lines:["In {Joh5:43|5:43} we are told that the Son came in the Father&rsquo;s name, and here that the Father sent the Holy Spirit in the Son&rsquo;s name. This proves not only that the Son and the Father are one ({Joh10:30|10:30}) but also that the Holy Spirit is one with the Father and the Son. The Holy Spirit, who is sent by the Father in the Son&rsquo;s name, is not only the reality that comes from the Father but also the reality that comes from the Son. This is the Triune God&mdash;the Father, the Son, and the Spirit&mdash;who reaches man eventually as the Spirit."]},
+{sup:"b", word:"teach", vrefs:"1&nbsp;John 2:20, 27"},
+{sup:"c", word:"all", vrefs:"John 16:13"},
+],
+'14:27': [
+{sup:"a", word:"Peace", vrefs:"John 16:33; Rom. 16:20; Phil. 4:7"},
+{sup:"b", word:"troubled", vrefs:"John 14:1"},
+],
+'14:28': [
+{sup:"a", word:"going", vrefs:"John 14:2"},
+{sup:1, word:"coming", lines:["See {Joh14:18^2|note 18<sup>2</sup>}."]},
+{sup:"b", word:"I", vrefs:"John 14:12"},
+{sup:2, word:"going", lines:["See {Joh14:12^1|note 12<sup>1</sup>}."]},
+{sup:"c", word:"greater", vrefs:"John 10:29"},
+],
+'14:29': [
+{sup:"a", word:"before", vrefs:"John 13:19"},
+],
+'14:30': [
+{sup:"a", word:"ruler", vrefs:"John 12:31; 16:11; Eph. 2:2"},
+],
+'14:31': [
+{sup:"a", word:"commanded", vrefs:"John 10:18; 12:49"},
+],
+'15:1': [
+{sup:1, word:"true", lines:["This true vine (the Son) with its branches (the believers in the Son) is the organism of the Triune God in God&rsquo;s economy. This organism grows with His riches and expresses His divine life."]},
+{sup:"a", word:"vine", vrefs:"Psa. 80:8; cf. Isa. 5:2; Jer. 2:21; Ezek. 19:10; 15:2"},
+{sup:2, word:"husbandman", lines:["The Greek word means cultivator of the soil, land-worker, farmer ({2Ti2:6|2&nbsp;Tim. 2:6}; {Jam5:7|James 5:7}; {Mat21:33|Matt. 21:33}). The Father as the husbandman is the source, the author, the planner, the planter, the life, the substance, the soil, the water, the air, the sunshine, and everything to the vine. The Son as the vine is the center of God&rsquo;s economy and the embodiment of all the riches of the Father. The Father, by cultivating the Son, works Himself with all His riches into the vine, and eventually the vine expresses the Father in a corporate way through its branches. This is the Father&rsquo;s economy in the universe."]},
+],
+'15:2': [
+{sup:1, word:"prunes", lines:["Lit., cleanses."]},
+],
+'15:3': [
+{sup:"a", word:"clean", vrefs:"John 17:17; Eph. 5:26"},
+],
+'15:4': [
+{sup:"a", word:"Abide", vrefs:"John 15:5, 6, 7, 9, 10; 6:56; 1&nbsp;John 2:24, 28"},
+{sup:"b", word:"in", vrefs:"John 14:17, 20; Rom. 8:9; Col. 1:27; 2&nbsp;Cor. 13:5; 1&nbsp;John 2:27"},
+{sup:1, word:"of", lines:["Lit., from."]},
+],
+'15:5': [
+{sup:"a", word:"much", vrefs:"John 15:16"},
+{sup:"b", word:"nothing", vrefs:"John 5:19, 30; cf. Phil. 4:13"},
+],
+'15:6': [
+{sup:"1a", word:"cast", vrefs:"John 15:2", lines:["For a branch to be cast out means that it is cut off from participation in the riches of the life of the vine."]},
+{sup:"b", word:"fire", vrefs:"1&nbsp;Cor. 3:15"},
+{sup:"c", word:"burned", vrefs:"Heb. 6:8"},
+],
+'15:7': [
+{sup:"1a", word:"words", vrefs:"Col. 3:16", lines:["See {Joh6:63^3|note 63<sup>3</sup>} in {Joh6|ch. 6}."]},
+{sup:2, word:"ask", lines:["When we abide in the Lord and let His words abide in us, we actually are one with Him, and He works within us. Then, when we ask in prayer for whatever we will, it is not only we who are praying; He too is praying, in our praying. This kind of prayer is related to fruit-bearing ({Joh15:8|v. 8}) and will surely be answered. See {Joh15:16^2|note 16<sup>2</sup>}."]},
+],
+'15:8': [
+{sup:"1a", word:"glorified", vrefs:"John 12:28; 13:31; 14:13; 17:1, 4", lines:["In fruit-bearing the Father&rsquo;s divine life is expressed; hence, He is glorified."]},
+{sup:"b", word:"disciples", vrefs:"John 8:31"},
+],
+'15:9': [
+{sup:"a", word:"loved", vrefs:"John 17:23, 26; 3:35"},
+],
+'15:10': [
+{sup:1, word:"keep", lines:["When we abide in the Lord, He speaks His instant words within us. These words are His commandments to us. If we keep those commandments, it shows that we love Him; it is thus that we will abide in His love."]},
+{sup:"a", word:"commandments", vrefs:"John 14:15, 21, 23"},
+],
+'15:11': [
+{sup:1, word:"joy", lines:["Being branches of the divine vine and bearing fruit to express the divine life are matters of joy, and they also issue in a joyful life."]},
+{sup:"a", word:"joy", vrefs:"John 16:24"},
+],
+'15:12': [
+{sup:"a", word:"commandment", vrefs:"John 15:17; 13:34"},
+{sup:"b", word:"love", vrefs:"John 13:35; Rom. 13:8; 1&nbsp;Pet. 1:22; 1&nbsp;John 3:14"},
+],
+'15:13': [
+{sup:"a", word:"lay", vrefs:"John 10:11"},
+{sup:1, word:"life", lines:["The Greek word here means soul, soul-life."]},
+],
+'15:14': [
+{sup:"a", word:"friends", vrefs:"2&nbsp;Chron. 20:7; Isa. 41:8; James 2:23"},
+],
+'15:16': [
+{sup:"a", word:"chose", vrefs:"John 6:70; 13:18; 15:19"},
+{sup:1, word:"set", lines:["We were wild branches, and through faith we have been grafted into Christ. Here the Lord said that He set us. This fits the thought of grafting."]},
+{sup:2, word:"go", lines:["The Greek word for go forth means to depart, implying to leave for another place; hence, it is rendered go forth. It is the same Greek word as that for go in {Joh14:4|14:4} and {Joh16:5|16:5}. The fruit borne by going forth in this way does not denote the virtues of the fruit-bearer&rsquo;s character, such as the fruit of the Holy Spirit in the believer&rsquo;s living, mentioned in {Gal5:22|Gal. 5:22}-{Gal5:23|23}, but it denotes the believers produced by the fruit-bearer. This corresponds with the subject of this section, {Joh12:20|12:20}&mdash;{Joh17:26|17:26}, which is Christ&rsquo;s multiplication. The virtues we possess through our abiding in the Lord cannot be counted as Christ&rsquo;s multiplication. Only the believers that we produce in the Lord are the tangible multiplication of Christ. The Father&rsquo;s house in {Joh14|ch. 14}, the true vine in this chapter, and the man-child in {Joh16|ch. 16} are all related to the multiplication of Christ."]},
+{sup:"b", word:"bear", vrefs:"John 15:5"},
+{sup:3, word:"that", lines:["After we go forth to produce believers in the Lord, we need to care for them. The best way is to set up meetings in their homes to cover and protect them that they may be cared for by being nourished and taught, and may become the remaining fruit, living in the branches of the true vine, that is, in the Body of Christ, to be Christ&rsquo;s increase."]},
+{sup:4, word:"remain", lines:["The same Greek word used for abide in this chapter."]},
+{sup:"5c", word:"ask", vrefs:"John 14:13, 14; 16:24, 26", lines:["To ask in the Lord&rsquo;s name requires us to abide in the Lord and allow Him and His words to abide in us that we may actually be one with Him. Then when we ask, He asks in our asking. This kind of asking is related to fruit-bearing and will surely be answered by the Father. See {Joh15:7^2|note 7<sup>2</sup>}."]},
+],
+'15:17': [
+{sup:"1a", word:"love", vrefs:"John 15:12", lines:["This is to love one another in the Lord&rsquo;s life, the divine life, in the Lord&rsquo;s love, and in His commission of fruit-bearing. Life is the source, love is the condition, and fruit-bearing is the goal. If we all live by the Lord&rsquo;s life as the source, in the Lord&rsquo;s love as the condition, and for fruit-bearing as the goal, we surely will love one another. Having different sources of life, different conditions, or different goals will separate us and prevent us from loving one another."]},
+],
+'15:18': [
+{sup:"a", word:"hates", vrefs:"John 17:14; 1&nbsp;John 3:13"},
+{sup:"b", word:"hated", vrefs:"John 15:23, 24, 25"},
+],
+'15:19': [
+{sup:1, word:"of", lines:["Lit., out of."]},
+{sup:"a", word:"not", vrefs:"John 17:14, 16"},
+],
+'15:20': [
+{sup:"a", word:"greater", vrefs:"John 13:16"},
+{sup:"b", word:"persecuted", vrefs:"John 5:16; cf. Acts 9:4-5"},
+{sup:"c", word:"persecute", vrefs:"Acts 26:10, 11; Gal. 1:13; 2&nbsp;Tim. 3:12"},
+],
+'15:21': [
+{sup:"a", word:"name", vrefs:"Acts 5:41; 9:14"},
+{sup:"b", word:"not", vrefs:"John 16:3"},
+],
+'15:22': [
+{sup:"a", word:"sin", vrefs:"John 15:24; 9:41"},
+],
+'15:23': [
+{sup:"a", word:"hates", vrefs:"John 15:18"},
+],
+'15:24': [
+{sup:"a", word:"works", vrefs:"John 5:36; 10:37"},
+{sup:"b", word:"sin", vrefs:"John 15:22"},
+],
+'15:25': [
+{sup:"a", word:"They", vrefs:"Psa. 35:19; 69:4"},
+],
+'15:26': [
+{sup:"a", word:"Comforter", vrefs:"John 14:16, 26; 16:7"},
+{sup:"b", word:"send", vrefs:"John 14:26"},
+{sup:"1c", word:"from", vrefs:"John 7:29; 17:8", lines:["The sense in Greek is from with (see {Joh1:14^5|note 14<sup>5</sup>} in {Joh1|ch. 1}). The Spirit of reality, who is sent by the Son from the Father, comes not only from the Father but also with the Father. The Father is the source. When this Spirit comes from the source, He does not leave the source but comes with the source. This Spirit, sent by the Son and coming with the Father, testifies concerning the Son. Therefore, His testimony concerning the Son is a matter of the Triune God."]},
+{sup:"d", word:"Spirit", vrefs:"John 14:17; 16:13"},
+{sup:"e", word:"testify", vrefs:"1&nbsp;John 5:6"},
+],
+'15:27': [
+{sup:"a", word:"you", vrefs:"John 19:35; 21:24; Acts 1:8"},
+],
+'16:1': [
+{sup:"a", word:"stumbled", vrefs:"Matt. 11:6"},
+],
+'16:2': [
+{sup:"a", word:"put", vrefs:"John 9:22, 34"},
+{sup:"1b", word:"kills", vrefs:"Acts 26:10", lines:["In this Gospel religion is revealed as the enemy of life. In the Gospels, Judaism opposed and persecuted the Lord Jesus. In the Acts it continued by opposing and persecuting the apostles and the disciples ({Act4:1|Acts 4:1}-{Act4:3|3}; {Act5:17|5:17}-{Act5:18|18}, {Act5:40|40}; {Act6:11|6:11}-{Act6:14|14}; {Act7:57|7:57}-{Act7:59|59}; {Act26:9|26:9}-{Act26:12|12}). In subsequent history the Catholic Church persecuted the Lord&rsquo;s followers. All organized religions, of whatever kind, persecute those who seek the Lord in life. All these religions consider their persecuting of the Lord&rsquo;s seekers a service offered to God."]},
+],
+'16:3': [
+{sup:"a", word:"because", vrefs:"John 8:19, 55; 15:21"},
+],
+'16:4': [
+{sup:"a", word:"when", vrefs:"John 14:29"},
+],
+'16:5': [
+{sup:"a", word:"going", vrefs:"John 16:10, 17, 28; 7:33; 14:12, 28"},
+{sup:"b", word:"Where", vrefs:"John 13:36; 14:5"},
+],
+'16:6': [
+{sup:"a", word:"sorrow", vrefs:"John 16:20, 21, 22"},
+{sup:"b", word:"heart", vrefs:"John 14:1, 27; 16:22"},
+],
+'16:7': [
+{sup:"a", word:"not", vrefs:"John 7:39"},
+{sup:"1b", word:"go", vrefs:"John 20:17", lines:["This &ldquo;going&rdquo; was ultimately fulfilled by His ascension in {Joh20:17|20:17}."]},
+{sup:"c", word:"send", vrefs:"John 15:26"},
+],
+'16:8': [
+{sup:1, word:"convict", lines:["To convict means to convince, to condemn, to cause people to rebuke themselves."]},
+{sup:2, word:"sin", lines:["Sin entered through Adam ({Rom5:12|Rom. 5:12}), righteousness is the resurrected Christ ({Joh16:10|v. 10}; {1Co1:30|1&nbsp;Cor. 1:30}), and judgment is for Satan ({Joh16:11|v. 11}), who is the author and source of sin ({Joh8:44|8:44}). In Adam we were born of sin. The only way to be freed from sin is to believe into Christ, the Son of God ({Joh16:9|v. 9}). If we believe into Him, He is righteousness to us, and we are justified in Him ({Rom3:24|Rom. 3:24}; {Rom4:25|4:25}). If we do not repent of the sin that is in Adam and believe into Christ, the Son of God, we will remain in sin and share the judgment of Satan for eternity ({Mat25:41|Matt. 25:41}). These are the main points of the gospel. The Spirit uses these points to convict the world."]},
+],
+'16:9': [
+{sup:"a", word:"sin", vrefs:"John 8:34"},
+{sup:"b", word:"believe", vrefs:"John 8:24"},
+],
+'16:10': [
+{sup:"a", word:"righteousness", vrefs:"1&nbsp;Cor. 1:30; 2&nbsp;Cor. 5:21; Phil. 3:9"},
+{sup:"b", word:"I", vrefs:"Rom. 4:25; 8:34"},
+],
+'16:11': [
+{sup:"a", word:"judged", vrefs:"John 12:31"},
+],
+'16:13': [
+{sup:"a", word:"Spirit", vrefs:"John 14:17; 15:26; 1&nbsp;John 5:6"},
+{sup:1, word:"guide", lines:["The work of the Spirit is, first, to convict the world. Second, as the Spirit of reality He guides the believers into all the reality; that is, He makes all that the Son is and has real to the believers. All that the Father is and has is embodied in the Son ({Col2:9|Col. 2:9}), and all that the Son is and has is declared as reality to the believers through the Spirit (vv. {Joh16:14|14}-{Joh16:15|15}). This declaring is the glorifying of the Son with the Father. Hence, it is a matter of the Triune God being wrought into and mingled with the believers. Third, the Spirit declares the things that are to come, which are revealed mainly in Revelation ({Rev1:1|Rev. 1:1}, {Rev1:19|19}). The three aspects of the Spirit&rsquo;s work correspond with the three sections of John&rsquo;s writings: his Gospel, his Epistles, and his Revelation."]},
+{sup:"b", word:"reality", vrefs:"John 1:14, 17; 8:32; 14:6"},
+{sup:"c", word:"from", vrefs:"John 14:10"},
+{sup:"d", word:"the", vrefs:"Rev. 1:1, 19"},
+],
+'16:14': [
+{sup:"a", word:"glorify", vrefs:"John 17:5"},
+],
+'16:15': [
+{sup:"a", word:"All", vrefs:"John 17:10; Col. 2:9"},
+],
+'16:16': [
+{sup:"a", word:"A", vrefs:"John 7:33"},
+{sup:"b", word:"see", vrefs:"John 20:20"},
+],
+'16:20': [
+{sup:"a", word:"weep", vrefs:"Mark 16:10"},
+{sup:"b", word:"joy", vrefs:"Matt. 28:8; Luke 24:41"},
+],
+'16:21': [
+{sup:1, word:"brings", lines:["The bringing forth here is the begetting in {Act13:33|Acts 13:33}. The incarnated Christ, including all His believers, was begotten in His resurrection to be the Son of God ({1Pe1:3|1&nbsp;Pet. 1:3}). Thus, He has become the firstborn Son of God, and all His believers have become God&rsquo;s many sons as His brothers to constitute His church ({Rom8:29|Rom. 8:29}; {Joh20:17|John 20:17} and {Joh20:17^2|note 2}; {Heb2:10|Heb. 2:10}-{Heb2:12|12}) as His multiplication ({Joh12:24|12:24}), His increase ({Joh3:29|3:29}-{Joh3:30|30}), and His Body, which is His fullness, His expression ({Eph1:23|Eph. 1:23})."]},
+{sup:2, word:"little", lines:["In this parable the Lord indicated that the disciples were then like a woman travailing in birth, and that He was the little child to be brought forth in His resurrection ({Act13:33|Acts 13:33}; {Heb1:5|Heb. 1:5}; {Rom1:4|Rom. 1:4})."]},
+{sup:"a", word:"child", vrefs:"Acts 13:33; Rom. 1:4; Heb. 1:5"},
+],
+'16:22': [
+{sup:1, word:"see", lines:["After being born in resurrection, the Lord came to see the disciples in the evening of the day of His resurrection, and the disciples rejoiced at His presence ({Joh20:20|20:20})."]},
+{sup:"a", word:"again", vrefs:"John 14:3"},
+{sup:"b", word:"rejoice", vrefs:"John 20:20"},
+],
+'16:23': [
+{sup:"a", word:"day", vrefs:"John 16:26; 14:20; 20:19"},
+{sup:1, word:"Whatever", lines:["Or, Whatever you ask the Father, He will give to you in My name."]},
+],
+'16:24': [
+{sup:"1a", word:"asked", vrefs:"John 16:26; 14:13, 14; 15:16", lines:["See {Joh15:16^5|note 16<sup>5</sup>} in {Joh15|ch. 15}; so in {Joh16:26|v. 26}."]},
+{sup:"b", word:"joy", vrefs:"John 15:11"},
+],
+'16:26': [
+{sup:"a", word:"day", vrefs:"John 16:23"},
+{sup:"b", word:"ask", vrefs:"John 16:24; 14:13, 14; 15:16"},
+],
+'16:27': [
+{sup:"a", word:"came", vrefs:"John 16:28, 30; 8:42; 13:3; 17:8"},
+{sup:"1b", word:"from", vrefs:"John 6:46; 7:29; 17:8; cf. John 15:26", lines:["See {Joh1:14^5|note 14<sup>5</sup>} in {Joh1|ch. 1}."]},
+],
+'16:28': [
+{sup:1, word:"came", lines:["Some MSS read, came forth from the Father. The word from in these MSS is the same as that in {Joh16:27|v. 27}."]},
+{sup:"a", word:"out", vrefs:"John 8:42"},
+{sup:"b", word:"going", vrefs:"John 16:5, 10, 17; 13:1, 3"},
+],
+'16:30': [
+{sup:"a", word:"came", vrefs:"John 16:27"},
+{sup:1, word:"from", lines:["The word from used by the disciples here does not have the sense of from with. It is different from the word used by the Lord in {Joh16:27|v. 27}."]},
+],
+'16:32': [
+{sup:"a", word:"scattered", vrefs:"Matt. 26:31; Zech. 13:7"},
+{sup:"b", word:"alone", vrefs:"John 8:29"},
+{sup:"1c", word:"with", vrefs:"John 8:16, 29", lines:["See {Joh8:16^1|note 16<sup>1</sup>} in {Joh8|ch. 8}."]},
+],
+'16:33': [
+{sup:"a", word:"peace", vrefs:"John 14:27"},
+{sup:"b", word:"affliction", vrefs:"John 15:20"},
+{sup:"c", word:"overcome", vrefs:"1&nbsp;John 5:4-5"},
+],
+'17:1': [
+{sup:"a", word:"lifting", vrefs:"John 11:41"},
+{sup:"b", word:"Father", vrefs:"Matt. 11:25, 26; John 11:41"},
+{sup:"1c", word:"glorify", vrefs:"John 17:5; 7:39; 12:16, 23; 13:31, 32; Acts 3:13; John 16:14; cf. John 11:4; 17:10", lines:["This is the subject of the Lord&rsquo;s prayer in this chapter. He was God incarnated in the flesh, and His flesh was a tabernacle in which God could dwell on earth ({Joh1:14|1:14}). His divine element was confined in His humanity, just as God&rsquo;s shekinah glory had been concealed within the tabernacle. Once, on the mountain of transfiguration, His divine element was released from within His flesh and expressed in glory, being seen by the three disciples ({Mat17:1|Matt. 17:1}-{Mat17:4|4}; {Joh1:14|John 1:14}). But then it was concealed again in His flesh. Before this prayer He predicted that He would be glorified and that the Father would be glorified in Him ({Joh12:23|12:23}; {Joh13:31|13:31}-{Joh13:32|32}). Now He was about to pass through death so that the concealing shell of His humanity might be broken and His divine element, His divine life, might be released. Also, He would resurrect that He might uplift His humanity into the divine element and that His divine element might be expressed, with the result that His entire being, His divinity and His humanity, would be glorified (see {Joh12:23^1|note 23<sup>1</sup>} in {Joh12|ch. 12}). The Father would thus be glorified in Him (see {Joh12:28^1|note 28<sup>1</sup>} in {Joh12|ch. 12}). Hence, He prayed for this.","The Lord&rsquo;s prayer here concerning the divine mystery is fulfilled in three stages. First, it was fulfilled in His resurrection, in that His divine element, His divine life, was released from within His humanity into His many believers ({Joh12:23|12:23}-{Joh12:24|24}), and His whole being, including His humanity, was brought into glory ({Luk24:26|Luke 24:26}), and in that the Father&rsquo;s divine element was expressed in His resurrection and glorification. In His resurrection God answered and fulfilled His prayer ({Act3:13|Acts 3:13}-{Act3:15|15}). Second, it has been fulfilled in the church, in that as His resurrection life has been expressed through His many members, He has been glorified in them, and the Father has been glorified in Him through the church ({Eph3:21|Eph. 3:21}; {1Ti3:15|1&nbsp;Tim. 3:15}-{1Ti3:16|16}). Third, it will ultimately be fulfilled in the New Jerusalem, in that He will be fully expressed in glory, and God will be glorified in Him through the holy city for eternity ({Rev21:11|Rev. 21:11}, {Rev21:23|23}-{Rev21:24|24}).","In praying in this way, the Lord unveiled His person, His deity; He is the same as the Father in the divine glory."]},
+{sup:"d", word:"glorify", vrefs:"John 12:28; 13:31, 32; 17:5; cf. John 17:4; 14:13; 15:8; 21:19"},
+],
+'17:2': [
+{sup:1, word:"You", lines:["This indicates the Lord&rsquo;s work. The Lord has the Father&rsquo;s authority over all mankind that He may give eternal life, not to all mankind but only to those whom the Father has given Him&mdash;the Father&rsquo;s chosen ones."]},
+{sup:"a", word:"authority", vrefs:"Matt. 28:18; cf. John 5:27"},
+{sup:2, word:"eternal", lines:["See {Joh3:15^1|note 15<sup>1</sup>} in {Joh3|ch. 3}."]},
+{sup:"b", word:"life", vrefs:"John 10:28"},
+{sup:"c", word:"given", vrefs:"John 17:6, 9, 24; 6:37, 65"},
+],
+'17:3': [
+{sup:1, word:"eternal", lines:["Eternal life is the divine life with a special function, that is, to know God and Christ (cf. {Mat11:27|Matt. 11:27}). God and Christ are divine. To know the divine person, we need the divine life. Since the believers are born of the divine life, they know God and Christ ({Heb8:11|Heb. 8:11}; {Phi3:10|Phil. 3:10})."]},
+{sup:"a", word:"know", vrefs:"Heb. 8:11; Matt. 11:27"},
+{sup:"b", word:"true", vrefs:"1&nbsp;John 5:20"},
+{sup:"2c", word:"sent", vrefs:"John 17:8", lines:["See {Joh1:6^1|note 6<sup>1</sup>} in {Joh1|ch. 1}; so in vv. {Joh17:8|8}, {Joh17:18|18}, {Joh17:21|21}, {Joh17:23|23}, {Joh17:25|25}."]},
+{sup:"d", word:"Christ", vrefs:"Phil. 3:10"},
+],
+'17:4': [
+{sup:1, word:"glorified", lines:["This means that while He was living on earth, the Lord manifested and expressed the Father."]},
+{sup:"a", word:"work", vrefs:"John 4:34; 5:17"},
+],
+'17:5': [
+{sup:"1a", word:"glorify", vrefs:"John 17:1", lines:["This word strengthens the indication in {Joh17:1|v. 1}, concerning the deity of the Lord&rsquo;s person. He had the divine glory along with the Father before the world was, in eternity past; hence, He should be glorified now with that glory along with the Father. The Lord participates in the divine glory not by Himself but along with the Father, for He and the Father are one ({Joh10:30|10:30})."]},
+{sup:"b", word:"glory", vrefs:"John 17:22, 24"},
+{sup:"c", word:"with", vrefs:"John 1:2"},
+{sup:"d", word:"before", vrefs:"John 17:24"},
+],
+'17:6': [
+{sup:1, word:"Your", lines:["Your name, here and in {Joh17:26|v. 26}, means the very name Father. The name God and the name Jehovah were adequately revealed to man in the Old Testament, but the name Father was not, though it was mentioned briefly in {Isa9:6|Isa. 9:6}; {Isa63:16|63:16}; {Isa64:8|64:8}. The Son came and worked in the Father&rsquo;s name ({Joh5:43|5:43}; {Joh10:25|10:25}) to manifest the Father to the men whom the Father gave Him and to make the Father&rsquo;s name known to them ({Joh17:26|v. 26}). That name reveals the Father as the source of life ({Joh5:26|5:26}) for the propagation and multiplication of life. Many sons would be born of the Father ({Joh1:12|1:12}-{Joh1:13|13}) to express the Father. Hence, the Father&rsquo;s name is very much related to the divine life."]},
+{sup:"a", word:"name", vrefs:"John 17:11, 12, 26"},
+{sup:"b", word:"gave", vrefs:"John 17:2"},
+{sup:"c", word:"Yours", vrefs:"John 17:9"},
+{sup:2, word:"word", lines:["The Father&rsquo;s words are of two kinds: the constant word ({Joh17:6|v. 6}) and the instant words ({Joh17:8|v. 8}). Both are used by the Lord to impart eternal life to the believers who receive both kinds of words."]},
+],
+'17:8': [
+{sup:"a", word:"words", vrefs:"John 6:63, 68"},
+{sup:"b", word:"given", vrefs:"John 17:14"},
+{sup:"c", word:"came", vrefs:"John 8:42; 16:27, 30"},
+{sup:1, word:"from", lines:["See {Joh1:14^5|note 14<sup>5</sup>} in {Joh1|ch. 1}."]},
+{sup:"d", word:"sent", vrefs:"John 17:18, 21, 23, 25"},
+],
+'17:9': [
+{sup:"a", word:"ask", vrefs:"Luke 22:32"},
+{sup:"b", word:"given", vrefs:"John 17:2"},
+{sup:"c", word:"Yours", vrefs:"John 17:6"},
+],
+'17:10': [
+{sup:"a", word:"Yours", vrefs:"John 16:15"},
+{sup:1, word:"glorified", lines:["Since the disciples expressed the Lord, He was glorified in them."]},
+{sup:2, word:"in", lines:["I.e., because of them."]},
+],
+'17:11': [
+{sup:"a", word:"in", vrefs:"John 13:1"},
+{sup:"b", word:"coming", vrefs:"John 17:13"},
+{sup:1, word:"Holy", lines:["The Son&rsquo;s believers are still in the world. They need to be kept that they may be one even as the Divine Trinity is one, that is, that they may be one in the Divine Trinity. The Son prayed that the holy Father would so keep them."]},
+{sup:"c", word:"keep", vrefs:"John 17:12, 15"},
+{sup:2, word:"in", lines:["To be kept in the Father&rsquo;s name is to be kept by His life, because only those who are born of the Father and have the Father&rsquo;s life can participate in the Father&rsquo;s name. The Son has given the Father&rsquo;s life to those whom the Father has given Him ({Joh17:2|v. 2}); hence, they share the Father&rsquo;s name by being kept in it, and they are one in it. The first aspect of this oneness, that is, the first aspect of the building up of the believers, is the oneness in the Father&rsquo;s name and by His divine life. In this aspect of oneness the believers, born of the Father&rsquo;s life, enjoy the Father&rsquo;s name, that is, the Father Himself, as the factor of their oneness."]},
+{sup:"d", word:"name", vrefs:"John 17:6"},
+{sup:"e", word:"one", vrefs:"John 17:21, 22, 23"},
+],
+'17:12': [
+{sup:"a", word:"kept", vrefs:"John 17:11"},
+{sup:"b", word:"name", vrefs:"John 17:6"},
+{sup:"c", word:"not", vrefs:"John 18:9; 6:39"},
+{sup:"1d", word:"perished", vrefs:"John 3:16; 10:28", lines:["Perished (a verb) and perdition (a noun) are from the same Greek root."]},
+{sup:"e", word:"son", vrefs:"John 6:70, 71; cf. 2&nbsp;Thes. 2:3"},
+{sup:"f", word:"Scripture", vrefs:"Psa. 41:9"},
+],
+'17:13': [
+{sup:"a", word:"coming", vrefs:"John 17:11"},
+{sup:"b", word:"joy", vrefs:"John 15:11"},
+],
+'17:14': [
+{sup:"a", word:"given", vrefs:"John 17:8"},
+{sup:1, word:"word", lines:["The Lord has given the believers two kinds of words: the constant word (vv. {Joh17:14|14}, {Joh17:17|17}) and the instant words ({Joh17:8|v. 8})."]},
+{sup:2, word:"world", lines:["The world is the system of Satan ({Joh12:31|12:31}). The believers are not of the world (vv. {Joh17:14|14}, {Joh17:16|16}) but are separated from the world ({Joh17:19|v. 19}), and are not taken out of the world ({Joh17:15|v. 15}) but are sent into the world ({Joh17:18|v. 18}) for the Lord&rsquo;s commission. (So in vv. {Joh17:15|15}, {Joh17:16|16}.)"]},
+{sup:"b", word:"hated", vrefs:"John 15:18; 1&nbsp;John 3:13"},
+{sup:"c", word:"not", vrefs:"John 17:16"},
+{sup:3, word:"of", lines:["Lit., out of; so in {Joh17:16|v. 16}."]},
+{sup:"d", word:"I", vrefs:"John 8:23"},
+],
+'17:15': [
+{sup:"a", word:"keep", vrefs:"John 17:11"},
+{sup:1, word:"out", lines:["Or, out of the evil."]},
+{sup:"2b", word:"evil", vrefs:"Matt. 6:13; 13:38; 1&nbsp;John 2:13-14; 3:12; 5:18-19", lines:["The whole world lies in the evil one ({1Jo5:19|1&nbsp;John 5:19}). Hence, the believers need to be kept out of the hands of the evil one, and they need always to be watchful in prayer that they may be delivered from the evil one ({Mat6:13|Matt. 6:13})."]},
+],
+'17:16': [
+{sup:"a", word:"not", vrefs:"John 17:14"},
+],
+'17:17': [
+{sup:"1a", word:"Sanctify", vrefs:"John 17:19; 1&nbsp;Thes. 5:23; Eph. 5:26; Heb. 2:11", lines:["To be sanctified ({Eph5:26|Eph. 5:26}; {1Th5:23|1&nbsp;Thes. 5:23}) is to be separated from the world and its usurpation unto God and His purpose, not only positionally ({Mat23:17|Matt. 23:17}, {Mat23:19|19}) but also dispositionally ({Rom6:19|Rom. 6:19}, {Rom6:22|22}). God&rsquo;s living word works in the believers to separate them from anything worldly. This is to be sanctified in God&rsquo;s word, which is the truth, the reality."]},
+{sup:2, word:"in", lines:["Or, in the reality. Reality is the Triune God ({Joh1:14|1:14}, {Joh1:17|17}; {Joh14:6|14:6}; {1Jo5:6|1&nbsp;John 5:6}). Since the Triune God is contained and concealed in His word, His word is reality (see notes {Joh1:14^6|14<sup>6</sup>} in {Joh1|ch. 1} and {1Jo1:6^6|6<sup>6</sup>} in {1Jo1|1&nbsp;John 1}). We are sanctified in the reality of this word."]},
+{sup:3, word:"word", lines:["The Father&rsquo;s word carries the reality of the Father with it. When God&rsquo;s word says, &ldquo;God is light,&rdquo; it carries God as light in it. Hence, God&rsquo;s word is reality, the truth, unlike Satan&rsquo;s word, which is vanity, a lie ({Joh8:44|8:44})."]},
+],
+'17:18': [
+{sup:"1a", word:"sent", vrefs:"John 17:3, 8", lines:["The Father sent the Son into the world with Himself as life and everything to the Son. In the same way, the Son sends His believers into the world with Himself as life and everything to the believers. See {Joh20:21^2|note 21<sup>2</sup>} in {Joh20|ch. 20}."]},
+{sup:"1b", word:"sent", vrefs:"John 20:21", lines:["See {Joh17:18^1|note 18<sup>1</sup>}."]},
+],
+'17:19': [
+{sup:1, word:"sanctify", lines:["The Son is absolutely holy in Himself. Yet, to set an example of sanctification for His disciples, He still sanctified Himself in His way of living while He was on earth."]},
+{sup:"a", word:"sanctified", vrefs:"John 17:17"},
+],
+'17:20': [
+{sup:"a", word:"ask", vrefs:"John 17:9"},
+],
+'17:21': [
+{sup:"1a", word:"one", vrefs:"John 17:11", lines:["This is the second aspect of the believers&rsquo; oneness, the oneness in the Triune God through sanctification, separation from the world by the word of God. In this aspect of oneness the believers, separated from the world unto God, enjoy the Triune God as the factor of their oneness."]},
+{sup:"b", word:"in", vrefs:"John 10:38; 14:10, 11"},
+{sup:"c", word:"in", vrefs:"John 14:20"},
+{sup:"d", word:"in", vrefs:"John 14:20; 1&nbsp;Cor. 1:30; Rom. 8:1; John 14:3"},
+{sup:"e", word:"world", vrefs:"John 17:23"},
+{sup:"f", word:"sent", vrefs:"John 17:8"},
+],
+'17:22': [
+{sup:"1a", word:"glory", vrefs:"John 17:5, 24; 1:14", lines:["The glory that the Father gave to the Son is the sonship with the Father&rsquo;s life and divine nature ({Joh5:26|5:26}). The sonship was given so that the Son could express the Father in His fullness ({Joh1:18|1:18}; {Joh14:9|14:9}; {Col2:9|Col. 2:9}; {Heb1:3|Heb. 1:3}). The Son has given this glory to His believers that they too may have the sonship with the Father&rsquo;s life and divine nature ({Joh17:2|v. 2}; {2Pe1:4|2&nbsp;Pet. 1:4}) to express the Father in the Son in the Son&rsquo;s fullness ({Joh1:16|1:16})."]},
+{sup:"2b", word:"one", vrefs:"John 17:11", lines:["This is the third aspect of the believers&rsquo; oneness, the oneness in the divine glory for the corporate expression of God. In this aspect of oneness the believers, their self having been fully denied, enjoy the glory of the Father as the factor of their perfected oneness and thus express God in a corporate, built-up way. This is the oneness of the divine commission; it fulfills the Son&rsquo;s prayer that He be fully expressed, that is, glorified, in the building up of the believers, and that the Father be fully expressed, glorified, in the Son&rsquo;s glorification. Hence, the ultimate oneness of the believers is (1) in the eternal life of God (in the Father&rsquo;s name), (2) by the holy word of God, and (3) in the divine glory to express the Triune God for eternity. That the Son might accomplish this oneness, the Father gave Him six things: the authority ({Joh17:2|v. 2}), the believers (vv. {Joh17:2|2}, {Joh17:6|6}, {Joh17:9|9}, {Joh17:24|24}), the work ({Joh17:4|v. 4}), the words ({Joh17:8|v. 8}), the Father&rsquo;s name (vv. {Joh17:11|11}-{Joh17:12|12}), and the Father&rsquo;s glory ({Joh17:24|v. 24}). That the believers may participate in this oneness, the Son gave them three things: the eternal life ({Joh17:2|v. 2}), the holy word of God (vv. {Joh17:8|8}, {Joh17:14|14}), and the divine glory ({Joh17:22|v. 22}). (So also for one in {Joh17:23|v. 23}.)"]},
+{sup:"c", word:"one", vrefs:"John 10:30"},
+],
+'17:23': [
+{sup:"a", word:"in", vrefs:"John 14:20; Rom. 8:9"},
+{sup:"b", word:"in", vrefs:"John 17:21"},
+{sup:"c", word:"one", vrefs:"John 17:11"},
+{sup:"d", word:"sent", vrefs:"John 17:8"},
+{sup:1, word:"loved", lines:["The Father loved the Son by giving the Son His life, His nature, His fullness, and His glory that the Son might express Him. In the same way, the Father loved the Son&rsquo;s believers by giving them His life, His nature, His fullness, and His glory that they might express Him in the Son. This is a story of love as well as glory."]},
+{sup:"e", word:"loved", vrefs:"John 17:24, 26"},
+],
+'17:24': [
+{sup:"a", word:"given", vrefs:"John 17:2"},
+{sup:1, word:"be", lines:["The Son is in the divine glory of the Father&rsquo;s expression. Therefore, for the Son&rsquo;s believers to be with Him where He is means that they are with Him in the divine glory to express the Father. The fulfillment of this matter began with the Son&rsquo;s resurrection, when He brought His believers into participation in His resurrection life, and will consummate in the New Jerusalem, when His believers will be brought fully into the divine glory for the ultimate corporate expression of the Triune God in eternity."]},
+{sup:"b", word:"where", vrefs:"John 14:3"},
+{sup:"c", word:"glory", vrefs:"John 17:5, 22"},
+{sup:"d", word:"loved", vrefs:"John 17:23, 26"},
+{sup:"e", word:"before", vrefs:"John 17:5"},
+],
+'17:25': [
+{sup:1, word:"Righteous", lines:["The world neither knows nor wants the Father, but the Son and the Son&rsquo;s believers do. Hence, the Father loves the Son and His believers so that He gives His glory to both the Son and His believers. In this matter He is righteous and just. In sanctifying the Son&rsquo;s believers, the Father is holy ({Joh17:11|v. 11}). In loving the Son and His believers so that He gives the Son and the believers His glory, the Father is righteous."]},
+{sup:"a", word:"known", vrefs:"John 8:55; Matt. 11:27"},
+{sup:"b", word:"sent", vrefs:"John 17:8"},
+],
+'17:26': [
+{sup:"a", word:"name", vrefs:"John 17:6"},
+{sup:"1b", word:"love", vrefs:"John 17:23, 24", lines:["The love here is the love of the Father. In this love the Father gave His life and glory to the Son and His believers so that the Son and His believers can express Him. The Son prayed that this love would be in His believers and that they would always have the sense of this love."]},
+{sup:"c", word:"in", vrefs:"John 14:20; Rom. 8:9"},
+],
+'18:1': [
+{sup:"a", word:"He", vrefs:"vv. 1-11: Matt. 26:36-56; Mark 14:32-52; Luke 22:39-53"},
+{sup:1, word:"went", lines:["The Lord delivered Himself of His own accord to the process of death, as He had indicated in {Joh10:17|10:17}-{Joh10:18|18}. He did it voluntarily and boldly."]},
+{sup:"b", word:"Kedron", vrefs:"2&nbsp;Sam. 15:23"},
+],
+'18:2': [
+{sup:"a", word:"betraying", vrefs:"John 6:71; 12:4; 13:2, 21"},
+],
+'18:4': [
+{sup:"a", word:"knowing", vrefs:"John 13:1"},
+{sup:1, word:"went", lines:["See {Joh18:1^1|note 1<sup>1</sup>}."]},
+],
+'18:5': [
+{sup:"a", word:"Nazarene", vrefs:"Matt. 2:23; cf. John 1:46"},
+{sup:"1b", word:"I", vrefs:"John 18:6, 8; 8:24, 28, 58", lines:["I Am is the name of Jehovah (so in vv. {Joh18:6|6}, {Joh18:8|8}). See {Joh8:24^1|note 24<sup>1</sup>} in {Joh8|ch. 8}. When the soldiers heard this name, they drew back and fell to the ground."]},
+],
+'18:8': [
+{sup:"a", word:"I", vrefs:"John 18:5"},
+{sup:1, word:"these", lines:["While suffering betrayal at the hands of His false disciple and arrest by the soldiers, the Lord still took good care of His disciples. This reveals that He was at ease in passing through the process of death."]},
+],
+'18:9': [
+{sup:"a", word:"Of", vrefs:"John 17:12"},
+],
+'18:10': [
+{sup:"a", word:"sword", vrefs:"Luke 22:38"},
+{sup:"b", word:"cut", vrefs:"John 18:26"},
+],
+'18:11': [
+{sup:1, word:"cup", lines:["This word, too, shows that the Lord was willing to pass through the process of death."]},
+],
+'18:12': [
+{sup:"a", word:"seized", vrefs:"vv. 12-27: Matt. 26:57-75; Mark 14:53-72; Luke 22:54-71"},
+],
+'18:13': [
+{sup:1, word:"led", lines:["The Lord was the Lamb of God ({Joh1:29|1:29}), and He was killed on the day of the Passover ({Joh18:28|v. 28}). As the passover lamb was examined before it was killed ({Exo12:3|Exo. 12:3}-{Exo12:6|6}), so He was examined by the whole of mankind, represented by the high priest of the Jews and the governor of the Romans, and proved to be without blemish ({Joh18:38|v. 38b}; {Joh19:4|19:4}, {Joh19:6|6}). See {Mrk12:37^1|note 37<sup>1</sup>} in {Mrk12|Mark 12}."]},
+],
+'18:14': [
+{sup:"a", word:"Caiaphas", vrefs:"John 11:49-51"},
+],
+'18:17': [
+{sup:"a", word:"I", vrefs:"John 18:25, 27"},
+],
+'18:21': [
+{sup:1, word:"Why", lines:["While judging the Lord, both the high priest of the Jewish religion and the governor of the Roman Empire were judged by Him in His dignity."]},
+],
+'18:22': [
+{sup:"a", word:"slapped", vrefs:"John 19:3; Matt. 26:67; cf. Matt. 5:39"},
+],
+'18:28': [
+{sup:"a", word:"Then", vrefs:"vv. 28-40: Matt. 27:1-26a; Mark 15:1-15a; Luke 23:1-25a"},
+{sup:1, word:"praetorium", lines:["The governor&rsquo;s official residence."]},
+{sup:2, word:"early", lines:["A reference to the fourth watch, 3:00 a.m. to 6:00 a.m."]},
+],
+'18:31': [
+{sup:"a", word:"law", vrefs:"John 19:7; Lev. 24:16"},
+],
+'18:32': [
+{sup:"a", word:"word", vrefs:"John 12:32-33"},
+{sup:1, word:"kind", lines:["The Jews&rsquo; way to put criminals to death was to stone them ({Lev24:16|Lev. 24:16}). But the Lord Jesus predicted, according to the type in the Old Testament ({Num21:8|Num. 21:8}-{Num21:9|9}), that He would be lifted up ({Joh3:14|3:14}; {Joh8:28|8:28}; {Joh12:32|12:32}). It was of God&rsquo;s sovereignty that not long before that time the Roman Empire had made it a law that criminals sentenced to death should be crucified. It was in this way that the Lord was executed. This proves that the Lord&rsquo;s death was not accidental but was predetermined by God ({Act2:23|Acts 2:23})."]},
+],
+'18:33': [
+{sup:"a", word:"King", vrefs:"John 1:49; 12:13, 15; Matt. 2:2"},
+],
+'18:34': [
+{sup:1, word:"Are", lines:["See {Joh18:21^1|note 21<sup>1</sup>}."]},
+],
+'18:36': [
+{sup:"a", word:"kingdom", vrefs:"2&nbsp;Sam. 7:12-13; Dan. 2:44; 7:14; Luke 19:12, 15; Heb. 1:8; Rev. 1:9; Eph. 5:5; Rev. 20:4, 6"},
+{sup:1, word:"of", lines:["Lit., out of; so in {Joh18:37|v. 37}."]},
+{sup:2, word:"here", lines:["The world."]},
+],
+'18:37': [
+{sup:"a", word:"born", vrefs:"Matt. 2:2"},
+{sup:"1b", word:"truth", vrefs:"John 1:14, 17; 8:32; 14:6; 17:17", lines:["In view of the entire revelation of this book, truth here denotes the divine reality embodied, revealed, and expressed in Christ as the Son of God. See notes {Joh1:14^6|14<sup>6</sup>} in {Joh1|ch. 1} and {1Jo1:6^6|6<sup>6</sup>} in {1Jo1|1&nbsp;John 1}."]},
+],
+'18:38': [
+{sup:"a", word:"no", vrefs:"John 19:4, 6; Luke 23:4, 14, 22"},
+],
+'19:1': [
+{sup:"a", word:"Therefore", vrefs:"vv. 1-16: Matt. 27:26b-31; Mark 15:15b-20; Luke 23:25b"},
+],
+'19:3': [
+{sup:1, word:"Rejoice", lines:["See {Mat27:29^2|note 29<sup>2</sup>} in {Mat27|Matt. 27}."]},
+{sup:"a", word:"slapped", vrefs:"John 18:22; Matt. 26:67; cf. Matt. 5:39"},
+],
+'19:4': [
+{sup:"a", word:"no", vrefs:"John 19:6; 18:38; Luke 23:4, 14, 22"},
+],
+'19:6': [
+{sup:"a", word:"not", vrefs:"John 19:4"},
+],
+'19:7': [
+{sup:"a", word:"law", vrefs:"Lev. 24:16; John 18:31"},
+{sup:"b", word:"made", vrefs:"John 5:18; 10:33"},
+],
+'19:9': [
+{sup:1, word:"praetorium", lines:["The governor&rsquo;s official residence."]},
+],
+'19:11': [
+{sup:"a", word:"given", vrefs:"Rom. 13:1"},
+],
+'19:13': [
+{sup:1, word:"Gabbatha", lines:["An Aramaic term from Hebrew, meaning a raised place. This must have been an elevated place, like a raised platform, paved with beautiful stones, as indicated by the Greek word for Pavement, mentioned earlier in the verse."]},
+],
+'19:14': [
+{sup:1, word:"preparation", lines:["See {Mat27:62^1|note 62<sup>1</sup>} in {Mat27|Matt. 27}."]},
+{sup:2, word:"sixth", lines:["I.e., 6:00 a.m."]},
+],
+'19:16': [
+{sup:1, word:"He", lines:["This unjust, joint sentence exposed the blindness of religion and the darkness of politics."]},
+{sup:"a", word:"took", vrefs:"Isa. 53:7b"},
+],
+'19:17': [
+{sup:"a", word:"bearing", vrefs:"vv. 17-37: Matt. 27:32-56; Mark 15:21-41; Luke 23:32-49"},
+],
+'19:18': [
+{sup:"a", word:"two", vrefs:"Isa. 53:12, 9"},
+],
+'19:19': [
+{sup:"a", word:"NAZARENE", vrefs:"Matt. 2:23"},
+{sup:"b", word:"KING", vrefs:"Matt. 2:2"},
+],
+'19:20': [
+{sup:1, word:"Hebrew", lines:["Hebrew here represents the Hebrew religion, Latin represents Roman politics, and Greek represents Greek culture. These three together represent the entire world, all of mankind. This signifies that the Lord Jesus as the Lamb of God was killed by and for all mankind."]},
+],
+'19:22': [
+{sup:1, word:"What", lines:["What Pilate wrote was not of himself but of God&rsquo;s sovereignty."]},
+],
+'19:23': [
+{sup:"1a", word:"took", vrefs:"cf. Matt. 5:40", lines:["In His crucifixion, the Lord&rsquo;s right to be clothed (vv. {Joh19:23|23}-{Joh19:24|24}) and to drink (vv. {Joh19:28|28}-{Joh19:30|30}) was stripped from Him, along with His life."]},
+{sup:2, word:"tunic", lines:["A shirt-like undergarment."]},
+],
+'19:24': [
+{sup:"a", word:"They", vrefs:"Psa. 22:18"},
+{sup:1, word:"did", lines:["This was not of the soldiers but of God&rsquo;s sovereignty."]},
+],
+'19:25': [
+{sup:1, word:"sister", lines:["Salome ({Mrk15:40|Mark 15:40}), the wife of Zebedee and the mother of James and John ({Mat27:56|Matt. 27:56})."]},
+{sup:"a", word:"Mary", vrefs:"Matt. 27:61; Luke 8:2; John 20:1"},
+],
+'19:26': [
+{sup:"a", word:"Woman", vrefs:"John 2:4"},
+{sup:1, word:"behold", lines:["In {Luk23:43|Luke 23:43} the Lord said to one of the two thieves crucified with Him, &ldquo;Today you shall be with Me in Paradise.&rdquo; That word was in regard to salvation, since Luke&rsquo;s Gospel proves that the Lord is the sinner&rsquo;s Savior. Here, in vv. {Joh19:26|26}-{Joh19:27|27}, the Lord said to His mother, &ldquo;Behold, your son,&rdquo; and to the disciple whom He loved, &ldquo;Behold, your mother.&rdquo; These words indicate a life-union, since this Gospel testifies that the Lord is life imparted into His believers. It is by this life that His beloved disciple could be one with Him and become the son of His mother, and that she could become the mother of His beloved disciple."]},
+],
+'19:27': [
+{sup:1, word:"Behold", lines:["See {Joh19:26^1|note 26<sup>1</sup>}."]},
+],
+'19:28': [
+{sup:"a", word:"I", vrefs:"Psa. 69:21"},
+{sup:"1b", word:"thirst", vrefs:"cf. Luke 16:24; Rev. 21:8; 7:16", lines:["Thirst is a taste of death ({Luk16:24|Luke 16:24}; {Rev21:8|Rev. 21:8}). The Lord Jesus suffered this for us on the cross ({Heb2:9|Heb. 2:9})."]},
+],
+'19:30': [
+{sup:1, word:"vinegar", lines:["In {Mat27:34|Matt. 27:34} and {Mrk15:23|Mark 15:23}, wine mingled with gall and myrrh was offered to the Lord as a stupefying drink before His crucifixion, but He would not drink it. In this verse vinegar was offered to Him in a mocking way at the end of His crucifixion ({Luk23:36|Luke 23:36})."]},
+{sup:2, word:"finished", lines:["In His crucifixion the Lord was still working, and through His crucifixion He finished the work of His all-inclusive death, by which He accomplished redemption, terminated the old creation, and released His resurrection life to bring forth the new creation to fulfill God&rsquo;s purpose. In the process of death He proved to His opposers and His believers, by the way He behaved, that He was life. The dreadful environment of death did not frighten Him in the least; rather, it provided a contrast that proved strongly that He, as life, was versus death and could not be affected by death in any way. Therefore, the work that the Lord finished here included the accomplishing of redemption, the termination of the old creation, the release of His resurrection life, and the displaying of Himself as the life that cannot be affected by death."]},
+],
+'19:31': [
+{sup:"a", word:"remain", vrefs:"Deut. 21:23"},
+],
+'19:34': [
+{sup:"1a", word:"blood", vrefs:"Exo. 12:7; Heb. 9:14, 22; 1&nbsp;Pet. 1:18-19; Acts 20:28; Rom. 3:25; 1&nbsp;John 1:7; Rev. 1:5; 12:11; Zech. 13:1; 1&nbsp;John 5:6", lines:["Two substances came out of the Lord&rsquo;s pierced side: blood and water. Blood is for redemption, to deal with sins ({Joh1:29|1:29}; {Heb9:22|Heb. 9:22}) for the purchasing of the church ({Act20:28|Acts 20:28}). Water is for imparting life, to deal with death ({Joh12:24|12:24}; {Joh3:14|3:14}-{Joh3:15|15}) for the producing of the church ({Eph5:29|Eph. 5:29}-{Eph5:30|30}). The Lord&rsquo;s death, on the negative side, takes away our sins, and on the positive side, imparts life into us. Hence, it has two aspects: the redemptive aspect and the life-imparting aspect. The redemptive aspect is for the life-imparting aspect. The record of the other three Gospels portrays only the redemptive aspect of the Lord&rsquo;s death; John&rsquo;s record portrays not only the redemptive aspect but also the life-imparting aspect. In {Mat27:45|Matt. 27:45}, {Mat27:51|51}, {Mrk15:33|Mark 15:33}, and {Luk23:44|Luke 23:44}-{Luk23:45|45}, darkness, a symbol of sin, appeared, and the veil of the temple, which separated man from God, was rent. These signs are related to the redemptive aspect of the Lord&rsquo;s death. The words spoken by the Lord on the cross in {Luk23:34|Luke 23:34}, &ldquo;Father, forgive them,&rdquo; and in {Mat27:46|Matt. 27:46}, &ldquo;My God, My God, why have You forsaken Me?&rdquo; (because He bore our sin at that time), also depict the redemptive aspect of His death. But the flowing water and the unbroken bone mentioned by John in vv. {Joh19:34|34} and {Joh19:36|36} are signs that relate to the life-imparting aspect of the Lord&rsquo;s death (see {Joh19:26^1|note 26<sup>1</sup>}). This death that imparts life released the Lord&rsquo;s divine life from within Him for the producing of the church, which is composed of all His believers, into whom His divine life has been imparted. This life-imparting death of the Lord&rsquo;s is typified by Adam&rsquo;s sleep, out from which Eve was produced ({Gen2:21|Gen. 2:21}-{Gen2:23|23}), and is signified by the death of the one grain of wheat that fell into the ground for the bringing forth of many grains ({Joh12:24|12:24}) to make the one bread&mdash;the Body of Christ ({1Co10:17|1&nbsp;Cor. 10:17}). Hence, it is also the life-propagating, life-multiplying death, the generating and reproducing death.","The Lord&rsquo;s pierced side was prefigured by Adam&rsquo;s opened side, out from which Eve was produced ({Gen2:21|Gen. 2:21}-{Gen2:23|23}). The blood was typified by the blood of the passover lamb ({Exo12:7|Exo. 12:7}, {Exo12:22|22}; {Rev12:11|Rev. 12:11}), and the water was typified by the water that flowed out of the smitten rock ({Exo17:6|Exo. 17:6}; {1Co10:4|1&nbsp;Cor. 10:4}). The blood formed a fountain for the washing away of sin ({Zec13:1|Zech. 13:1}), and the water became the fountain of life ({Psa36:9|Psa. 36:9}; {Rev21:6|Rev. 21:6})."]},
+{sup:"1b", word:"water", vrefs:"Exo. 17:6; 1&nbsp;Cor. 10:4; John 4:10, 14; Rev. 22:1; 21:6; Psa. 36:9; Jer. 2:13", lines:["See {Joh19:34^1|note 34<sup>1</sup>}."]},
+],
+'19:36': [
+{sup:1, word:"these", lines:["It was absolutely of God&rsquo;s sovereignty that these things happened in such a meaningful and wonderful way. This is further proof that the Lord&rsquo;s death was not accidental but had been planned by God before the foundation of the world ({1Pe1:19|1&nbsp;Pet. 1:19}-{1Pe1:20|20})."]},
+{sup:"a", word:"No", vrefs:"Exo. 12:46; Num. 9:12; Psa. 34:20"},
+{sup:2, word:"bone", lines:["In the Scripture the first mention of a bone is in {Gen2:21|Gen. 2:21}-{Gen2:23|23}; there it was a rib taken out of Adam for the producing and building of Eve as a match for Adam. Eve was a type of the church, which is produced and built with the Lord&rsquo;s resurrection life released out of Him. Hence, the bone is a symbol, a figure, of the Lord&rsquo;s resurrection life, which nothing can break. The Lord&rsquo;s side was pierced, but not one of His bones was broken. This signifies that although the Lord&rsquo;s physical life was terminated, His resurrection life, the very divine life, could not be hurt or damaged by anything. This is the life with which the church is produced and built; it is also the eternal life, which we have obtained by believing into Him ({Joh3:36|3:36})."]},
+],
+'19:37': [
+{sup:"a", word:"They", vrefs:"Zech. 12:10; Rev. 1:7"},
+{sup:"b", word:"pierced", vrefs:"Zech. 13:6"},
+],
+'19:38': [
+{sup:"1a", word:"after", vrefs:"vv. 38-42: Matt. 27:57-61; Mark 15:42-47; Luke 23:50-56", lines:["After the Lord accomplished His redemptive and life-imparting death, His situation of suffering immediately changed into a situation of honor. Joseph, a rich man ({Mat27:57|Matt. 27:57}), and Nicodemus, a ruler of the Jews ({Joh3:1|3:1}), came to take care of His burial, binding His body with myrrh and aloes and burying it in a new tomb with the rich ({Isa53:9|Isa. 53:9}). In human honor of a high standard, the Lord rested on the Sabbath day ({Luk23:55|Luke 23:55}-{Luk23:56|56}), waiting for the time to rise from the dead."]},
+],
+'19:39': [
+{sup:"a", word:"Nicodemus", vrefs:"John 3:1-2"},
+{sup:"b", word:"myrrh", vrefs:"Exo. 30:23; S.S. 1:13; Psa. 45:8; S.S. 4:14"},
+{sup:"c", word:"aloes", vrefs:"Num. 24:6"},
+{sup:1, word:"pounds", lines:["See {Joh12:3^1|note 3<sup>1</sup>} in {Joh12|ch. 12}."]},
+],
+'19:41': [
+{sup:"a", word:"tomb", vrefs:"Isa. 53:9"},
+],
+'20:1': [
+{sup:"a", word:"Now", vrefs:"vv. 1-18: Matt. 28:1-10; Mark 16:1-11; Luke 24:1-12"},
+{sup:"1b", word:"first", vrefs:"Acts 20:7; 1&nbsp;Cor. 16:2; Rev. 1:10", lines:["The first day of the week, or the day after the Sabbath, signifies a new beginning, a new age. In {Lev23:10|Lev. 23:10}-{Lev23:11|11}, {Lev23:15|15}, a sheaf of the firstfruits of the harvest was offered to the Lord as a wave offering on the day after the Sabbath. That sheaf of the firstfruits was a type of Christ as the firstfruits in resurrection ({1Co15:20|1&nbsp;Cor. 15:20}, {1Co15:23|23}). Christ resurrected on precisely the day after the Sabbath. By His all-inclusive death He terminated the old creation, which had been completed in six days, after which was the Sabbath day. In His resurrection He germinated the new creation with the divine life. Hence, the day of His resurrection was the beginning of a new week&mdash;a new age. This day of His resurrection was appointed by God ({Psa118:24|Psa. 118:24}), was prophesied as &ldquo;today&rdquo; in {Psa2:7|Psa. 2:7}, was predicted by Himself as the third day ({Mat16:21|Matt. 16:21}; {Joh2:19|John 2:19}, {Joh2:22|22}), and later was called by the early Christians &ldquo;the Lord&rsquo;s Day&rdquo; ({Rev1:10|Rev. 1:10}). On this day Christ was born in resurrection as the firstborn Son of God ({Act13:33|Acts 13:33}; {Heb1:5|Heb. 1:5}) and the Firstborn from the dead to be the Head of the Body, the church ({Col1:18|Col. 1:18})."]},
+{sup:"c", word:"day", vrefs:"Lev. 23:11, 15; Psa. 118:24; 2:7; Acts 13:33; Heb. 1:5; Matt. 16:21; John 2:19, 22; 1&nbsp;Cor. 15:4"},
+{sup:2, word:"came", lines:["The Lord&rsquo;s resurrection had been accomplished, but the discovery of it required the disciples&rsquo; seeking in love toward the Lord. It was thus that Mary the Magdalene discovered it and obtained the fresh manifestation of the Lord and the revelation of the issue of His resurrection: that His Father is the Father of those who believe into Him, and that those who believe into Him are His brothers ({Joh20:17|v. 17}; see notes {Joh20:17^2|17<sup>2</sup>} and {Joh20:17^3|17<sup>3</sup>}). Peter and John only knew of the discovery; Mary obtained the experience. The brothers were satisfied with having faith in the fact of the Lord&rsquo;s resurrection, but the sister went further and sought the resurrected Lord Himself, i.e., the personal experience of the Lord. The Lord was there all the time, but He was not manifested until {Joh20:16|v. 16}."]},
+],
+'20:5': [
+{sup:1, word:"linen", lines:["All the things that were cast off from the Lord&rsquo;s resurrected body and left in His tomb signify the old creation, which He wore into the tomb. He was crucified with the old creation and buried with it. But He rose from within it, leaving it in the tomb and becoming the firstfruits of the new creation. All the things left in the tomb were a testimony to the Lord&rsquo;s resurrection. If these things had not been left there in good order, it would have been difficult for Peter and John to believe ({Joh20:8|v. 8}) that the Lord had not been taken away by someone but had risen by Himself. These things had been offered to the Lord and wrapped around Him by His two disciples, Joseph and Nicodemus ({Joh19:38|19:38}-{Joh19:42|42}). What they had done toward the Lord in their love to Him became very useful in the Lord&rsquo;s testimony. (So for linen cloths in {Joh20:6|v. 6}.)"]},
+],
+'20:7': [
+{sup:1, word:"handkerchief", lines:["See {Joh20:5^1|note 5<sup>1</sup>}."]},
+],
+'20:9': [
+{sup:"a", word:"Scripture", vrefs:"Psa. 16:10; Acts 2:25-31; Psa. 2:7; Acts 13:33-37"},
+{sup:"1b", word:"rise", vrefs:"1&nbsp;Cor. 15:4, 20, 23; Rom. 1:4; Acts 13:33", lines:["The Lord is not only life but also resurrection ({Joh11:25|11:25}). Hence, death cannot hold Him ({Act2:24|Acts 2:24}). He went into death of His own accord to accomplish His work. When He finished His mission, He came out of death and rose up from it."]},
+],
+'20:11': [
+{sup:1, word:"weeping", lines:["Lit., wailing; so in vv. {Joh20:13|13}, {Joh20:15|15}."]},
+],
+'20:17': [
+{sup:1, word:"ascended", lines:["On the day of His resurrection the Lord ascended to the Father. This was a secret ascension, the ultimate fulfillment of the going predicted in {Joh16:7|16:7}. It occurred forty days prior to His public ascension, which took place before the eyes of the disciples ({Act1:9|Acts 1:9}-{Act1:11|11}). On the day of resurrection, early in the morning He ascended to satisfy the Father, and late in the evening He returned to the disciples ({Joh20:19|v. 19}). The freshness of His resurrection must be first for the Father&rsquo;s enjoyment, as in the type the firstfruits of the harvest were brought first to God."]},
+{sup:"2a", word:"brothers", vrefs:"Rom. 8:29; Heb. 2:10-12", lines:["Previously, the most intimate term the Lord had used in reference to His disciples was &ldquo;friends&rdquo; ({Joh15:14|15:14}-{Joh15:15|15}). But after His resurrection He began to call them &ldquo;brothers,&rdquo; for through His resurrection His disciples were regenerated ({1Pe1:3|1&nbsp;Pet. 1:3}) with the divine life, which had been released by His life-imparting death, as indicated in {Joh12:24|12:24}. He was the one grain of wheat that fell into the ground and died and grew up to bring forth many grains for the producing of the one bread, which is His Body ({1Co10:17|1&nbsp;Cor. 10:17}). He was the Father&rsquo;s only Son, the Father&rsquo;s individual expression. Through His death and resurrection the Father&rsquo;s only begotten became the Firstborn among many brothers ({Rom8:29|Rom. 8:29}). His many brothers are the many sons of God and are the church ({Heb2:10|Heb. 2:10}-{Heb2:12|12}), a corporate expression of God the Father in the Son. This is God&rsquo;s ultimate intention. The many brothers are the propagation of the Father&rsquo;s life and the multiplication of the Son in the divine life. Hence, in the Lord&rsquo;s resurrection God&rsquo;s eternal purpose is fulfilled."]},
+{sup:"b", word:"ascend", vrefs:"John 16:7"},
+{sup:3, word:"Father", lines:["Through His life-imparting death and resurrection, the Lord made His disciples one with Him. Therefore, His Father is the Father of His disciples, and His God is the God of His disciples. In His resurrection they have the Father&rsquo;s life and God&rsquo;s divine nature, just as He has. In making them His brothers, He has imparted the Father&rsquo;s life and God&rsquo;s divine nature into them. By making His Father and His God theirs, He has brought them into His position&mdash;the position of the Son&mdash;before the Father and God. Thus, in life and nature inwardly and in position outwardly they are the same as the Lord, with whom they have been united."]},
+],
+'20:19': [
+{sup:"a", word:"When", vrefs:"vv. 19-23: Luke 24:36-49"},
+{sup:1, word:"disciples", lines:["The gathering of the disciples here may be considered the first meeting of the church before Pentecost. This meeting took place to fulfill {Psa22:22|Psa. 22:22}, according to {Heb2:10|Heb. 2:10}-{Heb2:12|12}, so that the Son could declare the Father&rsquo;s name to His brothers and praise the Father in the church, which is composed of His brothers."]},
+{sup:2, word:"came", lines:["Though the doors were shut, the Lord came with His resurrected body ({Luk24:37|Luke 24:37}-{Luk24:40|40}; {1Co15:44|1&nbsp;Cor. 15:44}) into the room where the disciples were. How could He have entered, having bones and flesh? Our limited mind cannot comprehend it, but it is a fact! We must receive it according to the divine revelation. This was a fulfillment of His promise in {Joh16:16|16:16}, {Joh16:19|19}, {Joh16:22|22}."]},
+{sup:"b", word:"Peace", vrefs:"John 20:21, 26; 14:27; 16:33"},
+],
+'20:20': [
+{sup:"1a", word:"rejoiced", vrefs:"John 16:22", lines:["This was a fulfillment of the Lord&rsquo;s promise in {Joh16:22|16:22}. Now they rejoiced because they saw the newborn child ({Joh16:21|16:21}), who was the resurrected Lord, born in His resurrection as the Son of God ({Act13:33|Acts 13:33}). The Lord fulfilled His promise and came back to His disciples, bringing them five blessings: (1) His presence, (2) His peace, (3) His sending, His commission ({Joh20:21|v. 21}), (4) the Holy Spirit ({Joh20:22|v. 22}), and (5) His authority, with which they could represent Him ({Joh20:23|v. 23})."]},
+{sup:"b", word:"seeing", vrefs:"John 14:19; 16:16, 19"},
+],
+'20:21': [
+{sup:"a", word:"Peace", vrefs:"John 20:19"},
+{sup:1, word:"sent", lines:["See {Joh1:6^1|note 6<sup>1</sup>} in {Joh1|ch. 1}."]},
+{sup:"2b", word:"send", vrefs:"John 17:18", lines:["The Lord sent His disciples with Himself as life and everything to them. (See {Joh17:18^1|note 18<sup>1</sup>} in {Joh17|ch. 17}.) This is why, immediately after He said, &ldquo;I also send you,&rdquo; He breathed the Holy Spirit into them. By His breathing into them He entered as the Spirit into the disciples to abide in them forever ({Joh14:16|14:16}-{Joh14:17|17}). Hence, wherever His disciples were sent, He was always with them. He was one with them."]},
+],
+'20:22': [
+{sup:"a", word:"breathed", vrefs:"cf. Gen. 2:7; Ezek. 37:5, 9"},
+{sup:"b", word:"Receive", vrefs:"John 7:39"},
+{sup:"1c", word:"Spirit", vrefs:"John 14:17, 26; 15:26; 16:7, 13", lines:["This was the Spirit expected in {Joh7:39|7:39} and promised in {Joh14:16|14:16}-{Joh14:17|17}, {Joh14:26|26}; {Joh15:26|15:26}; and {Joh16:7|16:7}-{Joh16:8|8}, {Joh16:13|13}. Hence, the Lord&rsquo;s breathing of the Holy Spirit into the disciples was the fulfillment of His promise of the Holy Spirit as the Comforter. This fulfillment differs from the one in {Act2:1|Acts 2:1}-{Act2:4|4}, which was the fulfillment of the Father&rsquo;s promise in {Luk24:49|Luke 24:49}. (See {Joh14:17^1|note 17<sup>1</sup>} in {Joh14|ch. 14}.) In {Act2|Acts 2} the Spirit as a rushing, violent wind came as power upon the disciples for their work ({Act1:8|Acts 1:8}). Here the Spirit as breath was breathed as life into the disciples for their life. By breathing the Spirit into the disciples, the Lord imparted Himself into them as life and everything. Thus, all that He had spoken in chs. {Joh14|14}&mdash;{Joh16|16} could be fulfilled.","As falling into the ground to die and growing out of the ground transform the grain of wheat into another form, one that is new and living, so the death and resurrection of the Lord transfigured Him from the flesh into the Spirit. As the last Adam in the flesh, through the process of death and resurrection He became a life-giving Spirit ({1Co15:45|1&nbsp;Cor. 15:45}). As He is the embodiment of the Father, so the Spirit is the realization, the reality, of Him. It is as the Spirit that He was breathed into the disciples. It is as the Spirit that He is received into His believers and flows out of them as rivers of living water ({Joh7:38|7:38}-{Joh7:39|39}). It is as the Spirit that through His death and resurrection He came back to the disciples, entered into them as their Comforter, and began to abide in them ({Joh14:16|14:16}-{Joh14:17|17}). It is as the Spirit that He can live in the disciples and enable them to live by and with Him ({Joh14:19|14:19}). It is as the Spirit that He can abide in the disciples and enable them to abide in Him ({Joh14:20|14:20}; {Joh15:4|15:4}-{Joh15:5|5}). It is as the Spirit that He can come with the Father to His lover and make an abode with him ({Joh14:23|14:23}). It is as the Spirit that He can cause all that He is and has to be fully realized by the disciples ({Joh16:13|16:13}-{Joh16:16|16}). It is as the Spirit that He came to meet with His brothers as the church to declare the Father&rsquo;s name to them and to praise the Father in their midst ({Heb2:11|Heb. 2:11}-{Heb2:12|12}). It is as the Spirit that He can send His disciples for His commission, with Himself as life and everything to them, in the same way that the Father sent Him ({Joh20:21|v. 21}). They are thus qualified to represent Him with His authority in the fellowship of His Body ({Joh20:23|v. 23}) for the carrying out of His commission.","The Lord was the Word, and the Word is the eternal God ({Joh1:1|1:1}). For the accomplishing of God&rsquo;s eternal purpose, He took two steps. First, He took the step of incarnation to become a man in the flesh ({Joh1:14|1:14}), to be the Lamb of God to accomplish redemption for man ({Joh1:29|1:29}), to declare God to man ({Joh1:18|1:18}), and to manifest the Father to His believers ({Joh14:9|14:9}-{Joh14:11|11}). Second, He took the step of death and resurrection to be transfigured into the Spirit that He might impart Himself into His believers as their life and their everything, and that He might bring forth many sons of God, His many brothers, for the building of His Body, the church, the habitation of God, to express the Triune God for eternity. Hence, originally He was the eternal Word; then, through His incarnation He became flesh to accomplish God&rsquo;s redemption, and through His death and resurrection He became the Spirit to be everything and do everything for the completion of God&rsquo;s building.","This Gospel testifies that the Lord is (1) God ({Joh1:1|1:1}-{Joh1:2|2}; {Joh5:17|5:17}-{Joh5:18|18}; {Joh10:30|10:30}-{Joh10:33|33}; {Joh14:9|14:9}-{Joh14:11|11}; {Joh20:28|20:28}), (2) the life ({Joh1:4|1:4}; {Joh10:10|10:10}; {Joh11:25|11:25}; {Joh14:6|14:6}), and (3) the resurrection ({Joh11:25|11:25}). Chapters {Joh1|1}&mdash;{Joh17|17} prove that He is God among men. Men are in contrast to Him as God. Chapters {Joh18|18}&mdash;{Joh19|19} prove that He is life in the environment of death. Death, or the environment of death, is in contrast to Him as life. Chapters {Joh20|20}&mdash;{Joh21|21} prove that He is the resurrection in the midst of the old creation, the natural life. The old creation, the natural life, is in contrast to Him as the resurrection, of which the Spirit is the reality. As the resurrection, He can be realized only in the Spirit. Hence, eventually He is the Spirit in resurrection. He is God among men (chs. {Joh1|1}&mdash;{Joh17|17}), He is life in death (chs. {Joh18|18}&mdash;{Joh19|19}), and He is the Spirit in resurrection (chs. {Joh20|20}&mdash;{Joh21|21})."]},
+],
+'20:23': [
+{sup:"a", word:"Whose", vrefs:"cf. Matt. 18:18"},
+],
+'20:24': [
+{sup:1, word:"Didymus", lines:["I.e., Twin."]},
+{sup:2, word:"was", lines:["After His resurrection the Lord came to meet with His disciples, beginning from the evening of this first day. Thus, in the Lord&rsquo;s resurrection the matter of meeting with the saints is crucial. Mary the Magdalene met the Lord personally in the morning and obtained the blessing (vv. {Joh20:16|16}-{Joh20:18|18}), but she still needed to be in the meeting with the saints in the evening to meet the Lord in a corporate way to obtain more and greater blessings (vv. {Joh20:19|19}-{Joh20:23|23}). Thomas missed the first meeting that the Lord held with His disciples after His resurrection, and he missed all the blessings as well. However, he compensated for it by attending the second meeting (vv. {Joh20:25|25}-{Joh20:28|28})."]},
+],
+'20:25': [
+{sup:"a", word:"Lord", vrefs:"John 20:28; 21:7"},
+],
+'20:26': [
+{sup:1, word:"after", lines:["This was on the second first day of the week, the second Lord&rsquo;s Day after the Lord&rsquo;s resurrection."]},
+{sup:"a", word:"eight", vrefs:"cf. John 20:1, 19"},
+{sup:2, word:"disciples", lines:["The gathering of the disciples here may be considered the second meeting of the church held with the Lord&rsquo;s presence before Pentecost."]},
+{sup:3, word:"came", lines:["After the Lord came in {Joh20:19|v. 19}, eight days before, there is no plain word or hint in John&rsquo;s record that the Lord left the disciples. Actually, He stayed with them, though they were not conscious of His presence. Hence, His coming in {Joh20:26|v. 26} was actually His manifestation, His appearing (see {Joh21:1^2|note 1<sup>2</sup>} in {Joh21|ch. 21}). Before His death the Lord was in the flesh, and His presence was visible. After His resurrection the Lord became the Spirit, and His presence was invisible. His manifestations, or appearings, after His resurrection were to train the disciples to realize, to enjoy, and to practice His invisible presence, which is more available, prevailing, precious, rich, and real than His visible presence. In His resurrection this dear presence of His was just the Spirit, whom He had breathed into them and who would be with them all the time."]},
+{sup:"b", word:"Peace", vrefs:"John 20:19"},
+],
+'20:28': [
+{sup:"a", word:"Lord", vrefs:"John 20:25; Acts 2:36; 10:36; Rom. 14:9; 10:12-13; 1&nbsp;Cor. 12:3; 2&nbsp;Cor. 4:5; Phil. 2:11"},
+{sup:"1b", word:"God", vrefs:"John 1:1; 5:18; 10:33; Rom. 9:5; Phil. 2:6; 1&nbsp;John 5:20", lines:["This Gospel proves strongly and purposely that the man Jesus is the very God ({Joh1:1|1:1}-{Joh1:2|2}; {Joh5:17|5:17}-{Joh5:18|18}; {Joh10:30|10:30}-{Joh10:33|33}; {Joh14:9|14:9}-{Joh14:11|11})."]},
+],
+'20:30': [
+{sup:"a", word:"many", vrefs:"John 21:25"},
+],
+'20:31': [
+{sup:"1a", word:"Christ", vrefs:"John 1:41; 4:25, 29; 7:41-42; Matt. 16:16; Luke 2:11", lines:["The Christ is the title of the Lord according to His office, His mission. The Son of God is His title according to His person. His person is a matter of God&rsquo;s life, and His mission is a matter of God&rsquo;s work. He is the Son of God to be the Christ of God. He works for God by the life of God that man, by believing in Him, may have God&rsquo;s life to become God&rsquo;s many sons and work by God&rsquo;s life to build the corporate Christ ({1Co12:12|1&nbsp;Cor. 12:12}), thus fulfilling God&rsquo;s purpose concerning His eternal building."]},
+{sup:"b", word:"Son", vrefs:"John 1:34, 49; 9:35; 10:36; Matt. 16:16; Luke 1:35"},
+{sup:"c", word:"believing", vrefs:"John 3:15, 16, 36"},
+],
+'21:1': [
+{sup:1, word:"After", lines:["By the end of {Joh20|ch. 20} the Lord had come back as the Spirit, as the pneumatic Christ, to be with the disciples as everything to them. Therefore, this Gospel might be considered closed there ({Joh20:30|20:30}-{Joh20:31|31}). But how could the disciples make a living? What should they do to carry out His commission? How should they follow Him after His resurrection? What would be their future? This additional chapter is needed that these problems might be dealt with."]},
+{sup:"2a", word:"manifested", vrefs:"John 21:14; 14:21; cf. Mark 16:12", lines:["This proves that His coming to the disciples in {Joh20:26|20:26} was actually a manifestation, for here it is said that He manifested Himself again to the disciples. He was again training them to practice His invisible presence. It was a matter not of His coming but of His manifestation. Whether or not they were conscious of His presence, He was with them all the time. Because of their weakness He sometimes manifested His presence in order to strengthen their faith in Him."]},
+],
+'21:2': [
+{sup:"a", word:"Thomas", vrefs:"John 11:16"},
+{sup:1, word:"Didymus", lines:["I.e., Twin."]},
+{sup:"b", word:"Nathanael", vrefs:"John 1:45"},
+{sup:"c", word:"sons", vrefs:"Matt. 4:21"},
+],
+'21:3': [
+{sup:1, word:"going", lines:["It must have been because of the trial related to their need to make a living that Peter returned to his old occupation, thus backsliding from the Lord&rsquo;s call ({Mat4:19|Matt. 4:19}-{Mat4:20|20}; {Luk5:3|Luke 5:3}-{Luk5:11|11})."]},
+{sup:"a", word:"fishing", vrefs:"Matt. 4:18"},
+{sup:"b", word:"got", vrefs:"vv. 3-10: cf. Luke 5:3-11"},
+{sup:2, word:"nothing", lines:["Peter and the sons of Zebedee (John and James) were professional fishermen, the Sea of Tiberias was large and full of fish, and night was the right time for fishing; still, through the entire night they caught nothing. This was a miracle! It must have been that the Lord bade all the fish to stay away from their net."]},
+],
+'21:4': [
+{sup:"a", word:"not", vrefs:"John 20:14; Luke 24:16"},
+],
+'21:5': [
+{sup:"a", word:"Little", vrefs:"1&nbsp;John 2:13, 18"},
+{sup:"1b", word:"fish", vrefs:"Luke 24:41, 42", lines:["Fish is not in the Greek text; however, because the Greek word here refers to something prepared for eating, fish is implied."]},
+{sup:2, word:"No", lines:["When the disciples were in the right position, as in {Luk24:41|Luke 24:41}-{Luk24:43|43}, they had&mdash;even in the house&mdash;more fish than they needed, so they offered a piece to the Lord. But here they were in a backslidden condition; thus, after fishing the whole night, they had&mdash;even on the sea&mdash;no fish, not even one piece!"]},
+],
+'21:6': [
+{sup:1, word:"abundance", lines:["Morning ({Joh21:4|v. 4}) was not the right time for fishing, but when they obeyed the Lord&rsquo;s word and cast the net, they caught an abundance of fish. This surely was a miracle! It must have been that the Lord bade the fish to come into their net.","In {Luk5:3|Luke 5:3}-{Luk5:11|11} the Lord called Peter by a miracle in fishing. Here He recovered him to His call by another miracle in fishing. He is consistent in His purpose."]},
+],
+'21:7': [
+{sup:"a", word:"disciple", vrefs:"John 21:20; 13:23"},
+{sup:1, word:"was", lines:["Or, had on his undergarment only."]},
+],
+'21:8': [
+{sup:1, word:"two", lines:["I.e., a little over one hundred yards."]},
+],
+'21:9': [
+{sup:"1a", word:"fish", vrefs:"John 6:9", lines:["Here the Lord trained Peter to have faith in Him for his living. Peter and those with him had fished the entire night but had caught nothing. Then, according to the Lord&rsquo;s word they cast the net, and they caught an abundance of fish. But without these fish, and even on land, where there were no fish, the Lord prepared fish and even bread for the disciples. This too was a miracle! By this the Lord trained them to realize that without His leading, even if they should go to the sea, where the fish were, at night, the right time for fishing, they would catch nothing; but if they followed the Lord&rsquo;s leading, even on land, where there were no fish, the Lord could provide fish for them. Though they caught many fish according to the Lord&rsquo;s word, the Lord would not use these fish to feed them. This was a real lesson to Peter. For his living he needed to believe in the Lord, who calls things not being as being ({Rom4:17|Rom. 4:17})."]},
+{sup:"b", word:"bread", vrefs:"John 6:11"},
+],
+'21:12': [
+{sup:1, word:"Come", lines:["This indicates the Lord&rsquo;s gracious care for the need of His called ones."]},
+],
+'21:13': [
+{sup:"a", word:"took", vrefs:"Matt. 14:19; Luke 24:30"},
+{sup:1, word:"bread", lines:["In the Lord&rsquo;s provision, bread represents the riches of the land, and fish represent the riches of the sea."]},
+],
+'21:14': [
+{sup:"a", word:"third", vrefs:"John 20:19, 26"},
+{sup:"b", word:"raised", vrefs:"John 2:22; Acts 2:24; Rom. 4:25; 8:11"},
+],
+'21:15': [
+{sup:1, word:"Simon", lines:["Here the Lord was restoring Peter&rsquo;s love toward Him. Peter did have a heart to love the Lord, but he was too confident in his own strength, his natural strength. His love for the Lord was precious, but his natural strength had to be denied and dealt with. The Lord allowed Peter to fail utterly in denying the Lord to His face three times ({Joh18:17|18:17}, {Joh18:25|25}, {Joh18:27|27}), so that his natural strength and his self-confidence could be dealt with. Furthermore, Peter had just taken the lead to backslide from the Lord&rsquo;s call. His natural confidence in his love toward the Lord also must have been dealt with by this failure; yet he might have been somewhat disappointed. The Lord therefore came to restore his love toward Him, to charge him with the shepherding of His church, and to prepare him for his martyrdom so that he would not follow Him with any confidence in his natural strength."]},
+{sup:2, word:"love", lines:["The Greek word refers to a higher and nobler love. So for the first love in {Joh21:16|v. 16}."]},
+{sup:"a", word:"more", vrefs:"cf. Matt. 26:33; John 13:37"},
+{sup:3, word:"love", lines:["The Greek word denotes an intimate love. So for the second love in {Joh21:16|v. 16}, and for all occurrences of love in {Joh21:17|v. 17}."]},
+{sup:"4b", word:"Feed", vrefs:"John 21:17", lines:["The fruit-bearing in {Joh15|ch. 15} is the outflow of the riches of the inner life. Here, to feed the lambs is to nourish them with the riches of the inner life. To feed others, we need to enjoy the riches of the Lord&rsquo;s divine life. This requires that we love Him. To believe in the Lord is to receive Him; to love the Lord is to enjoy Him. The Lord came as life and the life supply to us. We need to have faith in Him and love toward Him. This Gospel presents these as the two requirements for us to participate in the Lord."]},
+{sup:5, word:"lambs", lines:["Lit., little lambs."]},
+],
+'21:16': [
+{sup:"1a", word:"Shepherd", vrefs:"Acts 20:28; 1&nbsp;Pet. 5:2", lines:["Shepherding is for the flock ({Joh10:14|10:14}, {Joh10:16|16}), which is the church ({Act20:28|Acts 20:28}); hence, it is related to God&rsquo;s building ({Mat16:18|Matt. 16:18}). Later, Peter in his first Epistle indicated this, saying that growth by feeding on the pure milk of the word is for the building of God&rsquo;s house ({1Pe2:2|1&nbsp;Pet. 2:2}-{1Pe2:5|5}) and charging the elders to shepherd the flock of God ({1Pe5:1|1&nbsp;Pet. 5:1}-{1Pe5:4|4})."]},
+{sup:2, word:"sheep", lines:["Some MSS have, little sheep. So in {Joh21:17|v. 17}."]},
+],
+'21:17': [
+{sup:1, word:"third", lines:["Perhaps in questioning Peter three times, the Lord was reminding Peter of how he had denied Him three times."]},
+{sup:"2a", word:"know", vrefs:"John 2:25", lines:["The first know in this verse refers to the inward, subjective consciousness; the second refers to the outward, objective knowledge. See {Joh8:55^1|note 55<sup>1</sup>} in {Joh8|ch. 8}."]},
+{sup:"b", word:"all", vrefs:"Heb. 4:13"},
+{sup:"c", word:"Feed", vrefs:"John 21:15"},
+],
+'21:18': [
+{sup:"1a", word:"walked", vrefs:"John 21:3", lines:["This may refer to his going fishing in {Joh21:3|v. 3}."]},
+],
+'21:19': [
+{sup:"a", word:"signifying", vrefs:"cf. John 12:33; 18:32"},
+{sup:"1b", word:"kind", vrefs:"2&nbsp;Pet. 1:14", lines:["Later, Peter referred to this ({2Pe1:14|2&nbsp;Pet. 1:14}). What the Lord wanted here was to prepare Peter to follow Him unto death, not by anything of himself or according to his own will."]},
+{sup:"c", word:"Follow", vrefs:"John 21:22; Matt. 4:19; John 13:36; 12:26"},
+],
+'21:20': [
+{sup:"a", word:"disciple", vrefs:"John 21:7"},
+{sup:"b", word:"reclined", vrefs:"John 13:23, 25"},
+],
+'21:22': [
+{sup:"a", word:"remain", vrefs:"1&nbsp;Thes. 4:15"},
+{sup:"1b", word:"come", vrefs:"1&nbsp;Cor. 11:26; Rev. 22:12, 20", lines:["The Lord was there with the disciples. How then could He say &ldquo;until I come&rdquo;? Since He was there, He did not need to come. If He meant that He would leave them and later come back to them, how could He say to them, &ldquo;Follow Me&rdquo;? How could they follow Him? The answer to all these questions is related to His invisible presence. In His visible presence He would leave and come back later. But in His invisible presence He would be with them all the time. On one hand, He would be with them, and on the other hand, He would be away from them. So, on one hand, they could follow Him, and on the other hand, they would have to wait for His coming back.","After His resurrection the Lord remained with the disciples for forty days ({Act1:3|Acts 1:3}-{Act1:4|4}) in order to train them to realize, practice, and live by His invisible presence. In {Joh21:23|v. 23} the Lord indicated that some of His believers would follow Him unto death, and that some would remain, i.e., live until He comes."]},
+{sup:"1c", word:"follow", vrefs:"John 21:19", lines:["See {Joh21:22^1|note 22<sup>1</sup>}."]},
+],
+'21:23': [
+{sup:1, word:"come", lines:["The span of what is covered in the last two chapters of this Gospel is broad. It begins with the discovery of the Lord&rsquo;s resurrection and ends with His coming back. Between these two events are all the matters related to the Christian life during the church age: seeking the Lord with love toward Him; seeing the Lord in resurrection; receiving the revelation of the issue of the Lord&rsquo;s resurrection&mdash;that His Father is our Father and we are His brothers&mdash;by experiencing His manifestation; meeting with the believers to enjoy the Lord&rsquo;s presence; having the Lord breathe the Holy Spirit into us, and being sent by the Lord with His commission and authority to represent Him; learning how to live by faith in the Lord and trust in Him for our daily living; loving the Lord, the natural strength having been dealt with; shepherding the flock for the building of the church; practicing the Lord&rsquo;s invisible presence, with some following the Lord even unto death to glorify God, not by self-will but according to His leading, and some living until He comes back."]},
+],
+'21:24': [
+{sup:"a", word:"testifies", vrefs:"John 15:27; 1&nbsp;John 1:2; Rev. 1:2"},
+],
+'21:25': [
+{sup:"1a", word:"many", vrefs:"John 20:30", lines:["This verse, together with {Joh20:30|20:30}-{Joh20:31|31}, affirms that this Gospel is the record of selected things that serve the purpose of testifying to the matter of life and building.","In {Mat28:20^2P2|note 20<sup>2</sup>, par. 2}, in {Mat28|Matt. 28} it is pointed out that the Lord&rsquo;s ascension is not mentioned in John or Matthew. The reason it is not mentioned is that today, after His resurrection, the Lord is still on the earth to be with His believers, and He will be with them until the end of this age, when He will be manifested in His visible glory ({1Pe1:7|1&nbsp;Pet. 1:7}; {2Th1:7|2&nbsp;Thes. 1:7}), that is, when He will come back to the earth in His visible presence ({Mat16:27|Matt. 16:27}) to establish His visible kingdom. The Gospel of Matthew unveils and testifies that today, after His resurrection, the Lord, who is the spiritual King of the invisible kingdom of the heavens, is still on the earth in His Spirit of resurrection to be with the people of the kingdom of the heavens in His invisible presence; hence, Matthew does not mention His leaving the earth to ascend to the heavens. The Gospel of John reveals and testifies that as the Triune God, the Lord became flesh ({Joh1:14|1:14}) to be the Lamb of God ({Joh1:29|1:29}) and, after accomplishing His redemptive death for man, was transfigured in resurrection to become the life-giving Spirit ({1Co15:45|1&nbsp;Cor. 15:45}) and to enter into those who believe into Him to be their life for eternity, never to be separated from them; hence, it would have been inappropriate for John to mention His going away in ascension.","Furthermore, the four Gospels are a full revelation of how the Triune God came to complete Christ, that is, to make Christ complete. The record in the Gospel of John is crucial regarding this matter. It shows us that the completing of Christ, who was anointed and commissioned by God to accomplish God&rsquo;s eternal will, was carried out by the Triune God becoming flesh in order to be united with man. First, through His death in the flesh He accomplished redemption for man, and then through resurrection He was transfigured to become the Spirit that He might enter into the believers ({Joh20:22|20:22}) to be united with them, that they might be united with the Triune God ({Joh17:21|17:21}). Thus He became Christ, the embodiment of God, and is able to take away men&rsquo;s sins and enter into men to be their life that they may become the sons of God to be His members, constituting His Body as the full expression of the Triune God. Thus, He is in them to be all their reality and to be with them invisibly until their bodies are redeemed and transfigured that they may enter into His visible presence to be completely united with Him and completely like Him, and to become the New Jerusalem, which is about to be completed, as the mutual habitation of the Triune God and His redeemed people for eternity!"]},
+],
+},
+};
