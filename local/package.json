@@ -1,0 +1,10 @@
+{
+  "name": "rcvbible",
+  "version": "1.0.0",
+  "description": "Scripts for the Holy Rcv Bible",
+  "scripts": {
+    "genbooks": "cd scripts; node genbooks.js"
+  },
+  "author": "Holy Bible Recovery Version <holyrcvbible@gmail.com> (https://recoveryversionbible.000webhostapp.com/)",
+  "license": "ISC"
+}

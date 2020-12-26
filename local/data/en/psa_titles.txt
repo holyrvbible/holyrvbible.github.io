@@ -1,0 +1,312 @@
+3:Title A [a]Psalm of David, when he [b]fled from Absalom his son
+4:Title To the choir director: on the stringed instruments. A [a]Psalm of David
+5:Title To the choir director: for the wind instruments. A [a]Psalm of David
+6:Title To the choir director: on the stringed instruments, on the octave. A [a]Psalm of David
+7:Title A [*]Shiggaion [a]of David, which he sang to Jehovah on account of Cush the [b]Benjaminite
+8:Title To the choir director: on the [*]gittith. A [a]Psalm of David
+9:Title To the choir director: [*]according to muth-labben. A [a]Psalm of David
+11:Title To the choir director. [a]Of David
+12:Title To the choir director: on the octave. A [a]Psalm of David
+13:Title To the choir director. A [a]Psalm of David
+14:Title To the choir director. [a]Of David
+15:Title A [a]Psalm of David
+16:Title A [*]Michtam [a]of David
+17:Title A Prayer [a]of David
+18:Title To the choir director. [a]Of David, the servant of Jehovah, [b]who [*]spoke to Jehovah the words of this song on the day when Jehovah delivered him from the hand of all his enemies and from the hand of Saul, and he said:
+19:Title To the choir director. A [a]Psalm of David
+20:Title To the choir director. A [a]Psalm of David
+21:Title To the choir director. A [a]Psalm of David
+22:Title To the choir director: according to the [*]hind of the dawn. A [a]Psalm of David
+23:Title A [a]Psalm of David
+24:Title A [a]Psalm of David
+25:Title [a]Of David
+26:Title [a]Of David
+27:Title [a]Of David
+28:Title [a]Of David
+29:Title A [a]Psalm of David
+30:Title A Psalm; a Song for the [a]Dedication of the House. [b]Of David
+31:Title To the choir director. A [a]Psalm of David
+32:Title [a]Of David. A [*]Maschil
+34:Title [a]Of David, when he [b]disguised his sanity before [*]Abimelech, who drove him out, and he departed
+35:Title [a]Of David
+36:Title To the choir director. Of the servant of Jehovah; [a]of David
+37:Title [a]Of David
+38:Title A [a]Psalm of David, for remembrance
+39:Title To the choir director, to Jeduthun. A [a]Psalm of David
+40:Title To the choir director. A [a]Psalm of David
+41:Title To the choir director. A [a]Psalm of David
+42:Title To the choir director. A [*]Maschil [a]of the sons of [b]Korah
+44:Title To the choir director. [a]Of the sons of Korah. A [*]Maschil
+45:Title To the choir director: according to [*]Shoshannim. [a]Of the sons of Korah. A [**]Maschil; a song of [***]love
+46:Title To the choir director. [a]Of the sons of Korah. According to [*]alamoth. A Song
+47:Title To the choir director. [a]Of the sons of Korah. A Psalm
+48:Title A Song; a [a]Psalm of the sons of Korah
+49:Title To the choir director. [a]Of the sons of Korah. A Psalm
+50:Title A [a]Psalm of Asaph
+51:Title To the choir director. A [a]Psalm of David, when [*b]Nathan the prophet came to him, after he had gone in to [c]Bath-sheba
+52:Title To the choir director. A [*]Maschil [a]of David, when [b]Doeg the Edomite came and told Saul and said to him, David has come to the house of Ahimelech
+53:Title To the choir director: according to [*]mahalath. A [**]Maschil [a]of David
+54:Title To the choir director: on the stringed instruments. A [**]Maschil [a]of David, when the [b]Ziphites came and said to Saul, David is indeed hiding among us!
+55:Title To the choir director: on the stringed instruments. A [*]Maschil [a]of David
+56:Title To the choir director: according to the [*]dove on the distant terebinths. [a]Of David. A [**]Michtam, when the [b]Philistines seized him in Gath
+57:Title To the choir director: [*]Do not destroy. [a]Of David. A [**]Michtam, when he fled from Saul, in the [b]cave
+58:Title To the choir director: [*]Do not destroy. [a]Of David. A [**]Michtam
+59:Title To the choir director: [*]Do not destroy. [a]Of David. A [**]Michtam, when Saul sent men, and they [b]watched the house in order to kill him
+60:Title To the choir director: according to the [*]lily of the testimony. A [**]Michtam [a]of David, for instruction, when he struggled with [b]Aram-naharaim and with Aram-zobah, and Joab returned and struck twelve thousand of Edom in the Valley of Salt
+61:Title To the choir director: on the stringed instruments. [a]Of David
+62:Title To the choir director, to Jeduthun. A [a]Psalm of David
+63:Title A [a]Psalm of David, when he was in the [b]wilderness of Judah
+64:Title To the choir director. A [a]Psalm of David
+65:Title To the choir director. A [a]Psalm of David; a Song
+66:Title To the choir director. A Song; a Psalm
+67:Title To the choir director: on the stringed instruments. A Psalm; a Song
+68:Title To the choir director. [a]Of David. A Psalm; a Song
+69:Title To the choir director: according to [*]Shoshannim. [a]Of David
+70:Title To the choir director. [a]Of David, for remembrance
+72:Title [a]Of Solomon
+73:Title A [a]Psalm of Asaph
+74:Title A [*]Maschil [a]of Asaph
+75:Title To the choir director: [*]Do not destroy. A [a]Psalm of Asaph; a Song
+76:Title To the choir director: on the stringed instruments. A [a]Psalm of Asaph; a Song
+77:Title To the choir director, to Jeduthun. [a]Of Asaph. A Psalm
+78:Title A [*]Maschil [a]of Asaph
+79:Title A [a]Psalm of Asaph
+80:Title To the choir director: according to [*]shoshannim-eduth. [a]Of Asaph. A Psalm
+81:Title To the choir director: on the [*]gittith. [a]Of Asaph
+82:Title A [a]Psalm of Asaph
+83:Title A Song; a [a]Psalm of Asaph
+84:Title To the choir director: on the [*]gittith. [a]Of the sons of Korah. A Psalm
+85:Title To the choir director. [a]Of the sons of Korah. A Psalm
+86:Title A Prayer [a]of David
+87:Title [a]Of the sons of Korah. A Psalm; a Song
+88:Title A Song; a [a]Psalm of the sons of Korah. To the choir director: according to [*]mahalath leannoth. A [**]Maschil of Heman the Ezrahite.
+89:Title A [*]Maschil of Ethan the Ezrahite
+90:Title A Prayer of Moses, the [a]man of God
+92:Title A Psalm; a Song for the Sabbath day
+98:Title A Psalm
+100:Title A Psalm [*]of thanksgiving
+101:Title [a]Of David. A Psalm
+102:Title A Prayer of an afflicted one, when he is fainting and pours out his complaint before Jehovah
+103:Title [a]Of David
+108:Title A Song; a [a]Psalm of David
+109:Title To the choir director. [a]Of David. A Psalm
+110:Title [a]Of David. A Psalm
+119:Title [*]&#x5D0; (Aleph)
+120:Title A [a]Song of Ascents
+121:Title A [a]Song of Ascents
+122:Title A [a]Song of Ascents. [b]Of David
+123:Title A [a]Song of Ascents
+124:Title A [a]Song of Ascents. [b]Of David
+125:Title A [a]Song of Ascents
+126:Title A [a]Song of Ascents
+127:Title A [a]Song of Ascents. [b]Of Solomon
+128:Title A [a]Song of Ascents
+129:Title A [a]Song of Ascents
+130:Title A [a]Song of Ascents
+131:Title A [a]Song of Ascents. [b]Of David
+132:Title A [a]Song of Ascents
+133:Title A [a]Song of Ascents. [b]Of David
+134:Title A [a]Song of Ascents
+138:Title [a]Of David
+139:Title To the choir director. [a]Of David. A Psalm
+140:Title To the choir director. A [a]Psalm of David
+141:Title A [a]Psalm of David
+142:Title A [*]Maschil [a]of David, when he was in the [b]cave. A Prayer
+143:Title A [a]Psalm of David
+144:Title [a]Of David
+145:Title A Song of Praise. [a]Of David
+VVINSERTS
+x119:9 &#x5D1; (Beth)
+x119:17 &#x5D2; (Gimel)
+x119:25 &#x5D3; (Daleth)
+x119:33 &#x5D4; (He)
+x119:41 &#x5D5; (Vav)
+x119:49 &#x5D6; (Zayin)
+x119:57 &#x5D7; (Heth)
+x119:65 &#x5D8; (Teth)
+x119:73 &#x5D9; (Yodh)
+x119:81 &#x5DB; (Kaph)
+x119:89 &#x5DC; (Lamedh)
+x119:97 &#x5DE; (Mem)
+x119:105 &#x5E0; (Nun)
+x119:113 &#x5E1; (Samekh)
+x119:121 &#x5E2; (Ayin)
+x119:129 &#x5E4; (Pe)
+x119:137 &#x5E6; (Tsadhe)
+x119:145 &#x5E7; (Qoph)
+x119:153 &#x5E8; (Resh)
+x119:161 &#x5E9; (Shin)
+x119:169 &#x5EA; (Tav)
+NOTES
+3:Title a Psalm Psa. 4&ndash;9; 11&ndash;32; 34&ndash;41; 51&ndash;65; 68&ndash;70; 86; 101; 103; 108&ndash;110; 122; 124; 131; 133; 138&ndash;145
+3:Title b fled 2&nbsp;Sam. 15:14-17
+4:Title a Psalm Psa. 3 title
+5:Title a Psalm Psa. 3 title
+6:Title a Psalm Psa. 3 title
+7:Title * Shiggaion<br>The meaning of the term is obscure but apparently denotes a musical form or tempo (cf. {Hab3:1|Hab. 3:1}).
+7:Title a of Psa. 3 title
+7:Title b Benjaminite 2&nbsp;Sam. 16:5-13
+8:Title * gittith<br>The meaning of the Hebrew is obscure. Perhaps a stringed instrument is meant.
+8:Title a Psalm Psa. 3 title
+9:Title * according<br>The meaning of the Hebrew is obscure. It may refer to a kind of singing voice. Some versions translate, over the death of a son.
+9:Title a Psalm Psa. 3 title
+11:Title a Of Psa. 3 title
+12:Title a Psalm Psa. 3 title
+13:Title a Psalm Psa. 3 title
+14:Title a Of Psa. 3 title
+15:Title a Psalm Psa. 3 title
+16:Title * Michtam<br>The meaning of the Hebrew is uncertain; some understand, a golden jewel (of a poem); others, an epigram.
+16:Title a of Psa. 3 title
+17:Title a of Psa. 3 title
+18:Title a Of Psa. 3 title
+18:Title b who 2&nbsp;Sam. 22:1
+18:Title * spoke<br>{Psa18|Psalm 18} is a human talk with the divine God, implying David&rsquo;s intimacy with God.
+19:Title a Psalm Psa. 3 title
+20:Title a Psalm Psa. 3 title
+21:Title a Psalm Psa. 3 title
+22:Title * hind<br>Perhaps a reference to a melody common at that time. The hind of the dawn here signifies Christ in His resurrection, which took place at early dawn ({Luk24:1|Luke 24:1}). A hind is a deer known for its leaping and jumping. Christ in resurrection is the leaping One ({SoS2:8|S.S. 2:8}-{SoS2:9|9}).
+22:Title a Psalm Psa. 3 title
+23:Title a Psalm Psa. 3 title
+24:Title a Psalm Psa. 3 title
+25:Title a Of Psa. 3 title
+26:Title a Of Psa. 3 title
+27:Title a Of Psa. 3 title
+28:Title a Of Psa. 3 title
+29:Title a Psalm Psa. 3 title
+30:Title a Dedication 2&nbsp;Sam. 24:25
+30:Title b Of Psa. 3 title
+31:Title a Psalm Psa. 3 title
+32:Title a Of Psa. 3 title
+32:Title * Maschil<br>The meaning of this term is uncertain. Some understand a meditative poem; others, a poem of instruction.
+34:Title a Of Psa. 3 title
+34:Title b disguised 1&nbsp;Sam. 21:13
+34:Title * Abimelech<br>Probably a title referring to the kings of Philistia, as Pharaoh referred to the kings of Egypt.
+35:Title a Of Psa. 3 title
+36:Title a of Psa. 3 title
+37:Title a Of Psa. 3 title
+38:Title a Psalm Psa. 3 title
+39:Title a Psalm Psa. 3 title
+40:Title a Psalm Psa. 3 title
+41:Title a Psalm Psa. 3 title
+42:Title * Maschil<br>See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}.
+42:Title a of Psa. 43&ndash;49; 84; 85; 87; 88
+42:Title b Korah Num. 26:9-11
+44:Title a Of Psa. 42 title
+44:Title * Maschil<br>See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}.
+45:Title * Shoshannim<br>Meaning lilies; it may refer to a melody common at that time.
+45:Title a Of Psa. 42 title
+45:Title ** Maschil<br>See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}.
+45:Title *** love<br>The Hebrew word is feminine, indicating that the love here is that between a male and a female. According to {SoS1:14|S.S. 1:14}-{SoS1:15|15}, Christ is our Beloved, and we are His love. The subject of this psalm is love, and the melody is called &ldquo;lilies.&rdquo; Here both love and lilies refer to the saints, the lovers of the Lord Jesus. A lily denotes a pure, simple, single life of trusting in God ({Mat6:28|Matt. 6:28}). This psalm portrays a life of purity and simplicity with an affectionate love for the Lord.
+46:Title a Of Psa. 42 title
+46:Title * alamoth<br>Perhaps referring to soprano voices.
+47:Title a Of Psa. 42 title
+48:Title a Psalm Psa. 42 title
+49:Title a Of Psa. 42 title
+50:Title a Psalm 1&nbsp;Chron. 6:39; 15:17; 16:5, 7; 2&nbsp;Chron. 29:30; Psa. 73&ndash;83
+51:Title a Psalm Psa. 3 title
+51:Title *b Nathan 2&nbsp;Sam. 12:1-13<br>This psalm was composed after David&rsquo;s great sin in murdering Uriah and robbing him of his wife and after he was rebuked by the prophet Nathan ({2Sa11:1|2&nbsp;Sam. 11:1}&mdash;{2Sa12:14|12:14}).
+51:Title c Bath-sheba 2&nbsp;Sam. 11:1-27; cf. Matt. 1:6
+52:Title * Maschil<br>See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}.
+52:Title a of Psa. 3 title
+52:Title b Doeg 1&nbsp;Sam. 21:7; 22:9
+53:Title * mahalath<br>The meaning of the Hebrew is obscure; it may refer to a kind of sad melody.
+53:Title ** Maschil<br>See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}.
+53:Title a of Psa. 3 title
+54:Title ** Maschil<br>See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}.
+54:Title a of Psa. 3 title
+54:Title b Ziphites 1&nbsp;Sam. 23:19; 26:1
+55:Title * Maschil<br>See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}.
+55:Title a of Psa. 3 title
+56:Title * dove<br>Perhaps a reference to a melody common at the time.
+56:Title a Of Psa. 3 title
+56:Title ** Michtam<br>See {Psa16:Title^*|note on the superscription} of {Psa16|Psa. 16}.
+56:Title b Philistines 1&nbsp;Sam. 21:11-15
+57:Title * Do<br>According to the Masoretic text. Others understand a reference to a melody common at the time beginning with the word Destroy, referring to the enemies of the nation.
+57:Title a Of Psa. 3 title
+57:Title ** Michtam<br>See {Psa16:Title^*|note on the superscription} of {Psa16|Psa. 16}.
+57:Title b cave 1&nbsp;Sam. 22:1; 24:3; Psa. 142 title
+58:Title * Do<br>See {Psa57:Title^*|note on the superscription} of {Psa57|Psa. 57}.
+58:Title a Of Psa. 3 title
+58:Title ** Michtam<br>See {Psa16:Title^*|note on the superscription} of {Psa16|Psa. 16}.
+59:Title * Do<br>See {Psa57:Title^*|note on the superscription} of {Psa57|Psa. 57}.
+59:Title a Of Psa. 3 title
+59:Title ** Michtam<br>See {Psa16:Title^*|note on the superscription} of {Psa16|Psa. 16}.
+59:Title b watched 1&nbsp;Sam. 19:11
+60:Title * lily<br>Perhaps a reference to a melody common at the time.
+60:Title ** Michtam<br>See {Psa16:Title^*|note on the superscription} of {Psa16|Psa. 16}.
+60:Title a of Psa. 3 title
+60:Title b Aram-naharaim 2&nbsp;Sam. 8:13; 1&nbsp;Chron. 18:12
+61:Title a Of Psa. 3 title
+62:Title a Psalm Psa. 3 title
+63:Title a Psalm Psa. 3 title
+63:Title b wilderness 1&nbsp;Sam. 23:14
+64:Title a Psalm Psa. 3 title
+65:Title a Psalm Psa. 3 title
+68:Title a Of Psa. 3 title
+69:Title * Shoshannim<br>See {Psa45:Title^*|note on the superscription} of {Psa45|Psa. 45}.
+69:Title a Of Psa. 3 title
+70:Title a Of Psa. 3 title
+72:Title a Of Psa. 127
+73:Title a Psalm Psa. 50 title
+74:Title * Maschil<br>See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}.
+74:Title a of Psa. 50 title
+75:Title * Do<br>See {Psa57:Title^*|note on the superscription} of {Psa57|Psa. 57}.
+75:Title a Psalm Psa. 50 title
+76:Title a Psalm Psa. 50 title
+77:Title a Of Psa. 50 title
+78:Title * Maschil<br>See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}.
+78:Title a of Psa. 50 title
+79:Title a Psalm Psa. 50 title
+80:Title * shoshannim-eduth<br> Meaning lilies, a testimony; it may refer to a melody common at the time.
+80:Title a Of Psa. 50 title
+81:Title * gittith<br>See {Psa8:Title^*|note on the superscription} of {Psa8|Psa. 8}.
+81:Title a Of Psa. 50 title
+82:Title a Psalm Psa. 50 title
+83:Title a Psalm Psa. 50 title
+84:Title * gittith<br>See {Psa8:Title^*|note on the superscription} of {Psa8|Psa. 8}.
+84:Title a Of Psa. 42 title
+85:Title a Of Psa. 42 title
+86:Title a of Psa. 3 title
+87:Title a Of Psa. 42 title
+88:Title a Psalm Psa. 42 title
+88:Title * mahalath<br>The meaning of the Hebrew is obscure. It may refer to the singing of a sad melody with a subdued voice.
+88:Title ** Maschil<br>See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}.
+89:Title * Maschil<br>See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}.
+90:Title a man Deut. 33:1; Josh. 14:6; 1&nbsp;Chron. 23:14; Ezra 3:2
+100:Title * of<br>Or, for the thank offering.
+101:Title a Of Psa. 3 title
+103:Title a Of Psa. 3 title
+108:Title a Psalm Psa. 3 title
+109:Title a Of Psa. 3 title
+110:Title a Of Psa. 3 title
+119:Title * &#x5D0; Psalm 119 is one of the alphabetical, or acrostic, psalms. The first letters of each group of eight verses follow the order of the Hebrew alphabet. The twenty-two sections of this psalm thus correspond to the twenty-two letters of the Hebrew alphabet. Furthermore, all the verses in a particular section begin with the same Hebrew letter.
+120:Title a Song Psa. 120&ndash;134
+121:Title a Song Psa. 120 title
+122:Title a Song Psa. 120 title
+122:Title b Of Psa. 3 title
+123:Title a Song Psa. 120 title
+124:Title a Song Psa. 120 title
+124:Title b Of Psa. 3 title
+125:Title a Song Psa. 120 title
+126:Title a Song Psa. 120 title
+127:Title a Song Psa. 120 title
+127:Title b Of Psa. 72 title
+128:Title a Song Psa. 120 title
+129:Title a Song Psa. 120 title
+130:Title a Song Psa. 120 title
+131:Title a Song Psa. 120 title
+131:Title b Of Psa. 3 title
+132:Title a Song Psa. 120 title
+133:Title a Song Psa. 120 title
+133:Title b Of Psa. 3 title
+134:Title a Song Psa. 120 title
+138:Title a Of Psa. 3 title
+139:Title a Of Psa. 3 title
+140:Title a Psalm Psa. 3 title
+141:Title a Psalm Psa. 3 title
+142:Title * Maschil<br>See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}.
+142:Title a of Psa. 3 title
+142:Title b cave Psa. 57 title
+143:Title a Psalm Psa. 3 title
+144:Title a Of Psa. 3 title
+145:Title a Of Psa. 3 title
