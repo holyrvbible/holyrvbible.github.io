@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="favicon.png" />
+<title>Holy Bible Recovery Version</title>
+
+<div id="indexContentWrapper">
+  <div></div>
+  <div id="indexContent">
+    <div class="indexOuterGrid">
+      <div class="indexOuterGridInnerFiller">
+        <div class="indexInnerGridCell">
+          Loading...
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="src/DynamicLoader.js"></script>
+<script>
+  // Keep this code within this html file to avoid needing to load another file.
+  DynamicLoader.load([
+    {
+      name: "jQuery",
+      hrefs: [
+        "https://code.jquery.com/jquery-3.5.1.min.js",
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js",
+        "lib/jquery-3.5.1/jquery-3.5.1.min.js",
+      ]
+    },
+    {
+      name: "jQueryUI",
+      hrefs: [
+        "https://code.jquery.com/ui/1.12.1/jquery-ui.min.js",
+        "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js",
+        "https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/jquery-ui.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js",
+        "https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.js",
+        "lib/jquery-ui-1.12.1/jquery-ui.min.js",
+      ],
+      dependsOn: "jQuery"
+    },
+    {
+      name: "popper",
+      hrefs: [
+        "https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js",
+        "lib/popper-1.16.1/popper.min.js",
+      ],
+      dependsOn: "jQueryUI"
+    },
+    {
+      name: "bootstrap",
+      hrefs: [
+        "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js",
+        "lib/bootstrap-4.5.2/bootstrap.min.js",
+      ],
+      dependsOn: ["popper", "jQueryUI"]
+    },
+    { name: "BibleMetadata.js", hrefs: "src/data/BibleMetadata.js" },
+    {
+      name: "bootstrap.css",
+      hrefs: [
+        "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css",
+        "lib/bootstrap-4.5.2/bootstrap.min.css",
+      ]
+    },
+    { name: "common.css", hrefs: "src/common.css" },
+    {
+      name: "common.js",
+      hrefs: "src/common.js",
+      dependsOn: [
+        "BibleMetadata.js",
+        "bootstrap",
+        "jQueryUI",
+        "bootstrap.css",
+        "common.css"
+      ]
+    }]);
+</script>
