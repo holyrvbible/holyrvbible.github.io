@@ -12,8 +12,8 @@
 //
 // ***************************************************************************
 
-const RvbVersionNumber = "1.5";
-const RvbVersionDate = "2020-12-25";
+const RvbVersionNumber = "1.6";
+const RvbVersionDate = "2020-12-26";
 let currentLocale = "";
 
 const strings = {
@@ -54,11 +54,11 @@ const strings = {
   },
   "No such vref {1} in {2}.": {
     // 1: vref, 2: book name
-    "zh-CN": "{2}书里无此链接{1}。",
+    "zh-CN": "【{2}】里无此链接{1}。",
   },
   "Failed to load the book of {1}.": {
     // 1: book name
-    "zh-CN": "无法取得{1}书的数据。",
+    "zh-CN": "无法取得【{1}】的数据。",
   },
   "Show Outlines": {
     "zh-CN": "显示纲要",
@@ -82,7 +82,7 @@ const strings = {
     "zh-CN": "仅显示一章",
   },
   "Show All Chapters": {
-    "zh-CN": "显示全本书",
+    "zh-CN": "显示每一章",
   },
   Chapters: {
     "zh-CN": "章数",
@@ -118,7 +118,9 @@ const strings = {
     "zh-CN": "无法找到跳点：{1}",
   },
   "Book of {1}": {
-    "zh-CN": "{1}书",
+    // Some chinese book names end with "书", so adding one more
+    // "书" will make it "书书", which is undesirable.
+    "zh-CN": "{1}",
   },
   "Unknown page: {1}": {
     "zh-CN": "无此页：{1}",
@@ -133,6 +135,9 @@ const strings = {
   "verse-part-b": {
     en: "b",
     "zh-CN": "下",
+  },
+  "para. {1}": {
+    "zh-CN": "第 {1} 段",
   },
 };
 
@@ -153,16 +158,6 @@ function getOrStoreLocale() {
 
 // Set the locale right away.
 getOrStoreLocale();
-
-function setCurrentLocale(locale) {
-  currentLocale = locale;
-  localStorage.setItem("locale", locale);
-  location.reload();
-}
-
-function switchCurrentLocale() {
-  setCurrentLocale(currentLocale === "en" ? "zh-CN" : "en");
-}
 
 function getString(name) {
   const a = strings[name];
@@ -259,7 +254,7 @@ const CHEVRON_LEFT = CHEVRON_RIGHT;
 // ***************************************************************************
 
 const TopNavBar = (function () {
-  function insertIntoPage() {
+  function insertElementIntoPage() {
     const html = `
       <div id="topNavBar">
         <nav id="fixedNavBar" class="bar">
@@ -299,6 +294,10 @@ const TopNavBar = (function () {
       </div>
       `;
     $(html).appendTo(document.body);
+  }
+
+  function insertIntoPage() {
+    insertElementIntoPage();
 
     ZoomControl.init();
 
@@ -306,6 +305,12 @@ const TopNavBar = (function () {
     window.addEventListener("resize", updateDropdownHeight);
 
     document.body.addEventListener("click", closeNavBar);
+  }
+
+  // Used when switching locales.
+  function fastRerender() {
+    $("topNavBar").remove();
+    insertElementIntoPage();
   }
 
   function onToggle() {
@@ -386,7 +391,7 @@ const TopNavBar = (function () {
   }
 
   // Exports.
-  return { insertIntoPage, onToggle };
+  return { insertIntoPage, fastRerender, onToggle };
 })();
 
 // ***************************************************************************
@@ -605,8 +610,8 @@ const IndexHtml = (function () {
   }
 
   // Returns true if page was loaded, false if there is no need to reload the same page.
-  function usePage() {
-    if ($currentPageId() === "Home") {
+  function usePage(forceRerender = false) {
+    if (!forceRerender && $currentPageId() === "Home") {
       return;
     }
 
@@ -1702,9 +1707,10 @@ const BookHtml = (function () {
     if (notesRefs.lines) {
       const needPara = notesRefs.lines.length > 1;
       notesRefs.lines.forEach((line, index) => {
+        const paraNum = getString1("para. {1}", index + 1);
         s += `
           <div class="paragraph">
-            ${needPara ? `<span class="para">[para. ${index + 1}]</span> ` : ""}
+            ${needPara ? `<span class="para">[${paraNum}]</span> ` : ""}
             ${BookRefUtils.makeSimpleLinks(line)}
           </div>`;
       });
@@ -2321,10 +2327,36 @@ const BookHtml = (function () {
     ToastNotifier.notifyError(getString1("Unknown jump to ref: {1}", ref));
   }
 
-  function usePage(page) {
+  function handleClickEvent(event) {
+    const element = event.originalTarget;
+    if (
+      element?.classList.contains("verseLine") ||
+      element?.classList.contains("paragraph")
+    ) {
+      $(element).toggleClass("highlight");
+      event.preventDefault();
+      event.stopPropagation();
+    }
+  }
+
+  let initDone = false;
+
+  function initOnce() {
+    if (initDone) return;
+    initDone = true;
+
+    // Add click listener to highlight verses.
+    // Since this potentially applies to a large number of elements, we only
+    // register it once here as this seems like the simplest approach.
+    // Important: This cannot be registered more than once.
+    document.addEventListener("mouseup", handleClickEvent);
+    document.addEventListener("touchend", handleClickEvent);
+  }
+
+  function usePage(page, forceRerender = false) {
     const bkAbbr = page.substr(0, 3);
 
-    if ($currentPageId() === bkAbbr) {
+    if (!forceRerender && $currentPageId() === bkAbbr) {
       // Already in page, so do nothing.
       if (page.length === 3) return;
 
@@ -2360,15 +2392,7 @@ const BookHtml = (function () {
           jumpToTop();
         }
 
-        // Add click listener to highlight verses.
-        // Since this potentially applies to a large number of elements, we only
-        // register it once here as this seems like the simplest approach.
-        window.addEventListener("click", function (event) {
-          const element = event.originalTarget;
-          if (element?.classList.contains("verseLine")) {
-            $(element).toggleClass("highlight");
-          }
-        });
+        initOnce();
       },
       () => {
         undoNavigation();
@@ -2514,33 +2538,33 @@ function navigateToCurrentHref() {
   navigateToPage(page);
 }
 
-function navigateToPage(page) {
+function navigateToPage(page, forceRerender = false) {
   if (!page || page === "Home") {
-    navigateToHomePage();
+    navigateToHomePage(forceRerender);
     return;
   }
 
-  if (tryGoAnchorInSamePage(page)) {
+  if (!forceRerender && tryGoAnchorInSamePage(page)) {
     return;
   }
 
   // Navigate to book.
   const bkAbbr = page.substring(0, 3);
   if (BkAbbrNum.hasOwnProperty(bkAbbr)) {
-    BookHtml.usePage(page);
+    BookHtml.usePage(page, forceRerender);
     return;
   }
 
   ToastNotifier.notifyError(getString1("Unknown page: {1}", page));
-  navigateToHomePage();
+  navigateToHomePage(forceRerender);
 }
 
-function navigateToHomePage() {
+function navigateToHomePage(forceRerender = false) {
   // The location href might contain some invalid links, so just clean out
   // everything and replace with an empty state.
   history.replaceState(null, "", "index.html");
 
-  IndexHtml.usePage();
+  IndexHtml.usePage(forceRerender);
 }
 
 function undoNavigation() {
@@ -2553,22 +2577,56 @@ function undoNavigation() {
   }
 }
 
-function onPageLoad() {
+let pageInitDone = false;
+
+function initPageOnce() {
+  if (pageInitDone) return;
+  pageInitDone = true;
+
   // Holder for all books data.
   window.BkData = {};
   window.onpopstate = navigateToCurrentHref;
+}
 
+function loadBookNames(onSuccess) {
   loadJsFile(
     `src/data/${currentLocale}/BookNames.js`,
     /* onSuccess */ () => {
       window.bkNames = BookNames[currentLocale];
-      TopNavBar.insertIntoPage();
-      navigateToCurrentHref();
+      onSuccess();
     },
     /* onFailure */ () => {
       ToastNotifier.notifyError(getString("Failed to load book names."));
     }
   );
+}
+
+function fastReloadPage() {
+  window.BkData = {};
+
+  loadBookNames(() => {
+    TopNavBar.fastRerender();
+    navigateToPage(location.hash.substr(1), /* forceRerender */ true);
+  });
+}
+
+function setCurrentLocale(locale) {
+  currentLocale = locale;
+  localStorage.setItem("locale", locale);
+  fastReloadPage();
+}
+
+function switchCurrentLocale() {
+  setCurrentLocale(currentLocale === "en" ? "zh-CN" : "en");
+}
+
+function onPageLoad() {
+  initPageOnce();
+
+  loadBookNames(() => {
+    TopNavBar.insertIntoPage();
+    navigateToCurrentHref();
+  });
 }
 
 onPageLoad();
