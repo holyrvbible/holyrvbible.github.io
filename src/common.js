@@ -88,6 +88,8 @@ const strings = {
     "zh-CN": "章数",
   },
   "Introduction to {1}": {
+    // Some chinese book names end with "书", so adding one more
+    // "书" will make it "书书", which is undesirable.
     "zh-CN": "{1}的介绍",
   },
   "Subject of {1}": {
@@ -236,6 +238,17 @@ function scrollTargetY(element) {
   let targetY = element.offset().top - topScrollOffset();
   if (targetY < 0) targetY = 0;
   return targetY;
+}
+
+function doubleTapHighlight(element) {
+  const e = $(element);
+  const ms = e.data("lastTouchEndMs");
+  if (!ms || Date.now() - ms > 600) {
+    e.data("lastTouchEndMs", Date.now());
+  } else {
+    e.data("lastTouchEndMs", 0);
+    e.toggleClass("highlight");
+  }
 }
 
 const BLACK_CIRCLE = "&#x2B24;";
@@ -1510,7 +1523,7 @@ const BookHtml = (function () {
       ${!partAorB || partAorB === "a" ? `<a name="${fullVerseRef}"></a>` : ""}
       ${partAorB === "a" ? `<a name="${fullVerseRef}a"></a>` : ""}
       ${partAorB === "b" ? `<a name="${fullVerseRef}b"></a>` : ""}
-      <div class="verseLine">
+      <div class="verseLine" ontouchend="doubleTapHighlight(this)">
         ${vrefTitle}
         ${genVerseTextHtml(fullVerseRef, verseText)}
       </div>
@@ -1709,7 +1722,7 @@ const BookHtml = (function () {
       notesRefs.lines.forEach((line, index) => {
         const paraNum = getString1("para. {1}", index + 1);
         s += `
-          <div class="paragraph">
+          <div class="paragraph" ontouchend="doubleTapHighlight(this)">
             ${needPara ? `<span class="para">[${paraNum}]</span> ` : ""}
             ${BookRefUtils.makeSimpleLinks(line)}
           </div>`;
@@ -2254,7 +2267,7 @@ const BookHtml = (function () {
     return `
       ${genLinkToPrevBookHtml(bkData.bkAbbr)}
       <span class="header">
-        Book of ${bkData.bkName}
+        ${getString1("Book of {1}", bkData.bkName)}
       </span>
       ${genLinkToNextBookHtml(bkData.bkAbbr)}
       `;
@@ -2350,7 +2363,10 @@ const BookHtml = (function () {
     // register it once here as this seems like the simplest approach.
     // Important: This cannot be registered more than once.
     document.addEventListener("mouseup", handleClickEvent);
-    document.addEventListener("touchend", handleClickEvent);
+
+    // touchend does not work on mobile browsers because the event object is
+    // "{isTrusted:true}" and not the proper object.
+    // document.addEventListener("touchend", handleClickEvent);
   }
 
   function usePage(page, forceRerender = false) {
@@ -2380,7 +2396,7 @@ const BookHtml = (function () {
         }
 
         const html = genPageHtml(bkData, ch);
-        setIndexContent(getString1("Book of {1}", bkData.bkName), html);
+        setIndexContent(bkData.bkName, html);
 
         if (getAllOutlinesVisible()) {
           initAllOutlinesClipping();
