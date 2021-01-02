@@ -183,11 +183,33 @@ function safeParseInt(s, defaultValue = 0) {
   return isNaN(i) ? defaultValue : i;
 }
 
+// Try network (including browser cache) first, then fallback to cache.
 function loadJsFile(href, onSuccess = null, onFailure = null) {
   const script = document.createElement("script");
   script.src = href;
   if (onSuccess) script.onload = onSuccess;
-  if (onFailure) script.onerror = onFailure;
+
+  script.onerror = async () => {
+    try {
+      const cache = await caches.open("all-pages");
+      if (cache) {
+        const cacheResponse = await cache.match(href);
+        if (cacheResponse && cacheResponse.status === 200) {
+          const text = await cacheResponse.text();
+          const script = document.createElement("script");
+          script.innerHTML = text;
+          document.head.appendChild(script);
+          onSuccess();
+          return;
+        }
+      }
+    } catch (e) {
+      console.log(`Cache error: ${JSON.stringify(e)}`);
+    }
+
+    onFailure && onFailure();
+  };
+
   document.head.appendChild(script);
 }
 
