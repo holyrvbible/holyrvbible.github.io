@@ -322,8 +322,9 @@ const TopNavBar = (function () {
 
   // Used when switching locales.
   function fastRerender() {
-    $("topNavBar").remove();
+    $("#topNavBar").remove();
     insertElementIntoPage();
+    updateDropdownHeight();
   }
 
   function onToggle() {
