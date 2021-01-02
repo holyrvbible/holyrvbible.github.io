@@ -92,7 +92,7 @@
   window.addEventListener("load", async () => {
     if ("serviceWorker" in navigator) {
       try {
-        await navigator.serviceWorker.register("src/sw.js");
+        await navigator.serviceWorker.register("src/sw.js", { scope: "/" });
       } catch (e) {
         console.log("Service worker registration failed", e);
       }
