@@ -1,0 +1,20 @@
+{
+  "name": "Holy Bible Recovery Version 2020",
+  "short_name": "holyrvbible",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "The Recovery Version Bible Old and New Testament with outlines and footnotes, in English and Simplified Chinese.",
+  "icons": [
+    {
+      "src": "images/brown-book-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/brown-book-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
