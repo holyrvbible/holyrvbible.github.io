@@ -391,7 +391,7 @@ const TopNavBar = (function () {
         s += BookRefUtils.linkCode(
           `goPage('${BkAbbr[bk]}');`,
           bkNames.BkRef[bk],
-          `data-toggle="tooltip" data-placement="top" title="${bkNames.BkName[bk]}"`
+          `data-toggle="tooltip" data-placement="top" title="${bkNames.BkName[bk]}" data-bkAbbr="${BkAbbr[bk]}"`
         );
       }
       s += "</div>";
