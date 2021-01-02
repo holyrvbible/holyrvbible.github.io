@@ -5,6 +5,19 @@
   "display": "standalone",
   "background_color": "#fff",
   "description": "The Recovery Version Bible Old and New Testament with outlines and footnotes, in English and Simplified Chinese.",
+  "categories": [
+    "holy",
+    "God",
+    "Jesus",
+    "Christianity",
+    "bible",
+    "books",
+    "education",
+    "testament",
+    "faith",
+    "scriptures",
+    "scrolls"
+  ],
   "icons": [
     {
       "src": "images/brown-book-192x192.png",
@@ -14,6 +27,38 @@
     {
       "src": "images/brown-book-512x512.png",
       "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshot-en-home-1245x738.png",
+      "sizes": "1245x738",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshot-zh_CN-home-1245x739.png",
+      "sizes": "1245x739",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshot-en-Gen-1246x741.png",
+      "sizes": "1246x741",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshot-zh_CN-Gen-1247x741.png",
+      "sizes": "1247x741",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshot-en-Gen1-1249x739.png",
+      "sizes": "1249x739",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshot-zh_CN-Gen1-1246x741.png",
+      "sizes": "1246x741",
       "type": "image/png"
     }
   ]
