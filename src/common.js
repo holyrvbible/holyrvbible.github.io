@@ -12,8 +12,8 @@
 //
 // ***************************************************************************
 
-const RvbVersionNumber = "1.6";
-const RvbVersionDate = "2020-12-26";
+const RvbVersionNumber = "1.7";
+const RvbVersionDate = "2021-01-01";
 let currentLocale = "";
 
 const strings = {
@@ -141,6 +141,10 @@ const strings = {
   "para. {1}": {
     "zh-CN": "第 {1} 段",
   },
+  "{1} {2} of {3}": {
+    // e.g. "Ezekiel 1 of 10"
+    "zh-CN": "{1} {2} 之{3}章",
+  },
 };
 
 function findBestMatchingLanguage() {
@@ -161,21 +165,17 @@ function getOrStoreLocale() {
 // Set the locale right away.
 getOrStoreLocale();
 
-function getString(name) {
+function getString(name, a1, a2, a3) {
   const a = strings[name];
   if (!a) {
     console.error(`Unknown string "${name}".`);
     return name;
   }
-  return a[currentLocale] ?? name;
-}
-
-function getString1(name, arg) {
-  return getString(name).replace(/\{1}/g, arg);
-}
-
-function getString2(name, arg1, arg2) {
-  return getString1(name, arg1).replace(/\{2}/g, arg2);
+  let s = a[currentLocale] ?? name;
+  if (a1 !== undefined) s = s.replace(/\{1}/g, a1);
+  if (a2 !== undefined) s = s.replace(/\{2}/g, a2);
+  if (a3 !== undefined) s = s.replace(/\{3}/g, a3);
+  return s;
 }
 
 function safeParseInt(s, defaultValue = 0) {
@@ -768,7 +768,7 @@ const VerseTooltip = (function () {
       const verseText = bkData.verses[chVn];
       if (!verseText) {
         return ToastNotifier.notifyError(
-          getString2("No such vref {1} in {2}.", vref, bkNames.BkName[bk])
+          getString("No such vref {1} in {2}.", vref, bkNames.BkName[bk])
         );
       }
 
@@ -786,7 +786,7 @@ const VerseTooltip = (function () {
 
     const onFailure = () => {
       ToastNotifier.notifyError(
-        getString1("Failed to load the book of {1}.", bkNames.BkName[bk])
+        getString("Failed to load the book of {1}.", bkNames.BkName[bk])
       );
     };
 
@@ -1253,7 +1253,7 @@ const BookHtml = (function () {
     return `
       <a name="${bkData.bkAbbr}:intro"></a>
       <div class="bookIntro">
-          <div class="bookIntroTitle">${getString1(
+          <div class="bookIntroTitle">${getString(
             "Introduction to {1}",
             bkData.bkName
           )}</div>
@@ -1267,7 +1267,7 @@ const BookHtml = (function () {
       <a name="${bkData.bkAbbr}:subject"></a>
       <div class="bookSubject">
         <div class="bookSubjectTitle">
-          ${getString1("Subject of {1}", bkData.bkName)}
+          ${getString("Subject of {1}", bkData.bkName)}
         </div>
         <div>${bkData.subject}</div>
       </div>
@@ -1345,7 +1345,7 @@ const BookHtml = (function () {
 
     const chapterTitle = BookRefUtils.linkPage(
       `Top`,
-      getString2("Chapter {1} of {2}", ch, numChapters),
+      getString("Chapter {1} of {2}", ch, numChapters),
       `data-toggle="tooltip" data-placement="top" title="${getString(
         "Back to Top"
       )}"`
@@ -1720,7 +1720,7 @@ const BookHtml = (function () {
     if (notesRefs.lines) {
       const needPara = notesRefs.lines.length > 1;
       notesRefs.lines.forEach((line, index) => {
-        const paraNum = getString1("para. {1}", index + 1);
+        const paraNum = getString("para. {1}", index + 1);
         s += `
           <div class="paragraph" ontouchend="doubleTapHighlight(this)">
             ${needPara ? `<span class="para">[${paraNum}]</span> ` : ""}
@@ -1917,7 +1917,7 @@ const BookHtml = (function () {
   function jumpToOutlinePoint(anchorName) {
     if (!tryGoAnchorInSamePage(anchorName)) {
       ToastNotifier.notifyError(
-        getString1("Missing jump ref to outline: {1}", anchorName)
+        getString("Missing jump ref to outline: {1}", anchorName)
       );
     }
   }
@@ -2058,7 +2058,7 @@ const BookHtml = (function () {
     const controls = genAllOutlinesControlsHtml();
 
     return `
-      <div class="header">${getString1("Outlines of {1}", bkData.bkName)}</div>
+      <div class="header">${getString("Outlines of {1}", bkData.bkName)}</div>
       ${controls}
       <div class="body">
         <div class="outlineLine">
@@ -2249,7 +2249,7 @@ const BookHtml = (function () {
     return `
       ${genPrevChapterLinkHtml(bkData.bkAbbr, ch)}
       <span class="header">
-        ${bkData.bkName} ${ch} of ${bkData.numChapters}
+        ${getString("{1} {2} of {3}", bkData.bkName, ch, bkData.numChapters)}
       </span>
       ${genNextChapterLinkHtml(bkData.bkAbbr, ch, bkData.numChapters)}
       `;
@@ -2267,7 +2267,7 @@ const BookHtml = (function () {
     return `
       ${genLinkToPrevBookHtml(bkData.bkAbbr)}
       <span class="header">
-        ${getString1("Book of {1}", bkData.bkName)}
+        ${getString("Book of {1}", bkData.bkName)}
       </span>
       ${genLinkToNextBookHtml(bkData.bkAbbr)}
       `;
@@ -2317,7 +2317,7 @@ const BookHtml = (function () {
 
       if (!tryGoAnchorInSamePage(page)) {
         ToastNotifier.notifyError(
-          getString1("Missing jump ref to verse: {1}", ref)
+          getString("Missing jump ref to verse: {1}", ref)
         );
       }
       return;
@@ -2331,13 +2331,13 @@ const BookHtml = (function () {
 
       if (!tryGoAnchorInSamePage(page)) {
         ToastNotifier.notifyError(
-          getString1("Missing jump ref to chapter: {1}", page)
+          getString("Missing jump ref to chapter: {1}", page)
         );
       }
       return;
     }
 
-    ToastNotifier.notifyError(getString1("Unknown jump to ref: {1}", ref));
+    ToastNotifier.notifyError(getString("Unknown jump to ref: {1}", ref));
   }
 
   function handleClickEvent(event) {
@@ -2414,7 +2414,7 @@ const BookHtml = (function () {
         undoNavigation();
 
         ToastNotifier.notifyError(
-          getString1(
+          getString(
             `Failed to load the book of {1}.`,
             bkNames.BkName[BkAbbrNum[bkAbbr]]
           )
@@ -2571,7 +2571,7 @@ function navigateToPage(page, forceRerender = false) {
     return;
   }
 
-  ToastNotifier.notifyError(getString1("Unknown page: {1}", page));
+  ToastNotifier.notifyError(getString("Unknown page: {1}", page));
   navigateToHomePage(forceRerender);
 }
 
