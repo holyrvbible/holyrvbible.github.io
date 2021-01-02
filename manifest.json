@@ -1,6 +1,6 @@
 {
   "name": "Holy Bible Recovery Version 2020",
-  "short_name": "holyrvbible",
+  "short_name": "RcvBible",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#fff",
