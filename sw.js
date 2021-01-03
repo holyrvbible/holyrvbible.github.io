@@ -98,21 +98,21 @@ self.addEventListener("message", (event) => {
   }
 });
 
-self.addEventListener("install", async (event) => {
-  console.log("[ServiceWorker] Install");
+self.addEventListener("install", (event) => {
+  console.log(`[ServiceWorker] Install - caching ${cachedPages.length} pages`);
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => cache.addAll(cachedPages))
   );
 });
 
 self.addEventListener("activate", (event) => {
-  console.log("[ServiceWorker] Activate");
+  console.log("[ServiceWorker] Activate - clean out old caches");
   event.waitUntil(
-    // Clean out old caches.
     caches.keys().then((keyList) =>
       Promise.all(
         keyList.map((key) => {
           if (key !== CACHE_NAME) {
+            console.log(`[ServiceWorker] Activate - delete cache "${key}"`);
             return caches.delete(key);
           }
         })
@@ -123,7 +123,7 @@ self.addEventListener("activate", (event) => {
 
 // Network first with fallback to cache and offline page.
 self.addEventListener("fetch", (event) => {
-  console.log(`[ServiceWorker] Fetch: ${event.request.url}`);
+  const logPrefix = `[ServiceWorker] Fetch ${event.request.url} -`;
   event.respondWith(
     (async () => {
       const cache = await caches.open(CACHE_NAME);
@@ -131,16 +131,21 @@ self.addEventListener("fetch", (event) => {
       const networkResponse = await fetch(event.request);
       if (networkResponse) {
         if (event.request.url.startsWith("http")) {
+          console.log(logPrefix, "fetch + add to cache");
           cache.put(event.request, networkResponse.clone());
+        } else {
+          console.log(logPrefix, "fetch no caching");
         }
         return networkResponse;
       }
 
       const cacheResponse = await cache.match(event.request);
       if (cacheResponse) {
+        console.log(logPrefix, "already cached");
         return cacheResponse;
       }
 
+      console.log(logPrefix, "offline fallback");
       return await cache.match(offlineFallbackPage);
     })()
   );
