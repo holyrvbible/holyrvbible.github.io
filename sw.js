@@ -1,7 +1,7 @@
 // This name is also used in `common.js`.
 const CACHE_NAME = "all-pages";
 
-const offlineFallbackPage = "offline.html";
+const offlineFallbackPage = "src/offline.html";
 
 const bkAbbrs = [
   "Gen",
@@ -99,47 +99,48 @@ self.addEventListener("message", (event) => {
 });
 
 self.addEventListener("install", async (event) => {
+  console.log("[ServiceWorker] Install");
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => cache.addAll(cachedPages))
   );
 });
 
 self.addEventListener("activate", (event) => {
-  // Tell the active service worker to take control of the page immediately.
-  self.clients.claim();
+  console.log("[ServiceWorker] Activate");
+  event.waitUntil(
+    // Clean out old caches.
+    caches.keys().then((keyList) =>
+      Promise.all(
+        keyList.map((key) => {
+          if (key !== CACHE_NAME) {
+            return caches.delete(key);
+          }
+        })
+      )
+    )
+  );
 });
 
-// Note: "fetch" never gets called for loading Javascript files.
-// Note: iPhone app mode caching doesn't work at all. Can't figure out why.
 // Network first with fallback to cache and offline page.
 self.addEventListener("fetch", (event) => {
-  console.log(`Fetch event: ${JSON.stringify(event)}`);
+  console.log(`[ServiceWorker] Fetch: ${event.request.url}`);
   event.respondWith(
     (async () => {
-      try {
-        const networkResponse = await fetch(event.request);
-        if (networkResponse) {
-          console.log(`Network fetch: ${JSON.stringify(event)}`);
-          cache.put(event.request, networkResponse.clone());
-          return networkResponse;
-        }
-      } catch (error) {
-        console.log(`Network fetch error: ${JSON.stringify(error)}`);
-      }
-
       const cache = await caches.open(CACHE_NAME);
 
-      try {
-        const cacheResponse = await cache.match(event.request);
-        if (cacheResponse) {
-          console.log(`Cache hit: ${JSON.stringify(event)}`);
-          return cacheResponse;
+      const networkResponse = await fetch(event.request);
+      if (networkResponse) {
+        if (event.request.url.startsWith("http")) {
+          cache.put(event.request, networkResponse.clone());
         }
-      } catch (error) {
-        console.log(`Cache get error: ${JSON.stringify(error)}`);
+        return networkResponse;
       }
 
-      console.log(`Show offline page: ${JSON.stringify(event)}`);
+      const cacheResponse = await cache.match(event.request);
+      if (cacheResponse) {
+        return cacheResponse;
+      }
+
       return await cache.match(offlineFallbackPage);
     })()
   );
