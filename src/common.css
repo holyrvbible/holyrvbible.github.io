@@ -504,11 +504,26 @@ body {
   margin-bottom: 16px;
 }
 
+.installTitle2 {
+  color: #339;
+  font-size: 130%;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.installSection {
+ background-color: #f7f7f7;
+ padding: 8px 24px;
+ border: 1px solid #ddf;
+ border-radius: 10px;
+ margin: 24px 0 8px;
+}
+
 .installSectionTitle {
   font-weight: bold;
   color: #33c;
   font-size: 110%;
-  margin: 24px 0 8px;
+  margin: 8px 0 8px;
 }
 
 .installInnerGridCell .caption {

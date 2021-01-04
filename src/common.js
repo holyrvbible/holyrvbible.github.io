@@ -701,29 +701,27 @@ const InstallHtml = (function () {
     return `
       <div class="installTitle">
         ${getString({
-          en: "Installing the RcvBible app",
-          "zh-CN": "装置恢复本圣经的应用程式",
+          en: "Install the RcvBible app",
+          "zh-CN": "安装恢复本圣经的应用程式",
         })}
       </div>
 
       <p>${getString({
         en:
-          "The RcvBible website is a Progressive Web App (PWA) that can be installed as an app on your device (phone, tablet, laptop, or desktop).",
+          "We recommend installing the app on your device so that the entire Bible will be accessible offline even when you are not connected to the Internet!",
         "zh-CN":
-          "恢复本圣经的网站是个 Progressive Web App (PWA)，因此可以直接装置在你的仪器（手机，平板，笔记型电脑，或桌面型电脑）。",
+          "我们建议将此应用程式安装在您的仪器上，让您在没有网路时也能使用整本圣经的内容！",
       })}</p>
 
-      <p>${getString({
-        en:
-          "When installed as an app, the entire Bible will be accessible offline even when you are not connected to the Internet!",
-        "zh-CN": "若装置在你的仪器上，你不需要链接网路也能使用整本圣经的内容！",
-      })}</p>
+      <div class="installTitle2">
+        ${getString({
+          en: "How to install the app",
+          "zh-CN": "如何安装应用程式",
+        })}
+      </div>
 
-      <p>${getString({
-        en:
-          "The following sections describe how you can install the RcvBible app on each of the different major platforms.",
-        "zh-CN": "以下的各部分说明如何在不同的平台上装置恢复本圣经的应用程式。",
-      })}</p>
+      <!-- iOS -->
+      <div class="installSection">
 
       <div class="installSectionTitle">${getString({
         en: "iOS",
@@ -732,7 +730,7 @@ const InstallHtml = (function () {
 
       <p>${getString({
         en: "The app can only be installed using the Safari browser.",
-        "zh-CN": "唯有使用 Safari 浏览器才能够装置此程式。",
+        "zh-CN": "唯有使用 Safari 浏览器才能够安装此程式。",
       })}</p>
 
       <ol>
@@ -741,13 +739,13 @@ const InstallHtml = (function () {
           "zh-CN": "开启 Safari 浏览器。",
         })}</li>
         <li>${getString(
-          { en: "Navigate to url: {1}", "zh-CN": "前往网址: {1}" },
+          { en: "Go to website: {1}", "zh-CN": "前往网址: {1}" },
           urlLink
         )}</li>
         <li>${getString(
           {
-            en: `Click on the Share button (up-arrow icon {1}) in the bottom-center.`,
-            "zh-CN": "点击分享按钮（上箭头图标 {1}），位于荧幕的中下。",
+            en: `Click on the Share button (up-arrow icon {1}) in the bottom-center (iPhone) or top-right (iPad).`,
+            "zh-CN": "点击分享按钮（上箭头图标 {1}），位于荧幕的中下（iPhone）或右上角（iPad）。",
           },
           `<span class="caption"><img src="images/safari-share-icon.png" style="width: 22px"></img></span>`
         )}</li>
@@ -756,10 +754,21 @@ const InstallHtml = (function () {
           "zh-CN": `选择 <span class="caption">添加到主屏幕</span>。`,
         })}</li>
         <li>${getString({
-          en: `The RcvBible app will then be added as an icon in your home screen!`,
-          "zh-CN": "恢复本圣经应用程式的图标将会被添加到你的主屏幕上！",
+          en: `Click on the <span class="caption">Add</span> button on the top-right to confirm.`,
+          "zh-CN": `点击右上角的 <span class="caption">添加</span> 按钮以确认。`,
         })}</li>
       </ol>
+      
+      <p>${getString({
+        en: `The RcvBible app will then be added as an icon in your home screen! 😄`,
+        "zh-CN": "恢复本圣经应用程式的图标将会被添加到您的主屏幕上！😄",
+      })}</p>
+
+      </div>
+
+      <!-- Android -->
+
+      <div class="installSection">
 
       <div class="installSectionTitle">${getString({
         en: "Android",
@@ -768,7 +777,7 @@ const InstallHtml = (function () {
 
       <p>${getString({
         en: "The app can only be installed using the Chrome browser.",
-        "zh-CN": "唯有使用 Chrome 浏览器才能够装置此程式。",
+        "zh-CN": "唯有使用 Chrome 浏览器才能够安装此程式。",
       })}</p>
 
       <ol>
@@ -777,7 +786,7 @@ const InstallHtml = (function () {
           "zh-CN": "开启 Chrome 浏览器。",
         })}</li>
         <li>${getString(
-          { en: "Navigate to url: {1}", "zh-CN": "前往网址: {1}" },
+          { en: "Go to website: {1}", "zh-CN": "前往网址: {1}" },
           urlLink
         )}</li>
         <li>${getString(
@@ -795,11 +804,18 @@ const InstallHtml = (function () {
           en: `Click on the <span class="caption">Add</span> button on the top-right to confirm.`,
           "zh-CN": `点击右上角的 <span class="caption">添加</span> 按钮以确认。`,
         })}</li>
-        <li>${getString({
-          en: `The RcvBible app will then be added as an icon in your home screen!`,
-          "zh-CN": "恢复本圣经应用程式的图标将会被添加到你的主屏幕上！",
-        })}</li>
       </ol>
+
+      <p>${getString({
+        en: `The RcvBible app will then be added as an icon in your home screen! 😄`,
+        "zh-CN": "恢复本圣经应用程式的图标将会被添加到您的主屏幕上！😄",
+      })}</p>
+
+      </div>
+
+      <!-- Win/Mac -->
+
+      <div class="installSection">
 
       <div class="installSectionTitle">${getString({
         en: "Windows/MacOS",
@@ -808,7 +824,7 @@ const InstallHtml = (function () {
 
       <p>${getString({
         en: "You need to have either the Chrome or Edge browser installed.",
-        "zh-CN": "你必须已安装 Chrome 或 Edge 浏览器。",
+        "zh-CN": "您必须已安装 Chrome 或 Edge 浏览器。",
       })}</p>
 
       <ol>
@@ -817,50 +833,51 @@ const InstallHtml = (function () {
           "zh-CN": "开启 Chrome 或 Edge 浏览器。",
         })}</li>
         <li>${getString(
-          { en: "Navigate to url: {1}", "zh-CN": "前往网址: {1}" },
+          { en: "Go to website: {1}", "zh-CN": "前往网址: {1}" },
           urlLink
         )}</li>
-        <li>
-        ${getString({ en: "If using Chrome", "zh-CN": "若使用 Chrome" })}:
-          <ol>
-            <li>${getString(
-              {
-                en: `In the address bar, you will find the circled-plus icon {1} on the right side. Click on that icon.`,
-                "zh-CN": `在地址栏里的右边，你会看到一个被圈起来的+图标 {1}。点击这个图标。`,
-              },
-              `<span class="caption">&oplus;</span>`
-            )}</li>
-            <li>${getString({
-              en: `When prompted to install the app, click on <span class="caption">Install</span>.`,
-              "zh-CN": `在确认是否要装置时，点击 <span class="caption">安装</span>。`,
-            })}</li>
-          </ol>
-        </li>
-        <li>
-          ${getString({ en: "If using Edge", "zh-CN": "若使用 Edge" })}:
-          <ol>
-            <li>${getString(
-              {
-                en: `In the top-right, click on the three-dots {1} overflow menu button.`,
-                "zh-CN": `在右上角，点击三点 {1} 图标的按钮。`,
-              },
-              `<span class="caption">&hellip;</span>`
-            )}</li>
-            <li>${getString({
-              en: `Mouseover the <span class="caption">Apps</span> menu option.`,
-              "zh-CN": `把滑鼠停置在 <span class="caption">应用程式</span> 的选项上。`,
-            })}</li>
-            <li>${getString({
-              en: `Select <span class="caption">Install this site as an app</span>.`,
-              "zh-CN": `选择 <span class="caption">将此页装置为应用程式</span>。`,
-            })}</li>
-          </ol>
-        </li>
+      </ol>
+
+      ${getString({ en: "If using Chrome", "zh-CN": "若使用 Chrome" })}:
+      <ol start="3">
+        <li>${getString(
+          {
+            en: `In the address bar, you will find the circled-plus icon {1} on the right side. Click on that icon.`,
+            "zh-CN": `在地址栏里的右边，您会看到一个被圈起来的+图标 {1}。点击这个图标。`,
+          },
+          `<span class="caption">&oplus;</span>`
+        )}</li>
         <li>${getString({
-          en: `The RcvBible app will then be added as an app in your computer!`,
-          "zh-CN": "恢复本圣经的应用程式将会被添加到你的电脑上！",
+          en: `When prompted to install the app, click on <span class="caption">Install</span>.`,
+          "zh-CN": `在确认是否要装置时，点击 <span class="caption">安装</span>。`,
         })}</li>
       </ol>
+
+      ${getString({ en: "If using Edge", "zh-CN": "若使用 Edge" })}:
+      <ol start="3">
+        <li>${getString(
+          {
+            en: `In the top-right corner, click on the three-dots {1} overflow menu button.`,
+            "zh-CN": `在右上角，点击三点 {1} 图标的按钮。`,
+          },
+          `<span class="caption">&hellip;</span>`
+        )}</li>
+        <li>${getString({
+          en: `Mouseover the <span class="caption">Apps</span> menu option.`,
+          "zh-CN": `把滑鼠停置在 <span class="caption">应用程式</span> 的选项上。`,
+        })}</li>
+        <li>${getString({
+          en: `Select <span class="caption">Install this site as an app</span>.`,
+          "zh-CN": `选择 <span class="caption">将此页装置为应用程式</span>。`,
+        })}</li>
+      </ol>
+
+      <p>${getString({
+        en: `The RcvBible app will then be added as an app in your computer! 😄`,
+        "zh-CN": "恢复本圣经的应用程式将会被添加到您的电脑上！😄",
+      })}</p>
+
+      </div>
       `;
   }
 
