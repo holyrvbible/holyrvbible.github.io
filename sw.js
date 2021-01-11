@@ -121,12 +121,18 @@ self.addEventListener("activate", (event) => {
   );
 });
 
-// Network first with fallback to cache and offline page.
+// Cache first with fallback to network and offline page.
 self.addEventListener("fetch", (event) => {
   const logPrefix = `[ServiceWorker] Fetch ${event.request.url} -`;
   event.respondWith(
     (async () => {
       const cache = await caches.open(CACHE_NAME);
+
+      const cacheResponse = await cache.match(event.request);
+      if (cacheResponse) {
+        console.log(logPrefix, "already cached");
+        return cacheResponse;
+      }
 
       const networkResponse = await fetch(event.request);
       if (networkResponse) {
@@ -137,12 +143,6 @@ self.addEventListener("fetch", (event) => {
           console.log(logPrefix, "fetch no caching");
         }
         return networkResponse;
-      }
-
-      const cacheResponse = await cache.match(event.request);
-      if (cacheResponse) {
-        console.log(logPrefix, "already cached");
-        return cacheResponse;
       }
 
       console.log(logPrefix, "offline fallback");

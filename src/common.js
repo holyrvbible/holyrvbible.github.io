@@ -12,14 +12,21 @@
 //
 // ***************************************************************************
 
-const RvbVersionNumber = "1.8";
-const RvbVersionDate = "2021-01-03";
+const RvbVersionNumber = "1.9";
+const RvbVersionDate = "2021-01-10";
 let currentLocale = "";
 
 const strings = {
   versionText: {
     en: `v${RvbVersionNumber} dated ${RvbVersionDate}`,
     "zh-CN": `版本 v${RvbVersionNumber} 日期 ${RvbVersionDate}`,
+  },
+  updateAvailable: {
+    en: "An updated version is available!",
+    "zh-CN": "现在有新的版本！",
+  },
+  "Refresh to update now": {
+    "zh-CN": "立即更新版本",
   },
   "Switch language": {
     "zh-CN": "更换语文",
@@ -348,6 +355,7 @@ const TopNavBar = (function () {
         </nav>
         <div class="collapse" id="navbarToggleContent">
           <div id="topNavDropdown">
+            ${genUpdateAvailableHtml()}
             ${genFontSizeControlsHtml()}
             ${genBookLinksInnerHtml()}
             ${genVersionHtml()}
@@ -455,8 +463,20 @@ const TopNavBar = (function () {
     )}</div>`;
   }
 
+  function genUpdateAvailableHtml() {
+    return `
+      <div class="update" style="display: none;">
+        ${getString("updateAvailable")}
+        <a href="javascript:window.location.reload(true)">[${getString("Refresh to update now")}]</a>
+      </div>`;
+  }
+
+  function revealUpdateAvailable() {
+    $("#topNavDropdown .update").show();
+  }
+
   // Exports.
-  return { insertIntoPage, fastRerender, onToggle };
+  return { insertIntoPage, fastRerender, onToggle, revealUpdateAvailable };
 })();
 
 // ***************************************************************************
@@ -745,7 +765,8 @@ const InstallHtml = (function () {
         <li>${getString(
           {
             en: `Click on the Share button (up-arrow icon {1}) in the bottom-center (iPhone) or top-right (iPad).`,
-            "zh-CN": "点击分享按钮（上箭头图标 {1}），位于荧幕的中下（iPhone）或右上角（iPad）。",
+            "zh-CN":
+              "点击分享按钮（上箭头图标 {1}），位于荧幕的中下（iPhone）或右上角（iPad）。",
           },
           `<span class="caption"><img src="images/safari-share-icon.png" style="width: 22px"></img></span>`
         )}</li>
@@ -2871,12 +2892,7 @@ function undoNavigation() {
   }
 }
 
-let pageInitDone = false;
-
-function initPageOnce() {
-  if (pageInitDone) return;
-  pageInitDone = true;
-
+function initPageData() {
   // Holder for all books data.
   window.BkData = {};
   window.onpopstate = navigateToCurrentHref;
@@ -2914,12 +2930,36 @@ function switchCurrentLocale() {
   setCurrentLocale(currentLocale === "en" ? "zh-CN" : "en");
 }
 
+function initServiceWorker() {
+  // Register the Service Worker
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+      .register("sw.js")
+      .then((reg) => {
+        reg.onupdatefound = () => {
+          const installingWorker = reg.installing;
+          installingWorker.onstatechange = () => {
+            if (installingWorker.state === "installed") {
+              if (navigator.serviceWorker.controller) {
+                // Update is available.
+                console.log("[ServiceWorker] An update is available!");
+                TopNavBar.revealUpdateAvailable();
+              }
+            }
+          };
+        };
+      })
+      .catch((err) => console.error("[ServiceWorker]", err));
+  }
+}
+
 function onPageLoad() {
-  initPageOnce();
+  initPageData();
 
   loadBookNames(() => {
     TopNavBar.insertIntoPage();
     navigateToCurrentHref();
+    initServiceWorker();
   });
 }
 

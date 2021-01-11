@@ -254,6 +254,12 @@ a[name] {
   margin: 1.5rem 0;
 }
 
+#topNavDropdown .update {
+  font-size: 0.9rem;
+  color: #44cc44;
+  margin: 1.5rem 0;
+}
+
 /* ************************************************************************
  *
  *  Boostrap tooltips overrides
