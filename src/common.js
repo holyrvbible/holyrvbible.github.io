@@ -2634,8 +2634,8 @@ const BookHtml = (function () {
     ToastNotifier.notifyError(getString("Unknown jump to ref: {1}", ref));
   }
 
-  function handleClickEvent(event) {
-    const element = event.originalTarget;
+  function handleGlobalClickEvent(event) {
+    const element = event.target;
     if (
       element?.classList.contains("verseLine") ||
       element?.classList.contains("paragraph")
@@ -2656,7 +2656,7 @@ const BookHtml = (function () {
     // Since this potentially applies to a large number of elements, we only
     // register it once here as this seems like the simplest approach.
     // Important: This cannot be registered more than once.
-    document.addEventListener("mouseup", handleClickEvent);
+    document.addEventListener("mouseup", handleGlobalClickEvent);
 
     // touchend does not work on mobile browsers because the event object is
     // "{isTrusted:true}" and not the proper object.
