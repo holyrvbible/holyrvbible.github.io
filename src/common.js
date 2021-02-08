@@ -2857,12 +2857,24 @@ function navigateToCurrentHref() {
   navigateToPage(page);
 }
 
+function navigateOnStartup() {
+  const page = location.hash.substr(1);
+  if (page) return navigateToPage(page);
+
+  const lastPage = localStorage.getItem("lastPage");
+  if (lastPage) return (location.hash = "#" + lastPage);
+
+  navigateToHomePage();
+}
+
 function navigateToPage(page, forceRerender = false) {
   if (!page || page === "Home") {
+    localStorage.setItem("lastPage", "Home");
     navigateToHomePage(forceRerender);
     return;
   }
 
+  localStorage.setItem("lastPage", page);
   if (page === "Install") {
     InstallHtml.usePage(forceRerender);
     return;
@@ -2967,7 +2979,7 @@ function onPageLoad() {
 
   loadBookNames(() => {
     TopNavBar.insertIntoPage();
-    navigateToCurrentHref();
+    navigateOnStartup();
     initServiceWorker();
   });
 }
