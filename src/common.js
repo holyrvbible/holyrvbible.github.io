@@ -5,7 +5,8 @@
 //      static a = 1; // JS parse error here
 //    }
 //
-//    a ?? b // `??` does not work in old mobile browsers
+//    a ?? b   // `??` does not work in old mobile browsers
+//    a?.prop  // `?.` does not work in old mobile browsers
 //
 
 // ***************************************************************************
@@ -258,7 +259,8 @@ function $setBool(key, value) {
 }
 
 function $currentPageId() {
-  return $id("currentPageId")?.value;
+  const e = $id("currentPageId");
+  return e ? e.value : undefined;
 }
 
 function hideTooltips() {
@@ -469,7 +471,9 @@ const TopNavBar = (function () {
     return `
       <div class="update" style="display: none;">
         ${getString("updateAvailable")}
-        <a href="javascript:window.location.reload(true)">[${getString("Refresh to update now")}]</a>
+        <a href="javascript:window.location.reload(true)">[${getString(
+          "Refresh to update now"
+        )}]</a>
       </div>`;
   }
 
@@ -1122,7 +1126,8 @@ const BookRefUtils = (function () {
     return linkCode(
       `goPage('${page}')`,
       text,
-      (attributes ? attributes : "") + `onmouseover="VerseTooltip.init(this, '${page}')"`
+      (attributes ? attributes : "") +
+        `onmouseover="VerseTooltip.init(this, '${page}')"`
     );
   }
 
@@ -1354,7 +1359,8 @@ const BookRefUtils = (function () {
 
 const BookHtml = (function () {
   function currentBkAbbr() {
-    return $id("currentBkAbbr")?.value;
+    const e = $id("currentBkAbbr");
+    return e ? e.value : undefined;
   }
 
   function getAllOutlinesVisible() {
@@ -2639,8 +2645,9 @@ const BookHtml = (function () {
   function handleGlobalClickEvent(event) {
     const element = event.target;
     if (
-      element?.classList.contains("verseLine") ||
-      element?.classList.contains("paragraph")
+      element &&
+      (element.classList.contains("verseLine") ||
+        element.classList.contains("paragraph"))
     ) {
       $(element).toggleClass("highlight");
       event.preventDefault();
