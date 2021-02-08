@@ -5,6 +5,8 @@
 //      static a = 1; // JS parse error here
 //    }
 //
+//    a ?? b // `??` does not work in old mobile browsers
+//
 
 // ***************************************************************************
 //
@@ -189,7 +191,7 @@ function getString(nameOrObject, a1, a2, a3) {
   } else {
     const a = strings[nameOrObject];
     if (a) {
-      s = a[currentLocale] ?? nameOrObject;
+      s = a[currentLocale] ? a[currentLocale] : nameOrObject;
     } else {
       console.warn(`Unknown string "${nameOrObject}".`);
     }
@@ -1120,7 +1122,7 @@ const BookRefUtils = (function () {
     return linkCode(
       `goPage('${page}')`,
       text,
-      (attributes ?? "") + `onmouseover="VerseTooltip.init(this, '${page}')"`
+      (attributes ? attributes : "") + `onmouseover="VerseTooltip.init(this, '${page}')"`
     );
   }
 
@@ -1708,7 +1710,7 @@ const BookHtml = (function () {
   function genOneChapterTitleXrefHtml(fullVerseRef, bkAbbr, ch, note) {
     const header = BookRefUtils.linkCode(
       `BookHtml.toggleXref('${fullVerseRef}^${note.sup}')`,
-      `<span><sup>${note.sup}</sup>${note.word ?? ""}</span>`,
+      `<span><sup>${note.sup}</sup>${note.word ? note.word : ""}</span>`,
       `id="open-${fullVerseRef}^${note.sup}"`
     );
 
@@ -1995,7 +1997,7 @@ const BookHtml = (function () {
         <a name="${bkAbbr}${ch}:${vn}^${notesRefs.sup}"></a>
         <div>
           <span class="word"><span>${header}</span> ${
-      notesRefs.word ?? ""
+      notesRefs.word ? notesRefs.word : ""
     }</span>
           ${genNotesRefTextHtml(bkAbbr, ch, vn, notesRefs)}
         </div>
