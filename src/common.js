@@ -166,17 +166,18 @@ function findBestMatchingLanguage() {
 }
 
 function getOrStoreLocale() {
-  if (currentLocale) return currentLocale;
-  currentLocale = localStorage.getItem("locale");
-  if (currentLocale) return currentLocale;
-
-  currentLocale = findBestMatchingLanguage();
-  localStorage.setItem("locale", currentLocale);
+  if (!currentLocale) {
+    currentLocale = localStorage.getItem("locale");
+    if (currentLocale !== "en" && currentLocale !== "zh-CN") {
+      currentLocale = undefined;
+    }
+    if (!currentLocale) {
+      currentLocale = findBestMatchingLanguage();
+      localStorage.setItem("locale", currentLocale);
+    }
+  }
   return currentLocale;
 }
-
-// Set the locale right away.
-getOrStoreLocale();
 
 // When nameOrObject is passed in as an object, then it is an object with
 // inline translation suitable for strings that are used only once.
@@ -1720,14 +1721,7 @@ const BookHtml = (function () {
       `id="open-${fullVerseRef}^${note.sup}"`
     );
 
-    let text = "";
-    if (note.text) {
-      if (currentLocale === "zh-CN") {
-        text = BookRefUtils.makeSimpleLinks(note.text);
-      } else {
-        text = BookRefUtils.makeVerseRefsLinks(bkAbbr, ch, 0, note.text);
-      }
-    }
+    const text = note.text ? BookRefUtils.makeSimpleLinks(note.text) : "";
 
     return `
       <div id="${bkAbbr}${ch}:Title^${note.sup}" class="xLine">
@@ -1736,11 +1730,7 @@ const BookHtml = (function () {
           <span class="word">
             ${header}
           </span>
-          ${
-            note.vrefs
-              ? BookRefUtils.makeOutlineVerseRefs(bkAbbr, ch, note.vrefs)
-              : ""
-          }
+          ${note.vrefs ? BookRefUtils.makeSimpleLinks(note.vrefs) : ""}
           ${text}
         </div>
       </div>
@@ -2975,6 +2965,8 @@ function initServiceWorker() {
 }
 
 function onPageLoad() {
+  getOrStoreLocale();
+
   initPageData();
 
   loadBookNames(() => {

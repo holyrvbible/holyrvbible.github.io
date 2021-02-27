@@ -7156,295 +7156,295 @@ vvInsert: {'119:9':"&#x5D1; (Beth)",
 '119:169':"&#x5EA; (Tav)"},
 chTitleNote: {
 '3': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 4&ndash;9; 11&ndash;32; 34&ndash;41; 51&ndash;65; 68&ndash;70; 86; 101; 103; 108&ndash;110; 122; 124; 131; 133; 138&ndash;145"},
-{sup:"b", word:"fled", vrefs:"2&nbsp;Sam. 15:14-17"},
+{sup:"a", word:"Psalm", vrefs:"{Psa4|Psa. 4}&ndash;{Psa9|9}; {Psa11|11}&ndash;{Psa32|32}; {Psa34|34}&ndash;{Psa41|41}; {Psa51|51}&ndash;{Psa65|65}; {Psa68|68}&ndash;{Psa70|70}; {Psa86|86}; {Psa101|101}; {Psa103|103}; {Psa108|108}&ndash;{Psa110|110}; {Psa122|122}; {Psa124|124}; {Psa131|131}; {Psa133|133}; {Psa138|138}&ndash;{Psa145|145}"},
+{sup:"b", word:"fled", vrefs:"{2Sa15:14|2&nbsp;Sam. 15:14}-{2Sa15:17|17}"},
 ],
 '4': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '5': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '6': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '7': [
 {sup:"*", word:"Shiggaion", text:"The meaning of the term is obscure but apparently denotes a musical form or tempo (cf. {Hab3:1|Hab. 3:1})."},
-{sup:"a", word:"of", vrefs:"Psa. 3 title"},
-{sup:"b", word:"Benjaminite", vrefs:"2&nbsp;Sam. 16:5-13"},
+{sup:"a", word:"of", vrefs:"{Psa3:Title|Psa. 3 title}"},
+{sup:"b", word:"Benjaminite", vrefs:"{2Sa16:5|2&nbsp;Sam. 16:5}-{2Sa16:13|13}"},
 ],
 '8': [
 {sup:"*", word:"gittith", text:"The meaning of the Hebrew is obscure. Perhaps a stringed instrument is meant."},
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '9': [
 {sup:"*", word:"according", text:"The meaning of the Hebrew is obscure. It may refer to a kind of singing voice. Some versions translate, over the death of a son."},
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '11': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '12': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '13': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '14': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '15': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '16': [
 {sup:"*", word:"Michtam", text:"The meaning of the Hebrew is uncertain; some understand, a golden jewel (of a poem); others, an epigram."},
-{sup:"a", word:"of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '17': [
-{sup:"a", word:"of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '18': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
-{sup:"b", word:"who", vrefs:"2&nbsp;Sam. 22:1"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
+{sup:"b", word:"who", vrefs:"{2Sa22:1|2&nbsp;Sam. 22:1}"},
 {sup:"*", word:"spoke", text:"{Psa18|Psalm 18} is a human talk with the divine God, implying David&rsquo;s intimacy with God."},
 ],
 '19': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '20': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '21': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '22': [
 {sup:"*", word:"hind", text:"Perhaps a reference to a melody common at that time. The hind of the dawn here signifies Christ in His resurrection, which took place at early dawn ({Luk24:1|Luke 24:1}). A hind is a deer known for its leaping and jumping. Christ in resurrection is the leaping One ({SoS2:8|S.S. 2:8}-{SoS2:9|9})."},
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '23': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '24': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '25': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '26': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '27': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '28': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '29': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '30': [
-{sup:"a", word:"Dedication", vrefs:"2&nbsp;Sam. 24:25"},
-{sup:"b", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Dedication", vrefs:"{2Sa24:25|2&nbsp;Sam. 24:25}"},
+{sup:"b", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '31': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '32': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 {sup:"*", word:"Maschil", text:"The meaning of this term is uncertain. Some understand a meditative poem; others, a poem of instruction."},
 ],
 '34': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
-{sup:"b", word:"disguised", vrefs:"1&nbsp;Sam. 21:13"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
+{sup:"b", word:"disguised", vrefs:"{1Sa21:13|1&nbsp;Sam. 21:13}"},
 {sup:"*", word:"Abimelech", text:"Probably a title referring to the kings of Philistia, as Pharaoh referred to the kings of Egypt."},
 ],
 '35': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '36': [
-{sup:"a", word:"of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '37': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '38': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '39': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '40': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '41': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '42': [
 {sup:"*", word:"Maschil", text:"See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}."},
-{sup:"a", word:"of", vrefs:"Psa. 43&ndash;49; 84; 85; 87; 88"},
-{sup:"b", word:"Korah", vrefs:"Num. 26:9-11"},
+{sup:"a", word:"of", vrefs:"{Psa43|Psa. 43}&ndash;{Psa49|49}; {Psa84|84}; {Psa85|85}; {Psa87|87}; {Psa88|88}"},
+{sup:"b", word:"Korah", vrefs:"{Num26:9|Num. 26:9}-{Num26:11|11}"},
 ],
 '44': [
-{sup:"a", word:"Of", vrefs:"Psa. 42 title"},
+{sup:"a", word:"Of", vrefs:"{Psa42:Title|Psa. 42 title}"},
 {sup:"*", word:"Maschil", text:"See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}."},
 ],
 '45': [
 {sup:"*", word:"Shoshannim", text:"Meaning lilies; it may refer to a melody common at that time."},
-{sup:"a", word:"Of", vrefs:"Psa. 42 title"},
+{sup:"a", word:"Of", vrefs:"{Psa42:Title|Psa. 42 title}"},
 {sup:"**", word:"Maschil", text:"See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}."},
 {sup:"***", word:"love", text:"The Hebrew word is feminine, indicating that the love here is that between a male and a female. According to {SoS1:14|S.S. 1:14}-{SoS1:15|15}, Christ is our Beloved, and we are His love. The subject of this psalm is love, and the melody is called &ldquo;lilies.&rdquo; Here both love and lilies refer to the saints, the lovers of the Lord Jesus. A lily denotes a pure, simple, single life of trusting in God ({Mat6:28|Matt. 6:28}). This psalm portrays a life of purity and simplicity with an affectionate love for the Lord."},
 ],
 '46': [
-{sup:"a", word:"Of", vrefs:"Psa. 42 title"},
+{sup:"a", word:"Of", vrefs:"{Psa42:Title|Psa. 42 title}"},
 {sup:"*", word:"alamoth", text:"Perhaps referring to soprano voices."},
 ],
 '47': [
-{sup:"a", word:"Of", vrefs:"Psa. 42 title"},
+{sup:"a", word:"Of", vrefs:"{Psa42:Title|Psa. 42 title}"},
 ],
 '48': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 42 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa42:Title|Psa. 42 title}"},
 ],
 '49': [
-{sup:"a", word:"Of", vrefs:"Psa. 42 title"},
+{sup:"a", word:"Of", vrefs:"{Psa42:Title|Psa. 42 title}"},
 ],
 '50': [
-{sup:"a", word:"Psalm", vrefs:"1&nbsp;Chron. 6:39; 15:17; 16:5, 7; 2&nbsp;Chron. 29:30; Psa. 73&ndash;83"},
+{sup:"a", word:"Psalm", vrefs:"{1Ch6:39|1&nbsp;Chron. 6:39}; {1Ch15:17|15:17}; {1Ch16:5|16:5}, {1Ch16:7|7}; {2Ch29:30|2&nbsp;Chron. 29:30}; {Psa73|Psa. 73}&ndash;{Psa83|83}"},
 ],
 '51': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 {sup:"*b", word:"Nathan", vrefs:"2&nbsp;Sam. 12:1-13", text:"This psalm was composed after David&rsquo;s great sin in murdering Uriah and robbing him of his wife and after he was rebuked by the prophet Nathan ({2Sa11:1|2&nbsp;Sam. 11:1}&mdash;{2Sa12:14|12:14})."},
-{sup:"c", word:"Bath-sheba", vrefs:"2&nbsp;Sam. 11:1-27; cf. Matt. 1:6"},
+{sup:"c", word:"Bath-sheba", vrefs:"{2Sa11:1|2&nbsp;Sam. 11:1}-{2Sa11:27|27}; cf. {Mat1:6|Matt. 1:6}"},
 ],
 '52': [
 {sup:"*", word:"Maschil", text:"See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}."},
-{sup:"a", word:"of", vrefs:"Psa. 3 title"},
-{sup:"b", word:"Doeg", vrefs:"1&nbsp;Sam. 21:7; 22:9"},
+{sup:"a", word:"of", vrefs:"{Psa3:Title|Psa. 3 title}"},
+{sup:"b", word:"Doeg", vrefs:"{1Sa21:7|1&nbsp;Sam. 21:7}; {1Sa22:9|22:9}"},
 ],
 '53': [
 {sup:"*", word:"mahalath", text:"The meaning of the Hebrew is obscure; it may refer to a kind of sad melody."},
 {sup:"**", word:"Maschil", text:"See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}."},
-{sup:"a", word:"of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '54': [
 {sup:"**", word:"Maschil", text:"See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}."},
-{sup:"a", word:"of", vrefs:"Psa. 3 title"},
-{sup:"b", word:"Ziphites", vrefs:"1&nbsp;Sam. 23:19; 26:1"},
+{sup:"a", word:"of", vrefs:"{Psa3:Title|Psa. 3 title}"},
+{sup:"b", word:"Ziphites", vrefs:"{1Sa23:19|1&nbsp;Sam. 23:19}; {1Sa26:1|26:1}"},
 ],
 '55': [
 {sup:"*", word:"Maschil", text:"See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}."},
-{sup:"a", word:"of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '56': [
 {sup:"*", word:"dove", text:"Perhaps a reference to a melody common at the time."},
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 {sup:"**", word:"Michtam", text:"See {Psa16:Title^*|note on the superscription} of {Psa16|Psa. 16}."},
-{sup:"b", word:"Philistines", vrefs:"1&nbsp;Sam. 21:11-15"},
+{sup:"b", word:"Philistines", vrefs:"{1Sa21:11|1&nbsp;Sam. 21:11}-{1Sa21:15|15}"},
 ],
 '57': [
 {sup:"*", word:"Do", text:"According to the Masoretic text. Others understand a reference to a melody common at the time beginning with the word Destroy, referring to the enemies of the nation."},
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 {sup:"**", word:"Michtam", text:"See {Psa16:Title^*|note on the superscription} of {Psa16|Psa. 16}."},
-{sup:"b", word:"cave", vrefs:"1&nbsp;Sam. 22:1; 24:3; Psa. 142 title"},
+{sup:"b", word:"cave", vrefs:"{1Sa22:1|1&nbsp;Sam. 22:1}; {1Sa24:3|24:3}; {Psa142:Title|Psa. 142 title}"},
 ],
 '58': [
 {sup:"*", word:"Do", text:"See {Psa57:Title^*|note on the superscription} of {Psa57|Psa. 57}."},
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 {sup:"**", word:"Michtam", text:"See {Psa16:Title^*|note on the superscription} of {Psa16|Psa. 16}."},
 ],
 '59': [
 {sup:"*", word:"Do", text:"See {Psa57:Title^*|note on the superscription} of {Psa57|Psa. 57}."},
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 {sup:"**", word:"Michtam", text:"See {Psa16:Title^*|note on the superscription} of {Psa16|Psa. 16}."},
 {sup:"b", word:"watched", vrefs:"1&nbsp;Sam. 19:11"},
 ],
 '60': [
 {sup:"*", word:"lily", text:"Perhaps a reference to a melody common at the time."},
 {sup:"**", word:"Michtam", text:"See {Psa16:Title^*|note on the superscription} of {Psa16|Psa. 16}."},
-{sup:"a", word:"of", vrefs:"Psa. 3 title"},
-{sup:"b", word:"Aram-naharaim", vrefs:"2&nbsp;Sam. 8:13; 1&nbsp;Chron. 18:12"},
+{sup:"a", word:"of", vrefs:"{Psa3:Title|Psa. 3 title}"},
+{sup:"b", word:"Aram-naharaim", vrefs:"{2Sa8:13|2&nbsp;Sam. 8:13}; {1Ch18:12|1&nbsp;Chron. 18:12}"},
 ],
 '61': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '62': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '63': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 {sup:"b", word:"wilderness", vrefs:"1&nbsp;Sam. 23:14"},
 ],
 '64': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '65': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '68': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '69': [
 {sup:"*", word:"Shoshannim", text:"See {Psa45:Title^*|note on the superscription} of {Psa45|Psa. 45}."},
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '70': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '72': [
-{sup:"a", word:"Of", vrefs:"Psa. 127"},
+{sup:"a", word:"Of", vrefs:"{Psa127|Psa. 127}"},
 ],
 '73': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 50 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa50:Title|Psa. 50 title}"},
 ],
 '74': [
 {sup:"*", word:"Maschil", text:"See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}."},
-{sup:"a", word:"of", vrefs:"Psa. 50 title"},
+{sup:"a", word:"of", vrefs:"{Psa50:Title|Psa. 50 title}"},
 ],
 '75': [
 {sup:"*", word:"Do", text:"See {Psa57:Title^*|note on the superscription} of {Psa57|Psa. 57}."},
-{sup:"a", word:"Psalm", vrefs:"Psa. 50 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa50:Title|Psa. 50 title}"},
 ],
 '76': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 50 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa50:Title|Psa. 50 title}"},
 ],
 '77': [
-{sup:"a", word:"Of", vrefs:"Psa. 50 title"},
+{sup:"a", word:"Of", vrefs:"{Psa50:Title|Psa. 50 title}"},
 ],
 '78': [
 {sup:"*", word:"Maschil", text:"See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}."},
-{sup:"a", word:"of", vrefs:"Psa. 50 title"},
+{sup:"a", word:"of", vrefs:"{Psa50:Title|Psa. 50 title}"},
 ],
 '79': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 50 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa50:Title|Psa. 50 title}"},
 ],
 '80': [
 {sup:"*", word:"shoshannim-eduth", text:" Meaning lilies, a testimony; it may refer to a melody common at the time."},
-{sup:"a", word:"Of", vrefs:"Psa. 50 title"},
+{sup:"a", word:"Of", vrefs:"{Psa50:Title|Psa. 50 title}"},
 ],
 '81': [
 {sup:"*", word:"gittith", text:"See {Psa8:Title^*|note on the superscription} of {Psa8|Psa. 8}."},
-{sup:"a", word:"Of", vrefs:"Psa. 50 title"},
+{sup:"a", word:"Of", vrefs:"{Psa50:Title|Psa. 50 title}"},
 ],
 '82': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 50 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa50:Title|Psa. 50 title}"},
 ],
 '83': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 50 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa50:Title|Psa. 50 title}"},
 ],
 '84': [
 {sup:"*", word:"gittith", text:"See {Psa8:Title^*|note on the superscription} of {Psa8|Psa. 8}."},
-{sup:"a", word:"Of", vrefs:"Psa. 42 title"},
+{sup:"a", word:"Of", vrefs:"{Psa42:Title|Psa. 42 title}"},
 ],
 '85': [
-{sup:"a", word:"Of", vrefs:"Psa. 42 title"},
+{sup:"a", word:"Of", vrefs:"{Psa42:Title|Psa. 42 title}"},
 ],
 '86': [
-{sup:"a", word:"of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '87': [
-{sup:"a", word:"Of", vrefs:"Psa. 42 title"},
+{sup:"a", word:"Of", vrefs:"{Psa42:Title|Psa. 42 title}"},
 ],
 '88': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 42 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa42:Title|Psa. 42 title}"},
 {sup:"*", word:"mahalath", text:"The meaning of the Hebrew is obscure. It may refer to the singing of a sad melody with a subdued voice."},
 {sup:"**", word:"Maschil", text:"See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}."},
 ],
@@ -7452,104 +7452,104 @@ chTitleNote: {
 {sup:"*", word:"Maschil", text:"See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}."},
 ],
 '90': [
-{sup:"a", word:"man", vrefs:"Deut. 33:1; Josh. 14:6; 1&nbsp;Chron. 23:14; Ezra 3:2"},
+{sup:"a", word:"man", vrefs:"{Deu33:1|Deut. 33:1}; {Jos14:6|Josh. 14:6}; {1Ch23:14|1&nbsp;Chron. 23:14}; {Ezr3:2|Ezra 3:2}"},
 ],
 '100': [
 {sup:"*", word:"of", text:"Or, for the thank offering."},
 ],
 '101': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '103': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '108': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '109': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '110': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '119': [
 {sup:"*", word:"&#x5D0;", vrefs:"Psalm 119 is one of the alphabetical, or acrostic, psalms. The first letters of each group of eight verses follow the order of the Hebrew alphabet. The twenty-two sections of this psalm thus correspond to the twenty-two letters of the Hebrew alphabet. Furthermore, all the verses in a particular section begin with the same Hebrew letter."},
 ],
 '120': [
-{sup:"a", word:"Song", vrefs:"Psa. 120&ndash;134"},
+{sup:"a", word:"Song", vrefs:"{Psa120|Psa. 120}&ndash;{Psa120:134|134}"},
 ],
 '121': [
-{sup:"a", word:"Song", vrefs:"Psa. 120 title"},
+{sup:"a", word:"Song", vrefs:"{Psa120:Title|Psa. 120 title}"},
 ],
 '122': [
-{sup:"a", word:"Song", vrefs:"Psa. 120 title"},
-{sup:"b", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Song", vrefs:"{Psa120:Title|Psa. 120 title}"},
+{sup:"b", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '123': [
-{sup:"a", word:"Song", vrefs:"Psa. 120 title"},
+{sup:"a", word:"Song", vrefs:"{Psa120:Title|Psa. 120 title}"},
 ],
 '124': [
-{sup:"a", word:"Song", vrefs:"Psa. 120 title"},
-{sup:"b", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Song", vrefs:"{Psa120:Title|Psa. 120 title}"},
+{sup:"b", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '125': [
-{sup:"a", word:"Song", vrefs:"Psa. 120 title"},
+{sup:"a", word:"Song", vrefs:"{Psa120:Title|Psa. 120 title}"},
 ],
 '126': [
-{sup:"a", word:"Song", vrefs:"Psa. 120 title"},
+{sup:"a", word:"Song", vrefs:"{Psa120:Title|Psa. 120 title}"},
 ],
 '127': [
-{sup:"a", word:"Song", vrefs:"Psa. 120 title"},
-{sup:"b", word:"Of", vrefs:"Psa. 72 title"},
+{sup:"a", word:"Song", vrefs:"{Psa120:Title|Psa. 120 title}"},
+{sup:"b", word:"Of", vrefs:"{Psa72:Title|Psa. 72 title}"},
 ],
 '128': [
-{sup:"a", word:"Song", vrefs:"Psa. 120 title"},
+{sup:"a", word:"Song", vrefs:"{Psa120:Title|Psa. 120 title}"},
 ],
 '129': [
-{sup:"a", word:"Song", vrefs:"Psa. 120 title"},
+{sup:"a", word:"Song", vrefs:"{Psa120:Title|Psa. 120 title}"},
 ],
 '130': [
-{sup:"a", word:"Song", vrefs:"Psa. 120 title"},
+{sup:"a", word:"Song", vrefs:"{Psa120:Title|Psa. 120 title}"},
 ],
 '131': [
-{sup:"a", word:"Song", vrefs:"Psa. 120 title"},
-{sup:"b", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Song", vrefs:"{Psa120:Title|Psa. 120 title}"},
+{sup:"b", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '132': [
-{sup:"a", word:"Song", vrefs:"Psa. 120 title"},
+{sup:"a", word:"Song", vrefs:"{Psa120:Title|Psa. 120 title}"},
 ],
 '133': [
-{sup:"a", word:"Song", vrefs:"Psa. 120 title"},
-{sup:"b", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Song", vrefs:"{Psa120:Title|Psa. 120 title}"},
+{sup:"b", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '134': [
-{sup:"a", word:"Song", vrefs:"Psa. 120 title"},
+{sup:"a", word:"Song", vrefs:"{Psa120:Title|Psa. 120 title}"},
 ],
 '138': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '139': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '140': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '141': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '142': [
 {sup:"*", word:"Maschil", text:"See {Psa32:Title^*|note on the superscription} of {Psa32|Psa. 32}."},
-{sup:"a", word:"of", vrefs:"Psa. 3 title"},
-{sup:"b", word:"cave", vrefs:"Psa. 57 title"},
+{sup:"a", word:"of", vrefs:"{Psa3:Title|Psa. 3 title}"},
+{sup:"b", word:"cave", vrefs:"{Psa57:Title|Psa. 57 title}"},
 ],
 '143': [
-{sup:"a", word:"Psalm", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Psalm", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '144': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 '145': [
-{sup:"a", word:"Of", vrefs:"Psa. 3 title"},
+{sup:"a", word:"Of", vrefs:"{Psa3:Title|Psa. 3 title}"},
 ],
 },
 };
