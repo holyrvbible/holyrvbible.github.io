@@ -342,9 +342,9 @@ const TopNavBar = (function () {
             ${
               window.matchMedia("(display-mode: standalone)").matches
                 ? ""
-                : `<span class="installAppButton" onclick="goPage('Install');" ` +
+                : `<a class="installAppButton" href="#Install" ` +
                   `data-toggle="tooltip" data-placement="bottom" ` +
-                  `title="${getString("Install app")}">+</span>`
+                  `title="${getString("Install app")}">+</a>`
             }
           </div>
           <div>
@@ -449,8 +449,8 @@ const TopNavBar = (function () {
       }
       s += `<div class="grp${grp}">`;
       for (let i = 0; i < grps[grp]; i++, bk++) {
-        s += BookRefUtils.linkCode(
-          `goPage('${BkAbbr[bk]}');`,
+        s += BookRefUtils.linkPage(
+          BkAbbr[bk],
           bkNames.BkRef[bk],
           `data-toggle="tooltip" data-placement="top" title="${bkNames.BkName[bk]}" data-bkAbbr="${BkAbbr[bk]}"`
         );
@@ -679,7 +679,7 @@ const IndexHtml = (function () {
     const bkName = bkNames.BkLongName[bk];
 
     return `
-      <a class="cell grp${grp}" href="javascript:goPage('${bkAbbr}')"
+      <a class="cell grp${grp}" href="#${bkAbbr}"
           data-toggle="tooltip" data-placement="top" title="${bkName}">
           ${bkNames.BkShort[bk]}
       </a>`;
@@ -1115,7 +1115,9 @@ const BookRefUtils = (function () {
   }
 
   function linkPage(page, text, attributes) {
-    return linkCode(`goPage('${page}')`, text, attributes);
+    return `<a href="#${page}"${
+      attributes ? " " + attributes : ""
+    }>${text}</a>`;
   }
 
   function linkCode(code, text, attributes) {
@@ -1125,8 +1127,8 @@ const BookRefUtils = (function () {
   }
 
   function linkVerse(page, text, attributes) {
-    return linkCode(
-      `goPage('${page}')`,
+    return linkPage(
+      page,
       text,
       (attributes ? attributes : "") +
         `onmouseover="VerseTooltip.init(this, '${page}')"`
@@ -1160,7 +1162,7 @@ const BookRefUtils = (function () {
     while (t.includes("{")) {
       const t2 = t.replace(
         /\{([^|]+)\|/,
-        `<a href="javascript:goPage('$1')" onmouseover="VerseTooltip.init(this, '$1')">`
+        `<a href="#$1" onmouseover="VerseTooltip.init(this, '$1')">`
       );
       t = t2;
     }
@@ -2821,7 +2823,6 @@ function jumpToTop() {
 // Use page='Home' to go to the home page.
 function goPage(page) {
   const path = location.href.split("?")[0].split("#")[0];
-  // const href = path + "?page=" + page + '#' + page;
   const href = path + "#" + page;
 
   // State and Title are both unsed. Use Href only.
