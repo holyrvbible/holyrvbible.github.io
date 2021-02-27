@@ -7476,7 +7476,7 @@ chTitleNote: {
 {sup:"*", word:"&#x5D0;", vrefs:"Psalm 119 is one of the alphabetical, or acrostic, psalms. The first letters of each group of eight verses follow the order of the Hebrew alphabet. The twenty-two sections of this psalm thus correspond to the twenty-two letters of the Hebrew alphabet. Furthermore, all the verses in a particular section begin with the same Hebrew letter."},
 ],
 '120': [
-{sup:"a", word:"Song", vrefs:"{Psa120|Psa. 120}&ndash;{Psa120:134|134}"},
+{sup:"a", word:"Song", vrefs:"{Psa120|Psa. 120}&ndash;{Psa134|134}"},
 ],
 '121': [
 {sup:"a", word:"Song", vrefs:"{Psa120:Title|Psa. 120 title}"},

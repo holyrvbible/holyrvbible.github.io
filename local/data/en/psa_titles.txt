@@ -280,7 +280,7 @@ NOTES
 109:Title a Of {Psa3:Title|Psa. 3 title}
 110:Title a Of {Psa3:Title|Psa. 3 title}
 119:Title * &#x5D0; Psalm 119 is one of the alphabetical, or acrostic, psalms. The first letters of each group of eight verses follow the order of the Hebrew alphabet. The twenty-two sections of this psalm thus correspond to the twenty-two letters of the Hebrew alphabet. Furthermore, all the verses in a particular section begin with the same Hebrew letter.
-120:Title a Song {Psa120|Psa. 120}&ndash;{Psa120:134|134}
+120:Title a Song {Psa120|Psa. 120}&ndash;{Psa134|134}
 121:Title a Song {Psa120:Title|Psa. 120 title}
 122:Title a Song {Psa120:Title|Psa. 120 title}
 122:Title b Of {Psa3:Title|Psa. 3 title}

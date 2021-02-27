@@ -165,18 +165,12 @@ function findBestMatchingLanguage() {
   return lang === "zh" || lang.startsWith("zh-") ? "zh-CN" : "en";
 }
 
-function getOrStoreLocale() {
-  if (!currentLocale) {
-    currentLocale = localStorage.getItem("locale");
-    if (currentLocale !== "en" && currentLocale !== "zh-CN") {
-      currentLocale = undefined;
-    }
-    if (!currentLocale) {
-      currentLocale = findBestMatchingLanguage();
-      localStorage.setItem("locale", currentLocale);
-    }
+function initCurrentLocale() {
+  currentLocale = localStorage.getItem("locale");
+  if (!currentLocale || (currentLocale !== "en" && currentLocale !== "zh-CN")) {
+    currentLocale = findBestMatchingLanguage();
+    localStorage.setItem("locale", currentLocale);
   }
-  return currentLocale;
 }
 
 // When nameOrObject is passed in as an object, then it is an object with
@@ -1721,8 +1715,6 @@ const BookHtml = (function () {
       `id="open-${fullVerseRef}^${note.sup}"`
     );
 
-    const text = note.text ? BookRefUtils.makeSimpleLinks(note.text) : "";
-
     return `
       <div id="${bkAbbr}${ch}:Title^${note.sup}" class="xLine">
         <a name="${bkAbbr}${ch}:Title^${note.sup}"></a>
@@ -1731,7 +1723,7 @@ const BookHtml = (function () {
             ${header}
           </span>
           ${note.vrefs ? BookRefUtils.makeSimpleLinks(note.vrefs) : ""}
-          ${text}
+          ${note.text ? BookRefUtils.makeSimpleLinks(note.text) : ""}
         </div>
       </div>
       `;
@@ -2965,7 +2957,7 @@ function initServiceWorker() {
 }
 
 function onPageLoad() {
-  getOrStoreLocale();
+  initCurrentLocale();
 
   initPageData();
 
