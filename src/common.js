@@ -17,7 +17,11 @@
 
 const RvbVersionNumber = "1.9";
 const RvbVersionDate = "2021-01-10";
+
 let currentLocale = "";
+let bkNames = null;
+const bkNamesByLocale = {};
+const bkDataByLocale = { en: {}, "zh-CN": {} };
 
 const strings = {
   versionText: {
@@ -938,10 +942,22 @@ const InstallHtml = (function () {
 
 const BookDataLoader = (function () {
   function loadBookData(bkAbbr, onSuccess, onFailure) {
+    // No need to load if already cached.
+    const bkData = bkDataByLocale[currentLocale][bkAbbr];
+    if (bkData) {
+      onSuccess(bkData);
+      return;
+    }
+
+    // Required so that we can add data when loading the book data files.
+    if (typeof window.BkData === "undefined") window.BkData = {};
+
     loadJsFile(
       `src/data/${currentLocale}/books/${bkAbbr}.js`,
       /* onSuccess */ () => {
         const bkData = BkData[bkAbbr];
+        delete BkData[bkAbbr];
+        bkDataByLocale[currentLocale][bkAbbr] = bkData;
         populateAdditionalBookData(bkAbbr, bkData);
         onSuccess(bkData);
       },
@@ -960,17 +976,8 @@ const BookDataLoader = (function () {
     bkData.numChapters = BkNumChapters[bkNum];
   }
 
-  function withBookData(bkAbbr, onSuccess, onFailure) {
-    const bkData = BkData[bkAbbr];
-    if (bkData) {
-      onSuccess(bkData);
-    } else {
-      loadBookData(bkAbbr, onSuccess, onFailure);
-    }
-  }
-
   // Exports.
-  return { withBookData };
+  return { loadBookData };
 })();
 
 // ***************************************************************************
@@ -1085,7 +1092,7 @@ const VerseTooltip = (function () {
       );
     };
 
-    BookDataLoader.withBookData(bkAbbr, onSuccess, onFailure);
+    BookDataLoader.loadBookData(bkAbbr, onSuccess, onFailure);
   }
 
   // Exports.
@@ -1358,6 +1365,10 @@ const BookHtml = (function () {
     return e ? e.value : undefined;
   }
 
+  function currentBkData() {
+    return bkDataByLocale[currentLocale][currentBkAbbr()];
+  }
+
   function getAllOutlinesVisible() {
     return $getBool("allOutlinesVisible");
   }
@@ -1592,8 +1603,7 @@ const BookHtml = (function () {
   // Dynamic generate all chapters when we are now showing one chapter only,
   // and the user clicks on "Show All Chapters".
   function genAllChapters() {
-    const bkAbbr = currentBkAbbr();
-    const bkData = BkData[bkAbbr];
+    const bkData = currentBkData();
     const numChapters = bkData.numChapters;
 
     for (let ch = 1; ch <= numChapters; ch++) {
@@ -1690,7 +1700,7 @@ const BookHtml = (function () {
 
   function genChapterTitleXrefsHtmlIfAny(fullVerseRef, ch) {
     const bkAbbr = fullVerseRef.substring(0, 3);
-    const bkData = BkData[bkAbbr];
+    const bkData = bkDataByLocale[currentLocale][bkAbbr];
     const notesRefs = bkData.chTitleNote;
     if (!ch) {
       ch = safeParseInt(fullVerseRef.substring(3).split(":")[0], 1);
@@ -1876,7 +1886,7 @@ const BookHtml = (function () {
       verseRef = verseRef.substring(0, verseRef.length - 1);
     }
 
-    const bkData = BkData[bkAbbr];
+    const bkData = bkDataByLocale[currentLocale][bkAbbr];
     const notesRefs = bkData.notesRefs;
     let verseNotesRefs = notesRefs[verseRef];
 
@@ -1884,7 +1894,7 @@ const BookHtml = (function () {
 
     // Split notes+refs for verse parts A or B.
     if (partAorB) {
-      const bkData = BkData[bkAbbr];
+      const bkData = bkDataByLocale[currentLocale][bkAbbr];
       const verseText = bkData.verses[verseRef];
       const vt = splitVerseText(verseText, partAorB);
 
@@ -1970,7 +1980,10 @@ const BookHtml = (function () {
   }
 
   function genOneXrefHtml(bkAbbr, ch, vn, notesRefs) {
-    const readableVref = BkData[bkAbbr].numChapters == 1 ? vn : `${ch}:${vn}`;
+    const readableVref =
+      bkDataByLocale[currentLocale][bkAbbr].numChapters == 1
+        ? vn
+        : `${ch}:${vn}`;
 
     const header = BookRefUtils.linkCode(
       `BookHtml.toggleXref('${bkAbbr}${ch}:${vn}^${notesRefs.sup}')`,
@@ -2017,8 +2030,7 @@ const BookHtml = (function () {
   }
 
   function findXref(ch, vn, xref) {
-    const bkAbbr = currentBkAbbr();
-    const bkData = BkData[bkAbbr];
+    const bkData = currentBkData();
     const notesRefs = bkData.notesRefs;
     const verseRef = `${ch}:${vn}`;
 
@@ -2030,14 +2042,14 @@ const BookHtml = (function () {
     for (const xrefObject of xrefObjects) {
       const sup = xrefObject.sup;
       if (xref == sup) {
-        return `${bkAbbr}${verseRef}^${sup}`;
+        return `${bkData.bkAbbr}${verseRef}^${sup}`;
       }
 
       // If sup contains any note in xref, then match.
       // e.g. sup='2b', xref='b' ==> match.
       for (let i = 0; i < xref.length; i++) {
         if (sup.includes(xref[i])) {
-          return `${bkAbbr}${verseRef}^${sup}`;
+          return `${bkData.bkAbbr}${verseRef}^${sup}`;
         }
       }
     }
@@ -2263,8 +2275,7 @@ const BookHtml = (function () {
     let element = $id("allOutlines");
     if (element) return $(element);
 
-    const bkAbbr = currentBkAbbr();
-    const bkData = BkData[bkAbbr];
+    const bkData = currentBkData();
     element = $(genAllOutlinesHtml(bkData));
     element.hide().insertAfter($("#bookPreamble"));
     return element;
@@ -2446,35 +2457,34 @@ const BookHtml = (function () {
     doneInput.value = "true";
 
     // Collect all full verse refs with dedupe.
-    const bkAbbr = currentBkAbbr();
-    const bkData = BkData[bkAbbr];
+    const bkData = currentBkData();
     const notesRefs = bkData.notesRefs;
 
     // Generate refs for each verse.
     for (const verseRef of Object.keys(notesRefs)) {
-      getOrGenVerseXrefs(bkAbbr + verseRef);
+      getOrGenVerseXrefs(bkData.bkAbbr + verseRef);
     }
   }
 
   function toggleOneChapterOnly(ch) {
     const oneChapterOnly = getOneChapterOnly();
     const chapterBox = $($id(`chapter${ch}`));
-    const bkAbbr = currentBkAbbr();
+    const bkData = currentBkData();
 
     if (oneChapterOnly) {
       $($id("bookPreamble")).show();
       $(".wholeChapter").show();
       genAllChapters();
-      updatePageFooterHtml(BkData[bkAbbr], 0);
+      updatePageFooterHtml(bkData, 0);
     } else {
       // ch may be a string, so don't use '===' below.
       ch == 1 ? $($id("bookPreamble")).show() : $($id("bookPreamble")).hide();
       $(".wholeChapter").not(chapterBox).hide();
       chapterBox.show();
-      updatePageFooterHtml(BkData[bkAbbr], ch);
+      updatePageFooterHtml(bkData, ch);
     }
 
-    tryGoAnchorInSamePage(bkAbbr + ch);
+    tryGoAnchorInSamePage(bkData.bkAbbr + ch);
     updateOneChapterOnlyTogglerLabel(!oneChapterOnly);
   }
 
@@ -2493,7 +2503,7 @@ const BookHtml = (function () {
     ch == 1 ? $($id("bookPreamble")).show() : $($id("bookPreamble")).hide();
     $(".wholeChapter").not(chapterBox).hide();
 
-    const bkData = BkData[currentBkAbbr()];
+    const bkData = currentBkData();
 
     if (chapterElement.children.length === 0) {
       const html = genChapterInnerHtml(bkData, ch, bkData.numChapters);
@@ -2665,7 +2675,7 @@ const BookHtml = (function () {
       return jumpToRef(page, ref);
     }
 
-    BookDataLoader.withBookData(
+    BookDataLoader.loadBookData(
       bkAbbr,
       (bkData) => {
         let ch = null;
@@ -2896,16 +2906,22 @@ function undoNavigation() {
 }
 
 function initPageData() {
-  // Holder for all books data.
-  window.BkData = {};
   window.onpopstate = navigateToCurrentHref;
 }
 
 function loadBookNames(onSuccess) {
+  // No need to load if already cached.
+  if (bkNamesByLocale[currentLocale]) {
+    bkNames = bkNamesByLocale[currentLocale];
+    onSuccess();
+    return;
+  }
+
   loadJsFile(
     `src/data/${currentLocale}/BookNames.js`,
     /* onSuccess */ () => {
-      window.bkNames = BookNames[currentLocale];
+      bkNames = BookNames[currentLocale];
+      bkNamesByLocale[currentLocale] = bkNames;
       onSuccess();
     },
     /* onFailure */ () => {
@@ -2915,8 +2931,6 @@ function loadBookNames(onSuccess) {
 }
 
 function fastReloadPage() {
-  window.BkData = {};
-
   loadBookNames(() => {
     TopNavBar.fastRerender();
     navigateToPage(location.hash.substr(1), /* forceRerender */ true);
