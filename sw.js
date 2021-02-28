@@ -139,8 +139,6 @@ self.addEventListener("fetch", (event) => {
         if (event.request.url.startsWith("http")) {
           console.log(logPrefix, "fetch + add to cache");
           cache.put(event.request, networkResponse.clone());
-        } else {
-          console.log(logPrefix, "fetch no caching");
         }
         return networkResponse;
       }
