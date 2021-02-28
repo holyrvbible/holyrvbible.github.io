@@ -314,6 +314,38 @@ const CHEVRON_LEFT = CHEVRON_RIGHT;
 
 // ***************************************************************************
 //
+//  Hyperlinks
+//
+// ***************************************************************************
+
+const LinkTo = (function () {
+  function page(page, text, attributes) {
+    return `<a href="#${page}"${
+      attributes ? " " + attributes : ""
+    }>${text}</a>`;
+  }
+
+  function code(code, text, attributes) {
+    return `<a href="javascript:${code}"${
+      attributes ? " " + attributes : ""
+    }>${text}</a>`;
+  }
+
+  function verse(verseRef, text, attributes) {
+    return page(
+      verseRef,
+      text,
+      (attributes ? attributes + " " : "") +
+        `onmouseover="VerseTooltip.init(this, '${verseRef}')"`
+    );
+  }
+
+  // Exports.
+  return { page, code, verse };
+})();
+
+// ***************************************************************************
+//
 //  Top nav bar
 //
 // ***************************************************************************
@@ -332,7 +364,7 @@ const TopNavBar = (function () {
             </button>
           </div>
           <div class="title">
-            ${BookRefUtils.linkPage(
+            ${LinkTo.page(
               "Home",
               getString("bibleFullName"),
               `data-toggle="tooltip" data-placement="bottom" title="${getString(
@@ -342,9 +374,13 @@ const TopNavBar = (function () {
             ${
               window.matchMedia("(display-mode: standalone)").matches
                 ? ""
-                : `<a class="installAppButton" href="#Install" ` +
-                  `data-toggle="tooltip" data-placement="bottom" ` +
-                  `title="${getString("Install app")}">+</a>`
+                : LinkTo.page(
+                    "Install",
+                    "+",
+                    `class="installAppButton" ` +
+                      `data-toggle="tooltip" data-placement="bottom" ` +
+                      `title="${getString("Install app")}"`
+                  )
             }
           </div>
           <div>
@@ -411,19 +447,27 @@ const TopNavBar = (function () {
 
   function genFontSizeControlsHtml() {
     // event.stopPropagation() is to avoid closing the nav bar on click.
+    const attributes = `onclick="event.stopPropagation()" data-toggle="tooltip" data-placement="top"`;
+
     return `
       <div class="fontSizeSection">
         <div class="sectionTitle zoomTitle">${getString("Zoom")}</div>
         <div class="fontSizeControl">
-          <a href="javascript:ZoomControl.makeSmaller()" onclick="event.stopPropagation()"
-              data-toggle="tooltip" data-placement="top"
-              title="${getString("Zoom out")}">-</a>
-          <a href="javascript:ZoomControl.makeBigger()" onclick="event.stopPropagation()"
-              data-toggle="tooltip" data-placement="top"
-              title="${getString("Zoom in")}">+</a>
-          <a href="javascript:ZoomControl.reset()"
-              data-toggle="tooltip" data-placement="top"
-              title="${getString("Reset zoom to 100%")}">o</a>
+          ${LinkTo.code(
+            "ZoomControl.makeSmaller()",
+            "-",
+            `${attributes} title="${getString("Zoom out")}"`
+          )}
+          ${LinkTo.code(
+            "ZoomControl.makeBigger()",
+            "+",
+            `${attributes} title="${getString("Zoom in")}"`
+          )}
+          ${LinkTo.code(
+            "ZoomControl.reset()",
+            "o",
+            `${attributes} title="${getString("Reset zoom to 100%")}"`
+          )}
           <span class="fontSizePercent">100%</span>
         </div>
       </div>
@@ -449,7 +493,7 @@ const TopNavBar = (function () {
       }
       s += `<div class="grp${grp}">`;
       for (let i = 0; i < grps[grp]; i++, bk++) {
-        s += BookRefUtils.linkPage(
+        s += LinkTo.page(
           BkAbbr[bk],
           bkNames.BkRef[bk],
           `data-toggle="tooltip" data-placement="top" title="${bkNames.BkName[bk]}" data-bkAbbr="${BkAbbr[bk]}"`
@@ -470,9 +514,10 @@ const TopNavBar = (function () {
     return `
       <div class="update" style="display: none;">
         ${getString("updateAvailable")}
-        <a href="javascript:window.location.reload(true)">[${getString(
-          "Refresh to update now"
-        )}]</a>
+        ${LinkTo.code(
+          "window.location.reload(true)",
+          `[${getString("Refresh to update now")}]`
+        )}
       </div>`;
   }
 
@@ -640,13 +685,13 @@ const IndexHtml = (function () {
         ${
           currentLocale === "en"
             ? "English"
-            : `<a href="javascript:setCurrentLocale('en')">English</a>`
+            : LinkTo.code("setCurrentLocale('en')", "English")
         }
         &nbsp;|&nbsp;
         ${
           currentLocale === "zh-CN"
             ? "简体中文"
-            : `<a href="javascript:setCurrentLocale('zh-CN')">简体中文</a>`
+            : LinkTo.code("setCurrentLocale('zh-CN')", "简体中文")
         }
       </div>
       `;
@@ -678,11 +723,11 @@ const IndexHtml = (function () {
     const bkAbbr = BkAbbr[bk];
     const bkName = bkNames.BkLongName[bk];
 
-    return `
-      <a class="cell grp${grp}" href="#${bkAbbr}"
-          data-toggle="tooltip" data-placement="top" title="${bkName}">
-          ${bkNames.BkShort[bk]}
-      </a>`;
+    return LinkTo.page(
+      bkAbbr,
+      bkNames.BkShort[bk],
+      `class="cell grp${grp}" data-toggle="tooltip" data-placement="top" title="${bkName}"`
+    );
   }
 
   function genPageHtml() {
@@ -1114,27 +1159,6 @@ const BookRefUtils = (function () {
     return charCode0 <= code && code <= charCode9;
   }
 
-  function linkPage(page, text, attributes) {
-    return `<a href="#${page}"${
-      attributes ? " " + attributes : ""
-    }>${text}</a>`;
-  }
-
-  function linkCode(code, text, attributes) {
-    return `<a href="javascript:${code}"${
-      attributes ? " " + attributes : ""
-    }>${text}</a>`;
-  }
-
-  function linkVerse(page, text, attributes) {
-    return linkPage(
-      page,
-      text,
-      (attributes ? attributes : "") +
-        `onmouseover="VerseTooltip.init(this, '${page}')"`
-    );
-  }
-
   function getLinkToPreviousChapter(bkAbbr, ch) {
     if (ch == 1) {
       let prevBk = BkAbbrNum[bkAbbr] - 1;
@@ -1186,7 +1210,7 @@ const BookRefUtils = (function () {
         if (chPlusVerse) {
           const ref = chPlusVerse[0];
           ch = chPlusVerse[1];
-          result += linkVerse(bkAbbr + ref, ref);
+          result += LinkTo.verse(bkAbbr + ref, ref);
           remainder = remainder.substr(ref.length);
           continue;
         }
@@ -1195,9 +1219,9 @@ const BookRefUtils = (function () {
         if (verseOnly) {
           const vn = verseOnly[0];
           if (BkOneChapterOnly.has(bkAbbr)) {
-            result += linkVerse(`${bkAbbr}1:${vn}`, vn);
+            result += LinkTo.verse(`${bkAbbr}1:${vn}`, vn);
           } else {
-            result += linkVerse(`${bkAbbr}${ch}:${vn}`, vn);
+            result += LinkTo.verse(`${bkAbbr}${ch}:${vn}`, vn);
           }
           remainder = remainder.substr(vn.length);
           continue;
@@ -1232,10 +1256,10 @@ const BookRefUtils = (function () {
         const abbr = BookNameLookup.tryGetBkAbbr(bkName);
         if (abbr) {
           bkAbbr = abbr;
-          result += linkVerse(`${bkAbbr}${ch}:${vn}`, match[0]);
+          result += LinkTo.verse(`${bkAbbr}${ch}:${vn}`, match[0]);
         } else {
           result += bkName;
-          result += " " + linkVerse(`${bkAbbr}${ch}:${vn}`, `${ch}:${vn}`);
+          result += " " + LinkTo.verse(`${bkAbbr}${ch}:${vn}`, `${ch}:${vn}`);
         }
         continue;
       }
@@ -1250,13 +1274,13 @@ const BookRefUtils = (function () {
         if (abbr) {
           bkAbbr = abbr;
           if (BkOneChapterOnly.has(bkAbbr)) {
-            result += linkVerse(`${bkAbbr}1:${ch}`, match[0]);
+            result += LinkTo.verse(`${bkAbbr}1:${ch}`, match[0]);
           } else {
-            result += linkPage(`${bkAbbr}${ch}`, match[0]);
+            result += LinkTo.page(`${bkAbbr}${ch}`, match[0]);
           }
         } else {
           result += bkName;
-          result += " " + linkPage(`${bkAbbr}${ch}`, ch);
+          result += " " + LinkTo.page(`${bkAbbr}${ch}`, ch);
         }
         continue;
       }
@@ -1266,7 +1290,7 @@ const BookRefUtils = (function () {
         remaining = remaining.substr(match[0].length);
         ch = match[1];
         vn = match[2];
-        result += linkVerse(`${bkAbbr}${ch}:${vn}`, match[0]);
+        result += LinkTo.verse(`${bkAbbr}${ch}:${vn}`, match[0]);
         continue;
       }
 
@@ -1274,7 +1298,7 @@ const BookRefUtils = (function () {
       if (match) {
         remaining = remaining.substr(match[0].length);
         ch = match[1];
-        result += linkVerse(`${bkAbbr}${ch}:Title`, match[0]);
+        result += LinkTo.verse(`${bkAbbr}${ch}:Title`, match[0]);
         continue;
       }
 
@@ -1283,9 +1307,9 @@ const BookRefUtils = (function () {
         remaining = remaining.substr(match[0].length);
         vn = match[1];
         if (BkOneChapterOnly.has(bkAbbr)) {
-          result += linkVerse(`${bkAbbr}1:${vn}`, match[0]);
+          result += LinkTo.verse(`${bkAbbr}1:${vn}`, match[0]);
         } else {
-          result += linkVerse(`${bkAbbr}${ch}:${vn}`, match[0]);
+          result += LinkTo.verse(`${bkAbbr}${ch}:${vn}`, match[0]);
         }
         continue;
       }
@@ -1296,17 +1320,17 @@ const BookRefUtils = (function () {
         if (forceChapter) {
           ch = match[1];
           if (BkOneChapterOnly.has(bkAbbr)) {
-            result += linkPage(`${bkAbbr}1:${ch}`, match[0]);
+            result += LinkTo.page(`${bkAbbr}1:${ch}`, match[0]);
           } else {
-            result += linkPage(`${bkAbbr}${ch}`, match[0]);
+            result += LinkTo.page(`${bkAbbr}${ch}`, match[0]);
           }
           forceChapter = false;
         } else {
           vn = match[1];
           if (BkOneChapterOnly.has(bkAbbr)) {
-            result += linkVerse(`${bkAbbr}1:${vn}`, match[0]);
+            result += LinkTo.verse(`${bkAbbr}1:${vn}`, match[0]);
           } else {
-            result += linkVerse(`${bkAbbr}${ch}:${vn}`, match[0]);
+            result += LinkTo.verse(`${bkAbbr}${ch}:${vn}`, match[0]);
           }
         }
         continue;
@@ -1327,7 +1351,7 @@ const BookRefUtils = (function () {
         remaining = remaining.substr(match[0].length);
         const note = match[1];
         result +=
-          "and " + linkPage(`${bkAbbr}${ch}:${vn}^${note}`, "note " + note);
+          "and " + LinkTo.page(`${bkAbbr}${ch}:${vn}^${note}`, "note " + note);
         continue;
       }
 
@@ -1344,9 +1368,6 @@ const BookRefUtils = (function () {
 
   // Exports.
   return {
-    linkPage,
-    linkCode,
-    linkVerse,
     getLinkToPreviousChapter,
     getLinkToNextChapter,
     makeSimpleLinks,
@@ -1472,32 +1493,24 @@ const BookHtml = (function () {
     const bk = BkAbbrNum[bkAbbr];
     const prevBk = bk === 0 ? BkAbbr.length - 1 : bk - 1;
 
-    return BookRefUtils.linkPage(
-      BkAbbr[prevBk],
-      CHEVRON_LEFT,
-      'class="chevron left"'
-    );
+    return LinkTo.page(BkAbbr[prevBk], CHEVRON_LEFT, 'class="chevron left"');
   }
 
   function genLinkToNextBookHtml(bkAbbr) {
     const bk = BkAbbrNum[bkAbbr];
     const nextBk = bk === BkAbbr.length - 1 ? 0 : bk + 1;
 
-    return BookRefUtils.linkPage(
-      BkAbbr[nextBk],
-      CHEVRON_RIGHT,
-      'class="chevron right"'
-    );
+    return LinkTo.page(BkAbbr[nextBk], CHEVRON_RIGHT, 'class="chevron right"');
   }
 
   function genBookTitleHtml(bkData) {
-    const allOutlinesToggler = BookRefUtils.linkCode(
+    const allOutlinesToggler = LinkTo.code(
       "BookHtml.toggleAllOutlines()",
       getAllOutlinesTogglerText(getAllOutlinesVisible()),
       `class="allOutlinesToggler"`
     );
 
-    const allNotesToggler = BookRefUtils.linkCode(
+    const allNotesToggler = LinkTo.code(
       "BookHtml.toggleAllNotes()",
       getAllNotesTogglerText(getAllNotesVisible()),
       `class="allNotesToggler"`
@@ -1511,7 +1524,7 @@ const BookHtml = (function () {
         ${genLinkToNextBookHtml(bkData.bkAbbr)}
       </div>
       <div class="bookTitleSubLinks">
-          ${BookRefUtils.linkPage("Home", getString("Home Page"))} |
+          ${LinkTo.page("Home", getString("Home Page"))} |
           ${allOutlinesToggler} |
           ${allNotesToggler}
       </div>
@@ -1544,7 +1557,7 @@ const BookHtml = (function () {
           ? ch
           : dot;
       const attributes = text === dot ? 'class="dot"' : "";
-      s += BookRefUtils.linkPage(`${bkAbbr}${ch}`, text, attributes);
+      s += LinkTo.page(`${bkAbbr}${ch}`, text, attributes);
     }
     return s;
   }
@@ -1624,7 +1637,7 @@ const BookHtml = (function () {
   }
 
   function genPrevChapterLinkHtml(bkAbbr, ch) {
-    return BookRefUtils.linkPage(
+    return LinkTo.page(
       BookRefUtils.getLinkToPreviousChapter(bkAbbr, ch),
       CHEVRON_LEFT,
       'class="chevron left"'
@@ -1632,7 +1645,7 @@ const BookHtml = (function () {
   }
 
   function genNextChapterLinkHtml(bkAbbr, ch, numChapters) {
-    return BookRefUtils.linkPage(
+    return LinkTo.page(
       BookRefUtils.getLinkToNextChapter(bkAbbr, ch, numChapters),
       CHEVRON_RIGHT,
       'class="chevron right"'
@@ -1640,19 +1653,19 @@ const BookHtml = (function () {
   }
 
   function genChapterHeaderHtml(bkAbbr, ch, numChapters) {
-    const oneChapterToggler = BookRefUtils.linkCode(
+    const oneChapterToggler = LinkTo.code(
       `BookHtml.toggleOneChapterOnly(${ch})`,
       getString(getOneChapterOnly() ? "Show All Chapters" : "Show One Chapter"),
       `class="oneChapterOnlyToggler"`
     );
 
-    const allNotesToggler = BookRefUtils.linkCode(
+    const allNotesToggler = LinkTo.code(
       `BookHtml.toggleAllNotes(${ch})`,
       getAllNotesTogglerText(getAllNotesVisible()),
       `class="allNotesToggler"`
     );
 
-    const chapterTitle = BookRefUtils.linkPage(
+    const chapterTitle = LinkTo.page(
       `Top`,
       getString("Chapter {1} of {2}", ch, numChapters),
       `data-toggle="tooltip" data-placement="top" title="${getString(
@@ -1668,7 +1681,7 @@ const BookHtml = (function () {
               ${genNextChapterLinkHtml(bkAbbr, ch, numChapters)}
           </div>
           <div class="links">
-              ${BookRefUtils.linkPage(`Home`, getString("Home Page"))} |
+              ${LinkTo.page(`Home`, getString("Home Page"))} |
               ${oneChapterToggler} |
               ${allNotesToggler}
           </div>
@@ -1685,7 +1698,7 @@ const BookHtml = (function () {
     const fullVerseRef = `${bkData.bkAbbr}${ch}:Title`;
 
     // Anchor HTML with regex placeholders.
-    const anchorHtml = BookRefUtils.linkCode(
+    const anchorHtml = LinkTo.code(
       `BookHtml.toggleXref('${fullVerseRef}^$1')`,
       "<sup>$1</sup>$2",
       `id="open-${fullVerseRef}^$1"`
@@ -1721,7 +1734,7 @@ const BookHtml = (function () {
   }
 
   function genOneChapterTitleXrefHtml(fullVerseRef, bkAbbr, ch, note) {
-    const header = BookRefUtils.linkCode(
+    const header = LinkTo.code(
       `BookHtml.toggleXref('${fullVerseRef}^${note.sup}')`,
       `<span><sup>${note.sup}</sup>${note.word ? note.word : ""}</span>`,
       `id="open-${fullVerseRef}^${note.sup}"`
@@ -1809,8 +1822,11 @@ const BookHtml = (function () {
       : "";
 
     const vrefTitle = hasNotes
-      ? `<a class="verseRef" href="javascript:BookHtml.toggleVerseXrefs('${fullVerseRef}${partAorB}')"` +
-        `>${bkData.bkRef}&nbsp;${readableVref}${suffix}</a>`
+      ? LinkTo.code(
+          `BookHtml.toggleVerseXrefs('${fullVerseRef}${partAorB}')`,
+          `${bkData.bkRef}&nbsp;${readableVref}${suffix}`,
+          `class="verseRef"`
+        )
       : `<span class="verseRef">${bkData.bkRef}&nbsp;${readableVref}${suffix}</span>`;
 
     return `
@@ -1839,7 +1855,7 @@ const BookHtml = (function () {
 
   function genVerseTextHtml(fullVerseRef, verseText) {
     // Convert all notes and cross-references into superscript and anchor links.
-    const anchorHtml = BookRefUtils.linkCode(
+    const anchorHtml = LinkTo.code(
       `BookHtml.toggleXref('${fullVerseRef}^$1')`,
       "<sup>$1</sup>$2",
       `id="open-${fullVerseRef}^$1"`
@@ -1987,7 +2003,7 @@ const BookHtml = (function () {
         ? vn
         : `${ch}:${vn}`;
 
-    const header = BookRefUtils.linkCode(
+    const header = LinkTo.code(
       `BookHtml.toggleXref('${bkAbbr}${ch}:${vn}^${notesRefs.sup}')`,
       `${bkNames.BkRef[BkAbbrNum[bkAbbr]]} ${readableVref}<sup>${
         notesRefs.sup
@@ -2149,7 +2165,7 @@ const BookHtml = (function () {
     );
 
     const point = outline.pt
-      ? BookRefUtils.linkCode(
+      ? LinkTo.code(
           `BookHtml.goOutline('${jumpToHref}')`,
           outline.pt,
           `class="numbering"`
@@ -2158,7 +2174,7 @@ const BookHtml = (function () {
 
     const text = outline.pt
       ? outline.text
-      : BookRefUtils.linkPage(jumpToHref, outline.text);
+      : LinkTo.page(jumpToHref, outline.text);
 
     // Psalms verse refs will refer to the book name "Psalms", while other books will not
     // refer to book names, so need the full vref to link converter only for Psalms.
@@ -2367,12 +2383,12 @@ const BookHtml = (function () {
   }
 
   function genAllOutlinesControlsHtml() {
-    const allOutlinesToggler = BookRefUtils.linkCode(
+    const allOutlinesToggler = LinkTo.code(
       "BookHtml.toggleAllOutlines()",
       getAllOutlinesTogglerText(true)
     );
 
-    const clipExpandTogglerLink = BookRefUtils.linkCode(
+    const clipExpandTogglerLink = LinkTo.code(
       "BookHtml.toggleAllOutlinesClipping()",
       getAllOutlinesClipExpandTogglerText(getAllOutlinesExpanded())
     );
@@ -2534,8 +2550,8 @@ const BookHtml = (function () {
           ${bookName}
         </div>
         <div class="links">
-          ${BookRefUtils.linkPage("Home", getString("Home Page"))} |
-          ${BookRefUtils.linkPage("Top", getString("Back to Top"))}
+          ${LinkTo.page("Home", getString("Home Page"))} |
+          ${LinkTo.page("Top", getString("Back to Top"))}
         </div>
       </div>
       `;
