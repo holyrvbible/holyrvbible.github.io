@@ -99,7 +99,8 @@ self.addEventListener("message", (event) => {
 });
 
 self.addEventListener("install", (event) => {
-  console.log(`[ServiceWorker] Install - caching ${cachedPages.length} pages`);
+  // The version number here is just to force update the sw.
+  console.log(`[ServiceWorker] Install v2.0 - caching ${cachedPages.length} pages`);
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => cache.addAll(cachedPages))
   );
