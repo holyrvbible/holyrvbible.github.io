@@ -2011,7 +2011,20 @@ const BookHtml = (function () {
     // fullVerseXref contains ':' which cannot be used for jquery selectors.
     let xrefElement = $id(fullVerseXref);
     if (!xrefElement) {
-      getOrGenVerseXrefs(fullVerseXref.split("^")[0]);
+      const [fullVerseRef, xref] = fullVerseXref.split("^");
+
+      // Tricky part: Check if xref is in verse part b.
+      const bkAbbr = fullVerseRef.substr(0, 3);
+      let aOrBFullVerseRef = fullVerseRef;
+      const verseText = bkDataByLocale[currentLocale][bkAbbr].verses[fullVerseRef.substr(3)];
+      if (verseText.includes(VERSE_SPLIT_SEPARATOR)) {
+        const [a, b] = splitVerseText(verseText);
+        if (b.includes(`[${xref}]`)) {
+          aOrBFullVerseRef += "b";
+        }
+      }
+
+      getOrGenVerseXrefs(aOrBFullVerseRef);
       xrefElement = $id(fullVerseXref);
     }
     xrefElement = $(xrefElement);
