@@ -15,8 +15,8 @@
 //
 // ***************************************************************************
 
-const RvbVersionNumber = "1.9";
-const RvbVersionDate = "2021-01-10";
+const RvbVersionNumber = "2.0";
+const RvbVersionDate = "2021-02-28";
 
 let currentLocale = "";
 let altLocale = "";
