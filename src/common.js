@@ -19,6 +19,7 @@ const RvbVersionNumber = "1.9";
 const RvbVersionDate = "2021-01-10";
 
 let currentLocale = "";
+let altLocale = "";
 let bkNames = null;
 const bkNamesByLocale = {};
 const bkDataByLocale = { en: {}, "zh-CN": {} };
@@ -61,6 +62,9 @@ const strings = {
   "Install app": {
     "zh-CN": "装置应用程式",
   },
+  Bilingual: {
+    "zh-CN": "双语",
+  },
   Zoom: {
     "zh-CN": "字体",
   },
@@ -77,9 +81,9 @@ const strings = {
     // 1: vref, 2: book name
     "zh-CN": "【{2}】里无此链接{1}。",
   },
-  "Failed to load the book of {1}.": {
-    // 1: book name
-    "zh-CN": "无法取得【{1}】的数据。",
+  "Failed to load the book of {1} for locale {2}.": {
+    // 1: book name, 2: locale
+    "zh-CN": "无法取得【{1}】的【{2}】语言的数据。",
   },
   "Show Outlines": {
     "zh-CN": "显示纲要",
@@ -179,6 +183,7 @@ function initCurrentLocale() {
     currentLocale = findBestMatchingLanguage();
     localStorage.setItem("locale", currentLocale);
   }
+  altLocale = currentLocale === "en" ? "zh-CN" : "en";
 }
 
 // When nameOrObject is passed in as an object, then it is an object with
@@ -400,6 +405,7 @@ const TopNavBar = (function () {
         <div class="collapse" id="navbarToggleContent">
           <div id="topNavDropdown">
             ${genUpdateAvailableHtml()}
+            ${genBilingualSettingHtml()}
             ${genFontSizeControlsHtml()}
             ${genBookLinksInnerHtml()}
             ${genVersionHtml()}
@@ -450,12 +456,26 @@ const TopNavBar = (function () {
     hideTooltips();
   }
 
+  function genBilingualSettingHtml() {
+    return `
+      <div class="inlineSection">
+        <div class="sectionTitle">${getString("Bilingual")}</div>
+        <div class="setting">
+          <input id="bilingualCheckbox" type="checkbox" ${
+            $getBool("bilingual") ? "checked" : ""
+          }
+            onchange="$setBool('bilingual', !$getBool('bilingual')); BookHtml.updateBilingualVerseText();">
+        </div>
+      </div>
+      `;
+  }
+
   function genFontSizeControlsHtml() {
     // event.stopPropagation() is to avoid closing the nav bar on click.
     const attributes = `onclick="event.stopPropagation()" data-toggle="tooltip" data-placement="top"`;
 
     return `
-      <div class="fontSizeSection">
+      <div class="inlineSection">
         <div class="sectionTitle zoomTitle">${getString("Zoom")}</div>
         <div class="fontSizeControl">
           ${LinkTo.code(
@@ -991,9 +1011,9 @@ const InstallHtml = (function () {
 // ***************************************************************************
 
 const BookDataLoader = (function () {
-  function loadBookData(bkAbbr, onSuccess, onFailure) {
+  function loadBookData(locale, bkAbbr, onSuccess, onFailure) {
     // No need to load if already cached.
-    const bkData = bkDataByLocale[currentLocale][bkAbbr];
+    const bkData = bkDataByLocale[locale][bkAbbr];
     if (bkData) {
       onSuccess(bkData);
       return;
@@ -1003,12 +1023,12 @@ const BookDataLoader = (function () {
     if (typeof window.BkData === "undefined") window.BkData = {};
 
     loadJsFile(
-      `src/data/${currentLocale}/books/${bkAbbr}.js`,
+      `src/data/${locale}/books/${bkAbbr}.js`,
       /* onSuccess */ () => {
         const bkData = BkData[bkAbbr];
         delete BkData[bkAbbr];
-        bkDataByLocale[currentLocale][bkAbbr] = bkData;
-        populateAdditionalBookData(bkAbbr, bkData);
+        bkDataByLocale[locale][bkAbbr] = bkData;
+        populateAdditionalBookData(locale, bkAbbr, bkData);
         onSuccess(bkData);
       },
       onFailure
@@ -1016,18 +1036,28 @@ const BookDataLoader = (function () {
   }
 
   // Add more fields to the book data.
-  function populateAdditionalBookData(bkAbbr, bkData) {
+  function populateAdditionalBookData(locale, bkAbbr, bkData) {
     // Fill in bkNum, bkAbbr ... in bkData for convenience.
     const bkNum = BkAbbrNum[bkAbbr];
     bkData.bkNum = bkNum;
     bkData.bkAbbr = bkAbbr;
-    bkData.bkRef = bkNames.BkRef[bkNum];
-    bkData.bkName = bkNames.BkName[bkNum];
+    bkData.bkRef = bkNamesByLocale[locale].BkRef[bkNum];
+    bkData.bkName = bkNamesByLocale[locale].BkName[bkNum];
     bkData.numChapters = BkNumChapters[bkNum];
   }
 
+  function showFailToLoadError(bkAbbr, locale) {
+    ToastNotifier.notifyError(
+      getString(
+        `Failed to load the book of {1} for locale {2}.`,
+        bkNamesByLocale[locale].BkName[BkAbbrNum[bkAbbr]],
+        locale
+      )
+    );
+  }
+
   // Exports.
-  return { loadBookData };
+  return { loadBookData, showFailToLoadError };
 })();
 
 // ***************************************************************************
@@ -1136,13 +1166,9 @@ const VerseTooltip = (function () {
         .tooltip("show");
     };
 
-    const onFailure = () => {
-      ToastNotifier.notifyError(
-        getString("Failed to load the book of {1}.", bkNames.BkName[bk])
-      );
-    };
-
-    BookDataLoader.loadBookData(bkAbbr, onSuccess, onFailure);
+    BookDataLoader.loadBookData(currentLocale, bkAbbr, onSuccess, () =>
+      BookDataLoader.showFailToLoadError(bkAbbr, currentLocale)
+    );
   }
 
   // Exports.
@@ -1830,9 +1856,10 @@ const BookHtml = (function () {
       ? LinkTo.code(
           `BookHtml.toggleVerseXrefs('${fullVerseRef}${partAorB}')`,
           `${bkData.bkRef}&nbsp;${readableVref}${suffix}`,
-          `class="verseRef"`
+          `class="verseRef" data-vref="${fullVerseRef}${partAorB}"`
         )
-      : `<span class="verseRef">${bkData.bkRef}&nbsp;${readableVref}${suffix}</span>`;
+      : `<span class="verseRef" data-vref="${fullVerseRef}${partAorB}">` +
+        `${bkData.bkRef}&nbsp;${readableVref}${suffix}</span>`;
 
     return `
       ${genOutlineLineHtmlIfAny(bkData, ch, verseRef, partAorB)}
@@ -1843,6 +1870,7 @@ const BookHtml = (function () {
       <div class="verseLine" ontouchend="doubleTapHighlight(this)">
         ${vrefTitle}
         ${genVerseTextHtml(fullVerseRef, verseText)}
+        ${genBilingualVerseTextHtml(bkData.bkAbbr, verseRef, partAorB)}
       </div>
       ${allNotesVisible ? genVerseXrefsHtmlIfAny(fullVerseRef) : ""}
       `;
@@ -1866,6 +1894,51 @@ const BookHtml = (function () {
       `id="open-${fullVerseRef}^$1"`
     );
     return verseText.replace(superscriptRegex, anchorHtml);
+  }
+
+  function genBilingualVerseTextHtml(bkAbbr, verseRef, partAorB) {
+    if (!$getBool("bilingual")) return "";
+    const bkData = bkDataByLocale[altLocale][bkAbbr];
+    const verseText = bkData.verses[verseRef];
+    const vt1 = partAorB ? splitVerseText(verseText, partAorB) : verseText;
+    const vt2 = vt1.replace(superscriptRegex, "<sup>$1</sup>$2");
+
+    return `<div class="bi">${vt2}</div>`;
+  }
+
+  function updateBilingualVerseText() {
+    const bilingual = $getBool("bilingual");
+    const hasBiText = document.querySelector(".verseLine .bi");
+
+    if (hasBiText) {
+      if (bilingual) {
+        $(".verseLine .bi").slideDown(400);
+      } else {
+        $(".verseLine .bi").slideUp(400);
+      }
+    } else {
+      if (bilingual) {
+        // Cannot use `() => {}` here as we do not want to bind `this`.
+        $(".verseLine").each(function () {
+          const verseLine = $(this);
+          const vref = verseLine.find(".verseRef").data("vref");
+          const bkAbbr = vref.substr(0, 3);
+          const partAorB = vref.endsWith("a")
+            ? "a"
+            : vref.endsWith("b")
+            ? "b"
+            : "";
+          const verseRef = partAorB
+            ? vref.substring(3, vref.length - 1)
+            : vref.substr(3);
+          verseLine.append(
+            genBilingualVerseTextHtml(bkAbbr, verseRef, partAorB)
+          );
+          verseLine.find(".bi").hide();
+        });
+        $(".verseLine .bi").slideDown(400);
+      }
+    }
   }
 
   function getOrGenVerseXrefs(fullVerseRef) {
@@ -2687,23 +2760,13 @@ const BookHtml = (function () {
     // document.addEventListener("touchend", handleClickEvent);
   }
 
-  function usePage(page, forceRerender = false) {
-    const bkAbbr = page.substr(0, 3);
-
-    if (!forceRerender && $currentPageId() === bkAbbr) {
-      // Already in page, so do nothing.
-      if (page.length === 3) return;
-
-      const ref = page.substr(3);
-      return jumpToRef(page, ref);
-    }
-
+  function loadPageData(page, ref, bkAbbr) {
     BookDataLoader.loadBookData(
+      currentLocale,
       bkAbbr,
-      (bkData) => {
+      /* onSuccess= */ (bkData) => {
         let ch = null;
         if (getOneChapterOnly()) {
-          const ref = page.substr(3);
           ch = 1;
           if (ref) {
             const match = ref.match(/^\d+/);
@@ -2721,28 +2784,48 @@ const BookHtml = (function () {
         }
 
         if (page.length > 3) {
-          jumpToRef(page, page.substr(3));
+          jumpToRef(page, ref);
         } else {
           jumpToTop();
         }
 
         initOnce();
       },
-      () => {
+      /* onFailure= */ () => {
         undoNavigation();
+        BookDataLoader.showFailToLoadError(bkAbbr, currentLocale);
+      }
+    );
+  }
 
-        ToastNotifier.notifyError(
-          getString(
-            `Failed to load the book of {1}.`,
-            bkNames.BkName[BkAbbrNum[bkAbbr]]
-          )
-        );
+  function usePage(page, forceRerender = false) {
+    const bkAbbr = page.substr(0, 3);
+    const ref = page.substr(3);
+
+    if (!forceRerender && $currentPageId() === bkAbbr) {
+      // Already in page, so do nothing.
+      if (page.length === 3) return;
+
+      return jumpToRef(page, ref);
+    }
+
+    // Always preload the alt locale to prepare for bilingual mode.
+    BookDataLoader.loadBookData(
+      altLocale,
+      bkAbbr,
+      /* onSuccess= */ () => {
+        loadPageData(page, ref, bkAbbr);
+      },
+      /* onFailure= */ () => {
+        undoNavigation();
+        BookDataLoader.showFailToLoadError(bkAbbr, altLocale);
       }
     );
   }
 
   // Exports.
   return {
+    updateBilingualVerseText,
     usePage,
     goOutline,
     toggleAllOutlines,
@@ -2931,19 +3014,19 @@ function initPageData() {
   window.onpopstate = navigateToCurrentHref;
 }
 
-function loadBookNames(onSuccess) {
+function loadBookNames(locale, onSuccess) {
   // No need to load if already cached.
-  if (bkNamesByLocale[currentLocale]) {
-    bkNames = bkNamesByLocale[currentLocale];
+  if (bkNamesByLocale[locale]) {
+    bkNames = bkNamesByLocale[locale];
     onSuccess();
     return;
   }
 
   loadJsFile(
-    `src/data/${currentLocale}/BookNames.js`,
+    `src/data/${locale}/BookNames.js`,
     /* onSuccess */ () => {
-      bkNames = BookNames[currentLocale];
-      bkNamesByLocale[currentLocale] = bkNames;
+      bkNames = BookNames[locale];
+      bkNamesByLocale[locale] = bkNames;
       onSuccess();
     },
     /* onFailure */ () => {
@@ -2953,14 +3036,14 @@ function loadBookNames(onSuccess) {
 }
 
 function fastReloadPage() {
-  loadBookNames(() => {
-    TopNavBar.fastRerender();
-    navigateToPage(location.hash.substr(1), /* forceRerender */ true);
-  });
+  bkNames = bkNamesByLocale[currentLocale];
+  TopNavBar.fastRerender();
+  navigateToPage(location.hash.substr(1), /* forceRerender */ true);
 }
 
 function setCurrentLocale(locale) {
   currentLocale = locale;
+  altLocale = locale === "en" ? "zh-CN" : "en";
   localStorage.setItem("locale", locale);
   fastReloadPage();
 }
@@ -2997,10 +3080,13 @@ function onPageLoad() {
 
   initPageData();
 
-  loadBookNames(() => {
-    TopNavBar.insertIntoPage();
-    navigateOnStartup();
-    initServiceWorker();
+  // Always load all locale book names on init.
+  loadBookNames(altLocale, () => {
+    loadBookNames(currentLocale, () => {
+      TopNavBar.insertIntoPage();
+      navigateOnStartup();
+      initServiceWorker();
+    });
   });
 }
 
