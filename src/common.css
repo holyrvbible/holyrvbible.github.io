@@ -145,27 +145,34 @@ a[name] {
   overflow-y: auto;
 }
 
-@media screen and (min-width: 600px) {
+@media (min-width: 600px) {
   #topNavDropdown {
     padding: 1.5rem;
   }
 }
 
-@media screen and (max-width: 599px) {
+@media (max-width: 599px) {
   #topNavDropdown {
     padding: 0.3rem 1rem;
   }
 }
 
-#topNavDropdown .fontSizeSection {
+#topNavDropdown .inlineSection {
   display: flex;
 }
 
 #topNavDropdown .sectionTitle {
   line-height: 2;
+  margin-bottom: 8px;
 }
 
-@media screen and (max-width: 599px) {
+#bilingualCheckbox {
+  transform: scale(1.7);
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+@media (max-width: 599px) {
   .zoomTitle {
     display: none;
   }
@@ -175,19 +182,22 @@ a[name] {
   margin-top: 8px;
 }
 
-#topNavDropdown .fontSizeSection .sectionTitle {
+#topNavDropdown .inlineSection .sectionTitle {
   margin-right: 16px;
 }
 
 #topNavDropdown .fontSizeControl a {
   color: #8888ff;
-  padding: 4px 14px;
-  margin-left: 6px;
+  padding: 1px 11px;
   display: inline-block;
   border: 1px solid #2b3238;
   border-radius: 4px;
   background-color: #2b3238;
   white-space: nowrap;
+}
+
+#topNavDropdown .fontSizeControl a + a {
+  margin-left: 6px;
 }
 
 #topNavDropdown .fontSizeControl a:hover {
@@ -210,13 +220,13 @@ a[name] {
   white-space: nowrap;
 }
 
-@media screen and (min-width: 600px) {
+@media (min-width: 600px) {
   #topNavDropdown .grp a {
     width: 80px;
   }
 }
 
-@media screen and (max-width: 599px) {
+@media (max-width: 599px) {
   #topNavDropdown .grp div {
     display: inline;
   }
@@ -361,13 +371,13 @@ body {
   position: relative;
 }
 
-@media screen and (min-width: 600px) {
+@media (min-width: 600px) {
   #indexContent {
     padding: 16px;
   }
 }
 
-@media screen and (max-width: 599px) {
+@media (max-width: 599px) {
   #indexContent {
     padding: 10px;
   }
@@ -401,7 +411,7 @@ body {
   font-weight: bold;
 }
 
-@media screen and (max-width: 599px) {
+@media (max-width: 599px) {
   .indexTitle {
     display: none;
   }
@@ -424,7 +434,7 @@ body {
   overflow: hidden;
 }
 
-@media screen and (min-width: 600px) {
+@media (min-width: 600px) {
   #indexToc .row {
     display: flex;
   }
@@ -436,7 +446,7 @@ body {
   }
 }
 
-@media screen and (max-width: 599px) {
+@media (max-width: 599px) {
   #indexToc .row {
     display: inline;
     justify-content: center;
@@ -500,13 +510,13 @@ body {
   margin: auto;
 }
 
-@media screen and (min-width: 600px) {
+@media (min-width: 600px) {
   .installOuterGridInnerFiller {
     width: 60%;
   }
 }
 
-@media screen and (max-width: 599px) {
+@media (max-width: 599px) {
   .installOuterGridInnerFiller {
     width: 90%;
   }
@@ -732,6 +742,10 @@ body {
 
 sup {
   color: red;
+}
+
+.verseLine .bi {
+  color: #050;
 }
 
 .verseXrefs {
