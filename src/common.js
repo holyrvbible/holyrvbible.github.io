@@ -51,6 +51,10 @@ const strings = {
     en: "Holy Bible Recovery Version 2020",
     "zh-CN": "恢复本圣经 2020",
   },
+  bibleShortName: {
+    en: "RcvBible 2020",
+    "zh-CN": "恢复本 2020",
+  },
   "Back to Home Page": {
     "zh-CN": "回到首页",
   },
@@ -366,7 +370,8 @@ const TopNavBar = (function () {
           <div class="title">
             ${LinkTo.page(
               "Home",
-              getString("bibleFullName"),
+              `<span class="long">${getString("bibleFullName")}</span>` +
+                `<span class="short">${getString("bibleShortName")}</span>`,
               `data-toggle="tooltip" data-placement="bottom" title="${getString(
                 "Back to Home Page"
               )}"`

@@ -113,6 +113,18 @@ a[name] {
   color: #eee;
 }
 
+@media (min-width: 350px) {
+  #topNavBar .title .short {
+    display: none;
+  }
+}
+
+@media (max-width: 349px) {
+  #topNavBar .title .long {
+    display: none;
+  }
+}
+
 #topNavBar .installAppButton {
   display: inline-block;
   margin-left: 5px;
