@@ -456,6 +456,11 @@ const TopNavBar = (function () {
     hideTooltips();
   }
 
+  function toggleBilingualSetting() {
+    $setBool("bilingual", !$getBool("bilingual"));
+    setTimeout(() => BookHtml.updateBilingualVerseText());
+  }
+
   function genBilingualSettingHtml() {
     return `
       <div class="inlineSection">
@@ -464,7 +469,7 @@ const TopNavBar = (function () {
           <input id="bilingualCheckbox" type="checkbox" ${
             $getBool("bilingual") ? "checked" : ""
           }
-            onchange="$setBool('bilingual', !$getBool('bilingual')); BookHtml.updateBilingualVerseText();">
+            onchange="TopNavBar.toggleBilingualSetting()">
         </div>
       </div>
       `;
@@ -551,7 +556,13 @@ const TopNavBar = (function () {
   }
 
   // Exports.
-  return { insertIntoPage, fastRerender, onToggle, revealUpdateAvailable };
+  return {
+    insertIntoPage,
+    fastRerender,
+    onToggle,
+    revealUpdateAvailable,
+    toggleBilingualSetting,
+  };
 })();
 
 // ***************************************************************************
@@ -1788,7 +1799,7 @@ const BookHtml = (function () {
   const VERSE_SPLIT_SEPARATOR = '<br class="split">';
 
   function splitVerseText(verseText, partAorB = undefined) {
-    const v = verseText.split('<br class="split">');
+    const v = verseText.split(VERSE_SPLIT_SEPARATOR);
     if (v.length !== 2) {
       console.error(`Verse must have 2 parts: ${verseText}`);
     }
@@ -1900,8 +1911,14 @@ const BookHtml = (function () {
     if (!$getBool("bilingual")) return "";
     const bkData = bkDataByLocale[altLocale][bkAbbr];
     const verseText = bkData.verses[verseRef];
-    const vt1 = partAorB ? splitVerseText(verseText, partAorB) : verseText;
-    const vt2 = vt1.replace(superscriptRegex, "<sup>$1</sup>$2");
+    const vt1 = partAorB
+      ? verseText.includes(VERSE_SPLIT_SEPARATOR)
+        ? splitVerseText(verseText, partAorB)
+        : partAorB === "b"
+        ? ""
+        : verseText
+      : verseText;
+    const vt2 = vt1?.replace(superscriptRegex, "<sup>$1</sup>$2");
 
     return `<div class="bi">${vt2}</div>`;
   }
@@ -1911,10 +1928,11 @@ const BookHtml = (function () {
     const hasBiText = document.querySelector(".verseLine .bi");
 
     if (hasBiText) {
+      // Don't use slide effect as that could make the page too slow.
       if (bilingual) {
-        $(".verseLine .bi").slideDown(400);
+        $(".verseLine .bi").show();
       } else {
-        $(".verseLine .bi").slideUp(400);
+        $(".verseLine .bi").hide();
       }
     } else {
       if (bilingual) {
@@ -2016,7 +2034,8 @@ const BookHtml = (function () {
       // Tricky part: Check if xref is in verse part b.
       const bkAbbr = fullVerseRef.substr(0, 3);
       let aOrBFullVerseRef = fullVerseRef;
-      const verseText = bkDataByLocale[currentLocale][bkAbbr].verses[fullVerseRef.substr(3)];
+      const verseText =
+        bkDataByLocale[currentLocale][bkAbbr].verses[fullVerseRef.substr(3)];
       if (verseText.includes(VERSE_SPLIT_SEPARATOR)) {
         const [a, b] = splitVerseText(verseText);
         if (b.includes(`[${xref}]`)) {
