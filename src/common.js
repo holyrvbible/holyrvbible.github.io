@@ -1952,9 +1952,7 @@ const BookHtml = (function () {
           verseLine.append(
             genBilingualVerseTextHtml(bkAbbr, verseRef, partAorB)
           );
-          verseLine.find(".bi").hide();
         });
-        $(".verseLine .bi").slideDown(400);
       }
     }
   }
