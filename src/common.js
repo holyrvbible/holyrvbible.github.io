@@ -2761,7 +2761,10 @@ const BookHtml = (function () {
   }
 
   function handleGlobalClickEvent(event) {
-    const element = event.target;
+    let element = event.target;
+    if (element?.classList.contains("bi")) {
+      element = element.parentElement;
+    }
     if (
       element &&
       (element.classList.contains("verseLine") ||
