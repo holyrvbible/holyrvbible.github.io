@@ -732,12 +732,30 @@ body {
 .verseRef {
   font-weight: bold;
   display: inline-flex;
-  margin-right: 8px;
+  margin-right: 2px;
   color: #5555ff;
 }
 
 .verseRef .partSuffix {
   color: #f88;
+}
+
+.verseLine .speak {
+  visibility: hidden;
+}
+
+.verseLine:hover .speak {
+  visibility: visible;
+  text-decoration: none;
+}
+
+.speak {
+  position: relative;
+  top: -2px;
+}
+
+.speak:hover {
+  background-color: yellow;
 }
 
 sup {
