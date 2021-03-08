@@ -15,8 +15,10 @@
 //
 // ***************************************************************************
 
-const RvbVersionNumber = "2.0";
-const RvbVersionDate = "2021-02-28";
+const RvbVersionNumber = "2.1";
+const RvbVersionDate = "2021-03-07";
+
+const VERSE_SPLIT_SEPARATOR = '<br class="split">';
 
 let currentLocale = "";
 let altLocale = "";
@@ -169,6 +171,17 @@ const strings = {
   "{1} {2} of {3}": {
     // e.g. "Ezekiel 1 of 10"
     "zh-CN": "{1} {2} 之{3}章",
+  },
+  "Speech not supported": {
+    en: "Your browser does not support speech generation.",
+    "zh-CN": "您的浏览器不支持文字发声。",
+  },
+  "Book name and chapter": {
+    en: "{1} chapter {2}",
+    "zh-CN": "{1}第{2}章",
+  },
+  "Verse {1}": {
+    "zh-CN": "第{1}节",
   },
 };
 
@@ -1073,6 +1086,141 @@ const BookDataLoader = (function () {
 
 // ***************************************************************************
 //
+//  Speech
+//
+// ***************************************************************************
+
+const Speech = (function () {
+  const isSupported = "speechSynthesis" in window;
+  let currentLocaleAndVref = "";
+  let isPaused = false; // Chrome bug with speechSynthesis.paused
+
+  function detectLanguage(text) {
+    for (let i = 0; i < text.length; i++) {
+      if (text.charCodeAt(i) > 255) {
+        return "zh-CN";
+      }
+    }
+    return "en-US";
+  }
+
+  function speak(text) {
+    if (!isSupported) return cantSpeak();
+    const msg = new SpeechSynthesisUtterance();
+    msg.text = text;
+    msg.lang = detectLanguage(text);
+    speechSynthesis.speak(msg);
+  }
+
+  function cantSpeak() {
+    ToastNotifier.showToast(getString("Speech not supported"));
+  }
+
+  function stop() {
+    speechSynthesis.cancel();
+  }
+
+  function speakLocaleVerseText(locale, bkAbbr, chVn, partAorB) {
+    const bkData = bkDataByLocale[locale][bkAbbr];
+    const verse = bkData.verses[chVn];
+    const text = verse.replace(/\[[^\]]+\]/g, "");
+
+    if (partAorB) {
+      const parts = text.split(VERSE_SPLIT_SEPARATOR);
+      if (partAorB === "a") {
+        return speak(parts[0]);
+      } else if (partAorB === "b") {
+        return speak(parts[1]);
+      }
+    }
+
+    speak(text.replaceAll(VERSE_SPLIT_SEPARATOR, " "));
+  }
+
+  // Speak current locale, and in bilingual mode, the alternate locale as well.
+  function speakWholeVerse(bkAbbr, chVn, partAorB) {
+    speakLocaleVerseText(currentLocale, bkAbbr, chVn, partAorB);
+
+    if ($getBool("bilingual")) {
+      speakLocaleVerseText(altLocale, bkAbbr, chVn, partAorB);
+    }
+  }
+
+  function speakChapterSinceVerse(bkAbbr, chVn, partAorB) {
+    const [ch, sinceVn] = chVn.split(":");
+    const numVerses =
+      BkChapterNumVerses[BkAbbrNum[bkAbbr]][safeParseInt(ch) - 1];
+
+    for (let vn = sinceVn; vn <= numVerses; vn++) {
+      speak(getString("Verse {1}", vn));
+      speakWholeVerse(bkAbbr, ch + ":" + vn, partAorB);
+      partAorB = undefined;
+    }
+  }
+
+  function speakWholeChapter(bkAbbr, ch) {
+    const numVerses =
+      BkChapterNumVerses[BkAbbrNum[bkAbbr]][safeParseInt(ch) - 1];
+    const bkName = bkDataByLocale[currentLocale][bkAbbr].bkName;
+
+    speak(getString("Book name and chapter", bkName, ch));
+
+    for (let vn = 1; vn <= numVerses; vn++) {
+      speak(getString("Verse {1}", vn));
+      speakWholeVerse(bkAbbr, ch + ":" + vn);
+    }
+  }
+
+  function speakWholeBook(bkAbbr) {
+    const numChapters = BkNumChapters[BkAbbrNum[bkAbbr]];
+    for (let ch = 1; ch <= numChapters; ch++) {
+      speakWholeChapter(bkAbbr, ch);
+    }
+  }
+
+  function speakVref(fullVerseRef) {
+    const givenLocaleAndVref = currentLocale + " " + fullVerseRef;
+
+    if (isPaused) {
+      isPaused = false;
+      if (currentLocaleAndVref === givenLocaleAndVref) {
+        return speechSynthesis.resume();
+      }
+      stop();
+    } else if (speechSynthesis.speaking) {
+      if (currentLocaleAndVref === givenLocaleAndVref) {
+        isPaused = true;
+        return speechSynthesis.pause();
+      }
+      stop();
+    }
+
+    currentLocaleAndVref = givenLocaleAndVref;
+
+    const bkAbbr = fullVerseRef.slice(0, 3);
+    let chVn = fullVerseRef.slice(3);
+    const partAorB = chVn.endsWith("a") ? "a" : chVn.endsWith("b") ? "b" : "";
+    if (partAorB) chVn = chVn.slice(0, chVn.length - 1);
+
+    if (chVn) {
+      if (chVn.includes(":")) {
+        // Read one verse.
+        speakChapterSinceVerse(bkAbbr, chVn, partAorB);
+      } else {
+        // Read one chapter.
+        speakWholeChapter(bkAbbr, chVn);
+      }
+    } else {
+      // Speak whole book.
+      speakWholeBook(bkAbbr);
+    }
+  }
+
+  return { stop, speakVref };
+})();
+
+// ***************************************************************************
+//
 //  Book name lookup
 //
 // ***************************************************************************
@@ -1562,7 +1710,9 @@ const BookHtml = (function () {
       <a name="${bkData.bkAbbr}"></a>
       <div class="bookTitleRow">
         ${genLinkToPrevBookHtml(bkData.bkAbbr)}
-        <div class="bookTitle">${bkData.bigTitle}</div>
+        <div class="bookTitle">${bkData.bigTitle} ${genSpeakBookHtml(
+      bkData.bkAbbr
+    )}</div>
         ${genLinkToNextBookHtml(bkData.bkAbbr)}
       </div>
       <div class="bookTitleSubLinks">
@@ -1571,6 +1721,10 @@ const BookHtml = (function () {
           ${allNotesToggler}
       </div>
       `;
+  }
+
+  function genSpeakBookHtml(bkAbbr) {
+    return LinkTo.code(`Speech.speakVref('${bkAbbr}')`, "🗣️", `class="speak"`);
   }
 
   function genChapterLinksHtml(bkData) {
@@ -1719,7 +1873,10 @@ const BookHtml = (function () {
       <div class="chapterHeader">
           <div class="titleRow">
               ${genPrevChapterLinkHtml(bkAbbr, ch)}
-              <span class="title">${chapterTitle}</span>
+              <span class="title">${chapterTitle} ${genSpeakChapterHtml(
+      bkAbbr,
+      ch
+    )}</span>
               ${genNextChapterLinkHtml(bkAbbr, ch, numChapters)}
           </div>
           <div class="links">
@@ -1729,6 +1886,14 @@ const BookHtml = (function () {
           </div>
       </div>
       `;
+  }
+
+  function genSpeakChapterHtml(bkAbbr, ch) {
+    return LinkTo.code(
+      `Speech.speakVref('${bkAbbr + ch}')`,
+      "🗣️",
+      `class="speak"`
+    );
   }
 
   // Currently applies only to Psalms.
@@ -1795,8 +1960,6 @@ const BookHtml = (function () {
       </div>
       `;
   }
-
-  const VERSE_SPLIT_SEPARATOR = '<br class="split">';
 
   function splitVerseText(verseText, partAorB = undefined) {
     const v = verseText.split(VERSE_SPLIT_SEPARATOR);
@@ -1879,12 +2042,24 @@ const BookHtml = (function () {
       ${partAorB === "a" ? `<a name="${fullVerseRef}a"></a>` : ""}
       ${partAorB === "b" ? `<a name="${fullVerseRef}b"></a>` : ""}
       <div class="verseLine" ontouchend="doubleTapHighlight(this)">
-        ${vrefTitle}
-        ${genVerseTextHtml(fullVerseRef, verseText)}
+        ${
+          // Avoid whitespaces between these elements.
+          vrefTitle +
+          genSpeakVerseHtml(fullVerseRef) +
+          genVerseTextHtml(fullVerseRef, verseText)
+        }
         ${genBilingualVerseTextHtml(bkData.bkAbbr, verseRef, partAorB)}
       </div>
       ${allNotesVisible ? genVerseXrefsHtmlIfAny(fullVerseRef) : ""}
       `;
+  }
+
+  function genSpeakVerseHtml(fullVerseRef) {
+    return LinkTo.code(
+      `Speech.speakVref('${fullVerseRef}')`,
+      "🗣️",
+      `class="speak"`
+    );
   }
 
   function genVerseHeaderHtmlIfAny(bkData, verseRef) {
