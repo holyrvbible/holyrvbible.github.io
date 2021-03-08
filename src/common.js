@@ -1120,7 +1120,7 @@ const Speech = (function () {
     speechSynthesis.cancel();
   }
 
-  function speakLocaleVerseText(locale, bkAbbr, chVn, partAorB) {
+  function getLocaleRawVerseText(locale, bkAbbr, chVn, partAorB) {
     const bkData = bkDataByLocale[locale][bkAbbr];
     const verse = bkData.verses[chVn];
     const text = verse.replace(/\[[^\]]+\]/g, "");
@@ -1128,13 +1128,23 @@ const Speech = (function () {
     if (partAorB) {
       const parts = text.split(VERSE_SPLIT_SEPARATOR);
       if (partAorB === "a") {
-        return speak(parts[0]);
+        return parts[0];
       } else if (partAorB === "b") {
-        return speak(parts[1]);
+        return parts[1];
       }
     }
 
-    speak(text.replaceAll(VERSE_SPLIT_SEPARATOR, " "));
+    return text;
+  }
+
+  function stripTags(raw) {
+    return raw.replace(/<[^>]+>/g, " "); // replace with space to be safe
+  }
+
+  function speakLocaleVerseText(locale, bkAbbr, chVn, partAorB) {
+    const raw = getLocaleRawVerseText(locale, bkAbbr, chVn, partAorB);
+    const text = stripTags(raw);
+    speak(text);
   }
 
   // Speak current locale, and in bilingual mode, the alternate locale as well.
