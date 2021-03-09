@@ -1195,12 +1195,14 @@ const Speech = (function () {
     if (isPaused) {
       isPaused = false;
       if (currentLocaleAndVref === givenLocaleAndVref) {
+        console.log(`Resuming reading ${givenLocaleAndVref}.`);
         return speechSynthesis.resume();
       }
       stop();
     } else if (speechSynthesis.speaking) {
       if (currentLocaleAndVref === givenLocaleAndVref) {
         isPaused = true;
+        console.log(`Pause reading ${givenLocaleAndVref}.`);
         return speechSynthesis.pause();
       }
       stop();
@@ -1216,13 +1218,16 @@ const Speech = (function () {
     if (chVn) {
       if (chVn.includes(":")) {
         // Read one verse.
+        console.log(`Start reading from verse ${givenLocaleAndVref}.`);
         speakChapterSinceVerse(bkAbbr, chVn, partAorB);
       } else {
         // Read one chapter.
+        console.log(`Start reading whole chapter ${givenLocaleAndVref}.`);
         speakWholeChapter(bkAbbr, chVn);
       }
     } else {
       // Speak whole book.
+      console.log(`Start reading whole book ${givenLocaleAndVref}.`);
       speakWholeBook(bkAbbr);
     }
   }
@@ -1735,7 +1740,12 @@ const BookHtml = (function () {
   }
 
   function genSpeakBookHtml(bkAbbr) {
-    return LinkTo.code(`Speech.speakVref('${bkAbbr}')`, "🗣️", `class="speak"`);
+    // Alternate icon: speaking head emoji 🗣️
+    return LinkTo.code(
+      `Speech.speakVref('${bkAbbr}')`,
+      "<img width='40px' height='36px' src='../images/blue-play-button.png'></img>",
+      `class="speak"`
+    );
   }
 
   function genChapterLinksHtml(bkData) {
@@ -1902,7 +1912,7 @@ const BookHtml = (function () {
   function genSpeakChapterHtml(bkAbbr, ch) {
     return LinkTo.code(
       `Speech.speakVref('${bkAbbr + ch}')`,
-      "🗣️",
+      "<img width='24px' height='22px' src='../images/blue-play-button.png'></img>",
       `class="speak"`
     );
   }
@@ -2068,7 +2078,7 @@ const BookHtml = (function () {
   function genSpeakVerseHtml(fullVerseRef) {
     return LinkTo.code(
       `Speech.speakVref('${fullVerseRef}')`,
-      "🗣️",
+      "<img width='24px' height='22px' src='../images/blue-play-button.png'></img>",
       `class="speak"`
     );
   }
