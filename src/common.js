@@ -1067,6 +1067,7 @@ const BookDataLoader = (function () {
     bkData.bkAbbr = bkAbbr;
     bkData.bkRef = bkNamesByLocale[locale].BkRef[bkNum];
     bkData.bkName = bkNamesByLocale[locale].BkName[bkNum];
+    bkData.bkLongName = bkNamesByLocale[locale].BkLongName[bkNum];
     bkData.numChapters = BkNumChapters[bkNum];
   }
 
@@ -1171,9 +1172,9 @@ const Speech = (function () {
   function speakWholeChapter(bkAbbr, ch) {
     const numVerses =
       BkChapterNumVerses[BkAbbrNum[bkAbbr]][safeParseInt(ch) - 1];
-    const bkName = bkDataByLocale[currentLocale][bkAbbr].bkName;
+    const bkLongName = bkDataByLocale[currentLocale][bkAbbr].bkLongName;
 
-    speak(getString("Book name and chapter", bkName, ch));
+    speak(getString("Book name and chapter", bkLongName, ch));
 
     for (let vn = 1; vn <= numVerses; vn++) {
       speak(getString("Verse {1}", vn));
