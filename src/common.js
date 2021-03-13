@@ -814,7 +814,7 @@ const IndexHtml = (function () {
 
 const InstallHtml = (function () {
   function genTextContent() {
-    const url = window.location.toString().split("#")[0];
+    const url = location.toString().split("?")[0].split("#")[0];
     const urlLink = `<a href="${url}">${url}</a>`;
 
     return `
