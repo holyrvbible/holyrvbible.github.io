@@ -3169,13 +3169,27 @@ function goPage(page) {
 // Sometimes we change the window history but don't need to navigate anywhere.
 let skipNavigateOnce = false;
 
+// Allow either "#{page}" or "?{page}". May return the empty string.
+// `hash` is used as the standard linking mechanism, but is bad for SEO.
+// Using `search` gives search engines an entry point to any page because
+// they might ignore the `hash` entirely.
+function getCurrentLocationPage() {
+  const hash = location.hash.substr(1);
+  const search = location.search.substr(1);
+
+  // `hash` always take precedence over `search`. Remove `search` if both are given.
+  if (hash && search) location.search = "";
+
+  return hash || search;
+}
+
 function navigateToCurrentHref() {
   if (skipNavigateOnce) {
     skipNavigateOnce = false;
     return;
   }
 
-  const page = location.hash.substr(1);
+  const page = getCurrentLocationPage();
   if (page === $currentPageId()) {
     return undoNavigation();
   }
@@ -3184,7 +3198,7 @@ function navigateToCurrentHref() {
 }
 
 function navigateOnStartup() {
-  const page = location.hash.substr(1);
+  const page = getCurrentLocationPage();
   if (page) return navigateToPage(page);
 
   const lastPage = localStorage.getItem("lastPage");
@@ -3267,7 +3281,7 @@ function loadBookNames(locale, onSuccess) {
 function fastReloadPage() {
   bkNames = bkNamesByLocale[currentLocale];
   TopNavBar.fastRerender();
-  navigateToPage(location.hash.substr(1), /* forceRerender */ true);
+  navigateToPage(getCurrentLocationPage(), /* forceRerender */ true);
 }
 
 function setCurrentLocale(locale) {
