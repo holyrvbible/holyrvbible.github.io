@@ -424,7 +424,7 @@ body {
 
 #indexToc .cell {
   border: 1px solid #cccccc;
-  border-radius: 2px;
+  border-radius: 8px;
   white-space: nowrap;
   text-align: center;
   cursor: pointer;
@@ -464,40 +464,40 @@ body {
 }
 
 #indexToc .cell:hover {
-  background-color: #e4e4e4;
+  background-image: linear-gradient(to bottom right, white, #ffff80);
   color: blue;
 }
 
 #indexToc .grp0 {
-  background-color: #fff6f6;
+  background-image: linear-gradient(to bottom right, white, #fff0f0);
 }
 
 #indexToc .grp1 {
-  background-color: #ffffff;
+  background-image: linear-gradient(to bottom right, white, #f0ffff);
 }
 
 #indexToc .grp2 {
-  background-color: #f6fff6;
+  background-image: linear-gradient(to bottom right, white, #f0fff0);
 }
 
 #indexToc .grp3 {
-  background-color: #ffffff;
+  background-image: linear-gradient(to bottom right, white, #fff0ff);
 }
 
 #indexToc .grp4 {
-  background-color: #f6f6ff;
+  background-image: linear-gradient(to bottom right, white, #f0f0ff);
 }
 
 #indexToc .grp5 {
-  background-color: #ffffff;
+  background-image: linear-gradient(to bottom right, white, #fffff0);
 }
 
 #indexToc .grp6 {
-  background-color: #ffffe6;
+  background-image: linear-gradient(to bottom right, white, #fff0f0);
 }
 
 #indexToc .grp7 {
-  background-color: #ffffff;
+  background-image: linear-gradient(to bottom right, white, #f0ffff);
 }
 
 /* ************************************************************************
