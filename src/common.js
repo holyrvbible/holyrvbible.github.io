@@ -1096,9 +1096,11 @@ const Speech = (function () {
   let currentLocaleAndVref = "";
   let isPaused = false; // Chrome bug with speechSynthesis.paused
   let videoIsPlaying = false;
+  let currentTextToRead = [];
+  let currentTextIndex = 0;
 
   function init() {
-    $(`<video id="blankVideo" loop>
+    $(`<video id="blankVideo" width="1" height="1" loop>
       <source src="../images/whitescreen-1-second.webm" type="video/webm">
     </video>`).appendTo(document.body);
   }
@@ -1132,13 +1134,25 @@ const Speech = (function () {
     }
   }
 
-  function speak(text) {
-    if (!isSupported) return cantSpeak();
+  function speakNext() {
+    if (currentTextIndex >= currentTextToRead.length) return;
+    if (isPaused) return;
+    const text = currentTextToRead[currentTextIndex++];
     const msg = new SpeechSynthesisUtterance();
     msg.text = text;
     msg.lang = detectLanguage(text);
+    msg.addEventListener("end", () => speakNext());
     speechSynthesis.speak(msg);
     checkStartVideo();
+  }
+
+  function speak(textArray) {
+    if (!isSupported) return cantSpeak();
+    speechSynthesis.cancel();
+    isPaused = false;
+    currentTextToRead = textArray;
+    currentTextIndex = 0;
+    speakNext();
   }
 
   function cantSpeak() {
@@ -1177,10 +1191,10 @@ const Speech = (function () {
 
   // Get verse text for current locale, and in bilingual mode, the alternate locale as well.
   function getWholeVerseText(bkAbbr, chVn, partAorB) {
-    let text = getLocaleVerseText(currentLocale, bkAbbr, chVn, partAorB);
+    const text = [getLocaleVerseText(currentLocale, bkAbbr, chVn, partAorB)];
 
     if ($getBool("bilingual")) {
-      text += getLocaleVerseText(altLocale, bkAbbr, chVn, partAorB);
+      text.push(getLocaleVerseText(altLocale, bkAbbr, chVn, partAorB));
     }
 
     return text;
@@ -1191,10 +1205,12 @@ const Speech = (function () {
     const numVerses =
       BkChapterNumVerses[BkAbbrNum[bkAbbr]][safeParseInt(ch) - 1];
 
-    let text = "";
+    const text = [];
     for (let vn = sinceVn; vn <= numVerses; vn++) {
-      text += getString("Verse {1}", vn) + ". ";
-      text += getWholeVerseText(bkAbbr, ch + ":" + vn, partAorB) + ". ";
+      text.push(getString("Verse {1}", vn));
+      getWholeVerseText(bkAbbr, ch + ":" + vn, partAorB).forEach((t) =>
+        text.push(t)
+      );
       partAorB = undefined;
     }
 
@@ -1206,11 +1222,11 @@ const Speech = (function () {
       BkChapterNumVerses[BkAbbrNum[bkAbbr]][safeParseInt(ch) - 1];
     const bkLongName = bkDataByLocale[currentLocale][bkAbbr].bkLongName;
 
-    let text = getString("Book name and chapter", bkLongName, ch) + ". ";
+    const text = [getString("Book name and chapter", bkLongName, ch)];
 
     for (let vn = 1; vn <= numVerses; vn++) {
-      text += getString("Verse {1}", vn) + ". ";
-      text += getWholeVerseText(bkAbbr, ch + ":" + vn) + ". ";
+      text.push(getString("Verse {1}", vn));
+      getWholeVerseText(bkAbbr, ch + ":" + vn).forEach((t) => text.push(t));
     }
 
     return text;
@@ -1222,9 +1238,10 @@ const Speech = (function () {
 
   function speakWholeBook(bkAbbr) {
     const numChapters = BkNumChapters[BkAbbrNum[bkAbbr]];
-    let text = "";
+    let text = [];
     for (let ch = 1; ch <= numChapters; ch++) {
-      text += getWholeChapterText(bkAbbr, ch);
+      const chapterText = getWholeChapterText(bkAbbr, ch);
+      chapterText.forEach((t) => text.push(t));
     }
     speak(text);
   }
@@ -1235,16 +1252,23 @@ const Speech = (function () {
     if (isPaused) {
       isPaused = false;
       if (currentLocaleAndVref === givenLocaleAndVref) {
-        console.log(`Resuming reading ${givenLocaleAndVref}.`);
-        speechSynthesis.resume();
+        console.log(`Resuming reading: ${givenLocaleAndVref}.`);
+        if (speechSynthesis.speaking) {
+          speechSynthesis.resume();
+        } else {
+          speakNext();
+        }
         checkStartVideo();
         return;
       }
       stop();
-    } else if (speechSynthesis.speaking) {
+    } else if (
+      currentTextIndex < currentTextToRead.length ||
+      speechSynthesis.speaking
+    ) {
       if (currentLocaleAndVref === givenLocaleAndVref) {
         isPaused = true;
-        console.log(`Pause reading ${givenLocaleAndVref}.`);
+        console.log(`Pause reading: ${givenLocaleAndVref}.`);
         return speechSynthesis.pause();
       }
       stop();
@@ -1260,16 +1284,16 @@ const Speech = (function () {
     if (chVn) {
       if (chVn.includes(":")) {
         // Read one verse.
-        console.log(`Start reading from verse ${givenLocaleAndVref}.`);
+        console.log(`Start reading from verse: ${givenLocaleAndVref}.`);
         speakChapterSinceVerse(bkAbbr, chVn, partAorB);
       } else {
         // Read one chapter.
-        console.log(`Start reading whole chapter ${givenLocaleAndVref}.`);
+        console.log(`Start reading whole chapter: ${givenLocaleAndVref}.`);
         speakWholeChapter(bkAbbr, chVn);
       }
     } else {
       // Speak whole book.
-      console.log(`Start reading whole book ${givenLocaleAndVref}.`);
+      console.log(`Start reading whole book: ${givenLocaleAndVref}.`);
       speakWholeBook(bkAbbr);
     }
   }
