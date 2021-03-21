@@ -338,6 +338,38 @@ a[name] {
 
 /* ************************************************************************
  *
+ *  Speech
+ *
+ * ************************************************************************ */
+
+#blankVideo, #videoToggleButton {
+  position: fixed;
+  top: 6px;
+  left: 48px;
+  width: 40px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+#blankVideo {
+  z-index: 1500;
+}
+
+#videoToggleButton {
+  z-index: 1501;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* ************************************************************************
+ *
  *  Index page
  *
  * ************************************************************************ */
