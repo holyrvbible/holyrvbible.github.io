@@ -1092,17 +1092,33 @@ const BookDataLoader = (function () {
 // ***************************************************************************
 
 const Speech = (function () {
+  const PLAY_BUTTON = "\u25B6";
+  const PAUSE_BUTTON = "| |";
+
   const isSupported = "speechSynthesis" in window;
-  let currentLocaleAndVref = "";
-  let isPaused = false; // Chrome bug with speechSynthesis.paused
-  let videoIsPlaying = false;
+  let currentTextLocale = "";
+  let currentTextVref = "";
+  let currentTextIsBilingual = "";
   let currentTextToRead = [];
   let currentTextIndex = 0;
+  let blankVideo = null;
+  let videoToggleButton = null;
 
   function init() {
-    $(`<video id="blankVideo" width="1" height="1" loop>
-      <source src="../images/whitescreen-1-second.webm" type="video/webm">
-    </video>`).appendTo(document.body);
+    $(`
+    <div>
+      <video id="blankVideo" controls loop>
+        <source src="../images/whitescreen-1-second.webm" type="video/webm">
+      </video>
+      <div id="videoToggleButton" onClick="Speech.togglePlay()">${PLAY_BUTTON}</div>
+    <div>
+    `).appendTo(document.body);
+
+    blankVideo = $id("blankVideo");
+    videoToggleButton = $id("videoToggleButton");
+
+    blankVideo.addEventListener("play", () => Speech.resumeOrPlay());
+    blankVideo.addEventListener("pause", () => Speech.pause());
   }
 
   function detectLanguage(text) {
@@ -1114,56 +1130,65 @@ const Speech = (function () {
     return "en-US";
   }
 
-  function checkStartVideo() {
-    if (!videoIsPlaying) {
-      videoIsPlaying = true;
-      console.log("Start playing hidden video");
-      $id("blankVideo").play();
-      setTimeout(checkStopVideo, 5000);
+  function currentTextKey() {
+    return (
+      currentTextLocale + " " + currentTextIsBilingual + " " + currentTextVref
+    );
+  }
+
+  function periodicCheckStopVideo() {
+    if (blankVideo.paused) return;
+
+    if (speechSynthesis.speaking || speechSynthesis.pending) {
+      setTimeout(periodicCheckStopVideo, 1000);
+    } else {
+      blankVideo.pause();
+      console.log("Auto-pause hidden video.");
     }
   }
 
-  function checkStopVideo() {
-    if (!isPaused && speechSynthesis.speaking) {
-      console.log("Don't stop hidden video");
-      setTimeout(checkStopVideo, 5000);
-    } else {
-      videoIsPlaying = false;
-      $id("blankVideo").pause();
-      console.log("Pause hidden video");
-    }
+  function startPeriodicCheckStopVideo() {
+    // Important: The speechSynthesis will take a bit to start speaking.
+    setTimeout(periodicCheckStopVideo, 2000);
   }
 
   function speakNext() {
-    if (currentTextIndex >= currentTextToRead.length) return;
-    if (isPaused) return;
+    if (blankVideo.paused) return;
+
+    if (currentTextIndex >= currentTextToRead.length) {
+      currentTextLocale = "";
+      currentTextVref = "";
+      currentTextIsBilingual = false;
+      currentTextIndex = 0;
+      currentTextToRead = [];
+      return;
+    }
+
     const text = currentTextToRead[currentTextIndex++];
     const msg = new SpeechSynthesisUtterance();
     msg.text = text;
     msg.lang = detectLanguage(text);
     msg.addEventListener("end", () => speakNext());
     speechSynthesis.speak(msg);
-    checkStartVideo();
-  }
-
-  function speak(textArray) {
-    if (!isSupported) return cantSpeak();
-    speechSynthesis.cancel();
-    isPaused = false;
-    currentTextToRead = textArray;
-    currentTextIndex = 0;
-    speakNext();
-  }
-
-  function cantSpeak() {
-    ToastNotifier.showToast(getString("Speech not supported"));
+    startPeriodicCheckStopVideo();
   }
 
   function stop() {
     speechSynthesis.cancel();
   }
 
-  function getLocaleRawVerseText(locale, bkAbbr, chVn, partAorB) {
+  function initSpeechText(textArray) {
+    if (!isSupported) return cantSpeak();
+    stop();
+    currentTextToRead = textArray;
+    currentTextIndex = 0;
+  }
+
+  function cantSpeak() {
+    ToastNotifier.showToast(getString("Speech not supported"));
+  }
+
+  function getLocaleRawVerseText(bkAbbr, chVn, partAorB, locale) {
     const bkData = bkDataByLocale[locale][bkAbbr];
     const verse = bkData.verses[chVn];
     const text = verse.replace(/\[[^\]]+\]/g, "");
@@ -1184,23 +1209,30 @@ const Speech = (function () {
     return raw.replace(/<[^>]+>/g, " "); // replace with space to be safe
   }
 
-  function getLocaleVerseText(locale, bkAbbr, chVn, partAorB) {
-    const raw = getLocaleRawVerseText(locale, bkAbbr, chVn, partAorB);
+  function getLocaleVerseText(bkAbbr, chVn, partAorB, locale) {
+    const raw = getLocaleRawVerseText(bkAbbr, chVn, partAorB, locale);
     return stripTags(raw);
   }
 
   // Get verse text for current locale, and in bilingual mode, the alternate locale as well.
-  function getWholeVerseText(bkAbbr, chVn, partAorB) {
-    const text = [getLocaleVerseText(currentLocale, bkAbbr, chVn, partAorB)];
+  function getWholeVerseText(bkAbbr, chVn, partAorB, locale, isBilingual) {
+    const text = [getLocaleVerseText(bkAbbr, chVn, partAorB, locale)];
 
-    if ($getBool("bilingual")) {
-      text.push(getLocaleVerseText(altLocale, bkAbbr, chVn, partAorB));
+    if (isBilingual) {
+      const altLocale = locale === "en" ? "zh-CN" : "en";
+      text.push(getLocaleVerseText(bkAbbr, chVn, partAorB, altLocale));
     }
 
     return text;
   }
 
-  function speakChapterSinceVerse(bkAbbr, chVn, partAorB) {
+  function initSpeechForChapterSinceVerse(
+    bkAbbr,
+    chVn,
+    partAorB,
+    locale,
+    isBilingual
+  ) {
     const [ch, sinceVn] = chVn.split(":");
     const numVerses =
       BkChapterNumVerses[BkAbbrNum[bkAbbr]][safeParseInt(ch) - 1];
@@ -1208,97 +1240,180 @@ const Speech = (function () {
     const text = [];
     for (let vn = sinceVn; vn <= numVerses; vn++) {
       text.push(getString("Verse {1}", vn));
-      getWholeVerseText(bkAbbr, ch + ":" + vn, partAorB).forEach((t) =>
-        text.push(t)
+      const a = getWholeVerseText(
+        bkAbbr,
+        ch + ":" + vn,
+        partAorB,
+        locale,
+        isBilingual
       );
+      a.forEach((t) => text.push(t));
       partAorB = undefined;
     }
 
-    speak(text);
+    initSpeechText(text);
   }
 
-  function getWholeChapterText(bkAbbr, ch) {
+  function getWholeChapterText(bkAbbr, ch, locale, isBilingual) {
     const numVerses =
       BkChapterNumVerses[BkAbbrNum[bkAbbr]][safeParseInt(ch) - 1];
-    const bkLongName = bkDataByLocale[currentLocale][bkAbbr].bkLongName;
+    const bkLongName = bkDataByLocale[locale][bkAbbr].bkLongName;
 
     const text = [getString("Book name and chapter", bkLongName, ch)];
 
     for (let vn = 1; vn <= numVerses; vn++) {
       text.push(getString("Verse {1}", vn));
-      getWholeVerseText(bkAbbr, ch + ":" + vn).forEach((t) => text.push(t));
+      const a = getWholeVerseText(
+        bkAbbr,
+        ch + ":" + vn,
+        undefined,
+        locale,
+        isBilingual
+      );
+      a.forEach((t) => text.push(t));
     }
 
     return text;
   }
 
-  function speakWholeChapter(bkAbbr, ch) {
-    speak(getWholeChapterText(bkAbbr, ch));
+  function initSpeechForWholeChapter(bkAbbr, ch, locale, isBilingual) {
+    const text = getWholeChapterText(bkAbbr, ch, locale, isBilingual);
+    initSpeechText(text);
   }
 
-  function speakWholeBook(bkAbbr) {
+  function initSpeechForWholeBook(bkAbbr, locale, isBilingual) {
     const numChapters = BkNumChapters[BkAbbrNum[bkAbbr]];
     let text = [];
     for (let ch = 1; ch <= numChapters; ch++) {
-      const chapterText = getWholeChapterText(bkAbbr, ch);
+      const chapterText = getWholeChapterText(bkAbbr, ch, locale, isBilingual);
       chapterText.forEach((t) => text.push(t));
     }
-    speak(text);
+    initSpeechText(text);
   }
 
-  function speakVref(fullVerseRef) {
-    const givenLocaleAndVref = currentLocale + " " + fullVerseRef;
+  function initSpeechForLocaleAndVref(locale, vref, isBilingual) {
+    currentTextLocale = locale;
+    currentTextVref = vref;
+    currentTextIsBilingual = isBilingual;
 
-    if (isPaused) {
-      isPaused = false;
-      if (currentLocaleAndVref === givenLocaleAndVref) {
-        console.log(`Resuming reading: ${givenLocaleAndVref}.`);
-        if (speechSynthesis.speaking) {
-          speechSynthesis.resume();
-        } else {
-          speakNext();
-        }
-        checkStartVideo();
-        return;
-      }
-      stop();
-    } else if (
-      currentTextIndex < currentTextToRead.length ||
-      speechSynthesis.speaking
-    ) {
-      if (currentLocaleAndVref === givenLocaleAndVref) {
-        isPaused = true;
-        console.log(`Pause reading: ${givenLocaleAndVref}.`);
-        return speechSynthesis.pause();
-      }
-      stop();
-    }
-
-    currentLocaleAndVref = givenLocaleAndVref;
-
-    const bkAbbr = fullVerseRef.slice(0, 3);
-    let chVn = fullVerseRef.slice(3);
+    const bkAbbr = vref.slice(0, 3);
+    let chVn = vref.slice(3);
     const partAorB = chVn.endsWith("a") ? "a" : chVn.endsWith("b") ? "b" : "";
     if (partAorB) chVn = chVn.slice(0, chVn.length - 1);
 
     if (chVn) {
       if (chVn.includes(":")) {
         // Read one verse.
-        console.log(`Start reading from verse: ${givenLocaleAndVref}.`);
-        speakChapterSinceVerse(bkAbbr, chVn, partAorB);
+        console.log(`Start reading from verse: ${currentTextKey()}.`);
+        initSpeechForChapterSinceVerse(
+          bkAbbr,
+          chVn,
+          partAorB,
+          locale,
+          isBilingual
+        );
       } else {
         // Read one chapter.
-        console.log(`Start reading whole chapter: ${givenLocaleAndVref}.`);
-        speakWholeChapter(bkAbbr, chVn);
+        console.log(`Start reading whole chapter: ${currentTextKey()}.`);
+        initSpeechForWholeChapter(bkAbbr, chVn, locale, isBilingual);
       }
     } else {
       // Speak whole book.
-      console.log(`Start reading whole book: ${givenLocaleAndVref}.`);
-      speakWholeBook(bkAbbr);
+      console.log(`Start reading whole book: ${currentTextKey()}.`);
+      initSpeechForWholeBook(bkAbbr, locale, isBilingual);
     }
   }
 
-  return { init, stop, speakVref };
+  function speakLocaleAndVref(locale, fullVerseRef, isBilingual) {
+    if (
+      currentTextLocale === locale &&
+      currentTextVref === fullVerseRef &&
+      currentTextIsBilingual === isBilingual
+    ) {
+      // Toggle play/pause.
+      return blankVideo.paused ? blankVideo.play() : blankVideo.pause();
+    }
+
+    // Start playing something new.
+    initSpeechForLocaleAndVref(locale, fullVerseRef, isBilingual);
+    blankVideo.play();
+  }
+
+  function speakVref(fullVerseRef) {
+    speakLocaleAndVref(currentLocale, fullVerseRef, $getBool("bilingual"));
+  }
+
+  function getDefaultVrefToSpeak() {
+    // Find out current page to play.
+    const bkAbbr = BookHtml.currentBkAbbr();
+
+    // Not displaying book data, so nothing to play here.
+    if (!bkAbbr) return "";
+
+    if (BookHtml.getOneChapterOnly()) {
+      // Start speaking the current chapter only.
+      const element = $(".wholeChapter:visible");
+      const chapterNum = element.data("chapternum");
+      return bkAbbr + chapterNum;
+    }
+
+    // Default to start reading the whole book.
+    return bkAbbr;
+  }
+
+  function resumeOrPlay() {
+    videoToggleButton.innerHTML = PAUSE_BUTTON;
+
+    // Resume last played.
+    if (currentTextLocale) {
+      if (speechSynthesis.speaking || speechSynthesis.pending) {
+        console.log(`Resume reading: ${currentTextKey()}.`);
+        speechSynthesis.resume();
+        startPeriodicCheckStopVideo();
+        return;
+      }
+
+      if (currentTextIndex >= currentTextToRead.length) {
+        console.log(`Restart reading: ${currentTextKey()}.`);
+        currentTextIndex = 0;
+      } else {
+        if (currentTextIndex === 0) {
+          console.log(`Start reading: ${currentTextKey()}.`);
+        } else {
+          console.log(`Resume reading: ${currentTextKey()}.`);
+        }
+      }
+
+      speakNext();
+      return;
+    }
+
+    // Find out default vref to play.
+    const vref = getDefaultVrefToSpeak();
+    if (!vref) return;
+    initSpeechForLocaleAndVref(currentLocale, vref, $getBool("bilingual"));
+    speakNext();
+  }
+
+  function pause() {
+    videoToggleButton.innerHTML = PLAY_BUTTON;
+    if (!currentTextLocale) return;
+
+    if (
+      currentTextIndex < currentTextToRead.length ||
+      speechSynthesis.speaking ||
+      speechSynthesis.pending
+    ) {
+      console.log(`Pause reading: ${currentTextKey()}.`);
+      return speechSynthesis.pause();
+    }
+  }
+
+  function togglePlay() {
+    blankVideo.paused ? blankVideo.play() : blankVideo.pause();
+  }
+
+  return { init, stop, speakVref, resumeOrPlay, pause, togglePlay };
 })();
 
 // ***************************************************************************
@@ -1886,8 +2001,9 @@ const BookHtml = (function () {
     let s = "";
     for (let ch = 1; ch <= numChapters; ch++) {
       if (!chapterNumber || chapterNumber == ch) {
+        // Warning: The data tag name `chapternum` will be converted to all lowercase when fetched by jquery.
         s += `
-          <div id="chapter${ch}" class="wholeChapter">
+          <div id="chapter${ch}" class="wholeChapter" data-chapternum="${ch}">
             ${genChapterInnerHtml(bkData, ch, numChapters)}
           </div>
           `;
@@ -3120,6 +3236,8 @@ const BookHtml = (function () {
 
   // Exports.
   return {
+    currentBkAbbr,
+    getOneChapterOnly,
     updateBilingualVerseText,
     usePage,
     goOutline,
