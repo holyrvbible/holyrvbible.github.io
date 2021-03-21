@@ -1093,7 +1093,8 @@ const BookDataLoader = (function () {
 
 const Speech = (function () {
   const PLAY_BUTTON = "\u25B6";
-  const PAUSE_BUTTON = "| |";
+  const PAUSE_BUTTON =
+    "<img src='../images/pause-button-white-180x180.png' width='22' height='22' />";
 
   const isSupported = "speechSynthesis" in window;
   let currentTextLocale = "";
@@ -1101,13 +1102,15 @@ const Speech = (function () {
   let currentTextIsBilingual = "";
   let currentTextToRead = [];
   let currentTextIndex = 0;
+
   let blankVideo = null;
   let videoToggleButton = null;
+  let stopVideoTimeout = setTimeout(() => 0);
 
   function init() {
     $(`
     <div>
-      <video id="blankVideo" controls loop>
+      <video id="blankVideo" loop>
         <source src="../images/whitescreen-1-second.webm" type="video/webm">
       </video>
       <div id="videoToggleButton" onClick="Speech.togglePlay()">${PLAY_BUTTON}</div>
@@ -1131,16 +1134,27 @@ const Speech = (function () {
   }
 
   function currentTextKey() {
+    if (!currentTextLocale) return "";
+
     return (
-      currentTextLocale + " " + currentTextIsBilingual + " " + currentTextVref
+      "lang=" +
+      currentTextLocale +
+      " bi=" +
+      currentTextIsBilingual +
+      " " +
+      currentTextVref
     );
+  }
+
+  function debugString() {
+    return `(speaking=${speechSynthesis.speaking}, paused=${speechSynthesis.paused}, pending=${speechSynthesis.pending})`;
   }
 
   function periodicCheckStopVideo() {
     if (blankVideo.paused) return;
 
     if (speechSynthesis.speaking || speechSynthesis.pending) {
-      setTimeout(periodicCheckStopVideo, 1000);
+      stopVideoTimeout = setTimeout(periodicCheckStopVideo, 1000);
     } else {
       blankVideo.pause();
       console.log("Auto-pause hidden video.");
@@ -1148,14 +1162,31 @@ const Speech = (function () {
   }
 
   function startPeriodicCheckStopVideo() {
+    clearTimeout(stopVideoTimeout);
+
     // Important: The speechSynthesis will take a bit to start speaking.
-    setTimeout(periodicCheckStopVideo, 2000);
+    stopVideoTimeout = setTimeout(periodicCheckStopVideo, 2000);
   }
 
   function speakNext() {
-    if (blankVideo.paused) return;
+    if (blankVideo.paused) {
+      console.log(
+        `Not speaking next due to video paused: ${currentTextKey()} ${debugString()}`
+      );
+      return;
+    }
+
+    // Sometimes this function gets called before the last speech is finished (browser bug),
+    // so just make sure we finish speaking before we go on to the next message.
+    if (speechSynthesis.speaking) {
+      console.log(
+        `Ignore speak next while speaking: ${currentTextKey()} ${debugString()}`
+      );
+      return;
+    }
 
     if (currentTextIndex >= currentTextToRead.length) {
+      console.log(`Finished reading: ${currentTextKey()} ${debugString()}`);
       currentTextLocale = "";
       currentTextVref = "";
       currentTextIsBilingual = false;
@@ -1165,21 +1196,28 @@ const Speech = (function () {
     }
 
     const text = currentTextToRead[currentTextIndex++];
+    console.log(
+      `Speak next ${currentTextIndex}/${
+        currentTextToRead.length
+      }: "${text.slice(0, 20)}${
+        text.length > 20 ? "..." : ""
+      }" ${debugString()}`
+    );
     const msg = new SpeechSynthesisUtterance();
     msg.text = text;
     msg.lang = detectLanguage(text);
+
+    // Browser bug: "end" sometimes gets called before the speech is finished.
+    // This means that there is no way to reliably detect when a speech is done.
     msg.addEventListener("end", () => speakNext());
+
     speechSynthesis.speak(msg);
     startPeriodicCheckStopVideo();
   }
 
-  function stop() {
-    speechSynthesis.cancel();
-  }
-
   function initSpeechText(textArray) {
     if (!isSupported) return cantSpeak();
-    stop();
+    speechSynthesis.cancel();
     currentTextToRead = textArray;
     currentTextIndex = 0;
   }
@@ -1233,13 +1271,18 @@ const Speech = (function () {
     locale,
     isBilingual
   ) {
+    if (partAorB === "a") partAorB = undefined;
     const [ch, sinceVn] = chVn.split(":");
     const numVerses =
       BkChapterNumVerses[BkAbbrNum[bkAbbr]][safeParseInt(ch) - 1];
 
     const text = [];
     for (let vn = sinceVn; vn <= numVerses; vn++) {
-      text.push(getString("Verse {1}", vn));
+      text.push(
+        getString("Verse {1}", vn) +
+          " " +
+          (partAorB === "b" ? getString("verse-part-b") : "")
+      );
       const a = getWholeVerseText(
         bkAbbr,
         ch + ":" + vn,
@@ -1292,6 +1335,8 @@ const Speech = (function () {
   }
 
   function initSpeechForLocaleAndVref(locale, vref, isBilingual) {
+    speechSynthesis.cancel();
+
     currentTextLocale = locale;
     currentTextVref = vref;
     currentTextIsBilingual = isBilingual;
@@ -1304,7 +1349,7 @@ const Speech = (function () {
     if (chVn) {
       if (chVn.includes(":")) {
         // Read one verse.
-        console.log(`Start reading from verse: ${currentTextKey()}.`);
+        console.log(`Init reading from verse: ${currentTextKey()}`);
         initSpeechForChapterSinceVerse(
           bkAbbr,
           chVn,
@@ -1314,12 +1359,12 @@ const Speech = (function () {
         );
       } else {
         // Read one chapter.
-        console.log(`Start reading whole chapter: ${currentTextKey()}.`);
+        console.log(`Init reading whole chapter: ${currentTextKey()}`);
         initSpeechForWholeChapter(bkAbbr, chVn, locale, isBilingual);
       }
     } else {
       // Speak whole book.
-      console.log(`Start reading whole book: ${currentTextKey()}.`);
+      console.log(`Init reading whole book: ${currentTextKey()}`);
       initSpeechForWholeBook(bkAbbr, locale, isBilingual);
     }
   }
@@ -1366,30 +1411,25 @@ const Speech = (function () {
 
     // Resume last played.
     if (currentTextLocale) {
-      if (speechSynthesis.speaking || speechSynthesis.pending) {
-        console.log(`Resume reading: ${currentTextKey()}.`);
-        speechSynthesis.resume();
-        startPeriodicCheckStopVideo();
-        return;
-      }
-
-      if (currentTextIndex >= currentTextToRead.length) {
-        console.log(`Restart reading: ${currentTextKey()}.`);
-        currentTextIndex = 0;
+      if (currentTextIndex === 0) {
+        console.log(`Start reading: ${currentTextKey()} ${debugString()}`);
       } else {
-        if (currentTextIndex === 0) {
-          console.log(`Start reading: ${currentTextKey()}.`);
-        } else {
-          console.log(`Resume reading: ${currentTextKey()}.`);
-        }
+        console.log(
+          `Resume reading midway: ${currentTextKey()} ${debugString()}`
+        );
       }
 
-      speakNext();
-      return;
+      // Known bug: Sometimes `speechSynthesis.resume()` does nothing,
+      // so we cannot rely on it to make things work.
+      // To workaround this, we will re-read the last message entirely.
+      speechSynthesis.cancel();
+      if (currentTextIndex > 0) currentTextIndex--;
+      return speakNext();
     }
 
     // Find out default vref to play.
     const vref = getDefaultVrefToSpeak();
+    console.log(`Try reading default vref: ${vref}`);
     if (!vref) return;
     initSpeechForLocaleAndVref(currentLocale, vref, $getBool("bilingual"));
     speakNext();
@@ -1397,23 +1437,28 @@ const Speech = (function () {
 
   function pause() {
     videoToggleButton.innerHTML = PLAY_BUTTON;
-    if (!currentTextLocale) return;
 
-    if (
-      currentTextIndex < currentTextToRead.length ||
-      speechSynthesis.speaking ||
-      speechSynthesis.pending
-    ) {
-      console.log(`Pause reading: ${currentTextKey()}.`);
-      return speechSynthesis.pause();
+    // If the reading is done, then no need to do anything more.
+    if (!currentTextLocale) {
+      console.log(`Already finished reading, no need to pause anymore.`);
+      return;
     }
+
+    console.log(`Pause reading: ${currentTextKey()} ${debugString()}`);
+
+    // Known bug: Sometimes `speechSynthesis.resume()` does nothing, so just
+    // cancel the current message completely. If we pause here, we will need
+    // to resume it later, which is unreliable.
+    speechSynthesis.cancel();
+
+    console.log(`After pause: ${currentTextKey()} ${debugString()}`);
   }
 
   function togglePlay() {
     blankVideo.paused ? blankVideo.play() : blankVideo.pause();
   }
 
-  return { init, stop, speakVref, resumeOrPlay, pause, togglePlay };
+  return { init, speakVref, resumeOrPlay, pause, togglePlay };
 })();
 
 // ***************************************************************************
@@ -2248,7 +2293,7 @@ const BookHtml = (function () {
         ${
           // Avoid whitespaces between these elements.
           vrefTitle +
-          genSpeakVerseHtml(fullVerseRef) +
+          genSpeakVerseHtml(fullVerseRef + (partAorB ?? "")) +
           genVerseTextHtml(fullVerseRef, verseText)
         }
         ${genBilingualVerseTextHtml(bkData.bkAbbr, verseRef, partAorB)}
