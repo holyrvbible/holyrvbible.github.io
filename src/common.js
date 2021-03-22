@@ -1112,8 +1112,8 @@ const Speech = (function () {
     $(`
     <div>
       <video id="blankVideo" loop muted playsinline>
-        <source src="../images/whitescreen-1-second.webm" type="video/webm">
-        <!--source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4"-->
+        <!--source src="../images/whitescreen-1-second.webm" type="video/webm"-->
+        <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
       </video>
       <div id="videoToggleButton" onClick="Speech.togglePlay()">${PLAY_BUTTON}</div>
     <div>
@@ -1124,11 +1124,6 @@ const Speech = (function () {
 
     blankVideo.addEventListener("play", () => Speech.resumeOrPlay());
     blankVideo.addEventListener("pause", () => Speech.pause());
-
-    // Testing.
-    const m = new SpeechSynthesisUtterance();
-    m.text = "Holy Bible Recovery Version 2020";
-    speechSynthesis.speak(m);
   }
 
   function detectLanguage(text) {
