@@ -1377,11 +1377,18 @@ const Speech = (function () {
       currentTextIsBilingual === isBilingual
     ) {
       // Toggle play/pause.
+      console.log(
+        `speakLocaleAndVref: blankVideo.paused=${
+          blankVideo.paused
+        } ${debugString()}`
+      );
       return blankVideo.paused ? blankVideo.play() : blankVideo.pause();
     }
 
     // Start playing something new.
     initSpeechForLocaleAndVref(locale, fullVerseRef, isBilingual);
+
+    console.log(`speakLocaleAndVref: blankVideo.play()`);
     blankVideo.play();
   }
 
@@ -1445,17 +1452,20 @@ const Speech = (function () {
       return;
     }
 
-    console.log(`Pause reading: ${currentTextKey()} ${debugString()}`);
+    console.log(`Before pause (cancel): ${currentTextKey()} ${debugString()}`);
 
     // Known bug: Sometimes `speechSynthesis.resume()` does nothing, so just
     // cancel the current message completely. If we pause here, we will need
     // to resume it later, which is unreliable.
     speechSynthesis.cancel();
 
-    console.log(`After pause: ${currentTextKey()} ${debugString()}`);
+    console.log(`After pause (cancel): ${currentTextKey()} ${debugString()}`);
   }
 
   function togglePlay() {
+    console.log(
+      `togglePlay: blankVideo.paused=${blankVideo.paused} ${debugString()}`
+    );
     blankVideo.paused ? blankVideo.play() : blankVideo.pause();
   }
 
