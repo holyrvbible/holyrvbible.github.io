@@ -1111,7 +1111,7 @@ const Speech = (function () {
   function init() {
     $(`
     <div>
-      <video id="blankVideo" loop>
+      <video id="blankVideo" loop muted playsinline>
         <source src="../images/whitescreen-1-second.webm" type="video/webm">
       </video>
       <div id="videoToggleButton" onClick="Speech.togglePlay()">${PLAY_BUTTON}</div>
