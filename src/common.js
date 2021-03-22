@@ -1092,7 +1092,8 @@ const BookDataLoader = (function () {
 // ***************************************************************************
 
 const Speech = (function () {
-  const PLAY_BUTTON = "\u25B6";
+  const PLAY_BUTTON =
+    "<img src='../images/play-button-white-256x256.png' width='22' height='22' />";
   const PAUSE_BUTTON =
     "<img src='../images/pause-button-white-180x180.png' width='22' height='22' />";
 
@@ -1151,21 +1152,17 @@ const Speech = (function () {
   }
 
   function periodicCheckStopVideo() {
+    clearTimeout(stopVideoTimeout);
+
     if (blankVideo.paused) return;
 
     if (speechSynthesis.speaking || speechSynthesis.pending) {
       stopVideoTimeout = setTimeout(periodicCheckStopVideo, 1000);
     } else {
+      console.log(`Before auto-pause hidden video: ${debugString()}`);
       blankVideo.pause();
-      console.log("Auto-pause hidden video.");
+      console.log(`After auto-pause hidden video: ${debugString()}`);
     }
-  }
-
-  function startPeriodicCheckStopVideo() {
-    clearTimeout(stopVideoTimeout);
-
-    // Important: The speechSynthesis will take a bit to start speaking.
-    stopVideoTimeout = setTimeout(periodicCheckStopVideo, 2000);
   }
 
   function speakNext() {
@@ -1208,11 +1205,15 @@ const Speech = (function () {
     msg.lang = detectLanguage(text);
 
     // Browser bug: "end" sometimes gets called before the speech is finished.
-    // This means that there is no way to reliably detect when a speech is done.
+    // This means that in order to detect when a speech is done, we need to ensure
+    // `speechSynthesis.speaking === false` in the callback.
     msg.addEventListener("end", () => speakNext());
 
+    // Important: Starting the speech may take a few seconds, especially on
+    // mobile browsers. Hence register the stop checker using the `start` event.
+    msg.addEventListener("start", () => periodicCheckStopVideo());
+
     speechSynthesis.speak(msg);
-    startPeriodicCheckStopVideo();
   }
 
   function initSpeechText(textArray) {
