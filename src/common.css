@@ -113,13 +113,13 @@ a[name] {
   color: #eee;
 }
 
-@media (min-width: 350px) {
+@media (min-width: 450px) {
   #topNavBar .title .short {
     display: none;
   }
 }
 
-@media (max-width: 349px) {
+@media (max-width: 449px) {
   #topNavBar .title .long {
     display: none;
   }
