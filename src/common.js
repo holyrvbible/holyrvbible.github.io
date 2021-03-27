@@ -1431,11 +1431,11 @@ const Speech = (function () {
   }
 
   function pauseSpeech() {
-          // Known bug: Sometimes `speechSynthesis.resume()` does nothing,
-      // so we cannot rely on it to make things work.
-      // To workaround this, we will re-read the last message entirely.
-      speechSynthesis.cancel();
-      if (currentTextIndex > 0) currentTextIndex--;
+    // Known bug: Sometimes `speechSynthesis.resume()` does nothing,
+    // so we cannot rely on it to make things work.
+    // To workaround this, we will re-read the last message entirely.
+    speechSynthesis.cancel();
+    if (currentTextIndex > 0) currentTextIndex--;
   }
 
   function resumeOrPlay() {
@@ -1480,10 +1480,7 @@ const Speech = (function () {
 
     console.log(`Before pause (cancel): ${currentTextKey()} ${debugString()}`);
 
-    // Known bug: Sometimes `speechSynthesis.resume()` does nothing, so just
-    // cancel the current message completely. If we pause here, we will need
-    // to resume it later, which is unreliable.
-    speechSynthesis.cancel();
+    pauseSpeech();
 
     console.log(`After pause (cancel): ${currentTextKey()} ${debugString()}`);
   }
@@ -1492,9 +1489,9 @@ const Speech = (function () {
     console.log(
       `togglePlay: blankVideo.paused=${blankVideo.paused} ${debugString()}`
     );
-    
+
     skipNextVideoCallback = true;
-    
+
     if (blankVideo.paused) {
       if (!currentTextLocale) {
         initSpeechForDefaultVref();
