@@ -1112,6 +1112,7 @@ const Speech = (function () {
   let blankVideo = null;
   let videoToggleButton = null;
   let stopVideoTimeout = setTimeout(() => 0);
+  let skipNextVideoCallback = false;
 
   function init() {
     $(`
@@ -1383,19 +1384,17 @@ const Speech = (function () {
       currentTextIsBilingual === isBilingual
     ) {
       // Toggle play/pause.
-      console.log(
-        `speakLocaleAndVref: blankVideo.paused=${
-          blankVideo.paused
-        } ${debugString()}`
-      );
-      return blankVideo.paused ? blankVideo.play() : blankVideo.pause();
+      togglePlay();
+      return;
     }
 
     // Start playing something new.
     initSpeechForLocaleAndVref(locale, fullVerseRef, isBilingual);
 
     console.log(`speakLocaleAndVref: blankVideo.play()`);
+    skipNextVideoCallback = true;
     blankVideo.play();
+    speakNext();
   }
 
   function speakVref(fullVerseRef) {
@@ -1420,8 +1419,32 @@ const Speech = (function () {
     return bkAbbr;
   }
 
+  function initSpeechForDefaultVref() {
+    const vref = getDefaultVrefToSpeak();
+    if (vref) {
+      console.log(`Try reading default vref: ${vref}`);
+      initSpeechForLocaleAndVref(currentLocale, vref, $getBool("bilingual"));
+    } else {
+      console.log(`Reading the bible full name.`);
+      initSpeechText([getString("bibleFullName")]);
+    }
+  }
+
+  function pauseSpeech() {
+          // Known bug: Sometimes `speechSynthesis.resume()` does nothing,
+      // so we cannot rely on it to make things work.
+      // To workaround this, we will re-read the last message entirely.
+      speechSynthesis.cancel();
+      if (currentTextIndex > 0) currentTextIndex--;
+  }
+
   function resumeOrPlay() {
     videoToggleButton.innerHTML = PAUSE_BUTTON;
+
+    if (skipNextVideoCallback) {
+      skipNextVideoCallback = false;
+      return;
+    }
 
     // Resume last played.
     if (currentTextLocale) {
@@ -1433,28 +1456,21 @@ const Speech = (function () {
         );
       }
 
-      // Known bug: Sometimes `speechSynthesis.resume()` does nothing,
-      // so we cannot rely on it to make things work.
-      // To workaround this, we will re-read the last message entirely.
-      speechSynthesis.cancel();
-      if (currentTextIndex > 0) currentTextIndex--;
       return speakNext();
     }
 
     // Find out default vref to play.
-    const vref = getDefaultVrefToSpeak();
-    if (vref) {
-      console.log(`Try reading default vref: ${vref}`);
-      initSpeechForLocaleAndVref(currentLocale, vref, $getBool("bilingual"));
-    } else {
-      console.log(`Reading the bible full name.`);
-      initSpeechText([getString("bibleFullName")]);
-    }
+    initSpeechForDefaultVref();
     speakNext();
   }
 
   function pause() {
     videoToggleButton.innerHTML = PLAY_BUTTON;
+
+    if (skipNextVideoCallback) {
+      skipNextVideoCallback = false;
+      return;
+    }
 
     // If the reading is done, then no need to do anything more.
     if (!currentTextLocale) {
@@ -1476,7 +1492,20 @@ const Speech = (function () {
     console.log(
       `togglePlay: blankVideo.paused=${blankVideo.paused} ${debugString()}`
     );
-    blankVideo.paused ? blankVideo.play() : blankVideo.pause();
+    
+    skipNextVideoCallback = true;
+    
+    if (blankVideo.paused) {
+      if (!currentTextLocale) {
+        initSpeechForDefaultVref();
+      }
+
+      blankVideo.play();
+      speakNext();
+    } else {
+      blankVideo.pause();
+      pauseSpeech();
+    }
   }
 
   return { init, speakVref, resumeOrPlay, pause, togglePlay };
