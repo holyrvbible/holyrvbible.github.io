@@ -1117,8 +1117,8 @@ const Speech = (function () {
     $(`
     <div>
       <video id="blankVideo" loop muted playsinline>
-        <!--source src="../images/whitescreen-1-second.webm" type="video/webm"-->
-        <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+        <source src="../images/whitescreen-1-second.webm" type="video/webm">
+        <!--source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4"-->
       </video>
       <div id="videoToggleButton" onClick="Speech.togglePlay()">${PLAY_BUTTON}</div>
     <div>
