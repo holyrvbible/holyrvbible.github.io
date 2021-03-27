@@ -1,3 +1,7 @@
+// Do a meaningless date update to refresh the SW.
+// Otherwise, on mobile phones, it is impossible to refresh the SW.
+// Last updated: 2021-03-27
+
 // This name is also used in `common.js`.
 const CACHE_NAME = "all-pages";
 
