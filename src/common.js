@@ -15,8 +15,8 @@
 //
 // ***************************************************************************
 
-const RvbVersionNumber = "2.1";
-const RvbVersionDate = "2021-03-07";
+const RvbVersionNumber = "2.2";
+const RvbVersionDate = "2021-03-27";
 
 const VERSE_SPLIT_SEPARATOR = '<br class="split">';
 
@@ -37,6 +37,9 @@ const strings = {
   },
   "Refresh to update now": {
     "zh-CN": "立即更新版本",
+  },
+  Refresh: {
+    "zh-CN": "更新网页",
   },
   "Switch language": {
     "zh-CN": "更换语文",
@@ -550,7 +553,9 @@ const TopNavBar = (function () {
   function genVersionHtml() {
     return `<div class="version">RcvBible 2020 ${getString(
       "versionText"
-    )}</div>`;
+    )} (<span class="refresh" onclick="javascript:refreshWebpage()">${getString(
+      "Refresh"
+    )}</span>)</div>`;
   }
 
   function genUpdateAvailableHtml() {
@@ -3560,6 +3565,21 @@ function initServiceWorker() {
         };
       })
       .catch((err) => console.error("[ServiceWorker]", err));
+  }
+}
+
+// Note: If we don't unregister the SW, refresh will not happen.
+function refreshWebpage() {
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.getRegistration().then((reg) => {
+      if (reg) {
+        reg.unregister().then(() => window.location.reload());
+      } else {
+        window.location.reload();
+      }
+    });
+  } else {
+    window.location.reload();
   }
 }
 
