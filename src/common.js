@@ -1438,9 +1438,13 @@ const Speech = (function () {
 
     // Find out default vref to play.
     const vref = getDefaultVrefToSpeak();
-    console.log(`Try reading default vref: ${vref}`);
-    if (!vref) return;
-    initSpeechForLocaleAndVref(currentLocale, vref, $getBool("bilingual"));
+    if (vref) {
+      console.log(`Try reading default vref: ${vref}`);
+      initSpeechForLocaleAndVref(currentLocale, vref, $getBool("bilingual"));
+    } else {
+      console.log(`Reading the bible full name.`);
+      initSpeechText([getString("bibleFullName")]);
+    }
     speakNext();
   }
 
