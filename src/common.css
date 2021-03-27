@@ -276,6 +276,11 @@ a[name] {
   margin: 1.5rem 0;
 }
 
+#topNavDropdown .refresh {
+  cursor: pointer;
+  color: #ee8;
+}
+
 #topNavDropdown .update {
   font-size: 0.9rem;
   color: #44cc44;
@@ -342,7 +347,8 @@ a[name] {
  *
  * ************************************************************************ */
 
-#blankVideo, #videoToggleButton {
+#blankVideo,
+#videoToggleButton {
   position: fixed;
   top: 6px;
   left: 48px;
@@ -572,11 +578,11 @@ body {
 }
 
 .installSection {
- background-color: #f7f7f7;
- padding: 8px 24px;
- border: 1px solid #ddf;
- border-radius: 10px;
- margin: 24px 0 8px;
+  background-color: #f7f7f7;
+  padding: 8px 24px;
+  border: 1px solid #ddf;
+  border-radius: 10px;
+  margin: 24px 0 8px;
 }
 
 .installSectionTitle {
@@ -592,7 +598,8 @@ body {
   background-color: #ff7;
   border: 1px solid #bb0;
   border-radius: 5px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 90%;
 }
 
