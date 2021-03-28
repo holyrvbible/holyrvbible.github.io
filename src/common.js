@@ -15,8 +15,8 @@
 //
 // ***************************************************************************
 
-const RvbVersionNumber = "2.2";
-const RvbVersionDate = "2021-03-27";
+const RvbVersionNumber = "2.3";
+const RvbVersionDate = "2021-03-28";
 
 const VERSE_SPLIT_SEPARATOR = '<br class="split">';
 
@@ -1105,35 +1105,27 @@ const Speech = (function () {
   const isSupported = "speechSynthesis" in window;
 
   let noSleep = null;
+
   let currentTextLocale = "";
   let currentTextVref = "";
   let currentTextIsBilingual = "";
   let currentTextToRead = [];
   let currentTextIndex = 0;
 
-  let blankVideo = null;
-  let videoToggleButton = null;
-  let stopVideoTimeout = setTimeout(() => 0);
-  let skipNextVideoCallback = false;
+  let isPlaying = false;
+  let speechToggleButton = null;
+  let stopSpeechTimeout = setTimeout(() => 0);
 
   function init() {
     noSleep = new NoSleep();
 
     $(`
     <div>
-      <video id="blankVideo" loop muted playsinline>
-        <source src="../images/whitescreen-1-second.webm" type="video/webm">
-        <!--source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4"-->
-      </video>
-      <div id="videoToggleButton" onClick="Speech.togglePlay()">${PLAY_BUTTON}</div>
+      <div id="speechToggleButton" onClick="Speech.togglePlay()">${PLAY_BUTTON}</div>
     <div>
     `).appendTo(document.body);
 
-    blankVideo = $id("blankVideo");
-    videoToggleButton = $id("videoToggleButton");
-
-    blankVideo.addEventListener("play", () => Speech.resumeOrPlay());
-    blankVideo.addEventListener("pause", () => Speech.pause());
+    speechToggleButton = $id("speechToggleButton");
   }
 
   function detectLanguage(text) {
@@ -1163,21 +1155,21 @@ const Speech = (function () {
   }
 
   function periodicCheckStopVideo() {
-    clearTimeout(stopVideoTimeout);
+    clearTimeout(stopSpeechTimeout);
 
-    if (blankVideo.paused) return;
+    if (!isPlaying) return;
 
     if (speechSynthesis.speaking || speechSynthesis.pending) {
-      stopVideoTimeout = setTimeout(periodicCheckStopVideo, 1000);
+      stopSpeechTimeout = setTimeout(periodicCheckStopVideo, 1000);
     } else {
-      console.log(`Before auto-pause hidden video: ${debugString()}`);
-      blankVideo.pause();
-      console.log(`After auto-pause hidden video: ${debugString()}`);
+      console.log(`Before auto-pause: ${debugString()}`);
+      pause();
+      console.log(`After auto-pause: ${debugString()}`);
     }
   }
 
   function speakNext() {
-    if (blankVideo.paused) {
+    if (!isPlaying) {
       console.log(
         `Not speaking next due to video paused: ${currentTextKey()} ${debugString()}`
       );
@@ -1398,10 +1390,8 @@ const Speech = (function () {
     // Start playing something new.
     initSpeechForLocaleAndVref(locale, fullVerseRef, isBilingual);
 
-    console.log(`speakLocaleAndVref: blankVideo.play()`);
-    skipNextVideoCallback = true;
-    blankVideo.play();
-    speakNext();
+    console.log(`speakLocaleAndVref: resumeOrPlay()`);
+    resumeOrPlay();
   }
 
   function speakVref(fullVerseRef) {
@@ -1446,12 +1436,8 @@ const Speech = (function () {
   }
 
   function resumeOrPlay() {
-    videoToggleButton.innerHTML = PAUSE_BUTTON;
-
-    if (skipNextVideoCallback) {
-      skipNextVideoCallback = false;
-      return;
-    }
+    speechToggleButton.innerHTML = PAUSE_BUTTON;
+    isPlaying = true;
 
     // Resume last played.
     if (currentTextLocale) {
@@ -1472,15 +1458,11 @@ const Speech = (function () {
   }
 
   function pause() {
-    videoToggleButton.innerHTML = PLAY_BUTTON;
+    speechToggleButton.innerHTML = PLAY_BUTTON;
+    isPlaying = false;
 
     noSleep.disable();
     console.log("Disabled nosleep");
-
-    if (skipNextVideoCallback) {
-      skipNextVideoCallback = false;
-      return;
-    }
 
     // If the reading is done, then no need to do anything more.
     if (!currentTextLocale) {
@@ -1496,23 +1478,17 @@ const Speech = (function () {
   }
 
   function togglePlay() {
-    console.log(
-      `togglePlay: blankVideo.paused=${blankVideo.paused} ${debugString()}`
-    );
+    console.log(`togglePlay: isPlaying=${isPlaying} ${debugString()}`);
 
-    skipNextVideoCallback = true;
-
-    if (blankVideo.paused) {
-      if (!currentTextLocale) {
-        initSpeechForDefaultVref();
-      }
-
-      blankVideo.play();
-      speakNext();
-    } else {
-      blankVideo.pause();
-      pauseSpeech();
+    if (isPlaying) {
+      return pause();
     }
+
+    if (!currentTextLocale) {
+      initSpeechForDefaultVref();
+    }
+
+    resumeOrPlay();
   }
 
   return { init, speakVref, resumeOrPlay, pause, togglePlay };
