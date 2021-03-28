@@ -1171,7 +1171,7 @@ const Speech = (function () {
   function speakNext() {
     if (!isPlaying) {
       console.log(
-        `Not speaking next due to video paused: ${currentTextKey()} ${debugString()}`
+        `Not speaking next due to speech already paused: ${currentTextKey()} ${debugString()}`
       );
       return;
     }
