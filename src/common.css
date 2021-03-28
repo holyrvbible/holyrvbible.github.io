@@ -347,22 +347,14 @@ a[name] {
  *
  * ************************************************************************ */
 
-#blankVideo,
-#videoToggleButton {
+#speechToggleButton {
   position: fixed;
   top: 6px;
   left: 48px;
   width: 40px;
   height: 30px;
   border-radius: 4px;
-}
-
-#blankVideo {
   z-index: 1500;
-}
-
-#videoToggleButton {
-  z-index: 1501;
   background-color: black;
   color: #eee;
   font-family: Arial, Helvetica, sans-serif;
