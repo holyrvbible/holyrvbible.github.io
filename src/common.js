@@ -1103,6 +1103,8 @@ const Speech = (function () {
     "<img src='../images/pause-button-white-180x180.png' width='22' height='22' />";
 
   const isSupported = "speechSynthesis" in window;
+
+  let noSleep = null;
   let currentTextLocale = "";
   let currentTextVref = "";
   let currentTextIsBilingual = "";
@@ -1115,6 +1117,8 @@ const Speech = (function () {
   let skipNextVideoCallback = false;
 
   function init() {
+    noSleep = new NoSleep();
+
     $(`
     <div>
       <video id="blankVideo" loop muted playsinline>
@@ -1198,6 +1202,9 @@ const Speech = (function () {
       currentTextToRead = [];
       return;
     }
+
+    noSleep.enable();
+    console.log("Enabled nosleep");
 
     const text = currentTextToRead[currentTextIndex++];
     console.log(
@@ -1466,6 +1473,9 @@ const Speech = (function () {
 
   function pause() {
     videoToggleButton.innerHTML = PLAY_BUTTON;
+
+    noSleep.disable();
+    console.log("Disabled nosleep");
 
     if (skipNextVideoCallback) {
       skipNextVideoCallback = false;
