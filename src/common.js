@@ -1154,13 +1154,13 @@ const Speech = (function () {
     return `(speaking=${speechSynthesis.speaking}, paused=${speechSynthesis.paused}, pending=${speechSynthesis.pending})`;
   }
 
-  function periodicCheckStopVideo() {
+  function periodicCheckStoppedSpeech() {
     clearTimeout(stopSpeechTimeout);
 
     if (!isPlaying) return;
 
     if (speechSynthesis.speaking || speechSynthesis.pending) {
-      stopSpeechTimeout = setTimeout(periodicCheckStopVideo, 1000);
+      stopSpeechTimeout = setTimeout(periodicCheckStoppedSpeech, 1000);
     } else {
       console.log(`Before auto-pause: ${debugString()}`);
       pause();
@@ -1196,14 +1196,12 @@ const Speech = (function () {
     }
 
     noSleep.enable();
-    console.log("Enabled nosleep");
+    console.log("NoSleep - enabled");
 
     const text = currentTextToRead[currentTextIndex++];
     console.log(
-      `Speak next ${currentTextIndex}/${
-        currentTextToRead.length
-      }: "${text.slice(0, 20)}${
-        text.length > 20 ? "..." : ""
+      `Speak next ${currentTextIndex}/${currentTextToRead.length}: "${
+        text.length > 20 ? text.slice(0, 17) + "..." : text
       }" ${debugString()}`
     );
     const msg = new SpeechSynthesisUtterance();
@@ -1217,7 +1215,7 @@ const Speech = (function () {
 
     // Important: Starting the speech may take a few seconds, especially on
     // mobile browsers. Hence register the stop checker using the `start` event.
-    msg.addEventListener("start", () => periodicCheckStopVideo());
+    msg.addEventListener("start", () => periodicCheckStoppedSpeech());
 
     speechSynthesis.speak(msg);
   }
@@ -1271,7 +1269,7 @@ const Speech = (function () {
     return text;
   }
 
-  function initSpeechForChapterSinceVerse(
+  function initSpeechForSinceVerse(
     bkAbbr,
     chVn,
     partAorB,
@@ -1279,9 +1277,9 @@ const Speech = (function () {
     isBilingual
   ) {
     if (partAorB === "a") partAorB = undefined;
-    const [ch, sinceVn] = chVn.split(":");
-    const numVerses =
-      BkChapterNumVerses[BkAbbrNum[bkAbbr]][safeParseInt(ch) - 1];
+    const [ch2, sinceVn] = chVn.split(":");
+    let ch = safeParseInt(ch2);
+    const numVerses = BkChapterNumVerses[BkAbbrNum[bkAbbr]][ch - 1];
 
     const text = [];
     for (let vn = sinceVn; vn <= numVerses; vn++) {
@@ -1299,6 +1297,12 @@ const Speech = (function () {
       );
       a.forEach((t) => text.push(t));
       partAorB = undefined;
+    }
+
+    const numChapters = BkNumChapters[BkAbbrNum[bkAbbr]];
+    for (ch++; ch <= numChapters; ch++) {
+      const chapterText = getWholeChapterText(bkAbbr, ch, locale, isBilingual);
+      chapterText.forEach((t) => text.push(t));
     }
 
     initSpeechText(text);
@@ -1326,19 +1330,18 @@ const Speech = (function () {
     return text;
   }
 
-  function initSpeechForWholeChapter(bkAbbr, ch, locale, isBilingual) {
-    const text = getWholeChapterText(bkAbbr, ch, locale, isBilingual);
-    initSpeechText(text);
-  }
-
-  function initSpeechForWholeBook(bkAbbr, locale, isBilingual) {
+  function initSpeechForSinceChapter(bkAbbr, ch, locale, isBilingual) {
     const numChapters = BkNumChapters[BkAbbrNum[bkAbbr]];
     let text = [];
-    for (let ch = 1; ch <= numChapters; ch++) {
+    for (ch = safeParseInt(ch); ch <= numChapters; ch++) {
       const chapterText = getWholeChapterText(bkAbbr, ch, locale, isBilingual);
       chapterText.forEach((t) => text.push(t));
     }
     initSpeechText(text);
+  }
+
+  function initSpeechForWholeBook(bkAbbr, locale, isBilingual) {
+    initSpeechForSinceChapter(bkAbbr, 1, locale, isBilingual);
   }
 
   function initSpeechForLocaleAndVref(locale, vref, isBilingual) {
@@ -1357,17 +1360,11 @@ const Speech = (function () {
       if (chVn.includes(":")) {
         // Read one verse.
         console.log(`Init reading from verse: ${currentTextKey()}`);
-        initSpeechForChapterSinceVerse(
-          bkAbbr,
-          chVn,
-          partAorB,
-          locale,
-          isBilingual
-        );
+        initSpeechForSinceVerse(bkAbbr, chVn, partAorB, locale, isBilingual);
       } else {
         // Read one chapter.
         console.log(`Init reading whole chapter: ${currentTextKey()}`);
-        initSpeechForWholeChapter(bkAbbr, chVn, locale, isBilingual);
+        initSpeechForSinceChapter(bkAbbr, chVn, locale, isBilingual);
       }
     } else {
       // Speak whole book.
@@ -1462,7 +1459,7 @@ const Speech = (function () {
     isPlaying = false;
 
     noSleep.disable();
-    console.log("Disabled nosleep");
+    console.log("NoSleep - disabled");
 
     // If the reading is done, then no need to do anything more.
     if (!currentTextLocale) {
