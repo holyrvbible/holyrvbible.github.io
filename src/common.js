@@ -1252,9 +1252,19 @@ const Speech = (function () {
     return raw.replace(/<[^>]+>/g, " "); // replace with space to be safe
   }
 
+  function replaceEntities(raw) {
+    // Only need to include the entities which actually appear in the verses.
+    let s = raw.replace(/&mdash;/g, " - "); // don't use actual mdash as that will be spoken in chinese
+    s = s.replace(/&rsquo;/g, "'"); // don't use the actual rsquo as it will not be spoken correctly
+    s = s.replace(/&hellip;/g, "…");
+    s = s.replace(/&ldquo;/g, '"'); // don't use actual ldquo as that will be spoken in chinese
+    s = s.replace(/&rdquo;/g, '"'); // don't use actual rdquo as that will be spoken in chinese
+    return s;
+  }
+
   function getLocaleVerseText(bkAbbr, chVn, partAorB, locale) {
     const raw = getLocaleRawVerseText(bkAbbr, chVn, partAorB, locale);
-    return stripTags(raw);
+    return replaceEntities(stripTags(raw));
   }
 
   // Get verse text for current locale, and in bilingual mode, the alternate locale as well.
