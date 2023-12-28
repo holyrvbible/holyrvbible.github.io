@@ -236,6 +236,12 @@ function safeParseInt(s, defaultValue = 0) {
   return isNaN(i) ? defaultValue : i;
 }
 
+// Replace `<img src="...">` tags with `<${rootImgWithFallback()} src="...">`.
+// The image src must start with '/'.
+function rootImgWithFallback() {
+  return `img onerror="this.onerror=null;this.src=PUBLIC_URL+this.src;"`;
+}
+
 // Try network (including browser cache) first, then fallback to cache.
 function loadJsFile(href, onSuccess = null, onFailure = null) {
   const script = document.createElement("script");
@@ -874,7 +880,7 @@ const InstallHtml = (function () {
             "zh-CN":
               "点击分享按钮（上箭头图标 {1}），位于荧幕的中下（iPhone）或右上角（iPad）。",
           },
-          `<span class="caption"><img src="images/safari-share-icon.png" style="width: 22px"></img></span>`
+          `<span class="caption"><${rootImgWithFallback()} src="/images/safari-share-icon.png" style="width: 22px"></img></span>`
         )}</li>
         <li>${getString({
           en: `Select the <span class="caption">Add to Home Screen</span> option.`,
@@ -1111,9 +1117,9 @@ const BookDataLoader = (function () {
 
 const Speech = (function () {
   const PLAY_BUTTON =
-    "<img src='../images/play-button-white-256x256.png' width='22' height='22' />";
+    "<${rootImgWithFallback()} src='/images/play-button-white-256x256.png' width='22' height='22' />";
   const PAUSE_BUTTON =
-    "<img src='../images/pause-button-white-180x180.png' width='22' height='22' />";
+    "<${rootImgWithFallback()} src='/images/pause-button-white-180x180.png' width='22' height='22' />";
 
   const isSupported = "speechSynthesis" in window;
 
@@ -2022,7 +2028,7 @@ const BookHtml = (function () {
     // Alternate icon: speaking head emoji 🗣️
     return LinkTo.code(
       `Speech.speakVref('${bkAbbr}')`,
-      "<img width='40px' height='36px' src='../images/blue-play-button.png'></img>",
+      "<${rootImgWithFallback()} width='40px' height='36px' src='/images/blue-play-button.png'></img>",
       `class="speak"`
     );
   }
@@ -2192,7 +2198,7 @@ const BookHtml = (function () {
   function genSpeakChapterHtml(bkAbbr, ch) {
     return LinkTo.code(
       `Speech.speakVref('${bkAbbr + ch}')`,
-      "<img width='24px' height='22px' src='../images/blue-play-button.png'></img>",
+      "<${rootImgWithFallback()} width='24px' height='22px' src='/images/blue-play-button.png'></img>",
       `class="speak"`
     );
   }
@@ -2358,7 +2364,7 @@ const BookHtml = (function () {
   function genSpeakVerseHtml(fullVerseRef) {
     return LinkTo.code(
       `Speech.speakVref('${fullVerseRef}')`,
-      "<img width='24px' height='22px' src='../images/blue-play-button.png'></img>",
+      "<${rootImgWithFallback()} width='24px' height='22px' src='/images/blue-play-button.png'></img>",
       `class="speak"`
     );
   }
