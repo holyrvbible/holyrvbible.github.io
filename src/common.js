@@ -1117,9 +1117,9 @@ const BookDataLoader = (function () {
 
 const Speech = (function () {
   const PLAY_BUTTON =
-    "<${rootImgWithFallback()} src='/images/play-button-white-256x256.png' width='22' height='22' />";
+    `<${rootImgWithFallback()} src='/images/play-button-white-256x256.png' width='22' height='22' />`;
   const PAUSE_BUTTON =
-    "<${rootImgWithFallback()} src='/images/pause-button-white-180x180.png' width='22' height='22' />";
+    `<${rootImgWithFallback()} src='/images/pause-button-white-180x180.png' width='22' height='22' />`;
 
   const isSupported = "speechSynthesis" in window;
 
@@ -2028,7 +2028,7 @@ const BookHtml = (function () {
     // Alternate icon: speaking head emoji 🗣️
     return LinkTo.code(
       `Speech.speakVref('${bkAbbr}')`,
-      "<${rootImgWithFallback()} width='40px' height='36px' src='/images/blue-play-button.png'></img>",
+      `<${rootImgWithFallback()} width='40px' height='36px' src='/images/blue-play-button.png'></img>`,
       `class="speak"`
     );
   }
@@ -2198,7 +2198,7 @@ const BookHtml = (function () {
   function genSpeakChapterHtml(bkAbbr, ch) {
     return LinkTo.code(
       `Speech.speakVref('${bkAbbr + ch}')`,
-      "<${rootImgWithFallback()} width='24px' height='22px' src='/images/blue-play-button.png'></img>",
+      `<${rootImgWithFallback()} width='24px' height='22px' src='/images/blue-play-button.png'></img>`,
       `class="speak"`
     );
   }
@@ -2364,7 +2364,7 @@ const BookHtml = (function () {
   function genSpeakVerseHtml(fullVerseRef) {
     return LinkTo.code(
       `Speech.speakVref('${fullVerseRef}')`,
-      "<${rootImgWithFallback()} width='24px' height='22px' src='/images/blue-play-button.png'></img>",
+      `<${rootImgWithFallback()} width='24px' height='22px' src='/images/blue-play-button.png'></img>`,
       `class="speak"`
     );
   }
