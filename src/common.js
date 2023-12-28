@@ -18,6 +18,8 @@
 const RvbVersionNumber = "2.3";
 const RvbVersionDate = "2021-03-28";
 
+const PUBLIC_URL = "https://cdn.jsdelivr.net/gh/holyrvbible/holyrvbible.github.io";
+
 const VERSE_SPLIT_SEPARATOR = '<br class="split">';
 
 let currentLocale = "";
@@ -1051,16 +1053,27 @@ const BookDataLoader = (function () {
     // Required so that we can add data when loading the book data files.
     if (typeof window.BkData === "undefined") window.BkData = {};
 
+    function onLoadSuccess() {
+      const bkData = BkData[bkAbbr];
+      delete BkData[bkAbbr];
+      bkDataByLocale[locale][bkAbbr] = bkData;
+      populateAdditionalBookData(locale, bkAbbr, bkData);
+      onSuccess(bkData);
+    }
+
+    function onLoadFailure() {
+      // Try loading again, but from the publicly-accessible absolute url.
+      loadJsFile(
+        `${PUBLIC_URL}/src/data/${locale}/books/${bkAbbr}.js`,
+        onLoadSuccess,
+        onFailure
+      );
+    }
+
     loadJsFile(
       `src/data/${locale}/books/${bkAbbr}.js`,
-      /* onSuccess */ () => {
-        const bkData = BkData[bkAbbr];
-        delete BkData[bkAbbr];
-        bkDataByLocale[locale][bkAbbr] = bkData;
-        populateAdditionalBookData(locale, bkAbbr, bkData);
-        onSuccess(bkData);
-      },
-      onFailure
+      onLoadSuccess,
+      onLoadFailure
     );
   }
 
