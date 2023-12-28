@@ -3547,16 +3547,29 @@ function loadBookNames(locale, onSuccess) {
     return;
   }
 
+  function onFailure() {
+    ToastNotifier.notifyError(getString("Failed to load book names."));
+  }
+
+  function onLoadSuccess() {
+    bkNames = BookNames[locale];
+    bkNamesByLocale[locale] = bkNames;
+    onSuccess();
+  }
+
+  function onLoadFailure() {
+    // Try loading again, but from the publicly-accessible absolute url.
+    loadJsFile(
+      `${PUBLIC_URL}/src/data/${locale}/BookNames.js`,
+      onLoadSuccess,
+      onFailure
+    );
+  }
+
   loadJsFile(
     `src/data/${locale}/BookNames.js`,
-    /* onSuccess */ () => {
-      bkNames = BookNames[locale];
-      bkNamesByLocale[locale] = bkNames;
-      onSuccess();
-    },
-    /* onFailure */ () => {
-      ToastNotifier.notifyError(getString("Failed to load book names."));
-    }
+    onLoadSuccess,
+    onLoadFailure
   );
 }
 
