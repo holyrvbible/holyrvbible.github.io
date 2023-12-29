@@ -239,7 +239,7 @@ function safeParseInt(s, defaultValue = 0) {
 // Replace `<img src="...">` tags with `<${rootImgWithFallback()} src="...">`.
 // The image src must start with '/'.
 function rootImgWithFallback() {
-  return `img onerror="this.onerror=null;this.src=PUBLIC_URL+this.src;"`;
+  return `img onerror="this.onerror=null;this.src='${PUBLIC_URL}'+this.src;"`;
 }
 
 // Try network (including browser cache) first, then fallback to cache.
