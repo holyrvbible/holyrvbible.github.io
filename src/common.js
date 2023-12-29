@@ -18,7 +18,7 @@
 const RvbVersionNumber = "2.3";
 const RvbVersionDate = "2021-03-28";
 
-const PUBLIC_URL = "https://cdn.jsdelivr.net/gh/holyrvbible/holyrvbible.github.io";
+const PUBLIC_URL = "https://rawcdn.githack.com/holyrvbible/holyrvbible.github.io/master";
 
 const VERSE_SPLIT_SEPARATOR = '<br class="split">';
 
