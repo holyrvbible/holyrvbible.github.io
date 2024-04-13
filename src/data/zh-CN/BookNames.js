@@ -72,6 +72,8 @@ BookNames["zh-CN"] = (function () {
 
   const BkRef = BkShort;
 
+  const BkShortTitle = BkShort;
+
   const BkName = [
     "创世记",
     "出埃及记",
@@ -144,7 +146,7 @@ BookNames["zh-CN"] = (function () {
   const BkLongName = BkName;
 
   // Exports.
-  return { BkShort, BkRef, BkName, BkLongName };
+  return { BkShort, BkRef, BkShortTitle, BkName, BkLongName };
 })();
 
 // Only needed for node.js, not needed for web browsers.
@@ -153,6 +155,7 @@ if (typeof module !== 'undefined') {
   module.exports = {
     BkShort: bkNames.BkShort,
     BkRef: bkNames.BkRef,
+    BkShortTitle: bkNames.BkShortTitle,
     BkName: bkNames.BkName,
     BkLongName: bkNames.BkLongName,
   };
