@@ -457,6 +457,10 @@ body {
   margin: 0; /* bootstrap css makes this -15px */
 }
 
+#indexToc .row + .row {
+  margin-top: 24px;
+}
+
 #indexToc .cell {
   border: 1px solid #cccccc;
   border-radius: 8px;
