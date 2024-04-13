@@ -69,7 +69,7 @@ BookNames["en"] = (function () {
     "Jud",
     "Rev",
   ];
-    
+
   const BkRef = [
     "Gen.",
     "Exo.",
@@ -138,7 +138,76 @@ BookNames["en"] = (function () {
     "Jude",
     "Rev.",
   ];
-  
+
+  const BkShortTitle = [
+    "Gen",
+    "Exo",
+    "Lev",
+    "Num",
+    "Deut",
+    "Josh",
+    "Judg",
+    "Ruth",
+    "1 Sam",
+    "2 Sam",
+    "1 Kings",
+    "2 Kings",
+    "1 Chron",
+    "2 Chron",
+    "Ezra",
+    "Neh",
+    "Esth",
+    "Job",
+    "Psa",
+    "Prov",
+    "Eccl",
+    "S.S.",
+    "Isa",
+    "Jer",
+    "Lam",
+    "Ezek",
+    "Dan",
+    "Hosea",
+    "Joel",
+    "Amos",
+    "Obad",
+    "Jonah",
+    "Micah",
+    "Nahum",
+    "Hab",
+    "Zeph",
+    "Hag",
+    "Zech",
+    "Mal",
+    "Matt",
+    "Mark",
+    "Luke",
+    "John",
+    "Acts",
+    "Rom",
+    "1 Cor",
+    "2 Cor",
+    "Gal",
+    "Eph",
+    "Phil",
+    "Col",
+    "1 Thes",
+    "2 Thes",
+    "1 Tim",
+    "2 Tim",
+    "Titus",
+    "Philem",
+    "Heb",
+    "James",
+    "1 Pet",
+    "2 Pet",
+    "1 John",
+    "2 John",
+    "3 John",
+    "Jude",
+    "Rev",
+  ];
+
   const BkName = [
     "Genesis",
     "Exodus",
@@ -220,5 +289,5 @@ BookNames["en"] = (function () {
   const BkLongName = BkName.map((name) => getBkLongName(name));
 
   // Exports.
-  return { BkShort, BkRef, BkName, BkLongName };
+  return { BkShort, BkRef, BkShortTitle, BkName, BkLongName };
 })();
