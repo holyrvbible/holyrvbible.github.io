@@ -765,11 +765,11 @@ const IndexHtml = (function () {
     let bk = 0;
     let grp = 0;
     let grpcnt = 0;
+    const cols = [39, 27];
 
-    for (let row = 0; row < 6; row++) {
+    for (let row = 0; row < 2; row++) {
       s += `<div class="row">`;
-      for (let col = 0; col < 11; col++, bk++) {
-        if (BkAbbr[bk] === 'Mat') s += `</div><br><div class="row">`;
+      for (let col = 0; col < cols[row]; col++, bk++) {
         s += genTocCellHtml(bk, grp);
         if (++grpcnt >= grps[grp]) {
           grp++;
