@@ -2029,7 +2029,7 @@ const BookHtml = (function () {
     // Alternate icon: speaking head emoji 🗣️
     return LinkTo.code(
       `Speech.speakVref('${bkAbbr}')`,
-      `<${rootImgWithFallback('/images/blue-play-button.png')} width='40px' height='36px'></img>`,
+      `<${rootImgWithFallback('/images/play-button-white-256x256.png')} class="play" height='28px'></img>`,
       `class="speak"`
     );
   }
@@ -2199,7 +2199,7 @@ const BookHtml = (function () {
   function genSpeakChapterHtml(bkAbbr, ch) {
     return LinkTo.code(
       `Speech.speakVref('${bkAbbr + ch}')`,
-      `<${rootImgWithFallback('/images/blue-play-button.png')} width='24px' height='22px'></img>`,
+      `<${rootImgWithFallback('/images/play-button-white-256x256.png')} class="play" height='18px'></img>`,
       `class="speak"`
     );
   }
@@ -2365,7 +2365,7 @@ const BookHtml = (function () {
   function genSpeakVerseHtml(fullVerseRef) {
     return LinkTo.code(
       `Speech.speakVref('${fullVerseRef}')`,
-      `<${rootImgWithFallback('/images/blue-play-button.png')} width='24px' height='22px'></img>`,
+      `<${rootImgWithFallback('/images/play-button-white-256x256.png')} class="play" height='16px'></img>`,
       `class="speak"`
     );
   }
