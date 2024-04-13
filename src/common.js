@@ -787,7 +787,7 @@ const IndexHtml = (function () {
 
     return LinkTo.page(
       bkAbbr,
-      bkNames.BkShort[bk],
+      bkNames.BkShortTitle[bk],
       `class="cell grp${grp}" data-toggle="tooltip" data-placement="top" title="${bkName}"`
     );
   }
