@@ -549,7 +549,7 @@ const TopNavBar = (function () {
       for (let i = 0; i < grps[grp]; i++, bk++) {
         s += LinkTo.page(
           BkAbbr[bk],
-          bkNames.BkRef[bk],
+          bkNames.BkShortTitle[bk],
           `data-toggle="tooltip" data-placement="top" title="${bkNames.BkName[bk]}" data-bkAbbr="${BkAbbr[bk]}"`
         );
       }
