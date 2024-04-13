@@ -460,15 +460,15 @@ body {
   cursor: pointer;
   font-weight: bold;
   color: #555555;
-  margin: 2px;
+  margin: 4px;
   overflow: hidden;
 }
 
-@media (min-width: 600px) {
-  #indexToc .row {
-    display: flex;
-  }
+#indexToc .cell {
+  display: inline-block;
+}
 
+@media (min-width: 600px) {
   #indexToc .cell {
     font-size: 120%;
     padding: 16px;
@@ -477,15 +477,6 @@ body {
 }
 
 @media (max-width: 599px) {
-  #indexToc .row {
-    display: inline;
-    justify-content: center;
-  }
-
-  #indexToc .row a {
-    display: inline-block;
-  }
-
   #indexToc .cell {
     font-size: 110%;
     padding: 8px;
