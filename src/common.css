@@ -628,6 +628,27 @@ body {
   font-size: 90%;
 }
 
+.play {
+  background-color: #343a40;
+  border-radius: 15%;
+  border: 1px solid #545a60;
+}
+
+
+.bookTitle .play {
+  padding: 2.5px 6px;
+}
+
+.title .play {
+  padding: 1px 3.5px;
+}
+
+.verseLine .play {
+  background-color: #bbb;
+  border-color: #ddd;
+  padding: 0;
+}
+
 .chapterLinks {
   background-color: #f9f9f9;
   padding: 3px;
