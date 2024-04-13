@@ -769,7 +769,7 @@ const IndexHtml = (function () {
     for (let row = 0; row < 6; row++) {
       s += `<div class="row">`;
       for (let col = 0; col < 11; col++, bk++) {
-        if (BkAbbr[bk] === 'Mat') s += `</div><div class="row">`;
+        if (BkAbbr[bk] === 'Mat') s += `</div><br><div class="row">`;
         s += genTocCellHtml(bk, grp);
         if (++grpcnt >= grps[grp]) {
           grp++;
