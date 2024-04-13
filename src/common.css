@@ -447,6 +447,10 @@ body {
   }
 }
 
+#indexToc {
+  max-width: 1200px;
+}
+
 #indexToc .row {
   flex-wrap: wrap;
   justify-content: center;
