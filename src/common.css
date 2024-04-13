@@ -449,6 +449,7 @@ body {
 
 #indexToc .row {
   flex-wrap: wrap;
+  justify-content: center;
   margin: 0; /* bootstrap css makes this -15px */
 }
 
