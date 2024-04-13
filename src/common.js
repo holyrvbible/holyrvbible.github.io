@@ -15,8 +15,8 @@
 //
 // ***************************************************************************
 
-const RvbVersionNumber = "2.3";
-const RvbVersionDate = "2021-03-28";
+const RvbVersionNumber = "2.4";
+const RvbVersionDate = "2024-04-12";
 
 const PUBLIC_URL = "https://rawcdn.githack.com/holyrvbible/holyrvbible.github.io/master";
 
